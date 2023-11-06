@@ -93,7 +93,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.operations.IotDpsResourceOperations.begin_create_or_update_private_endpoint_connection
@@ -160,7 +160,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.operations.IotDpsResourceOperations.begin_delete
@@ -211,7 +211,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.operations.IotDpsResourceOperations.begin_delete_private_endpoint_connection
@@ -271,7 +271,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.operations.IotDpsResourceOperations.begin_update
@@ -334,7 +334,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.operations.IotDpsResourceOperations.check_provisioning_service_name_availability
@@ -535,7 +535,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescriptionListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescriptionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.operations.IotDpsResourceOperations.list_by_subscription
@@ -556,7 +556,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescriptionListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescriptionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.operations.IotDpsResourceOperations.list_keys
@@ -589,7 +589,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.SharedAccessSignatureAuthorizationRuleListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.SharedAccessSignatureAuthorizationRuleListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.operations.IotDpsResourceOperations.list_keys_for_key_name
@@ -722,7 +722,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.IotDpsSkuDefinitionListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.IotDpsSkuDefinitionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

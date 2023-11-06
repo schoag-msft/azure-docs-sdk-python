@@ -234,7 +234,7 @@ methods:
     description: An iterator like instance of either ProjectTask or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datamigration.models.ProjectTask>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datamigration.models.ProjectTask>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.aio.operations.ServiceTasksOperations.update

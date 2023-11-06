@@ -77,7 +77,7 @@ methods:
   return:
     description: Instance of CommunicationRelayClient.
     types:
-    - <xref:azure.communication.networktraversal.CommunicationRelayClient>
+    - <xref:azure.communication.networktraversal.aio.CommunicationRelayClient>
 - uid: azure.communication.networktraversal.aio.CommunicationRelayClient.get_relay_configuration
   name: get_relay_configuration
   summary: 'get a Communication Relay configuration.

@@ -56,7 +56,7 @@ methods:
     description: An iterator like instance of either DeletedSite or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.DeletedSite>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.DeletedSite>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.operations.DeletedWebAppsOperations.list_by_location
@@ -80,7 +80,7 @@ methods:
     description: An iterator like instance of either DeletedSite or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.DeletedSite>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.DeletedSite>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -61,7 +61,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.azurestackhci.models.HybridIdentityMetadata>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.azurestackhci.models.HybridIdentityMetadata>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

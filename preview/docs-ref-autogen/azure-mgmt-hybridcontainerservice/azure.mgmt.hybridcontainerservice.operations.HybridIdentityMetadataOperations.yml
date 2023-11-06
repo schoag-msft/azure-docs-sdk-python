@@ -118,7 +118,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadata>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.HybridIdentityMetadata>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.operations.HybridIdentityMetadataOperations.put

@@ -84,7 +84,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlanAccountAssociation>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlanAccountAssociation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cognitiveservices.operations.CommitmentPlansOperations.begin_create_or_update_plan
@@ -154,7 +154,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cognitiveservices.operations.CommitmentPlansOperations.begin_delete
@@ -212,7 +212,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cognitiveservices.operations.CommitmentPlansOperations.begin_delete_association
@@ -271,7 +271,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cognitiveservices.operations.CommitmentPlansOperations.begin_delete_plan
@@ -323,7 +323,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cognitiveservices.operations.CommitmentPlansOperations.begin_update_plan
@@ -393,7 +393,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cognitiveservices.operations.CommitmentPlansOperations.create_or_update
@@ -577,7 +577,7 @@ methods:
     description: An iterator like instance of either CommitmentPlan or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cognitiveservices.operations.CommitmentPlansOperations.list_associations
@@ -610,7 +610,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlanAccountAssociation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlanAccountAssociation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cognitiveservices.operations.CommitmentPlansOperations.list_plans_by_resource_group
@@ -635,7 +635,7 @@ methods:
     description: An iterator like instance of either CommitmentPlan or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cognitiveservices.operations.CommitmentPlansOperations.list_plans_by_subscription
@@ -651,7 +651,7 @@ methods:
     description: An iterator like instance of either CommitmentPlan or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cognitiveservices.models.CommitmentPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -61,7 +61,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NspAssociationsOperations.create_or_update
@@ -108,7 +108,7 @@ methods:
   return:
     description: NspAssociation or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NspAssociation>
+    - <xref:NspAssociation>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NspAssociationsOperations.get
@@ -139,7 +139,7 @@ methods:
   return:
     description: NspAssociation or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NspAssociation>
+    - <xref:NspAssociation>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NspAssociationsOperations.list
@@ -186,7 +186,7 @@ methods:
     description: An iterator like instance of either NspAssociation or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NspAssociation>]
+    - <xref:ItemPaged>[<xref:NspAssociation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

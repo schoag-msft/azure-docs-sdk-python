@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either Registry or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.Registry>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.Registry>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2023_07_01.operations.RegistriesOperations.begin_delete
@@ -124,7 +124,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2023_07_01.operations.RegistriesOperations.begin_generate_credentials
@@ -191,7 +191,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.GenerateCredentialsResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.GenerateCredentialsResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2023_07_01.operations.RegistriesOperations.begin_import_image
@@ -257,7 +257,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2023_07_01.operations.RegistriesOperations.begin_update
@@ -322,7 +322,7 @@ methods:
     description: An instance of LROPoller that returns either Registry or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.Registry>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.Registry>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2023_07_01.operations.RegistriesOperations.check_name_availability
@@ -433,7 +433,7 @@ methods:
   return:
     description: An iterator like instance of either Registry or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.Registry>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.Registry>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2023_07_01.operations.RegistriesOperations.list_by_resource_group
@@ -455,7 +455,7 @@ methods:
   return:
     description: An iterator like instance of either Registry or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.Registry>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.Registry>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2023_07_01.operations.RegistriesOperations.list_credentials
@@ -512,7 +512,7 @@ methods:
     description: An iterator like instance of either PrivateLinkResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.PrivateLinkResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerregistry.v2023_07_01.models.PrivateLinkResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2023_07_01.operations.RegistriesOperations.list_usages

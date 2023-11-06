@@ -63,7 +63,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewayPrivateEndpointConnectionsOperations.begin_update
@@ -137,7 +137,7 @@ methods:
 
       ApplicationGatewayPrivateEndpointConnection or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ApplicationGatewayPrivateEndpointConnection>]
+    - <xref:AsyncLROPoller>[<xref:ApplicationGatewayPrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewayPrivateEndpointConnectionsOperations.get
@@ -170,7 +170,7 @@ methods:
   return:
     description: ApplicationGatewayPrivateEndpointConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ApplicationGatewayPrivateEndpointConnection>
+    - <xref:ApplicationGatewayPrivateEndpointConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewayPrivateEndpointConnectionsOperations.list
@@ -199,7 +199,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ApplicationGatewayPrivateEndpointConnection>]
+    - <xref:AsyncItemPaged>[<xref:ApplicationGatewayPrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -181,7 +181,7 @@ methods:
   return:
     description: A ShareLeaseClient object.
     types:
-    - <xref:azure.storage.fileshare.aio.ShareLeaseClient>
+    - <xref:azure.storage.fileshare.ShareLeaseClient>
 - uid: azure.storage.fileshare.aio.ShareFileClient.clear_range
   name: clear_range
   summary: 'Clears the specified range and releases the space used in storage for
@@ -229,7 +229,7 @@ methods:
   return:
     description: File-updated property dict (Etag and last modified).
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.fileshare.aio.ShareFileClient.close
   name: close
   summary: 'This method is to close the sockets opened by the client.
@@ -410,7 +410,7 @@ methods:
   return:
     description: File-updated property dict (Etag and last modified).
     types:
-    - <xref:dict>(<xref:str>, <xref:Any>)
+    - <xref:dict>(<xref:str>, <xref:typing.Any>)
   examples:
   - "Create a file.<!--[!code-python[Main](les\\file_samples_client_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -546,7 +546,7 @@ methods:
   return:
     description: A streaming object (StorageStreamDownloader)
     types:
-    - <xref:azure.storage.fileshare.aio.StorageStreamDownloader>
+    - <xref:StorageStreamDownloader>
   examples:
   - "Download a file.<!--[!code-python[Main](les\\file_samples_client_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -748,7 +748,7 @@ methods:
   return:
     description: A list of valid ranges.
     types:
-    - <xref:List>[<xref:dict>[<xref:str>, <xref:int>]]
+    - <xref:typing.List>[<xref:dict>[<xref:str>, <xref:int>]]
 - uid: azure.storage.fileshare.aio.ShareFileClient.get_ranges_diff
   name: get_ranges_diff
   summary: 'Returns the list of valid page ranges for a file or snapshot
@@ -829,7 +829,7 @@ methods:
   return:
     description: An auto-paging iterable of Handle
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.storage.fileshare.Handle>]
+    - <xref:AsyncItemPaged>[<xref:azure.storage.fileshare.Handle>]
 - uid: azure.storage.fileshare.aio.ShareFileClient.rename_file
   name: rename_file
   summary: "Rename the source file.\n\n:paramtype file_attributes:~azure.storage.fileshare.NTFSAttributes\
@@ -908,7 +908,7 @@ methods:
   return:
     description: File-updated property dict (Etag and last modified).
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.fileshare.aio.ShareFileClient.set_file_metadata
   name: set_file_metadata
   summary: 'Sets user-defined metadata for the specified file as one or more
@@ -955,7 +955,7 @@ methods:
   return:
     description: File-updated property dict (Etag and last modified).
     types:
-    - <xref:dict>(<xref:str>, <xref:Any>)
+    - <xref:dict>(<xref:str>, <xref:typing.Any>)
 - uid: azure.storage.fileshare.aio.ShareFileClient.set_http_headers
   name: set_http_headers
   summary: Sets HTTP headers on the file.
@@ -1057,7 +1057,7 @@ methods:
   return:
     description: File-updated property dict (Etag and last modified).
     types:
-    - <xref:dict>(<xref:str>, <xref:Any>)
+    - <xref:dict>(<xref:str>, <xref:typing.Any>)
 - uid: azure.storage.fileshare.aio.ShareFileClient.start_copy_from_url
   name: start_copy_from_url
   summary: 'Initiates the copying of data from a source URL into the file
@@ -1216,7 +1216,7 @@ methods:
     - <xref:int>
   return:
     types:
-    - <xref:dict>(<xref:str>, <xref:Any>)
+    - <xref:dict>(<xref:str>, <xref:typing.Any>)
   examples:
   - "Copy a file from a URL<!--[!code-python[Main](les\\file_samples_client_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -1374,7 +1374,7 @@ methods:
   return:
     description: File-updated property dict (Etag and last modified).
     types:
-    - <xref:dict>(<xref:str>, <xref:Any>)
+    - <xref:dict>(<xref:str>, <xref:typing.Any>)
   examples:
   - "Upload a file.<!--[!code-python[Main](les\\file_samples_client_async.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -1466,7 +1466,7 @@ methods:
   return:
     description: File-updated property dict (Etag and last modified).
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.fileshare.aio.ShareFileClient.upload_range_from_url
   name: upload_range_from_url
   summary: Writes the bytes from one Azure File endpoint into the specified range

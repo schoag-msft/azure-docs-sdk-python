@@ -90,7 +90,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.BigDataPoolsOperations.begin_delete
@@ -150,7 +150,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.BigDataPoolsOperations.get
@@ -220,7 +220,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.BigDataPoolsOperations.update

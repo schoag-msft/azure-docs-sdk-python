@@ -35,7 +35,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.CsmOperationDescription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.CsmOperationDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

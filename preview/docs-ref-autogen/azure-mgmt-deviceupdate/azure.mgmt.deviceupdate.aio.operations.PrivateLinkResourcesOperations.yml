@@ -67,7 +67,7 @@ methods:
     description: An iterator like instance of either GroupInformation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.deviceupdate.models.GroupInformation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.deviceupdate.models.GroupInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

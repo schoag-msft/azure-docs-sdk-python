@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.imagebuilder.models.Trigger>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.imagebuilder.models.Trigger>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.imagebuilder.aio.operations.TriggersOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.imagebuilder.aio.operations.TriggersOperations.get
@@ -189,7 +189,7 @@ methods:
   return:
     description: An iterator like instance of either Trigger or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.imagebuilder.models.Trigger>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.imagebuilder.models.Trigger>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

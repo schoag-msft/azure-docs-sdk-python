@@ -76,7 +76,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.operations.ProvisionedClustersOperations.begin_update
@@ -144,7 +144,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.operations.ProvisionedClustersOperations.begin_upgrade_node_image_version_for_entire_cluster
@@ -201,7 +201,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.operations.ProvisionedClustersOperations.delete
@@ -322,7 +322,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.operations.ProvisionedClustersOperations.list_by_subscription
@@ -343,7 +343,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

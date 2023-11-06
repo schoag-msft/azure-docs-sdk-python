@@ -178,7 +178,7 @@ methods:
     description: PersistedFace or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.PersistedFace>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceListOperations.add_face_from_url
@@ -321,7 +321,7 @@ methods:
     description: PersistedFace or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.PersistedFace>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceListOperations.create
@@ -439,7 +439,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceListOperations.delete
@@ -473,7 +473,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceListOperations.delete_face
@@ -521,7 +521,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceListOperations.get
@@ -567,7 +567,7 @@ methods:
     description: FaceList or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.FaceList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceListOperations.list
@@ -612,7 +612,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.FaceList>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceListOperations.update
@@ -657,7 +657,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 attributes:

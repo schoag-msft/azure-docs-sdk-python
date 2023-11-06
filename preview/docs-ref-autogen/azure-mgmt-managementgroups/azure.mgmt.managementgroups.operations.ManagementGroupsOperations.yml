@@ -82,8 +82,8 @@ methods:
 
       LROPoller that returns either AzureAsyncOperationResults or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managementgroups.models.ManagementGroup>]
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managementgroups.models.ManagementGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.operations.ManagementGroupsOperations.begin_delete
@@ -138,7 +138,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.operations.ManagementGroupsOperations.get
@@ -248,7 +248,7 @@ methods:
     description: An iterator like instance of either DescendantInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managementgroups.models.DescendantInfo>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managementgroups.models.DescendantInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.operations.ManagementGroupsOperations.list
@@ -289,7 +289,7 @@ methods:
     description: An iterator like instance of either ManagementGroupInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managementgroups.models.ManagementGroupInfo>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managementgroups.models.ManagementGroupInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.operations.ManagementGroupsOperations.update

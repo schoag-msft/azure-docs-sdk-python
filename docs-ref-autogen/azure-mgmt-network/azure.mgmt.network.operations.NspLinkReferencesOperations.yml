@@ -61,7 +61,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NspLinkReferencesOperations.get
@@ -92,7 +92,7 @@ methods:
   return:
     description: NspLinkReference or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NspLinkReference>
+    - <xref:NspLinkReference>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NspLinkReferencesOperations.list
@@ -140,7 +140,7 @@ methods:
     description: An iterator like instance of either NspLinkReference or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NspLinkReference>]
+    - <xref:ItemPaged>[<xref:NspLinkReference>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

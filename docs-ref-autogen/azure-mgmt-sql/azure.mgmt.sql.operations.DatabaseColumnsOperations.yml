@@ -133,7 +133,7 @@ methods:
     description: An iterator like instance of either DatabaseColumnListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseColumnListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseColumnListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabaseColumnsOperations.list_by_table
@@ -183,7 +183,7 @@ methods:
     description: An iterator like instance of either DatabaseColumnListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseColumnListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseColumnListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

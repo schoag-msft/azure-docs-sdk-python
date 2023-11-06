@@ -90,7 +90,7 @@ methods:
     description: An iterator like instance of either ReservationSummary or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.consumption.aio.operations.ReservationsSummariesOperations.list_by_reservation_order
@@ -127,7 +127,7 @@ methods:
     description: An iterator like instance of either ReservationSummary or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.consumption.aio.operations.ReservationsSummariesOperations.list_by_reservation_order_and_reservation
@@ -170,7 +170,7 @@ methods:
     description: An iterator like instance of either ReservationSummary or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

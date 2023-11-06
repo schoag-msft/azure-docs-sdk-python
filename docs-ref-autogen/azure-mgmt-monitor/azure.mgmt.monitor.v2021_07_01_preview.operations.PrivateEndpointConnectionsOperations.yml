@@ -78,7 +78,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.monitor.v2021_07_01_preview.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.monitor.v2021_07_01_preview.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2021_07_01_preview.operations.PrivateEndpointConnectionsOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2021_07_01_preview.operations.PrivateEndpointConnectionsOperations.get

@@ -49,7 +49,7 @@ methods:
   return:
     description: NetworkSecurityPerimeter or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkSecurityPerimeter>
+    - <xref:NetworkSecurityPerimeter>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkSecurityPerimetersOperations.delete
@@ -101,7 +101,7 @@ methods:
   return:
     description: NetworkSecurityPerimeter or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkSecurityPerimeter>
+    - <xref:NetworkSecurityPerimeter>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkSecurityPerimetersOperations.list
@@ -145,7 +145,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkSecurityPerimeter>]
+    - <xref:AsyncItemPaged>[<xref:NetworkSecurityPerimeter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkSecurityPerimetersOperations.list_by_subscription
@@ -184,7 +184,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkSecurityPerimeter>]
+    - <xref:AsyncItemPaged>[<xref:NetworkSecurityPerimeter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

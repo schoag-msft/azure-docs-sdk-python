@@ -61,7 +61,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datafactory.operations.TriggersOperations.begin_stop
@@ -114,7 +114,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datafactory.operations.TriggersOperations.begin_subscribe_to_events
@@ -169,7 +169,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datafactory.models.TriggerSubscriptionOperationStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datafactory.models.TriggerSubscriptionOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datafactory.operations.TriggersOperations.begin_unsubscribe_from_events
@@ -224,7 +224,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datafactory.models.TriggerSubscriptionOperationStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datafactory.models.TriggerSubscriptionOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datafactory.operations.TriggersOperations.create_or_update
@@ -412,7 +412,7 @@ methods:
     description: An iterator like instance of either TriggerResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datafactory.models.TriggerResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datafactory.models.TriggerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datafactory.operations.TriggersOperations.query_by_factory

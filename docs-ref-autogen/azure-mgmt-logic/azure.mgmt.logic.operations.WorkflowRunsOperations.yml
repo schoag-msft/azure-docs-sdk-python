@@ -133,7 +133,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logic.models.WorkflowRunListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logic.models.WorkflowRunListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

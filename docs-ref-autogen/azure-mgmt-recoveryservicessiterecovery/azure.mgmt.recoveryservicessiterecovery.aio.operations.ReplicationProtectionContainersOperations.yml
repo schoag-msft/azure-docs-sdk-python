@@ -77,7 +77,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationProtectionContainersOperations.begin_delete
@@ -128,7 +128,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationProtectionContainersOperations.begin_discover_protectable_item
@@ -197,7 +197,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationProtectionContainersOperations.begin_switch_protection
@@ -270,7 +270,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationProtectionContainersOperations.get
@@ -318,7 +318,7 @@ methods:
     description: An iterator like instance of either ProtectionContainer or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationProtectionContainersOperations.list_by_replication_fabrics
@@ -342,7 +342,7 @@ methods:
     description: An iterator like instance of either ProtectionContainer or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ProtectionContainer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

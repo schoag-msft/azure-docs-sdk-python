@@ -40,7 +40,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2015_05_01.models.ApplicationInsightsComponentWebTestLocation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2015_05_01.models.ApplicationInsightsComponentWebTestLocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

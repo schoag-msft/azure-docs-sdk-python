@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.ConnectivityInformation>]
+    - <xref:LROPoller>[<xref:ConnectivityInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_delete
@@ -124,7 +124,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_get_azure_reachability_report
@@ -195,7 +195,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.AzureReachabilityReport>]
+    - <xref:LROPoller>[<xref:AzureReachabilityReport>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_get_flow_log_status
@@ -261,7 +261,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.FlowLogInformation>]
+    - <xref:LROPoller>[<xref:FlowLogInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_get_network_configuration_diagnostic
@@ -338,7 +338,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.NetworkConfigurationDiagnosticResponse>]
+    - <xref:LROPoller>[<xref:NetworkConfigurationDiagnosticResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_get_next_hop
@@ -403,7 +403,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.NextHopResult>]
+    - <xref:LROPoller>[<xref:NextHopResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_get_troubleshooting
@@ -467,7 +467,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.TroubleshootingResult>]
+    - <xref:LROPoller>[<xref:TroubleshootingResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_get_troubleshooting_result
@@ -532,7 +532,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.TroubleshootingResult>]
+    - <xref:LROPoller>[<xref:TroubleshootingResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_get_vm_security_rules
@@ -598,7 +598,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.SecurityGroupViewResult>]
+    - <xref:LROPoller>[<xref:SecurityGroupViewResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_list_available_providers
@@ -666,7 +666,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.AvailableProvidersList>]
+    - <xref:LROPoller>[<xref:AvailableProvidersList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_set_flow_log_configuration
@@ -731,7 +731,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.FlowLogInformation>]
+    - <xref:LROPoller>[<xref:FlowLogInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.begin_verify_ip_flow
@@ -796,7 +796,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VerificationIPFlowResult>]
+    - <xref:LROPoller>[<xref:VerificationIPFlowResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.create_or_update
@@ -836,7 +836,7 @@ methods:
   return:
     description: NetworkWatcher or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkWatcher>
+    - <xref:NetworkWatcher>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.get
@@ -862,7 +862,7 @@ methods:
   return:
     description: NetworkWatcher or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkWatcher>
+    - <xref:NetworkWatcher>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.get_topology
@@ -903,7 +903,7 @@ methods:
   return:
     description: Topology or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.Topology>
+    - <xref:Topology>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.list
@@ -924,7 +924,7 @@ methods:
     description: An iterator like instance of either NetworkWatcher or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NetworkWatcher>]
+    - <xref:ItemPaged>[<xref:NetworkWatcher>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.list_all
@@ -940,7 +940,7 @@ methods:
     description: An iterator like instance of either NetworkWatcher or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NetworkWatcher>]
+    - <xref:ItemPaged>[<xref:NetworkWatcher>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkWatchersOperations.update_tags
@@ -981,7 +981,7 @@ methods:
   return:
     description: NetworkWatcher or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkWatcher>
+    - <xref:NetworkWatcher>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

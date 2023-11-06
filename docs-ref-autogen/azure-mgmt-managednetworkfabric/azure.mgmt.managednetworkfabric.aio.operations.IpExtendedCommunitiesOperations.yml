@@ -77,7 +77,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.IpExtendedCommunity>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.IpExtendedCommunity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.IpExtendedCommunitiesOperations.begin_delete
@@ -130,7 +130,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.IpExtendedCommunitiesOperations.begin_update
@@ -200,7 +200,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.IpExtendedCommunity>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.IpExtendedCommunity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.IpExtendedCommunitiesOperations.get
@@ -257,7 +257,7 @@ methods:
     description: An iterator like instance of either IpExtendedCommunity or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.IpExtendedCommunity>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.IpExtendedCommunity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.IpExtendedCommunitiesOperations.list_by_subscription
@@ -276,7 +276,7 @@ methods:
     description: An iterator like instance of either IpExtendedCommunity or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.IpExtendedCommunity>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.IpExtendedCommunity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

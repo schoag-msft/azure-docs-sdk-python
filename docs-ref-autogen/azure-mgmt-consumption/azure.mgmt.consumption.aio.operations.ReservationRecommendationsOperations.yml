@@ -68,7 +68,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationRecommendationsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationRecommendationsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

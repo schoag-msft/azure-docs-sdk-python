@@ -67,7 +67,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnLinkConnectionsOperations.begin_reset_connection
@@ -125,7 +125,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnLinkConnectionsOperations.list_by_vpn_connection
@@ -162,7 +162,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VpnSiteLinkConnection>]
+    - <xref:ItemPaged>[<xref:VpnSiteLinkConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.ContainerAppsOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.ContainerAppsOperations.begin_start
@@ -186,7 +186,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.ContainerAppsOperations.begin_stop
@@ -241,7 +241,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.ContainerAppsOperations.begin_update
@@ -311,7 +311,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.ContainerAppsOperations.get
@@ -399,7 +399,7 @@ methods:
     description: An iterator like instance of either ContainerApp or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.ContainerAppsOperations.list_by_subscription
@@ -418,7 +418,7 @@ methods:
     description: An iterator like instance of either ContainerApp or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appcontainers.models.ContainerApp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.ContainerAppsOperations.list_custom_host_name_analysis

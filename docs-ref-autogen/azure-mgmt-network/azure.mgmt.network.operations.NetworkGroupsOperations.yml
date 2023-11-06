@@ -71,7 +71,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkGroupsOperations.create_or_update
@@ -127,7 +127,7 @@ methods:
   return:
     description: NetworkGroup or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkGroup>
+    - <xref:NetworkGroup>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkGroupsOperations.delete
@@ -189,7 +189,7 @@ methods:
   return:
     description: NetworkGroup or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkGroup>
+    - <xref:NetworkGroup>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkGroupsOperations.list
@@ -236,7 +236,7 @@ methods:
     description: An iterator like instance of either NetworkGroup or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NetworkGroup>]
+    - <xref:ItemPaged>[<xref:NetworkGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

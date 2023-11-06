@@ -44,7 +44,7 @@ methods:
     description: An iterator like instance of either Subscription or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.subscription.models.Subscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.subscription.models.Subscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.subscription.aio.operations.SubscriptionsOperations.list_locations
@@ -70,7 +70,7 @@ methods:
   return:
     description: An iterator like instance of either Location or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.subscription.models.Location>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.subscription.models.Location>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

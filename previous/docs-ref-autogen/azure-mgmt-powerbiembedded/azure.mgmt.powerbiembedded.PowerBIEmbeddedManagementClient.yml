@@ -71,6 +71,6 @@ methods:
     description: OperationList or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.powerbiembedded.models.OperationList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.mgmt.powerbiembedded.models.ErrorException

@@ -172,7 +172,7 @@ methods:
     description: An iterator like instance of either Registration or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.Registration>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.Registration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestack.aio.operations.RegistrationsOperations.list_by_subscription
@@ -188,7 +188,7 @@ methods:
     description: An iterator like instance of either Registration or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.Registration>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.Registration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestack.aio.operations.RegistrationsOperations.update

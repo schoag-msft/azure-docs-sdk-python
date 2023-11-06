@@ -59,7 +59,7 @@ methods:
   return:
     description: An instance of LROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -155,7 +155,7 @@ methods:
   return:
     description: An instance of LROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -248,7 +248,7 @@ methods:
   return:
     description: An instance of LROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

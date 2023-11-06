@@ -234,7 +234,7 @@ methods:
   return:
     description: An iterator like instance of either RecordSet or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dns.v2018_05_01.models.RecordSet>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dns.v2018_05_01.models.RecordSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dns.v2018_05_01.aio.operations.RecordSetsOperations.list_by_dns_zone
@@ -279,7 +279,7 @@ methods:
   return:
     description: An iterator like instance of either RecordSet or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dns.v2018_05_01.models.RecordSet>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dns.v2018_05_01.models.RecordSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dns.v2018_05_01.aio.operations.RecordSetsOperations.list_by_type
@@ -334,7 +334,7 @@ methods:
   return:
     description: An iterator like instance of either RecordSet or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dns.v2018_05_01.models.RecordSet>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dns.v2018_05_01.models.RecordSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dns.v2018_05_01.aio.operations.RecordSetsOperations.update

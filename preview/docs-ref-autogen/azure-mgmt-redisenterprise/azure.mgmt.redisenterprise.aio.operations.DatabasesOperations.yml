@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.redisenterprise.models.Database>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.redisenterprise.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations.begin_export
@@ -206,7 +206,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations.begin_flush
@@ -276,7 +276,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations.begin_force_unlink
@@ -346,7 +346,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations.begin_import_method
@@ -416,7 +416,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations.begin_regenerate_key
@@ -489,7 +489,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.redisenterprise.models.AccessKeys>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.redisenterprise.models.AccessKeys>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations.begin_update
@@ -562,7 +562,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.redisenterprise.models.Database>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.redisenterprise.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations.get
@@ -623,7 +623,7 @@ methods:
   return:
     description: An iterator like instance of either Database or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.redisenterprise.models.Database>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.redisenterprise.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.aio.operations.DatabasesOperations.list_keys

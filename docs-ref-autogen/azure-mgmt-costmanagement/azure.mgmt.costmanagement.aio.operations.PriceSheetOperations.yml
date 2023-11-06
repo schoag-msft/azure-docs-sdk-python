@@ -67,7 +67,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.costmanagement.models.DownloadURL>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.costmanagement.models.DownloadURL>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.costmanagement.aio.operations.PriceSheetOperations.begin_download_by_billing_profile
@@ -129,7 +129,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.costmanagement.models.DownloadURL>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.costmanagement.models.DownloadURL>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

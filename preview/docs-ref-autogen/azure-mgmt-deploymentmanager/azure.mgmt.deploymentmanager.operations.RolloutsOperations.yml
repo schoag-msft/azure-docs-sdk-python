@@ -82,7 +82,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.deploymentmanager.models.RolloutRequest>]
+    - <xref:LROPoller>[<xref:azure.mgmt.deploymentmanager.models.RolloutRequest>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.deploymentmanager.operations.RolloutsOperations.cancel

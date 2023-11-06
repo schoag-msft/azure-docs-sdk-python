@@ -309,7 +309,7 @@ methods:
   return:
     description: Iterator of the response bytes
     types:
-    - <xref:Iterator>[<xref:bytes>]
+    - <xref:typing.Iterator>[<xref:bytes>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.maps.render.MapsRenderClient.get_map_static_image
@@ -411,7 +411,7 @@ methods:
   return:
     description: Iterator of the response bytes
     types:
-    - <xref:Iterator>[<xref:bytes>]
+    - <xref:typing.Iterator>[<xref:bytes>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -498,7 +498,7 @@ methods:
   return:
     description: Iterator of the response bytes
     types:
-    - <xref:Iterator>[<xref:bytes>]
+    - <xref:typing.Iterator>[<xref:bytes>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

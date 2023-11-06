@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkDevicesOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkDevicesOperations.begin_reboot
@@ -198,7 +198,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkDevicesOperations.begin_refresh_configuration
@@ -253,7 +253,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkDevicesOperations.begin_update
@@ -324,7 +324,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkDevicesOperations.begin_update_administrative_state
@@ -395,7 +395,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkDevicesOperations.begin_upgrade
@@ -463,7 +463,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkDevicesOperations.get
@@ -520,7 +520,7 @@ methods:
     description: An iterator like instance of either NetworkDevice or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkDevicesOperations.list_by_subscription
@@ -539,7 +539,7 @@ methods:
     description: An iterator like instance of either NetworkDevice or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

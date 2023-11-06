@@ -72,7 +72,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabric.operations.ClustersOperations.begin_update
@@ -141,7 +141,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabric.operations.ClustersOperations.delete

@@ -86,7 +86,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either StorageAccount
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.StorageAccount>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.StorageAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_09_01_preview.aio.operations.StorageAccountsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_09_01_preview.aio.operations.StorageAccountsOperations.get
@@ -199,7 +199,7 @@ methods:
     description: An iterator like instance of either StorageAccountList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.StorageAccountList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.StorageAccountList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

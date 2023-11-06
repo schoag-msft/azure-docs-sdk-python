@@ -75,8 +75,8 @@ methods:
 
       ClientRawResponse<BandwidthSchedule> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.BandwidthSchedule>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.BandwidthSchedule>]]
+    - <xref:AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.BandwidthSchedule>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.BandwidthSchedule>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.bandwidth_schedules_operations.BandwidthSchedulesOperations.delete
@@ -122,8 +122,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.bandwidth_schedules_operations.BandwidthSchedulesOperations.get
@@ -168,7 +168,7 @@ methods:
     description: BandwidthSchedule or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.BandwidthSchedule>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.bandwidth_schedules_operations.BandwidthSchedulesOperations.list_by_data_box_edge_device

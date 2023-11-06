@@ -85,7 +85,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either InstanceFailoverGroup
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.InstanceFailoverGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.InstanceFailoverGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.InstanceFailoverGroupsOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.InstanceFailoverGroupsOperations.begin_failover
@@ -187,7 +187,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either InstanceFailoverGroup
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.InstanceFailoverGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.InstanceFailoverGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.InstanceFailoverGroupsOperations.begin_force_failover_allow_data_loss
@@ -241,7 +241,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either InstanceFailoverGroup
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.InstanceFailoverGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.InstanceFailoverGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.InstanceFailoverGroupsOperations.get
@@ -303,7 +303,7 @@ methods:
     description: An iterator like instance of either InstanceFailoverGroupListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.InstanceFailoverGroupListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.InstanceFailoverGroupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

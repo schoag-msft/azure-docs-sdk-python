@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.ManagedCluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.ManagedCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.begin_delete
@@ -139,7 +139,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.begin_reset_aad_profile
@@ -207,7 +207,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.begin_reset_service_principal_profile
@@ -276,7 +276,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.begin_rotate_cluster_certificates
@@ -332,7 +332,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.begin_rotate_service_account_signing_keys
@@ -385,7 +385,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.begin_run_command
@@ -459,7 +459,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.RunCommandResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.RunCommandResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.begin_start
@@ -515,7 +515,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.begin_stop
@@ -578,7 +578,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.begin_update_tags
@@ -649,7 +649,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.ManagedCluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.ManagedCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.get
@@ -840,7 +840,7 @@ methods:
     description: An iterator like instance of either ManagedCluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.ManagedCluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.ManagedCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.list_by_resource_group
@@ -866,7 +866,7 @@ methods:
     description: An iterator like instance of either ManagedCluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.ManagedCluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.ManagedCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2022_04_02_preview.operations.ManagedClustersOperations.list_cluster_admin_credentials
@@ -1033,7 +1033,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.OutboundEnvironmentEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservice.v2022_04_02_preview.models.OutboundEnvironmentEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

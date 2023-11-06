@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.LoadBalancer>]
+    - <xref:LROPoller>[<xref:LoadBalancer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancersOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancersOperations.begin_list_inbound_nat_rule_port_mappings
@@ -190,7 +190,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.BackendAddressInboundNatRulePortMappings>]
+    - <xref:LROPoller>[<xref:BackendAddressInboundNatRulePortMappings>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancersOperations.begin_swap_public_ip_addresses
@@ -247,7 +247,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancersOperations.begin_update_tags
@@ -311,7 +311,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.LoadBalancer>]
+    - <xref:LROPoller>[<xref:LoadBalancer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancersOperations.get
@@ -341,7 +341,7 @@ methods:
   return:
     description: LoadBalancer or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.LoadBalancer>
+    - <xref:LoadBalancer>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancersOperations.list
@@ -362,7 +362,7 @@ methods:
     description: An iterator like instance of either LoadBalancer or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.LoadBalancer>]
+    - <xref:ItemPaged>[<xref:LoadBalancer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancersOperations.list_all
@@ -378,7 +378,7 @@ methods:
     description: An iterator like instance of either LoadBalancer or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.LoadBalancer>]
+    - <xref:ItemPaged>[<xref:LoadBalancer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancersOperations.migrate_to_ip_based
@@ -418,7 +418,7 @@ methods:
   return:
     description: MigratedPools or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.MigratedPools>
+    - <xref:MigratedPools>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancersOperations.update_tags
@@ -458,7 +458,7 @@ methods:
   return:
     description: LoadBalancer or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.LoadBalancer>
+    - <xref:LoadBalancer>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -157,7 +157,7 @@ methods:
     description: An iterator like instance of either ComputePolicy or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.ComputePolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.ComputePolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.analytics.account.operations.ComputePoliciesOperations.update

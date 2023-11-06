@@ -48,7 +48,7 @@ methods:
   return:
     description: ActiveSecurityUserRulesListResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ActiveSecurityUserRulesListResult>
+    - <xref:ActiveSecurityUserRulesListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

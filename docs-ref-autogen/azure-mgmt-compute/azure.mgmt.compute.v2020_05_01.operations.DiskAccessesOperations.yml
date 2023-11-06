@@ -77,7 +77,7 @@ methods:
     description: An instance of LROPoller that returns either DiskAccess or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2020_05_01.models.DiskAccess>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2020_05_01.models.DiskAccess>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2020_05_01.operations.DiskAccessesOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2020_05_01.operations.DiskAccessesOperations.begin_update
@@ -201,7 +201,7 @@ methods:
     description: An instance of LROPoller that returns either DiskAccess or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2020_05_01.models.DiskAccess>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2020_05_01.models.DiskAccess>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2020_05_01.operations.DiskAccessesOperations.get
@@ -280,7 +280,7 @@ methods:
   return:
     description: An iterator like instance of either DiskAccess or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2020_05_01.models.DiskAccess>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2020_05_01.models.DiskAccess>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2020_05_01.operations.DiskAccessesOperations.list_by_resource_group
@@ -300,7 +300,7 @@ methods:
   return:
     description: An iterator like instance of either DiskAccess or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2020_05_01.models.DiskAccess>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2020_05_01.models.DiskAccess>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

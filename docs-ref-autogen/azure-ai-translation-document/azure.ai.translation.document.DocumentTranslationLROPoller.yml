@@ -55,7 +55,7 @@ methods:
   return:
     description: The polling method
     types:
-    - <xref:azure.core.polling.PollingMethod>
+    - <xref:PollingMethod>
 - uid: azure.ai.translation.document.DocumentTranslationLROPoller.remove_done_callback
   name: remove_done_callback
   summary: Remove a callback from the long running operation.

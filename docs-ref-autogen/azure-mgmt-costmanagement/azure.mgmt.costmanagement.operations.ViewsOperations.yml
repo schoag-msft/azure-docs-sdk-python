@@ -325,7 +325,7 @@ methods:
   return:
     description: An iterator like instance of either View or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.costmanagement.models.View>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.costmanagement.models.View>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://docs.microsoft.com/en-us/rest/api/costmanagement/](https://docs.microsoft.com/en-us/rest/api/costmanagement/)\
@@ -384,7 +384,7 @@ methods:
   return:
     description: An iterator like instance of either View or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.costmanagement.models.View>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.costmanagement.models.View>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://docs.microsoft.com/en-us/rest/api/costmanagement/](https://docs.microsoft.com/en-us/rest/api/costmanagement/)\

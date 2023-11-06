@@ -40,7 +40,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.frontdoor.models.PreconfiguredEndpoint>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.frontdoor.models.PreconfiguredEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

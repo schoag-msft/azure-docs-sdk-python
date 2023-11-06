@@ -157,7 +157,7 @@ methods:
   return:
     description: An iterator like instance of either Creator or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.maps.models.Creator>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.maps.models.Creator>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.maps.aio.operations.CreatorsOperations.update

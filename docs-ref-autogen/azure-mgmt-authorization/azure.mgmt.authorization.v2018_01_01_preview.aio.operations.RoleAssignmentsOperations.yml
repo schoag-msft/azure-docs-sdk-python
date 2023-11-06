@@ -219,7 +219,7 @@ methods:
     description: An iterator like instance of either RoleAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.authorization.v2018_01_01_preview.models.RoleAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.authorization.v2018_01_01_preview.models.RoleAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.authorization.v2018_01_01_preview.aio.operations.RoleAssignmentsOperations.list_for_resource
@@ -276,7 +276,7 @@ methods:
     description: An iterator like instance of either RoleAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.authorization.v2018_01_01_preview.models.RoleAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.authorization.v2018_01_01_preview.models.RoleAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.authorization.v2018_01_01_preview.aio.operations.RoleAssignmentsOperations.list_for_resource_group
@@ -312,7 +312,7 @@ methods:
     description: An iterator like instance of either RoleAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.authorization.v2018_01_01_preview.models.RoleAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.authorization.v2018_01_01_preview.models.RoleAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.authorization.v2018_01_01_preview.aio.operations.RoleAssignmentsOperations.list_for_scope
@@ -346,7 +346,7 @@ methods:
     description: An iterator like instance of either RoleAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.authorization.v2018_01_01_preview.models.RoleAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.authorization.v2018_01_01_preview.models.RoleAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

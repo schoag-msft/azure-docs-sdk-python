@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdbforpostgresql.models.ServerConfiguration>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdbforpostgresql.models.ServerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdbforpostgresql.operations.ConfigurationsOperations.begin_update_on_node
@@ -154,7 +154,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdbforpostgresql.models.ServerConfiguration>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdbforpostgresql.models.ServerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdbforpostgresql.operations.ConfigurationsOperations.get
@@ -282,7 +282,7 @@ methods:
     description: An iterator like instance of either Configuration or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdbforpostgresql.models.Configuration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdbforpostgresql.models.Configuration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdbforpostgresql.operations.ConfigurationsOperations.list_by_server
@@ -316,7 +316,7 @@ methods:
     description: An iterator like instance of either ServerConfiguration or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdbforpostgresql.models.ServerConfiguration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdbforpostgresql.models.ServerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -136,7 +136,7 @@ methods:
   return:
     description: ChatThreadClient
     types:
-    - <xref:azure.communication.chat.aio.ChatThreadClient>
+    - <xref:azure.communication.chat.ChatThreadClient>
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:
@@ -167,7 +167,7 @@ methods:
   return:
     description: An iterator like instance of ChatThreadItem
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.chat.ChatThreadItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.chat.ChatThreadItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:

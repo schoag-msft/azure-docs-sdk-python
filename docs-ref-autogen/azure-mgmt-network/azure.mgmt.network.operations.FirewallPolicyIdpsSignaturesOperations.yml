@@ -46,7 +46,7 @@ methods:
   return:
     description: QueryResults or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.QueryResults>
+    - <xref:QueryResults>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

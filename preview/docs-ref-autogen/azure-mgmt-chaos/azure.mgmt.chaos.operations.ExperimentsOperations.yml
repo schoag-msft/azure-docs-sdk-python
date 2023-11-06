@@ -229,7 +229,7 @@ methods:
   return:
     description: An iterator like instance of either Experiment or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.chaos.models.Experiment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.chaos.models.Experiment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.chaos.operations.ExperimentsOperations.list_all
@@ -263,7 +263,7 @@ methods:
   return:
     description: An iterator like instance of either Experiment or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.chaos.models.Experiment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.chaos.models.Experiment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.chaos.operations.ExperimentsOperations.list_all_statuses
@@ -290,7 +290,7 @@ methods:
     description: An iterator like instance of either ExperimentStatus or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.chaos.models.ExperimentStatus>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.chaos.models.ExperimentStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.chaos.operations.ExperimentsOperations.list_execution_details
@@ -319,7 +319,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.chaos.models.ExperimentExecutionDetails>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.chaos.models.ExperimentExecutionDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.chaos.operations.ExperimentsOperations.start

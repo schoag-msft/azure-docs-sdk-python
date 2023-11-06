@@ -83,7 +83,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraKeyspaceGetResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraKeyspaceGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.begin_create_update_cassandra_table
@@ -162,7 +162,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraTableGetResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraTableGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.begin_delete_cassandra_keyspace
@@ -217,7 +217,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.begin_delete_cassandra_table
@@ -277,7 +277,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.begin_migrate_cassandra_keyspace_to_autoscale
@@ -335,7 +335,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.begin_migrate_cassandra_keyspace_to_manual_throughput
@@ -393,7 +393,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.begin_migrate_cassandra_table_to_autoscale
@@ -455,7 +455,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.begin_migrate_cassandra_table_to_manual_throughput
@@ -518,7 +518,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.begin_update_cassandra_keyspace_throughput
@@ -593,7 +593,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.begin_update_cassandra_table_throughput
@@ -673,7 +673,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.get_cassandra_keyspace
@@ -856,7 +856,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraKeyspaceGetResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraKeyspaceGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraResourcesOperations.list_cassandra_tables
@@ -892,7 +892,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraTableGetResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraTableGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

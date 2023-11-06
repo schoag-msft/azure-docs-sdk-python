@@ -45,7 +45,7 @@ methods:
     description: An iterator like instance of either ViolationsList or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.portal.models.ViolationsList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.portal.models.ViolationsList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

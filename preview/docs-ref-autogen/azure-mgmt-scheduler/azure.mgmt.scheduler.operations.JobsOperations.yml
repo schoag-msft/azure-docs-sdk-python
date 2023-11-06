@@ -172,7 +172,7 @@ methods:
     description: An iterator like instance of either JobListResult or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.scheduler.models.JobListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.scheduler.models.JobListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scheduler.operations.JobsOperations.list_job_history
@@ -223,7 +223,7 @@ methods:
     description: An iterator like instance of either JobHistoryListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.scheduler.models.JobHistoryListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.scheduler.models.JobHistoryListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scheduler.operations.JobsOperations.patch

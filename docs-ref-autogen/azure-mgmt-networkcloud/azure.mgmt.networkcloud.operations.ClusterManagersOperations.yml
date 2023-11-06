@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.ClusterManager>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.ClusterManager>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClusterManagersOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClusterManagersOperations.get
@@ -189,7 +189,7 @@ methods:
     description: An iterator like instance of either ClusterManager or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.ClusterManager>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.ClusterManager>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClusterManagersOperations.list_by_subscription
@@ -208,7 +208,7 @@ methods:
     description: An iterator like instance of either ClusterManager or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.ClusterManager>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.ClusterManager>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClusterManagersOperations.update

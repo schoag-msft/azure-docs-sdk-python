@@ -169,7 +169,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.authorization.v2020_10_01_preview.models.RoleEligibilityScheduleRequest>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.authorization.v2020_10_01_preview.models.RoleEligibilityScheduleRequest>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -166,7 +166,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.attestation.models.PrivateEndpointConnection>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.attestation.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

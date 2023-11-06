@@ -84,7 +84,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraKeyspaceGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraKeyspaceGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_create_update_cassandra_table
@@ -163,7 +163,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraTableGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraTableGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_create_update_cassandra_view
@@ -242,7 +242,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraViewGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.CassandraViewGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_delete_cassandra_keyspace
@@ -297,7 +297,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_delete_cassandra_table
@@ -357,7 +357,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_delete_cassandra_view
@@ -417,7 +417,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_migrate_cassandra_keyspace_to_autoscale
@@ -475,7 +475,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_migrate_cassandra_keyspace_to_manual_throughput
@@ -533,7 +533,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_migrate_cassandra_table_to_autoscale
@@ -596,7 +596,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_migrate_cassandra_table_to_manual_throughput
@@ -659,7 +659,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_migrate_cassandra_view_to_autoscale
@@ -722,7 +722,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_migrate_cassandra_view_to_manual_throughput
@@ -785,7 +785,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_update_cassandra_keyspace_throughput
@@ -860,7 +860,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_update_cassandra_table_throughput
@@ -941,7 +941,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.begin_update_cassandra_view_throughput
@@ -1022,7 +1022,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.get_cassandra_keyspace
@@ -1284,7 +1284,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraKeyspaceGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraKeyspaceGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.list_cassandra_tables
@@ -1320,7 +1320,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraTableGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraTableGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CassandraResourcesOperations.list_cassandra_views
@@ -1357,7 +1357,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraViewGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.CassandraViewGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -71,7 +71,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.SynchronizationSettingsOperations.create
@@ -206,7 +206,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationSetting>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationSetting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -83,7 +83,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.NetworkVirtualApplianceConnection>]
+    - <xref:AsyncLROPoller>[<xref:NetworkVirtualApplianceConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkVirtualApplianceConnectionsOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkVirtualApplianceConnectionsOperations.get
@@ -167,7 +167,7 @@ methods:
   return:
     description: NetworkVirtualApplianceConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkVirtualApplianceConnection>
+    - <xref:NetworkVirtualApplianceConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkVirtualApplianceConnectionsOperations.list
@@ -196,7 +196,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkVirtualApplianceConnection>]
+    - <xref:AsyncItemPaged>[<xref:NetworkVirtualApplianceConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

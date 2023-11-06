@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.TableGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.TableGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations.begin_delete_table
@@ -135,7 +135,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations.begin_migrate_table_to_autoscale
@@ -192,7 +192,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations.begin_migrate_table_to_manual_throughput
@@ -249,7 +249,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations.begin_retrieve_continuous_backup_information
@@ -321,7 +321,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.BackupInformation>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.BackupInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations.begin_update_table_throughput
@@ -394,7 +394,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations.get_table
@@ -493,7 +493,7 @@ methods:
     description: An iterator like instance of either TableGetResults or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.TableGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.TableGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

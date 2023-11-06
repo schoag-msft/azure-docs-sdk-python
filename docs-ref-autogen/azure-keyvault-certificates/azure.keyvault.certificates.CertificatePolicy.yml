@@ -160,7 +160,7 @@ attributes:
   summary: The datetime when the certificate is created.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.certificates.CertificatePolicy.enabled
   name: enabled
@@ -269,7 +269,7 @@ attributes:
   summary: The datetime when the certificate was last updated.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.certificates.CertificatePolicy.validity_in_months
   name: validity_in_months

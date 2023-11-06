@@ -131,7 +131,7 @@ methods:
   return:
     description: An iterator like instance of either Identity or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.msi.v2023_01_31.models.Identity>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.msi.v2023_01_31.models.Identity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.msi.v2023_01_31.operations.UserAssignedIdentitiesOperations.list_by_subscription
@@ -146,7 +146,7 @@ methods:
   return:
     description: An iterator like instance of either Identity or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.msi.v2023_01_31.models.Identity>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.msi.v2023_01_31.models.Identity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.msi.v2023_01_31.operations.UserAssignedIdentitiesOperations.update

@@ -152,7 +152,7 @@ methods:
     description: An iterator like instance of either CustomerSubscriptionList or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.CustomerSubscriptionList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.CustomerSubscriptionList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

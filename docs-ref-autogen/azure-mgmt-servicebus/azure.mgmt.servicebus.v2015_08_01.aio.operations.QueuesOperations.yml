@@ -278,7 +278,7 @@ methods:
     description: An iterator like instance of either QueueResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.QueueResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.QueueResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639415.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639415.aspx)\
@@ -314,7 +314,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.SharedAccessAuthorizationRuleResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.SharedAccessAuthorizationRuleResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt705607.aspx](https://msdn.microsoft.com/en-us/library/azure/mt705607.aspx)\

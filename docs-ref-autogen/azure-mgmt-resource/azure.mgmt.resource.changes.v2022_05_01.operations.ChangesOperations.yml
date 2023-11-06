@@ -101,7 +101,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.changes.v2022_05_01.models.ChangeResourceResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.changes.v2022_05_01.models.ChangeResourceResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

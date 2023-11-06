@@ -88,7 +88,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.ServerBackupListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.ServerBackupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

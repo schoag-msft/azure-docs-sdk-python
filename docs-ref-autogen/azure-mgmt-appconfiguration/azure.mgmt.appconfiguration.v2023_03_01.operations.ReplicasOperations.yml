@@ -78,7 +78,7 @@ methods:
     description: An instance of LROPoller that returns either Replica or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appconfiguration.v2023_03_01.models.Replica>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appconfiguration.v2023_03_01.models.Replica>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appconfiguration.v2023_03_01.operations.ReplicasOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appconfiguration.v2023_03_01.operations.ReplicasOperations.get
@@ -208,7 +208,7 @@ methods:
   return:
     description: An iterator like instance of either Replica or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appconfiguration.v2023_03_01.models.Replica>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appconfiguration.v2023_03_01.models.Replica>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

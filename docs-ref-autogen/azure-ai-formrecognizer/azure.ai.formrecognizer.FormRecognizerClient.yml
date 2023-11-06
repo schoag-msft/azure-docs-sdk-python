@@ -151,7 +151,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -262,7 +262,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.formrecognizer.FormRecognizerClient.begin_recognize_content
@@ -340,7 +340,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.FormPage>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.FormPage>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.FormPage>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -447,7 +447,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.FormPage>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.FormPage>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.FormPage>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.formrecognizer.FormRecognizerClient.begin_recognize_custom_forms
@@ -510,7 +510,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -611,7 +611,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.formrecognizer.FormRecognizerClient.begin_recognize_identity_documents
@@ -673,7 +673,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -761,7 +761,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.formrecognizer.FormRecognizerClient.begin_recognize_invoices
@@ -827,7 +827,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -986,7 +986,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.formrecognizer.FormRecognizerClient.begin_recognize_receipts
@@ -1056,7 +1056,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1160,7 +1160,7 @@ methods:
 
       object to return a list[<xref:azure.ai.formrecognizer.RecognizedForm>].'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
+    - <xref:LROPoller>[<xref:list>[<xref:azure.ai.formrecognizer.RecognizedForm>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1246,4 +1246,4 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>

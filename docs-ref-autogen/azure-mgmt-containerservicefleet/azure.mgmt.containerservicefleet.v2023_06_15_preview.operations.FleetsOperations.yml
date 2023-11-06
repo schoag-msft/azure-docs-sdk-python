@@ -88,7 +88,7 @@ methods:
     description: An instance of LROPoller that returns either Fleet or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_06_15_preview.models.Fleet>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_06_15_preview.models.Fleet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_06_15_preview.operations.FleetsOperations.begin_delete
@@ -146,7 +146,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_06_15_preview.operations.FleetsOperations.begin_update
@@ -220,7 +220,7 @@ methods:
     description: An instance of LROPoller that returns either Fleet or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_06_15_preview.models.Fleet>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_06_15_preview.models.Fleet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_06_15_preview.operations.FleetsOperations.get
@@ -269,7 +269,7 @@ methods:
   return:
     description: An iterator like instance of either Fleet or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservicefleet.v2023_06_15_preview.models.Fleet>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservicefleet.v2023_06_15_preview.models.Fleet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_06_15_preview.operations.FleetsOperations.list_by_subscription
@@ -284,7 +284,7 @@ methods:
   return:
     description: An iterator like instance of either Fleet or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservicefleet.v2023_06_15_preview.models.Fleet>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservicefleet.v2023_06_15_preview.models.Fleet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_06_15_preview.operations.FleetsOperations.list_credentials

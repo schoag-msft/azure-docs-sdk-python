@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.LocalNetworkGateway>]
+    - <xref:LROPoller>[<xref:LocalNetworkGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LocalNetworkGatewaysOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LocalNetworkGatewaysOperations.begin_update_tags
@@ -186,7 +186,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.LocalNetworkGateway>]
+    - <xref:LROPoller>[<xref:LocalNetworkGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LocalNetworkGatewaysOperations.get
@@ -212,7 +212,7 @@ methods:
   return:
     description: LocalNetworkGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.LocalNetworkGateway>
+    - <xref:LocalNetworkGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LocalNetworkGatewaysOperations.list
@@ -233,7 +233,7 @@ methods:
     description: An iterator like instance of either LocalNetworkGateway or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.LocalNetworkGateway>]
+    - <xref:ItemPaged>[<xref:LocalNetworkGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LocalNetworkGatewaysOperations.update_tags
@@ -274,7 +274,7 @@ methods:
   return:
     description: LocalNetworkGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.LocalNetworkGateway>
+    - <xref:LocalNetworkGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resourceconnector.models.Appliance>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resourceconnector.models.Appliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resourceconnector.aio.operations.AppliancesOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resourceconnector.aio.operations.AppliancesOperations.get
@@ -249,7 +249,7 @@ methods:
   return:
     description: An iterator like instance of either Appliance or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourceconnector.models.Appliance>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourceconnector.models.Appliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resourceconnector.aio.operations.AppliancesOperations.list_by_subscription
@@ -270,7 +270,7 @@ methods:
   return:
     description: An iterator like instance of either Appliance or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourceconnector.models.Appliance>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourceconnector.models.Appliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resourceconnector.aio.operations.AppliancesOperations.list_cluster_user_credential
@@ -355,7 +355,7 @@ methods:
     description: An iterator like instance of either ApplianceOperation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourceconnector.models.ApplianceOperation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourceconnector.models.ApplianceOperation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resourceconnector.aio.operations.AppliancesOperations.update

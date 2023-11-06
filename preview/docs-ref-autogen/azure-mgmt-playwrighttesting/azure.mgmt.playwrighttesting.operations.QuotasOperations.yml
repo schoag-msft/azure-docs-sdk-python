@@ -60,7 +60,7 @@ methods:
   return:
     description: An iterator like instance of either Quota or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.playwrighttesting.models.Quota>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.playwrighttesting.models.Quota>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

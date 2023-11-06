@@ -115,7 +115,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.selfhelp.models.SolutionResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.selfhelp.models.SolutionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.selfhelp.operations.SolutionOperations.begin_update
@@ -184,7 +184,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.selfhelp.models.SolutionResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.selfhelp.models.SolutionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.selfhelp.operations.SolutionOperations.get

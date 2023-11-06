@@ -87,7 +87,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.logz.models.LogzSingleSignOnResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.logz.models.LogzSingleSignOnResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logz.operations.SingleSignOnOperations.get
@@ -157,7 +157,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logz.models.LogzSingleSignOnResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logz.models.LogzSingleSignOnResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -86,7 +86,7 @@ methods:
     description: An instance of LROPoller that returns either MonitoringMetricConfiguration
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.MonitoringMetricConfiguration>]
+    - <xref:LROPoller>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.MonitoringMetricConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_09_01_preview.operations.MonitoringConfigOperations.begin_delete
@@ -138,7 +138,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_09_01_preview.operations.MonitoringConfigOperations.get
@@ -207,7 +207,7 @@ methods:
     description: An iterator like instance of either MonitoringMetricConfigurationList
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.MonitoringMetricConfigurationList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.MonitoringMetricConfigurationList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

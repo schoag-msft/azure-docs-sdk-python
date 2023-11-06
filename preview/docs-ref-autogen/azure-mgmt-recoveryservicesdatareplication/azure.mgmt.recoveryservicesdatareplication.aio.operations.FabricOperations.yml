@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.FabricModel>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.FabricModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.aio.operations.FabricOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.aio.operations.FabricOperations.begin_update
@@ -203,7 +203,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.FabricModel>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.FabricModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.aio.operations.FabricOperations.get
@@ -268,7 +268,7 @@ methods:
     description: An iterator like instance of either FabricModel or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.FabricModel>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.FabricModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.aio.operations.FabricOperations.list_by_subscription
@@ -295,7 +295,7 @@ methods:
     description: An iterator like instance of either FabricModel or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.FabricModel>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.FabricModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

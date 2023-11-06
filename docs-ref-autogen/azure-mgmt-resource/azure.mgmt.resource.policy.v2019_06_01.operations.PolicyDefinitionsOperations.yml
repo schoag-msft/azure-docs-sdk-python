@@ -250,7 +250,7 @@ methods:
     description: An iterator like instance of either PolicyDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.policy.v2019_06_01.models.PolicyDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.policy.v2019_06_01.models.PolicyDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2019_06_01.operations.PolicyDefinitionsOperations.list_built_in
@@ -269,7 +269,7 @@ methods:
     description: An iterator like instance of either PolicyDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.policy.v2019_06_01.models.PolicyDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.policy.v2019_06_01.models.PolicyDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2019_06_01.operations.PolicyDefinitionsOperations.list_by_management_group
@@ -295,7 +295,7 @@ methods:
     description: An iterator like instance of either PolicyDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.policy.v2019_06_01.models.PolicyDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.policy.v2019_06_01.models.PolicyDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

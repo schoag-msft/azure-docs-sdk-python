@@ -49,7 +49,7 @@ methods:
   return:
     description: The result of the export.
     types:
-    - <xref:opentelemetry.sdk.trace.export.SpanExportResult>
+    - <xref:SpanExportResult>
 - uid: azure.monitor.opentelemetry.exporter.AzureMonitorTraceExporter.from_connection_string
   name: from_connection_string
   summary: 'Create an AzureMonitorTraceExporter from a connection string.

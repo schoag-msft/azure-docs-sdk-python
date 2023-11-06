@@ -161,7 +161,7 @@ methods:
     description: An iterator like instance of either AccountFilter or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.media.models.AccountFilter>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.media.models.AccountFilter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.AccountFiltersOperations.update

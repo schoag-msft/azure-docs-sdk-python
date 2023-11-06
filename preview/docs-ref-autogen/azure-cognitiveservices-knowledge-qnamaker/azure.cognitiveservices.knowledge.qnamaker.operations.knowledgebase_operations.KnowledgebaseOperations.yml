@@ -53,7 +53,7 @@ methods:
     description: Operation or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.Operation>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.knowledgebase_operations.KnowledgebaseOperations.delete
@@ -87,7 +87,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.knowledgebase_operations.KnowledgebaseOperations.download
@@ -142,7 +142,7 @@ methods:
     description: QnADocumentsDTO or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.QnADocumentsDTO>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.knowledgebase_operations.KnowledgebaseOperations.generate_answer
@@ -182,7 +182,7 @@ methods:
     description: QnASearchResultList or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.QnASearchResultList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.knowledgebase_operations.KnowledgebaseOperations.get_details
@@ -216,7 +216,7 @@ methods:
     description: KnowledgebaseDTO or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.KnowledgebaseDTO>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.knowledgebase_operations.KnowledgebaseOperations.list_all
@@ -245,7 +245,7 @@ methods:
     description: KnowledgebasesDTO or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.KnowledgebasesDTO>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.knowledgebase_operations.KnowledgebaseOperations.publish
@@ -281,7 +281,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.knowledgebase_operations.KnowledgebaseOperations.replace
@@ -324,7 +324,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.knowledgebase_operations.KnowledgebaseOperations.train
@@ -363,7 +363,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.knowledgebase_operations.KnowledgebaseOperations.update
@@ -402,7 +402,7 @@ methods:
     description: Operation or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.Operation>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 attributes:

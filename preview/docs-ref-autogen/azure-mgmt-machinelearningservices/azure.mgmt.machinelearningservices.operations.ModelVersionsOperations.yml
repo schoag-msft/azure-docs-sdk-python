@@ -246,7 +246,7 @@ methods:
     description: An iterator like instance of either ModelVersion or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.ModelVersion>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.ModelVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

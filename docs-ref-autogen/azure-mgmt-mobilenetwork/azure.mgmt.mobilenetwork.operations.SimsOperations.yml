@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.operations.SimsOperations.begin_bulk_upload
@@ -144,7 +144,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.operations.SimsOperations.begin_bulk_upload_encrypted
@@ -213,7 +213,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.operations.SimsOperations.begin_create_or_update
@@ -284,7 +284,7 @@ methods:
     description: An instance of LROPoller that returns either Sim or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.mobilenetwork.models.Sim>]
+    - <xref:LROPoller>[<xref:azure.mgmt.mobilenetwork.models.Sim>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.operations.SimsOperations.begin_delete
@@ -339,7 +339,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.operations.SimsOperations.get
@@ -400,7 +400,7 @@ methods:
   return:
     description: An iterator like instance of either Sim or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.mobilenetwork.models.Sim>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.mobilenetwork.models.Sim>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

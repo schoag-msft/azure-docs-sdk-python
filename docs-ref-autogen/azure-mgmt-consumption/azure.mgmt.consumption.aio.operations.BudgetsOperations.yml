@@ -232,7 +232,7 @@ methods:
     description: An iterator like instance of either BudgetsListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.BudgetsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.BudgetsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

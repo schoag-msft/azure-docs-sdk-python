@@ -72,7 +72,7 @@ methods:
     description: An instance of LROPoller that returns either Vendor or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:hybrid_network_management_client.models.Vendor>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hybridnetwork.models.Vendor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.VendorsOperations.begin_delete
@@ -110,7 +110,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.VendorsOperations.get
@@ -130,7 +130,7 @@ methods:
   return:
     description: Vendor, or the result of cls(response)
     types:
-    - <xref:hybrid_network_management_client.models.Vendor>
+    - <xref:azure.mgmt.hybridnetwork.models.Vendor>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.VendorsOperations.list_by_subscription
@@ -146,7 +146,7 @@ methods:
     description: An iterator like instance of either VendorListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:hybrid_network_management_client.models.VendorListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hybridnetwork.models.VendorListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

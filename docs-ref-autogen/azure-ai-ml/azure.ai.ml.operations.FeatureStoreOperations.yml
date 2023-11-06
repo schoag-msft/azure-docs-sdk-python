@@ -41,7 +41,7 @@ methods:
   return:
     description: An instance of LROPoller that returns a FeatureStore.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.FeatureStore>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.FeatureStore>]
 - uid: azure.ai.ml.operations.FeatureStoreOperations.begin_delete
   name: begin_delete
   summary: Delete a FeatureStore.
@@ -64,7 +64,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
 - uid: azure.ai.ml.operations.FeatureStoreOperations.begin_provision_network
   name: begin_provision_network
   summary: 'Triggers the feature store to provision the managed network. Specifying
@@ -81,7 +81,7 @@ methods:
   return:
     description: An instance of LROPoller.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.ManagedNetworkProvisionStatus>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.ManagedNetworkProvisionStatus>]
 - uid: azure.ai.ml.operations.FeatureStoreOperations.begin_update
   name: begin_update
   summary: "Update friendly name, description, online store connection, offline store\
@@ -122,7 +122,7 @@ methods:
   return:
     description: An instance of LROPoller that returns a FeatureStore.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.FeatureStore>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.FeatureStore>]
 - uid: azure.ai.ml.operations.FeatureStoreOperations.get
   name: get
   summary: Get a feature store by name.
@@ -152,4 +152,4 @@ methods:
   return:
     description: An iterator like instance of FeatureStore objects
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.FeatureStore>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.FeatureStore>]

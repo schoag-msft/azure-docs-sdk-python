@@ -49,7 +49,7 @@ methods:
     description: An iterator like instance of either CapabilitiesListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.CapabilitiesListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.CapabilitiesListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

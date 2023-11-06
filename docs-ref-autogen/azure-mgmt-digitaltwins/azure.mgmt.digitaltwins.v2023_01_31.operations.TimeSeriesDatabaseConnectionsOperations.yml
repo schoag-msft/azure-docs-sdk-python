@@ -81,7 +81,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.TimeSeriesDatabaseConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.TimeSeriesDatabaseConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2023_01_31.operations.TimeSeriesDatabaseConnectionsOperations.begin_delete
@@ -156,7 +156,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.TimeSeriesDatabaseConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.TimeSeriesDatabaseConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2023_01_31.operations.TimeSeriesDatabaseConnectionsOperations.get
@@ -221,7 +221,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.TimeSeriesDatabaseConnection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.TimeSeriesDatabaseConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

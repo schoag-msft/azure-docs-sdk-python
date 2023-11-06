@@ -86,7 +86,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.Domain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.DomainsOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.DomainsOperations.begin_update
@@ -195,7 +195,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.Domain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.DomainsOperations.get
@@ -283,7 +283,7 @@ methods:
     description: An iterator like instance of either DomainsListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.DomainsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.DomainsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.DomainsOperations.list_by_subscription
@@ -337,7 +337,7 @@ methods:
     description: An iterator like instance of either DomainsListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.DomainsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.DomainsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.DomainsOperations.list_shared_access_keys

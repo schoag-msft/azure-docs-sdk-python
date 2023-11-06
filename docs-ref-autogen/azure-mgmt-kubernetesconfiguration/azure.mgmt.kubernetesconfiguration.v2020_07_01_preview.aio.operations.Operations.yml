@@ -27,7 +27,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.kubernetesconfiguration.v2020_07_01_preview.models.ResourceProviderOperation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.kubernetesconfiguration.v2020_07_01_preview.models.ResourceProviderOperation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

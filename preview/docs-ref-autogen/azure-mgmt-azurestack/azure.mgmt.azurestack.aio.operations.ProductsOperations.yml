@@ -157,7 +157,7 @@ methods:
   return:
     description: An iterator like instance of either Product or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.Product>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.Product>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestack.aio.operations.ProductsOperations.list_details

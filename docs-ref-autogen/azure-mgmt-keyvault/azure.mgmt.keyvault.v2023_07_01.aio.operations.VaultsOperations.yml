@@ -73,7 +73,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Vault or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.keyvault.v2023_07_01.models.Vault>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.keyvault.v2023_07_01.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.aio.operations.VaultsOperations.begin_purge_deleted
@@ -122,7 +122,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.aio.operations.VaultsOperations.check_name_availability
@@ -273,7 +273,7 @@ methods:
   return:
     description: An iterator like instance of either Resource or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.Resource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.Resource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.aio.operations.VaultsOperations.list_by_resource_group
@@ -304,7 +304,7 @@ methods:
   return:
     description: An iterator like instance of either Vault or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.Vault>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.aio.operations.VaultsOperations.list_by_subscription
@@ -325,7 +325,7 @@ methods:
   return:
     description: An iterator like instance of either Vault or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.Vault>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.aio.operations.VaultsOperations.list_deleted
@@ -341,7 +341,7 @@ methods:
     description: An iterator like instance of either DeletedVault or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.DeletedVault>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.DeletedVault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.aio.operations.VaultsOperations.update

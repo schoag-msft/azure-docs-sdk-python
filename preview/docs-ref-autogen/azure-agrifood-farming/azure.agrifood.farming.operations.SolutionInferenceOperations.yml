@@ -61,7 +61,7 @@ methods:
   return:
     description: An instance of LROPoller that returns dict mapping str to any
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:dict>[<xref:str>, <xref:any>]]
+    - <xref:LROPoller>[<xref:dict>[<xref:str>, <xref:any>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

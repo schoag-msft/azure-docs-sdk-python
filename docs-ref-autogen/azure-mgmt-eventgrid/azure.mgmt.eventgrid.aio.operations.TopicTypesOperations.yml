@@ -72,7 +72,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.TopicTypesListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.TopicTypesListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.TopicTypesOperations.list_event_types
@@ -98,7 +98,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventTypesListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventTypesListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

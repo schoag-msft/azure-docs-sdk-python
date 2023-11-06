@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.DataCenterResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.DataCenterResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraDataCentersOperations.begin_delete
@@ -139,7 +139,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraDataCentersOperations.begin_update
@@ -212,7 +212,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.DataCenterResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.DataCenterResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraDataCentersOperations.get
@@ -274,7 +274,7 @@ methods:
     description: An iterator like instance of either DataCenterResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.DataCenterResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.DataCenterResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -67,7 +67,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.DataFlowResource>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.DataFlowResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.DataFlowOperations.begin_delete_data_flow
@@ -109,7 +109,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.DataFlowOperations.begin_rename_data_flow
@@ -157,7 +157,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.DataFlowOperations.get_data_flow
@@ -205,7 +205,7 @@ methods:
     description: An iterator like instance of either DataFlowResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.DataFlowResource>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.DataFlowResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.vmwarecloudsimple.models.DedicatedCloudNode>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.vmwarecloudsimple.models.DedicatedCloudNode>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.vmwarecloudsimple.aio.operations.DedicatedCloudNodesOperations.delete
@@ -180,7 +180,7 @@ methods:
     description: An iterator like instance of either DedicatedCloudNode or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.DedicatedCloudNode>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.DedicatedCloudNode>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.vmwarecloudsimple.aio.operations.DedicatedCloudNodesOperations.list_by_subscription
@@ -215,7 +215,7 @@ methods:
     description: An iterator like instance of either DedicatedCloudNode or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.DedicatedCloudNode>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.DedicatedCloudNode>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.vmwarecloudsimple.aio.operations.DedicatedCloudNodesOperations.update

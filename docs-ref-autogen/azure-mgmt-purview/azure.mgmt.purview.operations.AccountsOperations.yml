@@ -115,7 +115,7 @@ methods:
     description: An instance of LROPoller that returns either Account or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.purview.models.Account>]
+    - <xref:LROPoller>[<xref:azure.mgmt.purview.models.Account>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.purview.operations.AccountsOperations.begin_delete
@@ -162,7 +162,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.purview.operations.AccountsOperations.begin_update
@@ -214,7 +214,7 @@ methods:
     description: An instance of LROPoller that returns either Account or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.purview.models.Account>]
+    - <xref:LROPoller>[<xref:azure.mgmt.purview.models.Account>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.purview.operations.AccountsOperations.check_name_availability
@@ -296,7 +296,7 @@ methods:
     description: An iterator like instance of either AccountList or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.purview.models.AccountList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.purview.models.AccountList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.purview.operations.AccountsOperations.list_by_subscription
@@ -321,7 +321,7 @@ methods:
     description: An iterator like instance of either AccountList or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.purview.models.AccountList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.purview.models.AccountList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.purview.operations.AccountsOperations.list_keys

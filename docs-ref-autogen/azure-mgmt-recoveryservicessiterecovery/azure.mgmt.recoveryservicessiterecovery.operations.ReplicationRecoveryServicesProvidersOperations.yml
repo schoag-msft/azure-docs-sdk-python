@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryServicesProvider>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryServicesProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryServicesProvidersOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryServicesProvidersOperations.begin_purge
@@ -187,7 +187,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryServicesProvidersOperations.begin_refresh_provider
@@ -240,7 +240,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryServicesProvider>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryServicesProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryServicesProvidersOperations.get
@@ -290,7 +290,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryServicesProvider>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryServicesProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryServicesProvidersOperations.list_by_replication_fabrics
@@ -316,7 +316,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryServicesProvider>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryServicesProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

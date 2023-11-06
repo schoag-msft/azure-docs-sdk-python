@@ -133,7 +133,7 @@ methods:
     description: An iterator like instance of either AlertRulesList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.AlertRulesList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.AlertRulesList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

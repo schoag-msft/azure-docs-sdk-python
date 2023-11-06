@@ -70,7 +70,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.SparkJobDefinitionResource>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.SparkJobDefinitionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.SparkJobDefinitionOperations.begin_debug_spark_job_definition
@@ -115,7 +115,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.SparkBatchJob>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.SparkBatchJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.SparkJobDefinitionOperations.begin_delete_spark_job_definition
@@ -158,7 +158,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.SparkJobDefinitionOperations.begin_execute_spark_job_definition
@@ -203,7 +203,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.SparkBatchJob>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.SparkBatchJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.SparkJobDefinitionOperations.begin_rename_spark_job_definition
@@ -251,7 +251,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.SparkJobDefinitionOperations.get_spark_job_definition
@@ -302,7 +302,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.SparkJobDefinitionResource>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.SparkJobDefinitionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

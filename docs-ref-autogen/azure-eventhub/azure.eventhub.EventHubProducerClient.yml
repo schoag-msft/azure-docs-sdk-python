@@ -620,7 +620,7 @@ methods:
   signature: get_eventhub_properties() -> Dict[str, Any]
   return:
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   exceptions:
   - type: azure.eventhub.exceptions.EventHubError
 - uid: azure.eventhub.EventHubProducerClient.get_partition_ids
@@ -648,7 +648,7 @@ methods:
     - <xref:str>
   return:
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   exceptions:
   - type: azure.eventhub.exceptions.EventHubError
 - uid: azure.eventhub.EventHubProducerClient.send_batch

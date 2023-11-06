@@ -405,7 +405,7 @@ methods:
     description: SearchResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.entitysearch.models.SearchResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.entitysearch.models.ErrorResponseException
 attributes:

@@ -161,7 +161,7 @@ methods:
     description: An iterator like instance of either AutoScaleVCoreListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.powerbidedicated.models.AutoScaleVCoreListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.powerbidedicated.models.AutoScaleVCoreListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.powerbidedicated.aio.operations.AutoScaleVCoresOperations.list_by_subscription
@@ -177,7 +177,7 @@ methods:
     description: An iterator like instance of either AutoScaleVCoreListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.powerbidedicated.models.AutoScaleVCoreListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.powerbidedicated.models.AutoScaleVCoreListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.powerbidedicated.aio.operations.AutoScaleVCoresOperations.update

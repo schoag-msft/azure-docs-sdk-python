@@ -133,7 +133,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.monitor.v2017_04_01.models.ActivityLogAlertResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.monitor.v2017_04_01.models.ActivityLogAlertResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2017_04_01.aio.operations.ActivityLogAlertsOperations.list_by_subscription_id
@@ -151,7 +151,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.monitor.v2017_04_01.models.ActivityLogAlertResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.monitor.v2017_04_01.models.ActivityLogAlertResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2017_04_01.aio.operations.ActivityLogAlertsOperations.update

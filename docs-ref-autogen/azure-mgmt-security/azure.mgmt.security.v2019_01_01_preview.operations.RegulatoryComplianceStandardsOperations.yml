@@ -53,7 +53,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2019_01_01_preview.models.RegulatoryComplianceStandard>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2019_01_01_preview.models.RegulatoryComplianceStandard>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -155,7 +155,7 @@ methods:
     description: An iterator like instance of either JobResponse or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storageimportexport.models.JobResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storageimportexport.models.JobResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storageimportexport.aio.operations.JobsOperations.list_by_subscription
@@ -188,7 +188,7 @@ methods:
     description: An iterator like instance of either JobResponse or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storageimportexport.models.JobResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storageimportexport.models.JobResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storageimportexport.aio.operations.JobsOperations.update

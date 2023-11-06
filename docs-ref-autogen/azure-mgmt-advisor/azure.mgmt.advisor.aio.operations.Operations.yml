@@ -44,7 +44,7 @@ methods:
     description: An iterator like instance of either OperationEntityListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.advisor.models.OperationEntityListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.advisor.models.OperationEntityListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

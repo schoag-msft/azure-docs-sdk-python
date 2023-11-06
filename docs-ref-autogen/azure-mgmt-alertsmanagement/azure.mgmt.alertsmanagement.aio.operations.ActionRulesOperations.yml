@@ -212,7 +212,7 @@ methods:
     description: An iterator like instance of either ActionRulesList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.alertsmanagement.models.ActionRulesList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.alertsmanagement.models.ActionRulesList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.alertsmanagement.aio.operations.ActionRulesOperations.list_by_subscription
@@ -295,7 +295,7 @@ methods:
     description: An iterator like instance of either ActionRulesList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.alertsmanagement.models.ActionRulesList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.alertsmanagement.models.ActionRulesList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.alertsmanagement.aio.operations.ActionRulesOperations.update

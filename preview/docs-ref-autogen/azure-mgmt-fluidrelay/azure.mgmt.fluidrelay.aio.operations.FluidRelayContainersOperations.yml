@@ -107,7 +107,7 @@ methods:
     description: An iterator like instance of either FluidRelayContainer or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayContainer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayContainer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

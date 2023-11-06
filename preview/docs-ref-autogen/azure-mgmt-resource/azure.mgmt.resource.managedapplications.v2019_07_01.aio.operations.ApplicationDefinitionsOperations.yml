@@ -75,7 +75,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.ApplicationDefinition>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.ApplicationDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationDefinitionsOperations.begin_create_or_update_by_id
@@ -142,7 +142,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.ApplicationDefinition>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.ApplicationDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationDefinitionsOperations.begin_delete
@@ -194,7 +194,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationDefinitionsOperations.begin_delete_by_id
@@ -244,7 +244,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationDefinitionsOperations.get
@@ -325,7 +325,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.ApplicationDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.ApplicationDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

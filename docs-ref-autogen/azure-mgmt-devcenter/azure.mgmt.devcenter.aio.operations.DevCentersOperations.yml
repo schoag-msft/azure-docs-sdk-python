@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.devcenter.models.DevCenter>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.devcenter.models.DevCenter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.DevCentersOperations.begin_delete
@@ -124,7 +124,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.DevCentersOperations.begin_update
@@ -192,7 +192,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.devcenter.models.DevCenter>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.devcenter.models.DevCenter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.DevCentersOperations.get
@@ -251,7 +251,7 @@ methods:
   return:
     description: An iterator like instance of either DevCenter or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.DevCenter>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.DevCenter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.DevCentersOperations.list_by_subscription
@@ -274,7 +274,7 @@ methods:
   return:
     description: An iterator like instance of either DevCenter or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.DevCenter>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.DevCenter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

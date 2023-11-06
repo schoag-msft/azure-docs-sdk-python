@@ -71,7 +71,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.subscription.models.SubscriptionAliasResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.subscription.models.SubscriptionAliasResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.subscription.operations.AliasOperations.delete

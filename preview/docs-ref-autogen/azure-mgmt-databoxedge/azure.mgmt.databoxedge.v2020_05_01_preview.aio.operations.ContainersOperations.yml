@@ -85,7 +85,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.Container>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.Container>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_05_01_preview.aio.operations.ContainersOperations.begin_delete
@@ -143,7 +143,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_05_01_preview.aio.operations.ContainersOperations.begin_refresh
@@ -204,7 +204,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_05_01_preview.aio.operations.ContainersOperations.get
@@ -279,7 +279,7 @@ methods:
   return:
     description: An iterator like instance of either Container or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.Container>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.Container>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

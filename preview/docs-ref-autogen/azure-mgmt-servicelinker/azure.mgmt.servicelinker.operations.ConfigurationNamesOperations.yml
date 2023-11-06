@@ -40,7 +40,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.servicelinker.models.ConfigurationNameItem>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.servicelinker.models.ConfigurationNameItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

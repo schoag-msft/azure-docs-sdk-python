@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.ApiPortalResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.ApiPortalResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2022_11_01_preview.operations.ApiPortalsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2022_11_01_preview.operations.ApiPortalsOperations.get
@@ -197,7 +197,7 @@ methods:
     description: An iterator like instance of either ApiPortalResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.ApiPortalResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.ApiPortalResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2022_11_01_preview.operations.ApiPortalsOperations.validate_domain

@@ -84,7 +84,7 @@ methods:
     description: An instance of LROPoller that returns either PreviewSubscription
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:hybrid_network_management_client.models.PreviewSubscription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hybridnetwork.models.PreviewSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.VendorSkuPreviewOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.VendorSkuPreviewOperations.get
@@ -164,7 +164,7 @@ methods:
   return:
     description: PreviewSubscription, or the result of cls(response)
     types:
-    - <xref:hybrid_network_management_client.models.PreviewSubscription>
+    - <xref:azure.mgmt.hybridnetwork.models.PreviewSubscription>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.VendorSkuPreviewOperations.list
@@ -190,7 +190,7 @@ methods:
     description: An iterator like instance of either PreviewSubscriptionsList or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:hybrid_network_management_client.models.PreviewSubscriptionsList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hybridnetwork.models.PreviewSubscriptionsList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

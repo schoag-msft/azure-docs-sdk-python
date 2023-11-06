@@ -84,7 +84,7 @@ methods:
     description: An instance of LROPoller that returns either Domain or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.Domain>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.DomainsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.DomainsOperations.begin_update
@@ -191,7 +191,7 @@ methods:
     description: An instance of LROPoller that returns either Domain or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.Domain>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.DomainsOperations.get
@@ -278,7 +278,7 @@ methods:
     description: An iterator like instance of either DomainsListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.DomainsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.DomainsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.DomainsOperations.list_by_subscription
@@ -332,7 +332,7 @@ methods:
     description: An iterator like instance of either DomainsListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.DomainsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.DomainsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.DomainsOperations.list_shared_access_keys

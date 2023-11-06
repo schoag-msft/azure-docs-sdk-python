@@ -72,7 +72,7 @@ methods:
     description: An instance of LROPoller that returns either DeletedServer or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.DeletedServer>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.DeletedServer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DeletedServersOperations.get
@@ -114,7 +114,7 @@ methods:
     description: An iterator like instance of either DeletedServerListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DeletedServerListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DeletedServerListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DeletedServersOperations.list_by_location
@@ -135,7 +135,7 @@ methods:
     description: An iterator like instance of either DeletedServerListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DeletedServerListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DeletedServerListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

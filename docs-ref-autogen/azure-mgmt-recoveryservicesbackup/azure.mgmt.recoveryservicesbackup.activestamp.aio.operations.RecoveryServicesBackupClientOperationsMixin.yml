@@ -72,7 +72,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesbackup.activestamp.aio.operations.RecoveryServicesBackupClientOperationsMixin.begin_bms_trigger_data_move
@@ -139,7 +139,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesbackup.activestamp.aio.operations.RecoveryServicesBackupClientOperationsMixin.begin_move_recovery_point
@@ -229,7 +229,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesbackup.activestamp.aio.operations.RecoveryServicesBackupClientOperationsMixin.get_operation_status

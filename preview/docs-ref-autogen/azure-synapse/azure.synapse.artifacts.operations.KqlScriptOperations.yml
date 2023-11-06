@@ -65,7 +65,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.KqlScriptResource>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.KqlScriptResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.KqlScriptOperations.begin_delete_by_name
@@ -107,7 +107,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.KqlScriptOperations.begin_rename
@@ -155,7 +155,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.KqlScriptOperations.get_by_name

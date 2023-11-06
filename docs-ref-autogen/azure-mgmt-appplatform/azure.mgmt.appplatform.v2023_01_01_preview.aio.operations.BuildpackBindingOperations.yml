@@ -92,7 +92,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.BuildpackBindingResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.BuildpackBindingResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2023_01_01_preview.aio.operations.BuildpackBindingOperations.begin_delete
@@ -157,7 +157,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2023_01_01_preview.aio.operations.BuildpackBindingOperations.get
@@ -241,7 +241,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.BuildpackBindingResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.BuildpackBindingResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2023_01_01_preview.aio.operations.BuildpackBindingOperations.list_for_cluster
@@ -272,7 +272,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.BuildpackBindingResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.BuildpackBindingResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

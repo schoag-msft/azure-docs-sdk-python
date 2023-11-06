@@ -67,7 +67,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.TriggerResource>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.TriggerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.TriggerOperations.begin_delete_trigger
@@ -109,7 +109,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.TriggerOperations.begin_start_trigger
@@ -151,7 +151,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.TriggerOperations.begin_stop_trigger
@@ -193,7 +193,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.TriggerOperations.begin_subscribe_trigger_to_events
@@ -238,7 +238,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.TriggerSubscriptionOperationStatus>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.TriggerSubscriptionOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.TriggerOperations.begin_unsubscribe_trigger_from_events
@@ -283,7 +283,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.TriggerSubscriptionOperationStatus>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.TriggerSubscriptionOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.TriggerOperations.get_event_subscription_status
@@ -352,7 +352,7 @@ methods:
     description: An iterator like instance of either TriggerResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.TriggerResource>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.TriggerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

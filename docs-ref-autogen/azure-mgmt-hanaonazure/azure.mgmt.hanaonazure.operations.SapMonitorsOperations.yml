@@ -81,7 +81,7 @@ methods:
     description: An instance of LROPoller that returns either SapMonitor or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hanaonazure.models.SapMonitor>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hanaonazure.models.SapMonitor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hanaonazure.operations.SapMonitorsOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hanaonazure.operations.SapMonitorsOperations.get
@@ -183,7 +183,7 @@ methods:
     description: An iterator like instance of either SapMonitorListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hanaonazure.models.SapMonitorListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hanaonazure.models.SapMonitorListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hanaonazure.operations.SapMonitorsOperations.update

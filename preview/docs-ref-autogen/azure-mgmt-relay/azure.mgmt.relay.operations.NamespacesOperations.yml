@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.relay.models.RelayNamespace>]
+    - <xref:LROPoller>[<xref:azure.mgmt.relay.models.RelayNamespace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.relay.operations.NamespacesOperations.begin_delete
@@ -125,7 +125,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.relay.operations.NamespacesOperations.check_name_availability
@@ -374,7 +374,7 @@ methods:
     description: An iterator like instance of either RelayNamespace or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.relay.models.RelayNamespace>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.relay.models.RelayNamespace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.relay.operations.NamespacesOperations.list_authorization_rules
@@ -401,7 +401,7 @@ methods:
     description: An iterator like instance of either AuthorizationRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.relay.models.AuthorizationRule>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.relay.models.AuthorizationRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.relay.operations.NamespacesOperations.list_by_resource_group
@@ -422,7 +422,7 @@ methods:
     description: An iterator like instance of either RelayNamespace or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.relay.models.RelayNamespace>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.relay.models.RelayNamespace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.relay.operations.NamespacesOperations.list_keys

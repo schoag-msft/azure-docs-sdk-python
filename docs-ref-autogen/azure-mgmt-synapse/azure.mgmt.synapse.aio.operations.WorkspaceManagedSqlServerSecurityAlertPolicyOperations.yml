@@ -88,7 +88,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either ServerSecurityAlertPolicy
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.ServerSecurityAlertPolicy>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.ServerSecurityAlertPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.WorkspaceManagedSqlServerSecurityAlertPolicyOperations.get
@@ -152,7 +152,7 @@ methods:
     description: An iterator like instance of either ServerSecurityAlertPolicyListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.ServerSecurityAlertPolicyListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.ServerSecurityAlertPolicyListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -81,7 +81,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.digitaltwins.v2021_06_30_preview.models.TimeSeriesDatabaseConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.digitaltwins.v2021_06_30_preview.models.TimeSeriesDatabaseConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2021_06_30_preview.operations.TimeSeriesDatabaseConnectionsOperations.begin_delete
@@ -138,7 +138,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.digitaltwins.v2021_06_30_preview.models.TimeSeriesDatabaseConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.digitaltwins.v2021_06_30_preview.models.TimeSeriesDatabaseConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2021_06_30_preview.operations.TimeSeriesDatabaseConnectionsOperations.get
@@ -203,7 +203,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.digitaltwins.v2021_06_30_preview.models.TimeSeriesDatabaseConnection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.digitaltwins.v2021_06_30_preview.models.TimeSeriesDatabaseConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

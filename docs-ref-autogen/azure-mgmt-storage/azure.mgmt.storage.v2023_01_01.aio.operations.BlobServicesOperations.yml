@@ -92,7 +92,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storage.v2023_01_01.models.BlobServiceProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storage.v2023_01_01.models.BlobServiceProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2023_01_01.aio.operations.BlobServicesOperations.set_service_properties

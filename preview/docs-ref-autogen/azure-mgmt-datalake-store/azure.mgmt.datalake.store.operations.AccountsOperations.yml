@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datalake.store.models.DataLakeStoreAccount>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datalake.store.models.DataLakeStoreAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.store.operations.AccountsOperations.begin_delete
@@ -122,7 +122,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.store.operations.AccountsOperations.begin_update
@@ -188,7 +188,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datalake.store.models.DataLakeStoreAccount>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datalake.store.models.DataLakeStoreAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.store.operations.AccountsOperations.check_name_availability
@@ -349,7 +349,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datalake.store.models.DataLakeStoreAccountBasic>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datalake.store.models.DataLakeStoreAccountBasic>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.store.operations.AccountsOperations.list_by_resource_group
@@ -427,7 +427,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datalake.store.models.DataLakeStoreAccountBasic>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datalake.store.models.DataLakeStoreAccountBasic>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -72,7 +72,7 @@ methods:
     description: Evaluate or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Evaluate>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.evaluate_method
@@ -108,7 +108,7 @@ methods:
     description: Evaluate or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Evaluate>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.evaluate_url_input
@@ -158,7 +158,7 @@ methods:
     description: Evaluate or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Evaluate>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.find_faces
@@ -194,7 +194,7 @@ methods:
     description: FoundFaces or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.FoundFaces>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.find_faces_file_input
@@ -247,7 +247,7 @@ methods:
     description: FoundFaces or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.FoundFaces>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.find_faces_url_input
@@ -297,7 +297,7 @@ methods:
     description: FoundFaces or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.FoundFaces>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.match_file_input
@@ -369,7 +369,7 @@ methods:
     description: MatchResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.MatchResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.match_method
@@ -425,7 +425,7 @@ methods:
     description: MatchResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.MatchResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.match_url_input
@@ -494,7 +494,7 @@ methods:
     description: MatchResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.MatchResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.ocr_file_input
@@ -565,7 +565,7 @@ methods:
     description: OCR or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.OCR>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.ocr_method
@@ -620,7 +620,7 @@ methods:
     description: OCR or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.OCR>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.ImageModerationOperations.ocr_url_input
@@ -688,7 +688,7 @@ methods:
     description: OCR or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.OCR>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 attributes:

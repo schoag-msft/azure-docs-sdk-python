@@ -85,7 +85,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.RoleInstancesOperations.begin_start
@@ -142,7 +142,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.RoleInstancesOperations.begin_stop
@@ -199,7 +199,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.RoleInstancesOperations.get
@@ -238,7 +238,7 @@ methods:
   return:
     description: RoleInstance, or the result of cls(response)
     types:
-    - <xref:hybrid_network_management_client.models.RoleInstance>
+    - <xref:azure.mgmt.hybridnetwork.models.RoleInstance>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.RoleInstancesOperations.list
@@ -273,7 +273,7 @@ methods:
     description: An iterator like instance of either NetworkFunctionRoleInstanceListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:hybrid_network_management_client.models.NetworkFunctionRoleInstanceListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunctionRoleInstanceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

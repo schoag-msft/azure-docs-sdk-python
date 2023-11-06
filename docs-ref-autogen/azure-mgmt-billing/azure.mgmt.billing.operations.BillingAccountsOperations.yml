@@ -80,7 +80,7 @@ methods:
     description: An instance of LROPoller that returns either BillingAccount or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.billing.models.BillingAccount>]
+    - <xref:LROPoller>[<xref:azure.mgmt.billing.models.BillingAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingAccountsOperations.get
@@ -127,7 +127,7 @@ methods:
     description: An iterator like instance of either BillingAccountListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingAccountListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingAccountListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingAccountsOperations.list_invoice_sections_by_create_subscription_permission
@@ -155,7 +155,7 @@ methods:
     description: An iterator like instance of either InvoiceSectionListWithCreateSubPermissionResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.InvoiceSectionListWithCreateSubPermissionResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.InvoiceSectionListWithCreateSubPermissionResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

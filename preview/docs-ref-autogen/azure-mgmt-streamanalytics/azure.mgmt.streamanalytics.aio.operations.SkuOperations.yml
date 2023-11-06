@@ -38,7 +38,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.streamanalytics.models.GetStreamingJobSkuResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.streamanalytics.models.GetStreamingJobSkuResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

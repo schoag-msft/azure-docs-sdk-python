@@ -153,7 +153,7 @@ methods:
     description: An iterator like instance of either TemplateSpec or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.templatespecs.v2019_06_01_preview.models.TemplateSpec>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.templatespecs.v2019_06_01_preview.models.TemplateSpec>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.templatespecs.v2019_06_01_preview.aio.operations.TemplateSpecsOperations.list_by_subscription
@@ -179,7 +179,7 @@ methods:
     description: An iterator like instance of either TemplateSpec or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.templatespecs.v2019_06_01_preview.models.TemplateSpec>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.templatespecs.v2019_06_01_preview.models.TemplateSpec>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.templatespecs.v2019_06_01_preview.aio.operations.TemplateSpecsOperations.update

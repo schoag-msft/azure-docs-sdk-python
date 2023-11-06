@@ -164,7 +164,7 @@ methods:
     description: An iterator like instance of either SchemaGroup or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2021_11_01.models.SchemaGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2021_11_01.models.SchemaGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -145,7 +145,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.CustomerSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.CustomerSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

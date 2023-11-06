@@ -68,7 +68,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.add_node_tags
@@ -110,7 +110,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.backup_partition
@@ -197,7 +197,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.cancel_operation
@@ -299,7 +299,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.cancel_repair_task
@@ -341,7 +341,7 @@ methods:
     description: RepairTaskUpdateInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.RepairTaskUpdateInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.commit_image_store_upload_session
@@ -400,7 +400,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.copy_image_store_content
@@ -453,7 +453,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.create_application
@@ -504,7 +504,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.create_backup_policy
@@ -564,7 +564,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.create_compose_deployment
@@ -623,7 +623,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.create_name
@@ -673,7 +673,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.create_repair_task
@@ -738,7 +738,7 @@ methods:
     description: RepairTaskUpdateInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.RepairTaskUpdateInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.create_service
@@ -816,7 +816,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.create_service_from_template
@@ -896,7 +896,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.delete_application
@@ -986,7 +986,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.delete_backup_policy
@@ -1041,7 +1041,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.delete_image_store_content
@@ -1096,7 +1096,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.delete_image_store_upload_session
@@ -1151,7 +1151,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.delete_name
@@ -1205,7 +1205,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.delete_property
@@ -1263,7 +1263,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.delete_repair_task
@@ -1314,7 +1314,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.delete_service
@@ -1398,7 +1398,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.deploy_service_package_to_node
@@ -1466,7 +1466,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.disable_application_backup
@@ -1540,7 +1540,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.disable_node
@@ -1619,7 +1619,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.disable_partition_backup
@@ -1689,7 +1689,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.disable_service_backup
@@ -1769,7 +1769,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.enable_application_backup
@@ -1849,7 +1849,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.enable_node
@@ -1903,7 +1903,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.enable_partition_backup
@@ -1971,7 +1971,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.enable_service_backup
@@ -2057,7 +2057,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.force_approve_repair_task
@@ -2108,7 +2108,7 @@ methods:
     description: RepairTaskUpdateInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.RepairTaskUpdateInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_aad_metadata
@@ -2161,7 +2161,7 @@ methods:
     description: AadMetadataObject or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.AadMetadataObject>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_all_entities_backed_up_by_policy
@@ -2246,7 +2246,7 @@ methods:
     description: PagedBackupEntityList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedBackupEntityList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_backup_configuration_info
@@ -2347,7 +2347,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedBackupConfigurationInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_backup_list
@@ -2484,7 +2484,7 @@ methods:
     description: PagedBackupInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedBackupInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_event_list
@@ -2589,7 +2589,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ApplicationEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_health
@@ -2825,7 +2825,7 @@ methods:
     description: ApplicationHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ApplicationHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_health_using_policy
@@ -3078,7 +3078,7 @@ methods:
     description: ApplicationHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ApplicationHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_info
@@ -3156,7 +3156,7 @@ methods:
     description: ApplicationInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ApplicationInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_info_list
@@ -3294,7 +3294,7 @@ methods:
     description: PagedApplicationInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedApplicationInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_load_info
@@ -3367,7 +3367,7 @@ methods:
     description: ApplicationLoadInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ApplicationLoadInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_manifest
@@ -3421,7 +3421,7 @@ methods:
     description: ApplicationTypeManifest or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ApplicationTypeManifest>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_name_info
@@ -3486,7 +3486,7 @@ methods:
     description: ApplicationNameInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ApplicationNameInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_type_info_list
@@ -3623,7 +3623,7 @@ methods:
     description: PagedApplicationTypeInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedApplicationTypeInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_type_info_list_by_name
@@ -3751,7 +3751,7 @@ methods:
     description: PagedApplicationTypeInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedApplicationTypeInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_application_upgrade
@@ -3818,7 +3818,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.ApplicationUpgradeProgressInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_applications_event_list
@@ -3904,7 +3904,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ApplicationEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_backup_policy_by_name
@@ -3953,7 +3953,7 @@ methods:
     description: BackupPolicyDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.BackupPolicyDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_backup_policy_list
@@ -4033,7 +4033,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedBackupPolicyDescriptionList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_backups_from_backup_location
@@ -4125,7 +4125,7 @@ methods:
     description: PagedBackupInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedBackupInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_chaos
@@ -4172,7 +4172,7 @@ methods:
     description: Chaos or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.Chaos>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_chaos_events
@@ -4294,7 +4294,7 @@ methods:
     description: ChaosEventsSegment or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ChaosEventsSegment>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_chaos_schedule
@@ -4339,7 +4339,7 @@ methods:
     description: ChaosScheduleDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ChaosScheduleDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_configuration
@@ -4394,7 +4394,7 @@ methods:
     description: ClusterConfiguration or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ClusterConfiguration>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_configuration_upgrade_status
@@ -4444,7 +4444,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.ClusterConfigurationUpgradeStatusInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_event_list
@@ -4530,7 +4530,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ClusterEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_health
@@ -4774,7 +4774,7 @@ methods:
     description: ClusterHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ClusterHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_health_chunk
@@ -4828,7 +4828,7 @@ methods:
     description: ClusterHealthChunk or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ClusterHealthChunk>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_health_chunk_using_policy_and_advanced_filters
@@ -4941,7 +4941,7 @@ methods:
     description: ClusterHealthChunk or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ClusterHealthChunk>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_health_using_policy
@@ -5218,7 +5218,7 @@ methods:
     description: ClusterHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ClusterHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_load
@@ -5263,7 +5263,7 @@ methods:
     description: ClusterLoadInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ClusterLoadInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_manifest
@@ -5328,7 +5328,7 @@ methods:
     description: ClusterManifest or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ClusterManifest>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_upgrade_progress
@@ -5376,7 +5376,7 @@ methods:
     description: ClusterUpgradeProgressObject or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ClusterUpgradeProgressObject>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_cluster_version
@@ -5421,7 +5421,7 @@ methods:
     description: ClusterVersion or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ClusterVersion>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_compose_deployment_status
@@ -5476,7 +5476,7 @@ methods:
     description: ComposeDeploymentStatusInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ComposeDeploymentStatusInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_compose_deployment_status_list
@@ -5568,7 +5568,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedComposeDeploymentStatusInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_compose_deployment_upgrade_progress
@@ -5623,7 +5623,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.ComposeDeploymentUpgradeProgressInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_configuration_overrides
@@ -5674,7 +5674,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ConfigParameterOverride>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_container_logs_deployed_on_node
@@ -5777,7 +5777,7 @@ methods:
     description: ContainerLogs or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ContainerLogs>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_containers_event_list
@@ -5863,7 +5863,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ContainerInstanceEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_correlated_event_list
@@ -5912,7 +5912,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.FabricEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_data_loss_progress
@@ -5989,7 +5989,7 @@ methods:
     description: PartitionDataLossProgress or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PartitionDataLossProgress>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_application_health
@@ -6189,7 +6189,7 @@ methods:
     description: DeployedApplicationHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.DeployedApplicationHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_application_health_using_policy
@@ -6411,7 +6411,7 @@ methods:
     description: DeployedApplicationHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.DeployedApplicationHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_application_info
@@ -6506,7 +6506,7 @@ methods:
     description: DeployedApplicationInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.DeployedApplicationInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_application_info_list
@@ -6618,7 +6618,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedDeployedApplicationInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_code_package_info_list
@@ -6704,7 +6704,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.DeployedCodePackageInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_service_package_health
@@ -6836,7 +6836,7 @@ methods:
     description: DeployedServicePackageHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.DeployedServicePackageHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_service_package_health_using_policy
@@ -6990,7 +6990,7 @@ methods:
     description: DeployedServicePackageHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.DeployedServicePackageHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_service_package_info_list
@@ -7060,7 +7060,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.DeployedServicePackageInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_service_package_info_list_by_name
@@ -7141,7 +7141,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.DeployedServicePackageInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_service_replica_detail_info
@@ -7208,7 +7208,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.DeployedServiceReplicaDetailInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_service_replica_detail_info_by_partition_id
@@ -7270,7 +7270,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.DeployedServiceReplicaDetailInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_service_replica_info_list
@@ -7360,7 +7360,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.DeployedServiceReplicaInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_service_type_info_by_name
@@ -7458,7 +7458,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.DeployedServiceTypeInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_deployed_service_type_info_list
@@ -7547,7 +7547,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.DeployedServiceTypeInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_fault_operation_list
@@ -7633,7 +7633,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.OperationStatus>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_image_store_content
@@ -7688,7 +7688,7 @@ methods:
     description: ImageStoreContent or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ImageStoreContent>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_image_store_folder_size
@@ -7743,7 +7743,7 @@ methods:
     description: FolderSizeInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.FolderSizeInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_image_store_info
@@ -7790,7 +7790,7 @@ methods:
     description: ImageStoreInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ImageStoreInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_image_store_root_content
@@ -7836,7 +7836,7 @@ methods:
     description: ImageStoreContent or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ImageStoreContent>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_image_store_root_folder_size
@@ -7882,7 +7882,7 @@ methods:
     description: FolderSizeInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.FolderSizeInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_image_store_upload_session_by_id
@@ -7937,7 +7937,7 @@ methods:
     description: UploadSession or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.UploadSession>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_image_store_upload_session_by_path
@@ -7992,7 +7992,7 @@ methods:
     description: UploadSession or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.UploadSession>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_loaded_partition_info_list
@@ -8083,7 +8083,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.LoadedPartitionInformationResultList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_name_exists_info
@@ -8134,7 +8134,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_node_event_list
@@ -8225,7 +8225,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.NodeEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_node_health
@@ -8329,7 +8329,7 @@ methods:
     description: NodeHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.NodeHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_node_health_using_policy
@@ -8450,7 +8450,7 @@ methods:
     description: NodeHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.NodeHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_node_info
@@ -8503,7 +8503,7 @@ methods:
     description: NodeInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.NodeInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_node_info_list
@@ -8597,7 +8597,7 @@ methods:
     description: PagedNodeInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedNodeInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_node_load_info
@@ -8648,7 +8648,7 @@ methods:
     description: NodeLoadInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.NodeLoadInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_node_transition_progress
@@ -8706,7 +8706,7 @@ methods:
     description: NodeTransitionProgress or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.NodeTransitionProgress>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_nodes_event_list
@@ -8792,7 +8792,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.NodeEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_backup_configuration_info
@@ -8845,7 +8845,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PartitionBackupConfigurationInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_backup_list
@@ -8931,7 +8931,7 @@ methods:
     description: PagedBackupInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedBackupInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_backup_progress
@@ -8982,7 +8982,7 @@ methods:
     description: BackupProgressInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.BackupProgressInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_event_list
@@ -9073,7 +9073,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.PartitionEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_health
@@ -9243,7 +9243,7 @@ methods:
     description: PartitionHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PartitionHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_health_using_policy
@@ -9443,7 +9443,7 @@ methods:
     description: PartitionHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PartitionHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_info
@@ -9498,7 +9498,7 @@ methods:
     description: ServicePartitionInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ServicePartitionInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_info_list
@@ -9582,7 +9582,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedServicePartitionInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_load_information
@@ -9639,7 +9639,7 @@ methods:
     description: PartitionLoadInformation or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PartitionLoadInformation>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_replica_event_list
@@ -9735,7 +9735,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ReplicaEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_replicas_event_list
@@ -9826,7 +9826,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ReplicaEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_restart_progress
@@ -9903,7 +9903,7 @@ methods:
     description: PartitionRestartProgress or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PartitionRestartProgress>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partition_restore_progress
@@ -9956,7 +9956,7 @@ methods:
     description: RestoreProgressInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.RestoreProgressInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_partitions_event_list
@@ -10042,7 +10042,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.PartitionEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_property_info
@@ -10100,7 +10100,7 @@ methods:
     description: PropertyInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PropertyInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_property_info_list
@@ -10183,7 +10183,7 @@ methods:
     description: PagedPropertyInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedPropertyInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_provisioned_fabric_code_version_info_list
@@ -10238,7 +10238,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.FabricCodeVersionInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_provisioned_fabric_config_version_info_list
@@ -10293,7 +10293,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.FabricConfigVersionInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_quorum_loss_progress
@@ -10370,7 +10370,7 @@ methods:
     description: PartitionQuorumLossProgress or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PartitionQuorumLossProgress>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_repair_task_list
@@ -10438,7 +10438,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.RepairTask>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_replica_health
@@ -10547,7 +10547,7 @@ methods:
     description: ReplicaHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ReplicaHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_replica_health_using_policy
@@ -10677,7 +10677,7 @@ methods:
     description: ReplicaHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ReplicaHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_replica_info
@@ -10733,7 +10733,7 @@ methods:
     description: ReplicaInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ReplicaInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_replica_info_list
@@ -10805,7 +10805,7 @@ methods:
     description: PagedReplicaInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedReplicaInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_backup_configuration_info
@@ -10904,7 +10904,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedBackupConfigurationInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_backup_list
@@ -11037,7 +11037,7 @@ methods:
     description: PagedBackupInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedBackupInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_description
@@ -11100,7 +11100,7 @@ methods:
     description: ServiceDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ServiceDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_event_list
@@ -11203,7 +11203,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ServiceEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_health
@@ -11391,7 +11391,7 @@ methods:
     description: ServiceHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ServiceHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_health_using_policy
@@ -11603,7 +11603,7 @@ methods:
     description: ServiceHealth or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ServiceHealth>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_info
@@ -11687,7 +11687,7 @@ methods:
     description: ServiceInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ServiceInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_info_list
@@ -11778,7 +11778,7 @@ methods:
     description: PagedServiceInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedServiceInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_manifest
@@ -11841,7 +11841,7 @@ methods:
     description: ServiceTypeManifest or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ServiceTypeManifest>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_name_info
@@ -11892,7 +11892,7 @@ methods:
     description: ServiceNameInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ServiceNameInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_type_info_by_name
@@ -11963,7 +11963,7 @@ methods:
     description: ServiceTypeInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ServiceTypeInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_service_type_info_list
@@ -12027,7 +12027,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ServiceTypeInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_services_event_list
@@ -12113,7 +12113,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.servicefabric.models.ServiceEvent>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_sub_name_info_list
@@ -12194,7 +12194,7 @@ methods:
     description: PagedSubNameInfoList or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PagedSubNameInfoList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_unplaced_replica_information
@@ -12281,7 +12281,7 @@ methods:
     description: UnplacedReplicaInformation or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.UnplacedReplicaInformation>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.get_upgrade_orchestration_service_state
@@ -12329,7 +12329,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.UpgradeOrchestrationServiceState>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.invoke_container_api
@@ -12430,7 +12430,7 @@ methods:
     description: ContainerApiResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ContainerApiResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.invoke_infrastructure_command
@@ -12512,7 +12512,7 @@ methods:
     description: str or ClientRawResponse if raw=true
     types:
     - <xref:str>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.invoke_infrastructure_query
@@ -12592,7 +12592,7 @@ methods:
     description: str or ClientRawResponse if raw=true
     types:
     - <xref:str>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.move_auxiliary_replica
@@ -12698,7 +12698,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.move_instance
@@ -12807,7 +12807,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.move_primary_replica
@@ -12884,7 +12884,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.move_secondary_replica
@@ -12972,7 +12972,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.post_chaos_schedule
@@ -13040,7 +13040,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.provision_application_type
@@ -13091,7 +13091,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.provision_cluster
@@ -13149,7 +13149,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.put_property
@@ -13209,7 +13209,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.recover_all_partitions
@@ -13260,7 +13260,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.recover_partition
@@ -13315,7 +13315,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.recover_service_partitions
@@ -13386,7 +13386,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.recover_system_partitions
@@ -13440,7 +13440,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.remove_compose_deployment
@@ -13489,7 +13489,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.remove_configuration_overrides
@@ -13540,7 +13540,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.remove_node_state
@@ -13627,7 +13627,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.remove_node_tags
@@ -13670,7 +13670,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.remove_replica
@@ -13758,7 +13758,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.report_application_health
@@ -13893,7 +13893,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.report_cluster_health
@@ -14009,7 +14009,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.report_deployed_application_health
@@ -14151,7 +14151,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.report_deployed_service_package_health
@@ -14297,7 +14297,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.report_node_health
@@ -14418,7 +14418,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.report_partition_health
@@ -14539,7 +14539,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.report_replica_health
@@ -14675,7 +14675,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.report_service_health
@@ -14808,7 +14808,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.reset_partition_load
@@ -14859,7 +14859,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.resolve_service
@@ -14977,7 +14977,7 @@ methods:
     description: ResolvedServicePartition or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ResolvedServicePartition>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.restart_deployed_code_package
@@ -15056,7 +15056,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.restart_node
@@ -15126,7 +15126,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.restart_replica
@@ -15191,7 +15191,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.restore_partition
@@ -15282,7 +15282,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.resume_application_backup
@@ -15351,7 +15351,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.resume_application_upgrade
@@ -15429,7 +15429,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.resume_cluster_upgrade
@@ -15482,7 +15482,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.resume_partition_backup
@@ -15533,7 +15533,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.resume_service_backup
@@ -15598,7 +15598,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.rollback_application_upgrade
@@ -15671,7 +15671,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.rollback_cluster_upgrade
@@ -15717,7 +15717,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.set_upgrade_orchestration_service_state
@@ -15774,7 +15774,7 @@ methods:
       if raw=true'
     types:
     - <xref:azure.servicefabric.models.UpgradeOrchestrationServiceStateSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_application_upgrade
@@ -15860,7 +15860,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_chaos
@@ -15923,7 +15923,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_cluster_configuration_upgrade
@@ -15978,7 +15978,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_cluster_upgrade
@@ -16035,7 +16035,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_compose_deployment_upgrade
@@ -16093,7 +16093,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_data_loss
@@ -16210,7 +16210,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_node_transition
@@ -16309,7 +16309,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_partition_restart
@@ -16402,7 +16402,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_quorum_loss
@@ -16506,7 +16506,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.start_rollback_compose_deployment_upgrade
@@ -16557,7 +16557,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.stop_chaos
@@ -16612,7 +16612,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.submit_property_batch
@@ -16672,7 +16672,7 @@ methods:
     description: PropertyBatchInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.PropertyBatchInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.suspend_application_backup
@@ -16743,7 +16743,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.suspend_partition_backup
@@ -16794,7 +16794,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.suspend_service_backup
@@ -16861,7 +16861,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.toggle_verbose_service_placement_health_reporting
@@ -16916,7 +16916,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.unprovision_application_type
@@ -16995,7 +16995,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.unprovision_cluster
@@ -17051,7 +17051,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.update_application
@@ -17125,7 +17125,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.update_application_upgrade
@@ -17201,7 +17201,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.update_backup_policy
@@ -17264,7 +17264,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.update_cluster_upgrade
@@ -17317,7 +17317,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.update_partition_load
@@ -17406,7 +17406,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedUpdatePartitionLoadResultList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.update_repair_execution_state
@@ -17448,7 +17448,7 @@ methods:
     description: RepairTaskUpdateInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.RepairTaskUpdateInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.update_repair_task_health_policy
@@ -17490,7 +17490,7 @@ methods:
     description: RepairTaskUpdateInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.RepairTaskUpdateInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.update_service
@@ -17578,7 +17578,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.upload_file
@@ -17649,7 +17649,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.upload_file_chunk
@@ -17744,7 +17744,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.ServiceFabricClientAPIsOperationsMixin.validate_cluster_upgrade
@@ -17801,6 +17801,6 @@ methods:
     description: ValidateClusterUpgradeResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ValidateClusterUpgradeResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException

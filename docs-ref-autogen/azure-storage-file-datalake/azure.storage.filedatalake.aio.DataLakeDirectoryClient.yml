@@ -171,7 +171,7 @@ methods:
   return:
     description: A DataLakeLeaseClient object, that can be run in a context manager.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeLeaseClient>
+    - <xref:azure.storage.filedatalake.DataLakeLeaseClient>
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.close
   name: close
   summary: 'This method is to close the sockets opened by the client.
@@ -328,7 +328,7 @@ methods:
   return:
     description: A dictionary of response headers.
     types:
-    - <xref:Dict>[<xref:str>, <xref:Union>[<xref:str>, <xref:datetime>]]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[<xref:str>, <xref:datetime>]]
   examples:
   - "Create directory.<!--[!code-python[Main](les\\datalake_samples_directory_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -1081,7 +1081,7 @@ methods:
   return:
     description: A DataLakeFileClient.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeFileClient>
+    - <xref:azure.storage.filedatalake.DataLakeFileClient>
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.get_sub_directory_client
   name: get_sub_directory_client
   summary: 'Get a client to interact with the specified subdirectory of the current
@@ -1104,7 +1104,7 @@ methods:
   return:
     description: A DataLakeDirectoryClient.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeDirectoryClient>
+    - <xref:azure.storage.filedatalake.DataLakeDirectoryClient>
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.remove_access_control_recursive
   name: remove_access_control_recursive
   summary: Removes the Access Control on a path and sub-paths.
@@ -1187,7 +1187,7 @@ methods:
 
       as well as a continuation token in case the operation was terminated prematurely.'
     types:
-    - <xref:<xref::~azure.storage.filedatalake.AccessControlChangeResult`>>
+    - :~<xref:azure.storage.filedatalake.AccessControlChangeResult>`
   exceptions:
   - type: azure.core.exceptions.AzureError
     description: User can restart the operation using continuation_token field of
@@ -1506,7 +1506,7 @@ methods:
 
       as well as a continuation token in case the operation was terminated prematurely.'
     types:
-    - <xref:<xref::~azure.storage.filedatalake.AccessControlChangeResult`>>
+    - :~<xref:azure.storage.filedatalake.AccessControlChangeResult>`
   exceptions:
   - type: azure.core.exceptions.AzureError
     description: User can restart the operation using continuation_token field of
@@ -1582,7 +1582,7 @@ methods:
   return:
     description: file/directory-updated property dict (Etag and last modified)
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.set_metadata
   name: set_metadata
   summary: 'Sets one or more user-defined name-value pairs for the specified
@@ -1750,7 +1750,7 @@ methods:
 
       as well as a continuation token in case the operation was terminated prematurely.'
     types:
-    - <xref:<xref::~azure.storage.filedatalake.AccessControlChangeResult`>>
+    - :~<xref:azure.storage.filedatalake.AccessControlChangeResult>`
   exceptions:
   - type: azure.core.exceptions.AzureError
     description: User can restart the operation using continuation_token field of

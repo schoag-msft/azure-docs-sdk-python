@@ -51,7 +51,7 @@ methods:
   return:
     description: An instance of AsyncLROPoller that returns None
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.iot.deviceupdate.aio.operations.DeviceManagementOperations.create_or_update_deployment
@@ -1051,7 +1051,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1095,7 +1095,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1156,7 +1156,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1226,7 +1226,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1265,7 +1265,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1331,7 +1331,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1366,7 +1366,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1433,7 +1433,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1470,7 +1470,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1500,7 +1500,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1521,7 +1521,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1568,7 +1568,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

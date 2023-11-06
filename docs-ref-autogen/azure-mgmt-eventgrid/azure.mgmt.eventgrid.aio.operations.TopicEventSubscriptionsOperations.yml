@@ -99,7 +99,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.TopicEventSubscriptionsOperations.begin_delete
@@ -160,7 +160,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.TopicEventSubscriptionsOperations.begin_update
@@ -224,7 +224,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.TopicEventSubscriptionsOperations.get
@@ -395,7 +395,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscriptionsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscriptionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

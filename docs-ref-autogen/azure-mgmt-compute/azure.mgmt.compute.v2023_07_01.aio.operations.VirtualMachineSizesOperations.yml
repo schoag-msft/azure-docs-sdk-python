@@ -29,7 +29,7 @@ methods:
     description: An iterator like instance of either VirtualMachineSize or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2023_07_01.models.VirtualMachineSize>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2023_07_01.models.VirtualMachineSize>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

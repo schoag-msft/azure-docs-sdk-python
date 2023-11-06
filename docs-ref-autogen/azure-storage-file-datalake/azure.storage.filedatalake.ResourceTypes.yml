@@ -51,4 +51,4 @@ methods:
   return:
     description: A ResourceTypes object
     types:
-    - <xref:azure.storage.blob.ResourceTypes>
+    - <xref:azure.storage.filedatalake.ResourceTypes>

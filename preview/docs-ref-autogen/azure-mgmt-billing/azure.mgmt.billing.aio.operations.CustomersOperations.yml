@@ -80,7 +80,7 @@ methods:
   return:
     description: An iterator like instance of either Customer or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.Customer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.Customer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.CustomersOperations.list_by_billing_profile
@@ -122,7 +122,7 @@ methods:
   return:
     description: An iterator like instance of either Customer or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.Customer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.Customer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

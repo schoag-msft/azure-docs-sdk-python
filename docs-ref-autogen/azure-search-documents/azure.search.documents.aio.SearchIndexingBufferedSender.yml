@@ -127,7 +127,7 @@ methods:
     - <xref:azure.search.documents.IndexDocumentsBatch>
   return:
     types:
-    - <xref:List>[<xref:azure.search.documents.models.IndexingResult>]
+    - <xref:typing.List>[<xref:azure.search.documents.models.IndexingResult>]
 - uid: azure.search.documents.aio.SearchIndexingBufferedSender.merge_documents
   name: merge_documents
   summary: 'Queue merge documents actions

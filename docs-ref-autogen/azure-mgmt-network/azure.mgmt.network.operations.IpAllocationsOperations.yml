@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.IpAllocation>]
+    - <xref:LROPoller>[<xref:IpAllocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpAllocationsOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpAllocationsOperations.get
@@ -151,7 +151,7 @@ methods:
   return:
     description: IpAllocation or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.IpAllocation>
+    - <xref:IpAllocation>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpAllocationsOperations.list
@@ -167,7 +167,7 @@ methods:
     description: An iterator like instance of either IpAllocation or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.IpAllocation>]
+    - <xref:ItemPaged>[<xref:IpAllocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpAllocationsOperations.list_by_resource_group
@@ -188,7 +188,7 @@ methods:
     description: An iterator like instance of either IpAllocation or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.IpAllocation>]
+    - <xref:ItemPaged>[<xref:IpAllocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpAllocationsOperations.update_tags
@@ -229,7 +229,7 @@ methods:
   return:
     description: IpAllocation or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.IpAllocation>
+    - <xref:IpAllocation>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

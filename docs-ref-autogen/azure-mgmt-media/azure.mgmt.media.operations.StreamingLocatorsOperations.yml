@@ -186,7 +186,7 @@ methods:
     description: An iterator like instance of either StreamingLocator or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.media.models.StreamingLocator>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.media.models.StreamingLocator>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.StreamingLocatorsOperations.list_content_keys

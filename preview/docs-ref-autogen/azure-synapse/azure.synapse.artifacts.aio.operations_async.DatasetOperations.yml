@@ -129,7 +129,7 @@ methods:
     description: An iterator like instance of either DatasetListResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.synapse.artifacts.models.DatasetListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.synapse.artifacts.models.DatasetListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

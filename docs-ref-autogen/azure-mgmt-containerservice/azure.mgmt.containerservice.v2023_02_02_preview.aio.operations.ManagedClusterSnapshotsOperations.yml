@@ -137,7 +137,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerservice.v2023_02_02_preview.models.ManagedClusterSnapshot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerservice.v2023_02_02_preview.models.ManagedClusterSnapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2023_02_02_preview.aio.operations.ManagedClusterSnapshotsOperations.list_by_resource_group
@@ -166,7 +166,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerservice.v2023_02_02_preview.models.ManagedClusterSnapshot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerservice.v2023_02_02_preview.models.ManagedClusterSnapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2023_02_02_preview.aio.operations.ManagedClusterSnapshotsOperations.update_tags

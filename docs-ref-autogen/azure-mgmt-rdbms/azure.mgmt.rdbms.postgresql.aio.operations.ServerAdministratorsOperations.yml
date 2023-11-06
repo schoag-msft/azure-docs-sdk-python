@@ -82,7 +82,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either ServerAdministratorResource
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.ServerAdministratorResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.ServerAdministratorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.aio.operations.ServerAdministratorsOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.aio.operations.ServerAdministratorsOperations.get
@@ -178,7 +178,7 @@ methods:
     description: An iterator like instance of either ServerAdministratorResourceListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerAdministratorResourceListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerAdministratorResourceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

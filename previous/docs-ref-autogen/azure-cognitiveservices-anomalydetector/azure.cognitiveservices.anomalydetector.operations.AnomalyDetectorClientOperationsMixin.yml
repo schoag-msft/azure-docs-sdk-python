@@ -44,7 +44,7 @@ methods:
     description: ChangePointDetectResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.anomalydetector.models.ChangePointDetectResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.anomalydetector.models.APIErrorException
 - uid: azure.cognitiveservices.anomalydetector.operations.AnomalyDetectorClientOperationsMixin.entire_detect
@@ -89,7 +89,7 @@ methods:
     description: EntireDetectResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.anomalydetector.models.EntireDetectResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.anomalydetector.models.APIErrorException
 - uid: azure.cognitiveservices.anomalydetector.operations.AnomalyDetectorClientOperationsMixin.last_detect
@@ -134,6 +134,6 @@ methods:
     description: LastDetectResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.anomalydetector.models.LastDetectResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.anomalydetector.models.APIErrorException

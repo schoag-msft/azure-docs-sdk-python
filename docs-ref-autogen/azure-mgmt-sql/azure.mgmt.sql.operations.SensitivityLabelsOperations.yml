@@ -332,7 +332,7 @@ methods:
     description: An iterator like instance of either SensitivityLabelListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SensitivityLabelListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SensitivityLabelListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SensitivityLabelsOperations.list_recommended_by_database
@@ -383,7 +383,7 @@ methods:
     description: An iterator like instance of either SensitivityLabelListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SensitivityLabelListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SensitivityLabelListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SensitivityLabelsOperations.update

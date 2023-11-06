@@ -83,7 +83,7 @@ methods:
     description: An instance of LROPoller that returns either IpFirewallRuleInfo or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfo>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.IpFirewallRulesOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either object or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:object>]
+    - <xref:LROPoller>[<xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.IpFirewallRulesOperations.begin_replace_all
@@ -181,7 +181,7 @@ methods:
     description: An instance of LROPoller that returns either ReplaceAllFirewallRulesOperationResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.ReplaceAllFirewallRulesOperationResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.ReplaceAllFirewallRulesOperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.IpFirewallRulesOperations.get
@@ -239,7 +239,7 @@ methods:
     description: An iterator like instance of either IpFirewallRuleInfoListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfoListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfoListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

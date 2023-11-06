@@ -82,7 +82,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.NetworkMapping>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.NetworkMapping>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationNetworkMappingsOperations.begin_delete
@@ -138,7 +138,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationNetworkMappingsOperations.begin_update
@@ -212,7 +212,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.NetworkMapping>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.NetworkMapping>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationNetworkMappingsOperations.get
@@ -265,7 +265,7 @@ methods:
     description: An iterator like instance of either NetworkMapping or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.NetworkMapping>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.NetworkMapping>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationNetworkMappingsOperations.list_by_replication_networks
@@ -295,7 +295,7 @@ methods:
     description: An iterator like instance of either NetworkMapping or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.NetworkMapping>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.NetworkMapping>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

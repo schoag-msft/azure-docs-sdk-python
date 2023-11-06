@@ -44,7 +44,7 @@ methods:
     description: An iterator like instance of either MetadataEntity or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2022_10_01.models.MetadataEntity>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2022_10_01.models.MetadataEntity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

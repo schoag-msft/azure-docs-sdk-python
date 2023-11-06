@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managedservices.models.RegistrationDefinition>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managedservices.models.RegistrationDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedservices.operations.RegistrationDefinitionsOperations.delete
@@ -156,7 +156,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managedservices.models.RegistrationDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managedservices.models.RegistrationDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

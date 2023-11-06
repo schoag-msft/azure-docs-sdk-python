@@ -69,7 +69,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.RuleSetsOperations.create
@@ -173,7 +173,7 @@ methods:
   return:
     description: An iterator like instance of either RuleSet or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cdn.models.RuleSet>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cdn.models.RuleSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.RuleSetsOperations.list_resource_usage
@@ -212,7 +212,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cdn.models.Usage>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cdn.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

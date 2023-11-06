@@ -129,7 +129,7 @@ methods:
     description: ImageAnalysis or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.ImageAnalysis>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.analyze_image_by_domain
@@ -198,7 +198,7 @@ methods:
     description: DomainModelResults or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.DomainModelResults>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.analyze_image_by_domain_in_stream
@@ -278,7 +278,7 @@ methods:
     description: DomainModelResults or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.DomainModelResults>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.analyze_image_in_stream
@@ -413,7 +413,7 @@ methods:
     description: ImageAnalysis or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.ImageAnalysis>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.describe_image
@@ -493,7 +493,7 @@ methods:
     description: ImageDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.ImageDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.describe_image_in_stream
@@ -584,7 +584,7 @@ methods:
     description: ImageDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.ImageDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.detect_objects
@@ -631,7 +631,7 @@ methods:
     description: DetectResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.DetectResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.detect_objects_in_stream
@@ -689,7 +689,7 @@ methods:
     description: DetectResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.DetectResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.generate_thumbnail
@@ -784,8 +784,8 @@ methods:
   return:
     description: object or ClientRawResponse if raw=true
     types:
-    - <xref:Generator>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:typing.Generator>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.generate_thumbnail_in_stream
@@ -880,8 +880,8 @@ methods:
   return:
     description: object or ClientRawResponse if raw=true
     types:
-    - <xref:Generator>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:typing.Generator>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.get_area_of_interest
@@ -941,7 +941,7 @@ methods:
     description: AreaOfInterestResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.AreaOfInterestResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.get_area_of_interest_in_stream
@@ -1012,7 +1012,7 @@ methods:
     description: AreaOfInterestResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.AreaOfInterestResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.get_read_result
@@ -1052,7 +1052,7 @@ methods:
     description: ReadOperationResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.ReadOperationResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionOcrErrorException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.list_models
@@ -1093,7 +1093,7 @@ methods:
     description: ListModelsResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.ListModelsResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.read
@@ -1197,7 +1197,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionOcrErrorException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.read_in_stream
@@ -1312,7 +1312,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionOcrErrorException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.recognize_printed_text
@@ -1397,7 +1397,7 @@ methods:
     description: OcrResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.OcrResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.recognize_printed_text_in_stream
@@ -1493,7 +1493,7 @@ methods:
     description: OcrResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.OcrResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.tag_image
@@ -1559,7 +1559,7 @@ methods:
     description: TagResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.TagResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException
 - uid: azure.cognitiveservices.vision.computervision.operations.ComputerVisionClientOperationsMixin.tag_image_in_stream
@@ -1636,6 +1636,6 @@ methods:
     description: TagResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.computervision.models.TagResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.computervision.models.ComputerVisionErrorResponseException

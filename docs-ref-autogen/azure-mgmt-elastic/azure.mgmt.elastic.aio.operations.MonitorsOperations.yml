@@ -82,7 +82,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either ElasticMonitorResource
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.elastic.models.ElasticMonitorResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.elastic.models.ElasticMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elastic.aio.operations.MonitorsOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elastic.aio.operations.MonitorsOperations.get
@@ -181,7 +181,7 @@ methods:
     description: An iterator like instance of either ElasticMonitorResourceListResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.elastic.models.ElasticMonitorResourceListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.elastic.models.ElasticMonitorResourceListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elastic.aio.operations.MonitorsOperations.list_by_resource_group
@@ -207,7 +207,7 @@ methods:
     description: An iterator like instance of either ElasticMonitorResourceListResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.elastic.models.ElasticMonitorResourceListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.elastic.models.ElasticMonitorResourceListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elastic.aio.operations.MonitorsOperations.update

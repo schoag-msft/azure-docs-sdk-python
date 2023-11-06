@@ -76,7 +76,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.machinelearningcompute.models.OperationalizationCluster>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.machinelearningcompute.models.OperationalizationCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningcompute.aio.operations.OperationalizationClustersOperations.begin_delete
@@ -134,7 +134,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningcompute.aio.operations.OperationalizationClustersOperations.begin_update_system_services
@@ -186,7 +186,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.machinelearningcompute.models.UpdateSystemServicesResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.machinelearningcompute.models.UpdateSystemServicesResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningcompute.aio.operations.OperationalizationClustersOperations.check_system_services_updates_available
@@ -276,7 +276,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.machinelearningcompute.models.OperationalizationCluster>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.machinelearningcompute.models.OperationalizationCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningcompute.aio.operations.OperationalizationClustersOperations.list_by_subscription_id
@@ -300,7 +300,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.machinelearningcompute.models.OperationalizationCluster>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.machinelearningcompute.models.OperationalizationCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningcompute.aio.operations.OperationalizationClustersOperations.list_keys

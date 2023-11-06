@@ -64,7 +64,7 @@ methods:
   return:
     description: An instance of AsyncLROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:JSON>]
+    - <xref:AsyncLROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -250,7 +250,7 @@ methods:
   return:
     description: An instance of AsyncLROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:JSON>]
+    - <xref:AsyncLROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -314,7 +314,7 @@ methods:
   return:
     description: An instance of AsyncLROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:JSON>]
+    - <xref:AsyncLROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -534,7 +534,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.purview.sharing.aio.operations.SentSharesOperations.list_invitations
@@ -562,7 +562,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.purview.sharing.aio.operations.SentSharesOperations.notify_user_invitation

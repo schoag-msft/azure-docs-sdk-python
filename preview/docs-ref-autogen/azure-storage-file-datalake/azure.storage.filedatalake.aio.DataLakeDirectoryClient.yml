@@ -250,7 +250,7 @@ methods:
   return:
     description: A dictionary of response headers.
     types:
-    - <xref:Dict>[<xref:str>, <xref:Union>[<xref:str>, <xref:datetime>]]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[<xref:str>, <xref:datetime>]]
   examples:
   - "Create directory.<!--[!code-python[Main](les\\datalake_samples_directory_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -851,7 +851,7 @@ methods:
   return:
     description: A DataLakeFileClient.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeFileClient>
+    - <xref:azure.storage.filedatalake.DataLakeFileClient>
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.get_sub_directory_client
   name: get_sub_directory_client
   summary: 'Get a client to interact with the specified subdirectory of the current
@@ -874,7 +874,7 @@ methods:
   return:
     description: A DataLakeDirectoryClient.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeDirectoryClient>
+    - <xref:azure.storage.filedatalake.DataLakeDirectoryClient>
 - uid: azure.storage.filedatalake.aio.DataLakeDirectoryClient.rename_directory
   name: rename_directory
   summary: Rename the source directory.

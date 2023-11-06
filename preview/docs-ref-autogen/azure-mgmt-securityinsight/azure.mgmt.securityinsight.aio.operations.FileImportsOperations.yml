@@ -65,7 +65,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.securityinsight.models.FileImport>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.securityinsight.models.FileImport>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securityinsight.aio.operations.FileImportsOperations.create
@@ -205,7 +205,7 @@ methods:
   return:
     description: An iterator like instance of either FileImport or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.FileImport>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.FileImport>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

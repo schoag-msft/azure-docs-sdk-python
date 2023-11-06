@@ -84,7 +84,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.hybridnetwork.models.VendorNetworkFunction>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.hybridnetwork.models.VendorNetworkFunction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.VendorNetworkFunctionsOperations.get
@@ -161,7 +161,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.hybridnetwork.models.VendorNetworkFunction>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridnetwork.models.VendorNetworkFunction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

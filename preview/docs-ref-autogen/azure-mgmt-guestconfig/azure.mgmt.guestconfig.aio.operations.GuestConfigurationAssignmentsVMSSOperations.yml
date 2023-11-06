@@ -99,7 +99,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.guestconfig.models.GuestConfigurationAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.guestconfig.models.GuestConfigurationAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

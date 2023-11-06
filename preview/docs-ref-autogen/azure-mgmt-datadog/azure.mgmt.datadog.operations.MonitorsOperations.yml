@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datadog.models.DatadogMonitorResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datadog.models.DatadogMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.operations.MonitorsOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.operations.MonitorsOperations.begin_update
@@ -197,7 +197,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datadog.models.DatadogMonitorResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datadog.models.DatadogMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.operations.MonitorsOperations.get
@@ -279,7 +279,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogMonitorResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.operations.MonitorsOperations.list_api_keys
@@ -311,7 +311,7 @@ methods:
     description: An iterator like instance of either DatadogApiKey or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogApiKey>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogApiKey>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.operations.MonitorsOperations.list_by_resource_group
@@ -339,7 +339,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogMonitorResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.operations.MonitorsOperations.list_hosts
@@ -371,7 +371,7 @@ methods:
     description: An iterator like instance of either DatadogHost or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogHost>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogHost>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.operations.MonitorsOperations.list_linked_resources
@@ -405,7 +405,7 @@ methods:
     description: An iterator like instance of either LinkedResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datadog.models.LinkedResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datadog.models.LinkedResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.operations.MonitorsOperations.list_monitored_resources
@@ -437,7 +437,7 @@ methods:
     description: An iterator like instance of either MonitoredResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datadog.models.MonitoredResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datadog.models.MonitoredResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.operations.MonitorsOperations.refresh_set_password_link

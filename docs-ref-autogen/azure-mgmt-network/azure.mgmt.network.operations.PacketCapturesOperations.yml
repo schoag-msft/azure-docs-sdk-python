@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.PacketCaptureResult>]
+    - <xref:LROPoller>[<xref:PacketCaptureResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.PacketCapturesOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.PacketCapturesOperations.begin_get_status
@@ -186,7 +186,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.PacketCaptureQueryStatusResult>]
+    - <xref:LROPoller>[<xref:PacketCaptureQueryStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.PacketCapturesOperations.begin_stop
@@ -239,7 +239,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.PacketCapturesOperations.get
@@ -270,7 +270,7 @@ methods:
   return:
     description: PacketCaptureResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PacketCaptureResult>
+    - <xref:PacketCaptureResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.PacketCapturesOperations.list
@@ -297,7 +297,7 @@ methods:
     description: An iterator like instance of either PacketCaptureResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.PacketCaptureResult>]
+    - <xref:ItemPaged>[<xref:PacketCaptureResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

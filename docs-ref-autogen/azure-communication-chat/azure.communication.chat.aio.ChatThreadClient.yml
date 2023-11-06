@@ -82,7 +82,8 @@ methods:
   return:
     description: List[Tuple[ChatParticipant, ChatError]]
     types:
-    - <xref:List>[<xref:Tuple>[<xref:azure.communication.chat.ChatParticipant>, <xref:azure.communication.chat.ChatError>]]
+    - <xref:typing.List>[<xref:typing.Tuple>[<xref:azure.communication.chat.ChatParticipant>,
+      <xref:azure.communication.chat.ChatError>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -202,7 +203,7 @@ methods:
   return:
     description: An iterator like instance of ChatMessage
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.chat.ChatMessage>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.chat.ChatMessage>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:
@@ -236,7 +237,7 @@ methods:
   return:
     description: An iterator like instance of ChatParticipant
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.chat.ChatParticipant>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.chat.ChatParticipant>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:
@@ -270,7 +271,7 @@ methods:
   return:
     description: An iterator like instance of ChatMessageReadReceipt
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.chat.ChatMessageReadReceipt>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.chat.ChatMessageReadReceipt>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:

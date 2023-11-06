@@ -81,7 +81,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.OperationJobExtendedInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.OperationJobExtendedInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_create_or_update
@@ -154,7 +154,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.BackupInstanceResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.BackupInstanceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_delete
@@ -209,7 +209,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_resume_backups
@@ -264,7 +264,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_resume_protection
@@ -319,7 +319,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_stop_protection
@@ -375,7 +375,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_suspend_backups
@@ -433,7 +433,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_sync_backup_instance
@@ -507,7 +507,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_trigger_rehydrate
@@ -578,7 +578,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_trigger_restore
@@ -651,7 +651,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.OperationJobExtendedInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.OperationJobExtendedInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_validate_for_backup
@@ -719,7 +719,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.OperationJobExtendedInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.OperationJobExtendedInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.begin_validate_for_restore
@@ -792,7 +792,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.OperationJobExtendedInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dataprotection.models.OperationJobExtendedInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.BackupInstancesOperations.get
@@ -895,7 +895,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.BackupInstanceResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.BackupInstanceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

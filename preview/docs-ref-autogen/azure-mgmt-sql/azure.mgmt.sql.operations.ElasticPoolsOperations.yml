@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ElasticPool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ElasticPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ElasticPoolsOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ElasticPoolsOperations.begin_failover
@@ -191,7 +191,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ElasticPoolsOperations.begin_update
@@ -264,7 +264,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ElasticPool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ElasticPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ElasticPoolsOperations.get
@@ -332,7 +332,7 @@ methods:
     description: An iterator like instance of either ElasticPool or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ElasticPool>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ElasticPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ElasticPoolsOperations.list_metric_definitions
@@ -366,7 +366,7 @@ methods:
     description: An iterator like instance of either MetricDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.MetricDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.MetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ElasticPoolsOperations.list_metrics
@@ -407,7 +407,7 @@ methods:
   return:
     description: An iterator like instance of either Metric or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.Metric>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.Metric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -455,7 +455,7 @@ methods:
   return:
     description: An iterator like instance of either Firmware or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Firmware>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Firmware>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotfirmwaredefense.operations.FirmwareOperations.list_generate_binary_hardening_list
@@ -489,7 +489,7 @@ methods:
     description: An iterator like instance of either BinaryHardening or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.BinaryHardening>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.BinaryHardening>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotfirmwaredefense.operations.FirmwareOperations.list_generate_component_list
@@ -522,7 +522,7 @@ methods:
   return:
     description: An iterator like instance of either Component or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Component>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Component>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotfirmwaredefense.operations.FirmwareOperations.list_generate_crypto_certificate_list
@@ -556,7 +556,7 @@ methods:
     description: An iterator like instance of either CryptoCertificate or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.CryptoCertificate>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.CryptoCertificate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotfirmwaredefense.operations.FirmwareOperations.list_generate_crypto_key_list
@@ -589,7 +589,7 @@ methods:
   return:
     description: An iterator like instance of either CryptoKey or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.CryptoKey>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.CryptoKey>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotfirmwaredefense.operations.FirmwareOperations.list_generate_cve_list
@@ -622,7 +622,7 @@ methods:
   return:
     description: An iterator like instance of either Cve or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Cve>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Cve>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotfirmwaredefense.operations.FirmwareOperations.list_generate_password_hash_list
@@ -656,7 +656,7 @@ methods:
     description: An iterator like instance of either PasswordHash or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.PasswordHash>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.PasswordHash>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotfirmwaredefense.operations.FirmwareOperations.update

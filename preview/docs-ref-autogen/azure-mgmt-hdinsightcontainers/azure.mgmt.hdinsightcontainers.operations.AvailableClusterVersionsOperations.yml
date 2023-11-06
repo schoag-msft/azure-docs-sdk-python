@@ -29,7 +29,7 @@ methods:
     description: An iterator like instance of either ClusterVersion or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterVersion>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

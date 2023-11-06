@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managedapplications.models.Application>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managedapplications.models.Application>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.begin_create_or_update_by_id
@@ -143,7 +143,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managedapplications.models.Application>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managedapplications.models.Application>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.begin_delete
@@ -193,7 +193,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.begin_delete_by_id
@@ -242,7 +242,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.begin_refresh_permissions
@@ -292,7 +292,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.begin_update
@@ -360,7 +360,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managedapplications.models.ApplicationPatchable>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managedapplications.models.ApplicationPatchable>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.begin_update_access
@@ -427,7 +427,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managedapplications.models.UpdateAccessDefinition>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managedapplications.models.UpdateAccessDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.begin_update_by_id
@@ -495,7 +495,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managedapplications.models.ApplicationPatchable>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managedapplications.models.ApplicationPatchable>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.get
@@ -603,7 +603,7 @@ methods:
     description: An iterator like instance of either Application or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managedapplications.models.Application>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managedapplications.models.Application>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.list_by_subscription
@@ -619,7 +619,7 @@ methods:
     description: An iterator like instance of either Application or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managedapplications.models.Application>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managedapplications.models.Application>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationsOperations.list_tokens

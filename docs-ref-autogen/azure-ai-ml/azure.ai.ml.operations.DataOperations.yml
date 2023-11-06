@@ -204,7 +204,7 @@ methods:
   return:
     description: An iterator like instance of Data objects
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.Data>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.Data>]
   examples:
   - "List data assets example.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -240,7 +240,7 @@ methods:
   return:
     description: An iterator like instance of Job objects.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.PipelineJob>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.PipelineJob>]
   examples:
   - "List materialization jobs example.<!--[!code-python[Main](les\\ml_samples_misc.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\

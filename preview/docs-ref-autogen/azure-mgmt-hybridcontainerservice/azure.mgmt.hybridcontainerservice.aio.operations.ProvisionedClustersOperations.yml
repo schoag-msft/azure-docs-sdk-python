@@ -76,7 +76,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.ProvisionedClustersOperations.begin_update
@@ -144,7 +144,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.ProvisionedClustersOperations.begin_upgrade_node_image_version_for_entire_cluster
@@ -201,7 +201,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.ProvisionedClustersOperations.delete
@@ -322,7 +322,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.ProvisionedClustersOperations.list_by_subscription
@@ -343,7 +343,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.ProvisionedClustersResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

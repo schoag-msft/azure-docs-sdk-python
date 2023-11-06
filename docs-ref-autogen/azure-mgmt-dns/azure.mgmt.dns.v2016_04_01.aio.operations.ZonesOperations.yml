@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dns.v2016_04_01.models.ZoneDeleteResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dns.v2016_04_01.models.ZoneDeleteResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dns.v2016_04_01.aio.operations.ZonesOperations.create_or_update
@@ -189,7 +189,7 @@ methods:
   return:
     description: An iterator like instance of either Zone or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dns.v2016_04_01.models.Zone>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dns.v2016_04_01.models.Zone>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dns.v2016_04_01.aio.operations.ZonesOperations.list_by_resource_group
@@ -220,7 +220,7 @@ methods:
   return:
     description: An iterator like instance of either Zone or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dns.v2016_04_01.models.Zone>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dns.v2016_04_01.models.Zone>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

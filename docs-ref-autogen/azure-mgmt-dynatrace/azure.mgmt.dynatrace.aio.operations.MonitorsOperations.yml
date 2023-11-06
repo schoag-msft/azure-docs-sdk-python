@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dynatrace.models.MonitorResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dynatrace.models.MonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dynatrace.aio.operations.MonitorsOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dynatrace.aio.operations.MonitorsOperations.get
@@ -338,7 +338,7 @@ methods:
     description: An iterator like instance of either AppServiceInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.AppServiceInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.AppServiceInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dynatrace.aio.operations.MonitorsOperations.list_by_resource_group
@@ -364,7 +364,7 @@ methods:
     description: An iterator like instance of either MonitorResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.MonitorResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.MonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dynatrace.aio.operations.MonitorsOperations.list_by_subscription_id
@@ -383,7 +383,7 @@ methods:
     description: An iterator like instance of either MonitorResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.MonitorResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.MonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dynatrace.aio.operations.MonitorsOperations.list_hosts
@@ -415,7 +415,7 @@ methods:
   return:
     description: An iterator like instance of either VMInfo or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.VMInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.VMInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dynatrace.aio.operations.MonitorsOperations.list_linkable_environments
@@ -465,7 +465,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.LinkableEnvironmentResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.LinkableEnvironmentResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dynatrace.aio.operations.MonitorsOperations.list_monitored_resources
@@ -498,7 +498,7 @@ methods:
     description: An iterator like instance of either MonitoredResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.MonitoredResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dynatrace.models.MonitoredResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dynatrace.aio.operations.MonitorsOperations.update

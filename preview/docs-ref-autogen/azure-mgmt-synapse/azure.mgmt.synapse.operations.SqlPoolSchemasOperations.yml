@@ -91,7 +91,7 @@ methods:
     description: An iterator like instance of either SqlPoolSchema or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.SqlPoolSchema>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.SqlPoolSchema>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

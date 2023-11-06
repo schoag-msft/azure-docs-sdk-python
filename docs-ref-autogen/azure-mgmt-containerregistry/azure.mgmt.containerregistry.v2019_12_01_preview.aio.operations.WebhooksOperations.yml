@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2019_12_01_preview.models.Webhook>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2019_12_01_preview.models.Webhook>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2019_12_01_preview.aio.operations.WebhooksOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2019_12_01_preview.aio.operations.WebhooksOperations.begin_update
@@ -207,7 +207,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2019_12_01_preview.models.Webhook>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2019_12_01_preview.models.Webhook>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2019_12_01_preview.aio.operations.WebhooksOperations.get
@@ -301,7 +301,7 @@ methods:
   return:
     description: An iterator like instance of either Webhook or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerregistry.v2019_12_01_preview.models.Webhook>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerregistry.v2019_12_01_preview.models.Webhook>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2019_12_01_preview.aio.operations.WebhooksOperations.list_events
@@ -334,7 +334,7 @@ methods:
   return:
     description: An iterator like instance of either Event or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerregistry.v2019_12_01_preview.models.Event>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerregistry.v2019_12_01_preview.models.Event>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2019_12_01_preview.aio.operations.WebhooksOperations.ping

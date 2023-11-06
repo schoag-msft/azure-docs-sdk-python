@@ -82,7 +82,7 @@ methods:
     description: An instance of LROPoller that returns either FirewallRule or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.mariadb.models.FirewallRule>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.mariadb.models.FirewallRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.operations.FirewallRulesOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.operations.FirewallRulesOperations.get
@@ -189,7 +189,7 @@ methods:
     description: An iterator like instance of either FirewallRuleListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.FirewallRuleListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.FirewallRuleListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

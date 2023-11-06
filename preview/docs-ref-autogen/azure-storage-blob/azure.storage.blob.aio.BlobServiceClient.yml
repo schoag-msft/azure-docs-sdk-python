@@ -201,7 +201,7 @@ methods:
     - <xref:int>
   return:
     types:
-    - <xref:azure.storage.blob.aio.ContainerClient>
+    - <xref:azure.storage.blob.ContainerClient>
   examples:
   - "Creating a container in the blob service.<!--[!code-python[Main](les\\blob_samples_service_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -339,7 +339,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of BlobProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.storage.blob.FilteredBlob>]
+    - <xref:AsyncItemPaged>[<xref:azure.storage.blob.FilteredBlob>]
 - uid: azure.storage.blob.aio.BlobServiceClient.get_account_information
   name: get_account_information
   summary: 'Gets information related to the storage account.
@@ -407,7 +407,7 @@ methods:
   return:
     description: A BlobClient.
     types:
-    - <xref:azure.storage.blob.aio.BlobClient>
+    - <xref:azure.storage.blob.BlobClient>
   examples:
   - "Getting the blob client to interact with a specific blob.<!--[!code-python[Main](les\\\
     blob_samples_service_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
@@ -437,7 +437,7 @@ methods:
   return:
     description: A ContainerClient.
     types:
-    - <xref:azure.storage.blob.aio.ContainerClient>
+    - <xref:azure.storage.blob.ContainerClient>
   examples:
   - "Getting the container client to interact with a specific container.<!--[!code-python[Main](les\\\
     blob_samples_service_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
@@ -476,7 +476,7 @@ methods:
 
       analytics logging, hour/minute metrics, cors rules, etc.'
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   examples:
   - "Getting service properties for the blob service.<!--[!code-python[Main](les\\\
     blob_samples_service_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
@@ -536,7 +536,7 @@ methods:
   return:
     description: The blob service stats.
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   examples:
   - "Getting service stats for the blob service.<!--[!code-python[Main](les\\blob_samples_service_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -640,7 +640,7 @@ methods:
   return:
     description: An iterable (auto-paging) of ContainerProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.storage.blob.ContainerProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.storage.blob.ContainerProperties>]
   examples:
   - "Listing the containers in the blob service.<!--[!code-python[Main](les\\blob_samples_service_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -793,4 +793,4 @@ methods:
   return:
     description: The recovered soft-deleted ContainerClient.
     types:
-    - <xref:azure.storage.blob.aio.ContainerClient>
+    - <xref:azure.storage.blob.ContainerClient>

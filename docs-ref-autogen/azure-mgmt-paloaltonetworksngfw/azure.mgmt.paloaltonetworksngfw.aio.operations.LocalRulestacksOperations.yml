@@ -58,7 +58,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.aio.operations.LocalRulestacksOperations.begin_create_or_update
@@ -126,7 +126,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulestackResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulestackResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.aio.operations.LocalRulestacksOperations.begin_delete
@@ -176,7 +176,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.aio.operations.LocalRulestacksOperations.get
@@ -385,7 +385,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulestackResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulestackResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.aio.operations.LocalRulestacksOperations.list_by_subscription
@@ -403,7 +403,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulestackResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulestackResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.aio.operations.LocalRulestacksOperations.list_countries

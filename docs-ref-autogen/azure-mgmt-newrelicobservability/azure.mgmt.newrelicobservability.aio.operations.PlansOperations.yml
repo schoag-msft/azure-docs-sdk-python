@@ -35,7 +35,7 @@ methods:
     description: An iterator like instance of either PlanDataResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.PlanDataResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.PlanDataResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

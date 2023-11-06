@@ -164,7 +164,7 @@ methods:
   return:
     description: A DataLakeLeaseClient object, that can be run in a context manager.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeLeaseClient>
+    - <xref:azure.storage.filedatalake.DataLakeLeaseClient>
 - uid: azure.storage.filedatalake.aio.DataLakeFileClient.append_data
   name: append_data
   summary: Append data to the file.
@@ -609,7 +609,7 @@ methods:
   return:
     description: A streaming object (StorageStreamDownloader)
     types:
-    - <xref:azure.storage.filedatalake.aio.StorageStreamDownloader>
+    - <xref:azure.storage.filedatalake.StorageStreamDownloader>
   examples:
   - "Return the downloaded data.<!--[!code-python[Main](les\\datalake_samples_upload_download_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -1130,7 +1130,7 @@ methods:
   return:
     description: A streaming object (DataLakeFileQueryReader)
     types:
-    - <xref:azure.storage.filedatalake.DataLakeFileQueryReader>
+    - <xref:DataLakeFileQueryReader>
   examples:
   - "select/project on datalake file data by providing simple query expressions.<!--[!code-python[Main](les\\\
     datalake_samples_query.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
@@ -1228,7 +1228,7 @@ methods:
 
       as well as a continuation token in case the operation was terminated prematurely.'
     types:
-    - <xref:<xref::~azure.storage.filedatalake.AccessControlChangeResult`>>
+    - :~<xref:azure.storage.filedatalake.AccessControlChangeResult>`
   exceptions:
   - type: azure.core.exceptions.AzureError
     description: User can restart the operation using continuation_token field of
@@ -1351,7 +1351,7 @@ methods:
   return:
     description: the renamed file client
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeFileClient>
+    - <xref:azure.storage.filedatalake.DataLakeFileClient>
   examples:
   - "Rename the source file.<!--[!code-python[Main](les\\datalake_samples_upload_download_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -1551,7 +1551,7 @@ methods:
 
       as well as a continuation token in case the operation was terminated prematurely.'
     types:
-    - <xref:<xref::~azure.storage.filedatalake.AccessControlChangeResult`>>
+    - :~<xref:azure.storage.filedatalake.AccessControlChangeResult>`
   exceptions:
   - type: azure.core.exceptions.AzureError
     description: User can restart the operation using continuation_token field of
@@ -1664,7 +1664,7 @@ methods:
   return:
     description: file/directory-updated property dict (Etag and last modified)
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.filedatalake.aio.DataLakeFileClient.set_metadata
   name: set_metadata
   summary: 'Sets one or more user-defined name-value pairs for the specified
@@ -1832,7 +1832,7 @@ methods:
 
       as well as a continuation token in case the operation was terminated prematurely.'
     types:
-    - <xref:<xref::~azure.storage.filedatalake.AccessControlChangeResult`>>
+    - :~<xref:azure.storage.filedatalake.AccessControlChangeResult>`
   exceptions:
   - type: azure.core.exceptions.AzureError
     description: User can restart the operation using continuation_token field of

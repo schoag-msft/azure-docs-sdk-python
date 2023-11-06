@@ -166,7 +166,7 @@ methods:
   return:
     description: An iterator like instance of ChatThreadItem
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.communication.chat.ChatThreadItem>]
+    - <xref:ItemPaged>[<xref:azure.communication.chat.ChatThreadItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:

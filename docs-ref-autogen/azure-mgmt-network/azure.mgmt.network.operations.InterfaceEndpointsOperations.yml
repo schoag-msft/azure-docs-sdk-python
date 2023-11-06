@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.InterfaceEndpoint>]
+    - <xref:LROPoller>[<xref:InterfaceEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.InterfaceEndpointsOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.InterfaceEndpointsOperations.get
@@ -151,7 +151,7 @@ methods:
   return:
     description: InterfaceEndpoint or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.InterfaceEndpoint>
+    - <xref:InterfaceEndpoint>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.InterfaceEndpointsOperations.list
@@ -172,7 +172,7 @@ methods:
     description: An iterator like instance of either InterfaceEndpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.InterfaceEndpoint>]
+    - <xref:ItemPaged>[<xref:InterfaceEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.InterfaceEndpointsOperations.list_by_subscription
@@ -188,7 +188,7 @@ methods:
     description: An iterator like instance of either InterfaceEndpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.InterfaceEndpoint>]
+    - <xref:ItemPaged>[<xref:InterfaceEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -67,7 +67,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2022_03_03.models.CommunityGalleryImage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2022_03_03.models.CommunityGalleryImage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

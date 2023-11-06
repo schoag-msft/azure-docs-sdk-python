@@ -401,7 +401,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2021_06_01.operations.PolicyAssignmentsOperations.list_for_management_group
@@ -481,7 +481,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2021_06_01.operations.PolicyAssignmentsOperations.list_for_resource
@@ -636,7 +636,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2021_06_01.operations.PolicyAssignmentsOperations.list_for_resource_group
@@ -730,7 +730,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2021_06_01.operations.PolicyAssignmentsOperations.update

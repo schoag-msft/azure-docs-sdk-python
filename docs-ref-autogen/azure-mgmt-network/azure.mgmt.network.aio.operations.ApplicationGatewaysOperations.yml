@@ -66,7 +66,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ApplicationGatewayBackendHealth>]
+    - <xref:AsyncLROPoller>[<xref:ApplicationGatewayBackendHealth>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.begin_backend_health_on_demand
@@ -140,7 +140,7 @@ methods:
 
       ApplicationGatewayBackendHealthOnDemand or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ApplicationGatewayBackendHealthOnDemand>]
+    - <xref:AsyncLROPoller>[<xref:ApplicationGatewayBackendHealthOnDemand>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.begin_create_or_update
@@ -205,7 +205,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ApplicationGateway>]
+    - <xref:AsyncLROPoller>[<xref:ApplicationGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.begin_delete
@@ -253,7 +253,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.begin_start
@@ -301,7 +301,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.begin_stop
@@ -349,7 +349,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.begin_update_tags
@@ -414,7 +414,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ApplicationGateway>]
+    - <xref:AsyncLROPoller>[<xref:ApplicationGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.get
@@ -440,7 +440,7 @@ methods:
   return:
     description: ApplicationGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ApplicationGateway>
+    - <xref:ApplicationGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.get_ssl_predefined_policy
@@ -461,7 +461,7 @@ methods:
   return:
     description: ApplicationGatewaySslPredefinedPolicy or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ApplicationGatewaySslPredefinedPolicy>
+    - <xref:ApplicationGatewaySslPredefinedPolicy>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.list
@@ -482,7 +482,7 @@ methods:
     description: An iterator like instance of either ApplicationGateway or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ApplicationGateway>]
+    - <xref:AsyncItemPaged>[<xref:ApplicationGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.list_all
@@ -498,7 +498,7 @@ methods:
     description: An iterator like instance of either ApplicationGateway or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ApplicationGateway>]
+    - <xref:AsyncItemPaged>[<xref:ApplicationGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.list_available_request_headers
@@ -558,7 +558,7 @@ methods:
   return:
     description: ApplicationGatewayAvailableSslOptions or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ApplicationGatewayAvailableSslOptions>
+    - <xref:ApplicationGatewayAvailableSslOptions>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.list_available_ssl_predefined_policies
@@ -576,7 +576,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ApplicationGatewaySslPredefinedPolicy>]
+    - <xref:AsyncItemPaged>[<xref:ApplicationGatewaySslPredefinedPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.list_available_waf_rule_sets
@@ -591,7 +591,7 @@ methods:
   return:
     description: ApplicationGatewayAvailableWafRuleSetsResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ApplicationGatewayAvailableWafRuleSetsResult>
+    - <xref:ApplicationGatewayAvailableWafRuleSetsResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ApplicationGatewaysOperations.update_tags
@@ -632,7 +632,7 @@ methods:
   return:
     description: ApplicationGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ApplicationGateway>
+    - <xref:ApplicationGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -82,7 +82,7 @@ methods:
     description: An instance of LROPoller that returns either Console or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.Console>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.Console>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ConsolesOperations.begin_delete
@@ -140,7 +140,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ConsolesOperations.begin_update
@@ -216,7 +216,7 @@ methods:
     description: An instance of LROPoller that returns either Console or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.Console>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.Console>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ConsolesOperations.get
@@ -283,7 +283,7 @@ methods:
   return:
     description: An iterator like instance of either Console or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.Console>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.Console>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

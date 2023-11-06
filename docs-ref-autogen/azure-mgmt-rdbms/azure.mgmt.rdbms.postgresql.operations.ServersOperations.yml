@@ -77,7 +77,7 @@ methods:
     description: An instance of LROPoller that returns either Server or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.Server>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.ServersOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.ServersOperations.begin_restart
@@ -165,7 +165,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.ServersOperations.begin_update
@@ -217,7 +217,7 @@ methods:
     description: An instance of LROPoller that returns either Server or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.Server>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.ServersOperations.get
@@ -258,7 +258,7 @@ methods:
     description: An iterator like instance of either ServerListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.ServersOperations.list_by_resource_group
@@ -279,7 +279,7 @@ methods:
     description: An iterator like instance of either ServerListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

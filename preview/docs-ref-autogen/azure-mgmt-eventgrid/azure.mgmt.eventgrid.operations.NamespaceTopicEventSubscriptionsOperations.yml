@@ -97,7 +97,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.Subscription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.Subscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.NamespaceTopicEventSubscriptionsOperations.begin_delete
@@ -165,7 +165,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.NamespaceTopicEventSubscriptionsOperations.begin_update
@@ -250,7 +250,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.Subscription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.Subscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.NamespaceTopicEventSubscriptionsOperations.get
@@ -368,7 +368,7 @@ methods:
     description: An iterator like instance of either Subscription or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.Subscription>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.Subscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

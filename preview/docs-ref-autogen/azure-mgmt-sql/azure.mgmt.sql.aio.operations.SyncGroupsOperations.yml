@@ -86,7 +86,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.SyncGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.SyncGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncGroupsOperations.begin_delete
@@ -146,7 +146,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncGroupsOperations.begin_refresh_hub_schema
@@ -206,7 +206,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncGroupsOperations.begin_update
@@ -284,7 +284,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.SyncGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.SyncGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncGroupsOperations.cancel_sync
@@ -393,7 +393,7 @@ methods:
   return:
     description: An iterator like instance of either SyncGroup or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncGroupsOperations.list_hub_schemas
@@ -434,7 +434,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncFullSchemaProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncFullSchemaProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncGroupsOperations.list_logs
@@ -502,7 +502,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncGroupLogProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncGroupLogProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncGroupsOperations.list_sync_database_ids
@@ -525,7 +525,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncDatabaseIdProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncDatabaseIdProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncGroupsOperations.trigger_sync

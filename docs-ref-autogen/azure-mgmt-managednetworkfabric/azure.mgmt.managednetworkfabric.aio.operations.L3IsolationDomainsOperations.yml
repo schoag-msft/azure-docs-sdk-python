@@ -62,7 +62,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.L3IsolationDomainsOperations.begin_create
@@ -137,7 +137,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.L3IsolationDomain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.L3IsolationDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.L3IsolationDomainsOperations.begin_delete
@@ -191,7 +191,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.L3IsolationDomainsOperations.begin_update
@@ -262,7 +262,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.L3IsolationDomain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.L3IsolationDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.L3IsolationDomainsOperations.begin_update_administrative_state
@@ -332,7 +332,7 @@ methods:
 
       CommonPostActionResponseForDeviceUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.L3IsolationDomainsOperations.begin_validate_configuration
@@ -384,7 +384,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.L3IsolationDomainsOperations.get
@@ -441,7 +441,7 @@ methods:
     description: An iterator like instance of either L3IsolationDomain or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.L3IsolationDomain>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.L3IsolationDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.L3IsolationDomainsOperations.list_by_subscription
@@ -460,7 +460,7 @@ methods:
     description: An iterator like instance of either L3IsolationDomain or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.L3IsolationDomain>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.L3IsolationDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

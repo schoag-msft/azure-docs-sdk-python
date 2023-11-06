@@ -64,7 +64,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.cloud_to_device_messages_operations.CloudToDeviceMessagesOperations.complete_feedback_notification
@@ -110,7 +110,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.cloud_to_device_messages_operations.CloudToDeviceMessagesOperations.purge_cloud_to_device_message_queue
@@ -145,7 +145,7 @@ methods:
     description: PurgeMessageQueueResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.PurgeMessageQueueResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.cloud_to_device_messages_operations.CloudToDeviceMessagesOperations.receive_feedback_notification
@@ -183,7 +183,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 attributes:

@@ -155,7 +155,7 @@ methods:
   return:
     description: AnomalyAlerts under anomaly alert configuration.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.metricsadvisor.models.AnomalyAlert>]
+    - <xref:ItemPaged>[<xref:azure.ai.metricsadvisor.models.AnomalyAlert>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -210,7 +210,7 @@ methods:
   return:
     description: Anomalies under a specific alert or detection configuration.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.ai.metricsadvisor.models.DataPointAnomaly>]
+    - <xref:AsyncItemPaged>[<xref:azure.ai.metricsadvisor.models.DataPointAnomaly>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.metricsadvisor.MetricsAdvisorClient.list_anomaly_dimension_values
@@ -250,7 +250,7 @@ methods:
   return:
     description: Dimension values of anomalies.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:str>]
+    - <xref:ItemPaged>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -313,7 +313,7 @@ methods:
   return:
     description: Pageable list of MetricFeedback
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:Union>[<xref:azure.ai.metricsadvisor.models.MetricFeedback>,
+    - <xref:ItemPaged>[ <xref:typing.Union>[<xref:azure.ai.metricsadvisor.models.MetricFeedback>,
       <xref:azure.ai.metricsadvisor.models.AnomalyFeedback>, <xref:azure.ai.metricsadvisor.models.ChangePointFeedback>,
       <xref:azure.ai.metricsadvisor.models.CommentFeedback>, <xref:azure.ai.metricsadvisor.models.PeriodFeedback>]]
   exceptions:
@@ -353,7 +353,7 @@ methods:
   return:
     description: Pageable of root cause for incident
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.metricsadvisor.models.IncidentRootCause>]
+    - <xref:ItemPaged>[<xref:azure.ai.metricsadvisor.models.IncidentRootCause>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -407,7 +407,7 @@ methods:
   return:
     description: AnomalyIncidents under a specific alert or detection configuration.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.ai.metricsadvisor.models.AnomalyIncident>]
+    - <xref:AsyncItemPaged>[<xref:azure.ai.metricsadvisor.models.AnomalyIncident>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.metricsadvisor.MetricsAdvisorClient.list_metric_dimension_values
@@ -436,7 +436,7 @@ methods:
   return:
     description: Dimension from certain metric.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:str>]
+    - <xref:ItemPaged>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -486,7 +486,7 @@ methods:
   return:
     description: Pageable of MetricEnrichedSeriesData
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.metricsadvisor.models.MetricEnrichedSeriesData>]
+    - <xref:ItemPaged>[<xref:azure.ai.metricsadvisor.models.MetricEnrichedSeriesData>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -534,7 +534,7 @@ methods:
   return:
     description: Anomaly detection status.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.metricsadvisor.models.EnrichmentStatus>]
+    - <xref:ItemPaged>[<xref:azure.ai.metricsadvisor.models.EnrichmentStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -584,7 +584,7 @@ methods:
   return:
     description: Time series data from metric.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.metricsadvisor.models.MetricSeriesData>]
+    - <xref:ItemPaged>[<xref:azure.ai.metricsadvisor.models.MetricSeriesData>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -634,7 +634,7 @@ methods:
   return:
     description: Series (dimension combinations) from metric.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.metricsadvisor.models.MetricSeriesDefinition>]
+    - <xref:ItemPaged>[<xref:MetricSeriesDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

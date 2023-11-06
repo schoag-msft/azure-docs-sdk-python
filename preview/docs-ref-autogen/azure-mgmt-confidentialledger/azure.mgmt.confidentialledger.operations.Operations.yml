@@ -29,7 +29,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ResourceProviderOperationDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ResourceProviderOperationDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

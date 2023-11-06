@@ -70,7 +70,7 @@ attributes:
   return:
     description: The datetime when the certificate is created.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.certificates.CertificateIssuer.enabled
   name: enabled
@@ -126,5 +126,5 @@ attributes:
   return:
     description: The datetime when the certificate was last updated.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>

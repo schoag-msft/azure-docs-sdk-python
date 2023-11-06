@@ -178,7 +178,7 @@ methods:
     - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   return:
     types:
-    - <xref:azure.keyvault.keys.crypto.aio.CryptographyClient>
+    - <xref:azure.keyvault.keys.crypto.CryptographyClient>
 - uid: azure.keyvault.keys.crypto.aio.CryptographyClient.send_request
   name: send_request
   summary: 'Runs a network request using the client''s existing pipeline.
@@ -210,7 +210,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.AsyncHttpResponse>
+    - <xref:AsyncHttpResponse>
 - uid: azure.keyvault.keys.crypto.aio.CryptographyClient.sign
   name: sign
   summary: 'Create a signature from a digest using the client''s key.

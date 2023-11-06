@@ -82,7 +82,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ExtendedServerBlobAuditingPolicy>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ExtendedServerBlobAuditingPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ExtendedServerBlobAuditingPoliciesOperations.get
@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ExtendedServerBlobAuditingPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ExtendedServerBlobAuditingPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

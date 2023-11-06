@@ -82,7 +82,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkInterface>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkInterfacesOperations.begin_delete
@@ -140,7 +140,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkInterfacesOperations.begin_update
@@ -216,7 +216,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkInterface>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkInterfacesOperations.begin_update_administrative_state
@@ -292,7 +292,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkInterfacesOperations.get
@@ -360,7 +360,7 @@ methods:
     description: An iterator like instance of either NetworkInterface or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkInterface>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

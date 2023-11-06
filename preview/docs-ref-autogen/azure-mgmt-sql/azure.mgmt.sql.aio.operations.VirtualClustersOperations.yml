@@ -58,7 +58,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.VirtualClustersOperations.begin_update
@@ -125,7 +125,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.VirtualCluster>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.VirtualCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.VirtualClustersOperations.begin_update_dns_servers
@@ -179,7 +179,7 @@ methods:
 
       UpdateVirtualClusterDnsServersOperation or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.UpdateVirtualClusterDnsServersOperation>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.UpdateVirtualClusterDnsServersOperation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.VirtualClustersOperations.get
@@ -223,7 +223,7 @@ methods:
     description: An iterator like instance of either VirtualCluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.VirtualCluster>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.VirtualCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.VirtualClustersOperations.list_by_resource_group
@@ -246,7 +246,7 @@ methods:
     description: An iterator like instance of either VirtualCluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.VirtualCluster>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.VirtualCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

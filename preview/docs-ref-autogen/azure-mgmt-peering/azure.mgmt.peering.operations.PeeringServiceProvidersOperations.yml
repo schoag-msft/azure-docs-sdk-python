@@ -27,7 +27,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.peering.models.PeeringServiceProvider>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.peering.models.PeeringServiceProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

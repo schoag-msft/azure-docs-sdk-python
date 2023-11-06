@@ -58,7 +58,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2019_05_10.operations.ResourceGroupsOperations.check_existence
@@ -214,7 +214,7 @@ methods:
     description: An iterator like instance of either ResourceGroup or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.resources.v2019_05_10.models.ResourceGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.resources.v2019_05_10.models.ResourceGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2019_05_10.operations.ResourceGroupsOperations.update

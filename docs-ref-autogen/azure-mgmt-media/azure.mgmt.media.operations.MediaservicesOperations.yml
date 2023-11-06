@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.media.models.MediaService>]
+    - <xref:LROPoller>[<xref:azure.mgmt.media.models.MediaService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.MediaservicesOperations.begin_update
@@ -144,7 +144,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.media.models.MediaService>]
+    - <xref:LROPoller>[<xref:azure.mgmt.media.models.MediaService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.MediaservicesOperations.delete
@@ -231,7 +231,7 @@ methods:
     description: An iterator like instance of either MediaService or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.media.models.MediaService>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.media.models.MediaService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.MediaservicesOperations.list_by_subscription
@@ -250,7 +250,7 @@ methods:
     description: An iterator like instance of either MediaService or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.media.models.MediaService>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.media.models.MediaService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.MediaservicesOperations.list_edge_policies

@@ -86,7 +86,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.mysql.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.mysql.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mysql.operations.PrivateEndpointConnectionsOperations.begin_delete
@@ -138,7 +138,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mysql.operations.PrivateEndpointConnectionsOperations.begin_update_tags
@@ -202,7 +202,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.mysql.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.mysql.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mysql.operations.PrivateEndpointConnectionsOperations.get
@@ -262,7 +262,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.PrivateEndpointConnectionListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.PrivateEndpointConnectionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

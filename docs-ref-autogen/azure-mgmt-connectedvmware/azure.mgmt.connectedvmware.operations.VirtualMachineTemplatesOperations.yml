@@ -77,7 +77,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.connectedvmware.models.VirtualMachineTemplate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.connectedvmware.models.VirtualMachineTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VirtualMachineTemplatesOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VirtualMachineTemplatesOperations.get
@@ -183,7 +183,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VirtualMachineTemplate>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VirtualMachineTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VirtualMachineTemplatesOperations.list_by_resource_group
@@ -209,7 +209,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VirtualMachineTemplate>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VirtualMachineTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VirtualMachineTemplatesOperations.update

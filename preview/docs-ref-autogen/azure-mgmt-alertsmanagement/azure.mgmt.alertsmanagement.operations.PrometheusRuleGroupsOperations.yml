@@ -133,7 +133,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.PrometheusRuleGroupResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.PrometheusRuleGroupResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.alertsmanagement.operations.PrometheusRuleGroupsOperations.list_by_subscription
@@ -151,7 +151,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.PrometheusRuleGroupResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.PrometheusRuleGroupResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.alertsmanagement.operations.PrometheusRuleGroupsOperations.update

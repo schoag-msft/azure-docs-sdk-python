@@ -58,7 +58,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2019_10_01.aio.operations.ResourceGroupsOperations.begin_export_template
@@ -119,7 +119,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2019_10_01.models.ResourceGroupExportResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2019_10_01.models.ResourceGroupExportResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2019_10_01.aio.operations.ResourceGroupsOperations.check_existence
@@ -240,7 +240,7 @@ methods:
     description: An iterator like instance of either ResourceGroup or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.resources.v2019_10_01.models.ResourceGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.resources.v2019_10_01.models.ResourceGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2019_10_01.aio.operations.ResourceGroupsOperations.update

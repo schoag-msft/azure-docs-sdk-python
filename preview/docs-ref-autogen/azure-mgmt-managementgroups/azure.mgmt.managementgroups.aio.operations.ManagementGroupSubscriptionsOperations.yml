@@ -152,7 +152,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managementgroups.models.SubscriptionUnderManagementGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managementgroups.models.SubscriptionUnderManagementGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

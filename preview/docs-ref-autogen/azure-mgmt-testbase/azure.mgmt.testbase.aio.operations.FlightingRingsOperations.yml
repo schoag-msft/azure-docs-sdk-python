@@ -72,7 +72,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.testbase.models.FlightingRingResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.testbase.models.FlightingRingResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

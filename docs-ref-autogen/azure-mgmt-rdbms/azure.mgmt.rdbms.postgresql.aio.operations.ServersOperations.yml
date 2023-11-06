@@ -77,7 +77,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Server or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.Server>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.aio.operations.ServersOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.aio.operations.ServersOperations.begin_restart
@@ -165,7 +165,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.aio.operations.ServersOperations.begin_update
@@ -217,7 +217,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Server or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.Server>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.aio.operations.ServersOperations.get
@@ -259,7 +259,7 @@ methods:
     description: An iterator like instance of either ServerListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.aio.operations.ServersOperations.list_by_resource_group
@@ -280,7 +280,7 @@ methods:
     description: An iterator like instance of either ServerListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

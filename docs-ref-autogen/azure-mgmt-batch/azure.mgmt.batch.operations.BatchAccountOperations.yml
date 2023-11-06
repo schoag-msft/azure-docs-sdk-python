@@ -90,7 +90,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.batch.models.BatchAccount>]
+    - <xref:LROPoller>[<xref:azure.mgmt.batch.models.BatchAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batch.operations.BatchAccountOperations.begin_delete
@@ -140,7 +140,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batch.operations.BatchAccountOperations.get
@@ -254,7 +254,7 @@ methods:
     description: An iterator like instance of either BatchAccount or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.batch.models.BatchAccount>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.batch.models.BatchAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batch.operations.BatchAccountOperations.list_by_resource_group
@@ -278,7 +278,7 @@ methods:
     description: An iterator like instance of either BatchAccount or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.batch.models.BatchAccount>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.batch.models.BatchAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batch.operations.BatchAccountOperations.list_detectors
@@ -307,7 +307,7 @@ methods:
     description: An iterator like instance of either DetectorResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.batch.models.DetectorResponse>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.batch.models.DetectorResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batch.operations.BatchAccountOperations.list_outbound_network_dependencies_endpoints
@@ -352,7 +352,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.batch.models.OutboundEnvironmentEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.batch.models.OutboundEnvironmentEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batch.operations.BatchAccountOperations.regenerate_key

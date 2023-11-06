@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.GatewayResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.GatewayResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2023_01_01_preview.operations.GatewaysOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2023_01_01_preview.operations.GatewaysOperations.begin_update_capacity
@@ -208,7 +208,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.GatewayResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.GatewayResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2023_01_01_preview.operations.GatewaysOperations.get
@@ -270,7 +270,7 @@ methods:
     description: An iterator like instance of either GatewayResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.GatewayResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2023_01_01_preview.models.GatewayResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2023_01_01_preview.operations.GatewaysOperations.list_env_secrets

@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datamigration.models.SqlMigrationService>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datamigration.models.SqlMigrationService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.SqlMigrationServicesOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.SqlMigrationServicesOperations.begin_update
@@ -194,7 +194,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datamigration.models.SqlMigrationService>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datamigration.models.SqlMigrationService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.SqlMigrationServicesOperations.delete_node
@@ -317,7 +317,7 @@ methods:
     description: An iterator like instance of either SqlMigrationService or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datamigration.models.SqlMigrationService>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datamigration.models.SqlMigrationService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.SqlMigrationServicesOperations.list_by_subscription
@@ -333,7 +333,7 @@ methods:
     description: An iterator like instance of either SqlMigrationService or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datamigration.models.SqlMigrationService>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datamigration.models.SqlMigrationService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.SqlMigrationServicesOperations.list_migrations
@@ -362,7 +362,7 @@ methods:
     description: An iterator like instance of either DatabaseMigration or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datamigration.models.DatabaseMigration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datamigration.models.DatabaseMigration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.SqlMigrationServicesOperations.list_monitoring_data

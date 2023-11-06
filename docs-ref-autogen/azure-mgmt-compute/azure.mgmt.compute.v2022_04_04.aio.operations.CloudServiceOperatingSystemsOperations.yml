@@ -92,7 +92,7 @@ methods:
   return:
     description: An iterator like instance of either OSFamily or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2022_04_04.models.OSFamily>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2022_04_04.models.OSFamily>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2022_04_04.aio.operations.CloudServiceOperatingSystemsOperations.list_os_versions
@@ -118,7 +118,7 @@ methods:
   return:
     description: An iterator like instance of either OSVersion or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2022_04_04.models.OSVersion>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2022_04_04.models.OSVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

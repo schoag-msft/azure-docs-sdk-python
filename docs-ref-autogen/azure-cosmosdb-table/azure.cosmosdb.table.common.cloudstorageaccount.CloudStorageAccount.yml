@@ -61,7 +61,7 @@ methods:
   return:
     description: A service object.
     types:
-    - <xref:azure.storage.blob.appendblobservice.AppendBlobService>
+    - <xref:AppendBlobService>
 - uid: azure.cosmosdb.table.common.cloudstorageaccount.CloudStorageAccount.create_block_blob_service
   name: create_block_blob_service
   summary: 'Creates a BlockBlobService object with the settings specified in the
@@ -71,7 +71,7 @@ methods:
   return:
     description: A service object.
     types:
-    - <xref:azure.storage.blob.blockblobservice.BlockBlobService>
+    - <xref:BlockBlobService>
 - uid: azure.cosmosdb.table.common.cloudstorageaccount.CloudStorageAccount.create_file_service
   name: create_file_service
   summary: 'Creates a FileService object with the settings specified in the
@@ -81,7 +81,7 @@ methods:
   return:
     description: A service object.
     types:
-    - <xref:azure.storage.file.fileservice.FileService>
+    - <xref:FileService>
 - uid: azure.cosmosdb.table.common.cloudstorageaccount.CloudStorageAccount.create_page_blob_service
   name: create_page_blob_service
   summary: 'Creates a PageBlobService object with the settings specified in the
@@ -91,7 +91,7 @@ methods:
   return:
     description: A service object.
     types:
-    - <xref:azure.storage.blob.pageblobservice.PageBlobService>
+    - <xref:PageBlobService>
 - uid: azure.cosmosdb.table.common.cloudstorageaccount.CloudStorageAccount.create_queue_service
   name: create_queue_service
   summary: 'Creates a QueueService object with the settings specified in the
@@ -101,7 +101,7 @@ methods:
   return:
     description: A service object.
     types:
-    - <xref:azure.storage.queue.queueservice.QueueService>
+    - <xref:QueueService>
 - uid: azure.cosmosdb.table.common.cloudstorageaccount.CloudStorageAccount.generate_shared_access_signature
   name: generate_shared_access_signature
   summary: 'Generates a shared access signature for the account.

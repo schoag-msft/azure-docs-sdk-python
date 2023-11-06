@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.NotebookResource>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.NotebookResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.NotebookOperations.begin_delete_notebook
@@ -120,7 +120,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.NotebookOperations.begin_rename_notebook
@@ -168,7 +168,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.NotebookOperations.get_notebook
@@ -217,7 +217,7 @@ methods:
     description: An iterator like instance of either NotebookResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.NotebookResource>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.NotebookResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.NotebookOperations.get_notebooks_by_workspace
@@ -233,7 +233,7 @@ methods:
     description: An iterator like instance of either NotebookResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.NotebookResource>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.NotebookResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

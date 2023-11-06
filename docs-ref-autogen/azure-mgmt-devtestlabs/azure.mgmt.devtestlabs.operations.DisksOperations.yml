@@ -91,7 +91,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.DisksOperations.begin_create_or_update
@@ -150,7 +150,7 @@ methods:
     description: An instance of LROPoller that returns either Disk or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.devtestlabs.models.Disk>]
+    - <xref:LROPoller>[<xref:azure.mgmt.devtestlabs.models.Disk>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.DisksOperations.begin_delete
@@ -203,7 +203,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.DisksOperations.begin_detach
@@ -264,7 +264,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.DisksOperations.get
@@ -360,7 +360,7 @@ methods:
   return:
     description: An iterator like instance of either DiskList or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devtestlabs.models.DiskList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devtestlabs.models.DiskList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.DisksOperations.update

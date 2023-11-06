@@ -160,7 +160,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.PrivateEndpointConnection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

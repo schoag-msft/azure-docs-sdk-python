@@ -77,7 +77,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Share or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.databoxedge.v2020_12_01.models.Share>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.databoxedge.v2020_12_01.models.Share>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_12_01.aio.operations.SharesOperations.begin_delete
@@ -130,7 +130,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_12_01.aio.operations.SharesOperations.begin_refresh
@@ -186,7 +186,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_12_01.aio.operations.SharesOperations.get
@@ -249,7 +249,7 @@ methods:
   return:
     description: An iterator like instance of either Share or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.databoxedge.v2020_12_01.models.Share>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.databoxedge.v2020_12_01.models.Share>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

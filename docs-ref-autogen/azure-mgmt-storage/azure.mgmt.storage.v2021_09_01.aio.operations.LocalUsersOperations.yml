@@ -185,7 +185,7 @@ methods:
   return:
     description: An iterator like instance of either LocalUser or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storage.v2021_09_01.models.LocalUser>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storage.v2021_09_01.models.LocalUser>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2021_09_01.aio.operations.LocalUsersOperations.list_keys

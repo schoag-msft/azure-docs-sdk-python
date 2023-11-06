@@ -52,7 +52,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.botservice.models.OperationResultsDescription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.botservice.models.OperationResultsDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

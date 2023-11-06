@@ -596,7 +596,7 @@ methods:
   return:
     description: A dictionary of access policies associated with the queue.
     types:
-    - <xref:dict>(<xref:str>, <xref:azure.storage.common.models.AccessPolicy>)
+    - <xref:dict>(<xref:str>, <xref:AccessPolicy>)
 - uid: azure.storage.queue.queueservice.QueueService.get_queue_metadata
   name: get_queue_metadata
   summary: 'Retrieves user-defined metadata and queue properties on the specified
@@ -637,7 +637,7 @@ methods:
   return:
     description: The queue service properties.
     types:
-    - <xref:azure.storage.common.models.ServiceProperties>
+    - <xref:ServiceProperties>
 - uid: azure.storage.queue.queueservice.QueueService.get_queue_service_stats
   name: get_queue_service_stats
   summary: 'Retrieves statistics related to replication for the Queue service. It
@@ -681,7 +681,7 @@ methods:
   return:
     description: The queue service stats.
     types:
-    - <xref:azure.storage.common.models.ServiceStats>
+    - <xref:ServiceStats>
 - uid: azure.storage.queue.queueservice.QueueService.list_queues
   name: list_queues
   summary: 'Returns a generator to list the queues. The generator will lazily follow

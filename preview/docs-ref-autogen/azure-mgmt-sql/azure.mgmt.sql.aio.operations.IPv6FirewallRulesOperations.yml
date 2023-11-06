@@ -152,7 +152,7 @@ methods:
     description: An iterator like instance of either IPv6FirewallRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.IPv6FirewallRule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.IPv6FirewallRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

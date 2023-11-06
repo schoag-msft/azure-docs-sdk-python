@@ -72,7 +72,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.streamanalytics.models.SampleInputResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.streamanalytics.models.SampleInputResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.SubscriptionsOperations.begin_test_input
@@ -136,7 +136,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.streamanalytics.models.TestDatasourceResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.streamanalytics.models.TestDatasourceResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.SubscriptionsOperations.begin_test_output
@@ -200,7 +200,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.streamanalytics.models.TestDatasourceResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.streamanalytics.models.TestDatasourceResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.SubscriptionsOperations.begin_test_query
@@ -263,7 +263,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.streamanalytics.models.QueryTestingResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.streamanalytics.models.QueryTestingResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.SubscriptionsOperations.compile_query

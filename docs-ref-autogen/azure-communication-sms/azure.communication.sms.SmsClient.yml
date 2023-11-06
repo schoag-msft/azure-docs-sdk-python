@@ -36,7 +36,7 @@ methods:
   return:
     description: Instance of SmsClient.
     types:
-    - <xref:azure.communication.SmsClient>
+    - <xref:azure.communication.sms.SmsClient>
 - uid: azure.communication.sms.SmsClient.send
   name: send
   summary: Sends SMSs to phone numbers.
@@ -74,4 +74,4 @@ methods:
   return:
     description: A list of SmsSendResult.
     types:
-    - '[<xref:azure.communication.sms.models.SmsSendResult>]'
+    - '[<xref:azure.communication.sms.SmsSendResult>]'

@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.voiceservices.models.CommunicationsGateway>]
+    - <xref:LROPoller>[<xref:azure.mgmt.voiceservices.models.CommunicationsGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.voiceservices.operations.CommunicationsGatewaysOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.voiceservices.operations.CommunicationsGatewaysOperations.get
@@ -179,7 +179,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.voiceservices.models.CommunicationsGateway>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.voiceservices.models.CommunicationsGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.voiceservices.operations.CommunicationsGatewaysOperations.list_by_subscription
@@ -197,7 +197,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.voiceservices.models.CommunicationsGateway>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.voiceservices.models.CommunicationsGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.voiceservices.operations.CommunicationsGatewaysOperations.update

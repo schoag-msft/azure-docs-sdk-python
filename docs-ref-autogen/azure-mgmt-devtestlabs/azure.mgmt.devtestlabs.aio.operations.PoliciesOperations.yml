@@ -201,7 +201,7 @@ methods:
   return:
     description: An iterator like instance of either PolicyList or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.PolicyList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.PolicyList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.PoliciesOperations.update

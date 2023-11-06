@@ -176,7 +176,7 @@ methods:
   return:
     description: An iterator like instance of Model objects
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.Model>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.Model>]
 - uid: azure.ai.ml.operations.ModelOperations.package
   name: package
   summary: '> [!NOTE]

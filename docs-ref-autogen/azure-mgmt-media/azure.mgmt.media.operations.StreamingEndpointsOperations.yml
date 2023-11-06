@@ -130,7 +130,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.media.models.StreamingEndpoint>]
+    - <xref:LROPoller>[<xref:azure.mgmt.media.models.StreamingEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.StreamingEndpointsOperations.begin_delete
@@ -190,7 +190,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.StreamingEndpointsOperations.begin_scale
@@ -266,7 +266,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.StreamingEndpointsOperations.begin_start
@@ -326,7 +326,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.StreamingEndpointsOperations.begin_stop
@@ -386,7 +386,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.StreamingEndpointsOperations.begin_update
@@ -464,7 +464,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.media.models.StreamingEndpoint>]
+    - <xref:LROPoller>[<xref:azure.mgmt.media.models.StreamingEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.StreamingEndpointsOperations.get
@@ -534,7 +534,7 @@ methods:
     description: An iterator like instance of either StreamingEndpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.media.models.StreamingEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.media.models.StreamingEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.StreamingEndpointsOperations.operation_location

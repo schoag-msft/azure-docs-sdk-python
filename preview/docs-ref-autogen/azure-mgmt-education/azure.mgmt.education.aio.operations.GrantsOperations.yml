@@ -77,7 +77,7 @@ methods:
     description: An iterator like instance of either GrantDetails or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.education.models.GrantDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.education.models.GrantDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.education.aio.operations.GrantsOperations.list_all
@@ -101,7 +101,7 @@ methods:
     description: An iterator like instance of either GrantDetails or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.education.models.GrantDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.education.models.GrantDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

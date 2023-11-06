@@ -170,7 +170,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.ScalingPlanPersonalSchedule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.ScalingPlanPersonalSchedule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.desktopvirtualization.aio.operations.ScalingPlanPersonalSchedulesOperations.update

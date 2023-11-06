@@ -38,7 +38,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.ApplicationStackResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.ApplicationStackResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.aio.operations.ProviderOperations.get_available_stacks_on_prem
@@ -68,7 +68,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.ApplicationStackResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.ApplicationStackResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.aio.operations.ProviderOperations.list_operations
@@ -95,7 +95,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.CsmOperationDescription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.CsmOperationDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

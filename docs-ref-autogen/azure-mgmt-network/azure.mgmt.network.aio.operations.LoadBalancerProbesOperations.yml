@@ -39,7 +39,7 @@ methods:
   return:
     description: Probe or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.Probe>
+    - <xref:Probe>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.LoadBalancerProbesOperations.list
@@ -65,7 +65,7 @@ methods:
   return:
     description: An iterator like instance of either Probe or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.Probe>]
+    - <xref:AsyncItemPaged>[<xref:Probe>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

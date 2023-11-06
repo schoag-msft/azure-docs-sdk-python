@@ -198,7 +198,7 @@ methods:
     - <xref:azure.keyvault.administration.KeyVaultRoleScope>
   return:
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.administration.KeyVaultRoleAssignment>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.administration.KeyVaultRoleAssignment>]
 - uid: azure.keyvault.administration.KeyVaultAccessControlClient.list_role_definitions
   name: list_role_definitions
   summary: List all role definitions applicable at and above a scope.
@@ -215,7 +215,7 @@ methods:
     - <xref:azure.keyvault.administration.KeyVaultRoleScope>
   return:
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.administration.KeyVaultRoleDefinition>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.administration.KeyVaultRoleDefinition>]
 - uid: azure.keyvault.administration.KeyVaultAccessControlClient.send_request
   name: send_request
   summary: 'Runs a network request using the client''s existing pipeline.
@@ -247,7 +247,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>
 - uid: azure.keyvault.administration.KeyVaultAccessControlClient.set_role_definition
   name: set_role_definition
   summary: 'Creates or updates a custom role definition.

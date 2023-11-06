@@ -82,7 +82,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.begin_delete
@@ -144,7 +144,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.begin_migrate
@@ -215,7 +215,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.begin_pause_replication
@@ -288,7 +288,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.begin_resume_replication
@@ -361,7 +361,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.begin_resync
@@ -432,7 +432,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.begin_test_migrate
@@ -505,7 +505,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.begin_test_migrate_cleanup
@@ -578,7 +578,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.begin_update
@@ -652,7 +652,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.get
@@ -721,7 +721,7 @@ methods:
     description: An iterator like instance of either MigrationItem or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationMigrationItemsOperations.list_by_replication_protection_containers
@@ -767,7 +767,7 @@ methods:
     description: An iterator like instance of either MigrationItem or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.MigrationItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

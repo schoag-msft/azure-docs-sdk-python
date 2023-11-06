@@ -28,7 +28,7 @@ methods:
   return:
     description: ApplicationGatewayWafDynamicManifestResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ApplicationGatewayWafDynamicManifestResult>
+    - <xref:ApplicationGatewayWafDynamicManifestResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -52,7 +52,7 @@ methods:
   return:
     description: An instance of LROPoller that returns a FeatureStoreEntity.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.FeatureStoreEntity>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.FeatureStoreEntity>]
 - uid: azure.ai.ml.operations.FeatureStoreEntityOperations.get
   name: get
   summary: Get the specified FeatureStoreEntity asset.

@@ -47,7 +47,7 @@ methods:
     description: An iterator like instance of either MetricDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MetricDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CollectionOperations.list_metrics
@@ -99,7 +99,7 @@ methods:
   return:
     description: An iterator like instance of either Metric or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.Metric>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.Metric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.CollectionOperations.list_usages
@@ -148,7 +148,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.Usage>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

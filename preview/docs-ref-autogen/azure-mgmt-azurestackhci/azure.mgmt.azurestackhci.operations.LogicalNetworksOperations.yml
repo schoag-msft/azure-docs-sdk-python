@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.azurestackhci.models.LogicalNetworks>]
+    - <xref:LROPoller>[<xref:azure.mgmt.azurestackhci.models.LogicalNetworks>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestackhci.operations.LogicalNetworksOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestackhci.operations.LogicalNetworksOperations.begin_update
@@ -191,7 +191,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.azurestackhci.models.LogicalNetworks>]
+    - <xref:LROPoller>[<xref:azure.mgmt.azurestackhci.models.LogicalNetworks>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestackhci.operations.LogicalNetworksOperations.get
@@ -245,7 +245,7 @@ methods:
     description: An iterator like instance of either LogicalNetworks or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.azurestackhci.models.LogicalNetworks>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.azurestackhci.models.LogicalNetworks>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestackhci.operations.LogicalNetworksOperations.list_all
@@ -264,7 +264,7 @@ methods:
     description: An iterator like instance of either LogicalNetworks or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.azurestackhci.models.LogicalNetworks>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.azurestackhci.models.LogicalNetworks>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

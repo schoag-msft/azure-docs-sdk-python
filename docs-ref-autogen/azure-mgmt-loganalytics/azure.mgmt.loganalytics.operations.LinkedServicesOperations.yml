@@ -83,7 +83,7 @@ methods:
     description: An instance of LROPoller that returns either LinkedService or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.loganalytics.models.LinkedService>]
+    - <xref:LROPoller>[<xref:azure.mgmt.loganalytics.models.LinkedService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.operations.LinkedServicesOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either LinkedService or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.loganalytics.models.LinkedService>]
+    - <xref:LROPoller>[<xref:azure.mgmt.loganalytics.models.LinkedService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.operations.LinkedServicesOperations.get
@@ -190,7 +190,7 @@ methods:
     description: An iterator like instance of either LinkedServiceListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.loganalytics.models.LinkedServiceListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.loganalytics.models.LinkedServiceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -76,7 +76,7 @@ methods:
   return:
     description: An iterator like instance of either Product or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.Product>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.Product>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.ProductsOperations.list_by_billing_profile
@@ -120,7 +120,7 @@ methods:
   return:
     description: An iterator like instance of either Product or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.Product>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.Product>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.ProductsOperations.list_by_customer
@@ -152,7 +152,7 @@ methods:
   return:
     description: An iterator like instance of either Product or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.Product>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.Product>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.ProductsOperations.list_by_invoice_section
@@ -201,7 +201,7 @@ methods:
   return:
     description: An iterator like instance of either Product or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.Product>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.Product>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.ProductsOperations.move

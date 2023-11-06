@@ -73,7 +73,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.support.models.CommunicationDetails>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.support.models.CommunicationDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.support.aio.operations.CommunicationsNoSubscriptionOperations.check_name_availability

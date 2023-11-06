@@ -71,7 +71,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.azurearcdata.models.PostgresInstance>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.azurearcdata.models.PostgresInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurearcdata.aio.operations.PostgresInstancesOperations.begin_delete
@@ -119,7 +119,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurearcdata.aio.operations.PostgresInstancesOperations.get
@@ -164,7 +164,7 @@ methods:
     description: An iterator like instance of either PostgresInstance or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurearcdata.models.PostgresInstance>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurearcdata.models.PostgresInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurearcdata.aio.operations.PostgresInstancesOperations.list_by_resource_group
@@ -188,7 +188,7 @@ methods:
     description: An iterator like instance of either PostgresInstance or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurearcdata.models.PostgresInstance>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurearcdata.models.PostgresInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurearcdata.aio.operations.PostgresInstancesOperations.update

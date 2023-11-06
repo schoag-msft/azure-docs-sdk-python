@@ -91,7 +91,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.deploymentmanager.models.ServiceUnitResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.deploymentmanager.models.ServiceUnitResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.deploymentmanager.aio.operations.ServiceUnitsOperations.delete

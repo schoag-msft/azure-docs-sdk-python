@@ -48,7 +48,7 @@ methods:
   return:
     description: ActiveSecurityAdminRulesListResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ActiveSecurityAdminRulesListResult>
+    - <xref:ActiveSecurityAdminRulesListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

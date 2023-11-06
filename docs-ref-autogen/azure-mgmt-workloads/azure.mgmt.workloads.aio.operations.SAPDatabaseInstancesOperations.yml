@@ -90,7 +90,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.SAPDatabaseInstance>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.SAPDatabaseInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPDatabaseInstancesOperations.begin_delete
@@ -157,7 +157,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPDatabaseInstancesOperations.begin_start_instance
@@ -218,7 +218,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPDatabaseInstancesOperations.begin_stop_instance
@@ -295,7 +295,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPDatabaseInstancesOperations.begin_update
@@ -372,7 +372,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.SAPDatabaseInstance>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.SAPDatabaseInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPDatabaseInstancesOperations.get
@@ -441,7 +441,7 @@ methods:
     description: An iterator like instance of either SAPDatabaseInstance or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.workloads.models.SAPDatabaseInstance>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.workloads.models.SAPDatabaseInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

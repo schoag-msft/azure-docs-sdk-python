@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.AFDOriginGroupsOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.AFDOriginGroupsOperations.begin_update
@@ -217,7 +217,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.AFDOriginGroupsOperations.get
@@ -283,7 +283,7 @@ methods:
     description: An iterator like instance of either AFDOriginGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.AFDOriginGroupsOperations.list_resource_usage
@@ -320,7 +320,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.Usage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

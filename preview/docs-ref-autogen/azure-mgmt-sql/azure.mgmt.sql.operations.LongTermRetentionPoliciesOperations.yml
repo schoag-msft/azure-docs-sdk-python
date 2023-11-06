@@ -86,7 +86,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionPolicy>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.LongTermRetentionPoliciesOperations.get
@@ -161,7 +161,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

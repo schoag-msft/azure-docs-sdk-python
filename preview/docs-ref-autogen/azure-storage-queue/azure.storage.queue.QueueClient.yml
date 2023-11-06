@@ -616,7 +616,7 @@ methods:
   return:
     description: Returns a message iterator of dict-like Message objects.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.storage.queue.QueueMessage>]
+    - <xref:ItemPaged>[<xref:azure.storage.queue.QueueMessage>]
   examples:
   - "Receive messages from the queue.<!--[!code-python[Main](les\\queue_samples_message.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -811,7 +811,7 @@ methods:
   return:
     description: A dictionary of response headers.
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   examples:
   - "Set metadata on the queue.<!--[!code-python[Main](les\\queue_samples_message.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\

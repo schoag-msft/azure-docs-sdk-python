@@ -87,7 +87,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either DtlEnvironment
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.devtestlabs.models.DtlEnvironment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.devtestlabs.models.DtlEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.EnvironmentsOperations.begin_delete
@@ -140,7 +140,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.EnvironmentsOperations.get
@@ -237,7 +237,7 @@ methods:
     description: An iterator like instance of either DtlEnvironmentList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.DtlEnvironmentList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.DtlEnvironmentList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.EnvironmentsOperations.update

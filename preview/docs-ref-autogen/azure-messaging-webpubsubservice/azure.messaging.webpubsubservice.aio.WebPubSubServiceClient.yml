@@ -59,4 +59,4 @@ methods:
     - <xref:str>
   return:
     types:
-    - <xref:azure.messaging.webpubsubservice.aio.WebPubSubServiceClient>
+    - <xref:azure.messaging.webpubsubservice.WebPubSubServiceClient>

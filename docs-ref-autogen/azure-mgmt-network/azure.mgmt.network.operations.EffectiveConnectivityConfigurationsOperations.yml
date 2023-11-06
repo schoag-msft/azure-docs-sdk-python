@@ -51,7 +51,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.mgmt.network.models.NetworkManagerEffectiveConnectivityConfigurationListResult>
+    - <xref:NetworkManagerEffectiveConnectivityConfigurationListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

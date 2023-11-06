@@ -556,7 +556,7 @@ methods:
   return:
     description: A ServiceBusAdministrationClient.
     types:
-    - <xref:azure.servicebus.management.aio.ServiceBusAdministrationClient>
+    - <xref:azure.servicebus.aio.management.ServiceBusAdministrationClient>
 - uid: azure.servicebus.aio.management.ServiceBusAdministrationClient.get_namespace_properties
   name: get_namespace_properties
   summary: Get the namespace properties
@@ -674,7 +674,7 @@ methods:
   return:
     description: The properties of the topic.
     types:
-    - <xref:azure.servicebus.management.TopicDescription>
+    - <xref:TopicDescription>
 - uid: azure.servicebus.aio.management.ServiceBusAdministrationClient.get_topic_runtime_properties
   name: get_topic_runtime_properties
   summary: Get the runtime information of a topic.
@@ -697,7 +697,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of QueueProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.servicebus.management.QueueProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.servicebus.management.QueueProperties>]
 - uid: azure.servicebus.aio.management.ServiceBusAdministrationClient.list_queues_runtime_properties
   name: list_queues_runtime_properties
   summary: List the runtime information of the queues in a ServiceBus namespace.
@@ -705,7 +705,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of QueueRuntimeProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.servicebus.management.QueueRuntimeProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.servicebus.management.QueueRuntimeProperties>]
 - uid: azure.servicebus.aio.management.ServiceBusAdministrationClient.list_rules
   name: list_rules
   summary: List the rules of a topic subscription.
@@ -727,7 +727,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of RuleProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.servicebus.management.RuleProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.servicebus.management.RuleProperties>]
 - uid: azure.servicebus.aio.management.ServiceBusAdministrationClient.list_subscriptions
   name: list_subscriptions
   summary: List the subscriptions of a ServiceBus Topic.
@@ -741,7 +741,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of SubscriptionProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.servicebus.management.SubscriptionProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.servicebus.management.SubscriptionProperties>]
 - uid: azure.servicebus.aio.management.ServiceBusAdministrationClient.list_subscriptions_runtime_properties
   name: list_subscriptions_runtime_properties
   summary: List the subscriptions runtime information of a ServiceBus.
@@ -756,7 +756,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of SubscriptionRuntimeProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.servicebus.management.SubscriptionRuntimeProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.servicebus.management.SubscriptionRuntimeProperties>]
 - uid: azure.servicebus.aio.management.ServiceBusAdministrationClient.list_topics
   name: list_topics
   summary: List the topics of a ServiceBus namespace.
@@ -764,7 +764,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of TopicProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.servicebus.management.TopicProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.servicebus.management.TopicProperties>]
 - uid: azure.servicebus.aio.management.ServiceBusAdministrationClient.list_topics_runtime_properties
   name: list_topics_runtime_properties
   summary: List the topics runtime information of a ServiceBus namespace.
@@ -772,7 +772,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of TopicRuntimeProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.servicebus.management.TopicRuntimeProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.servicebus.management.TopicRuntimeProperties>]
 - uid: azure.servicebus.aio.management.ServiceBusAdministrationClient.update_queue
   name: update_queue
   summary: 'Update a queue.

@@ -52,7 +52,7 @@ methods:
     description: An iterator like instance of either MetricDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.monitor.query.MetricDefinition>]
+    - <xref:ItemPaged>[<xref:azure.monitor.query.MetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.monitor.query.MetricsQueryClient.list_metric_namespaces
@@ -75,7 +75,7 @@ methods:
     description: An iterator like instance of either MetricNamespace or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.monitor.query.MetricNamespace>]
+    - <xref:ItemPaged>[<xref:azure.monitor.query.MetricNamespace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.monitor.query.MetricsQueryClient.query_resource

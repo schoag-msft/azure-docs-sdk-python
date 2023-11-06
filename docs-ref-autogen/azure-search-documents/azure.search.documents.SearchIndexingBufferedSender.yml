@@ -132,7 +132,7 @@ methods:
     - <xref:azure.search.documents.IndexDocumentsBatch>
   return:
     types:
-    - <xref:List>[<xref:azure.search.documents.models.IndexingResult>]
+    - <xref:typing.List>[<xref:azure.search.documents.models.IndexingResult>]
 - uid: azure.search.documents.SearchIndexingBufferedSender.merge_documents
   name: merge_documents
   summary: Queue merge documents actions
@@ -169,4 +169,4 @@ attributes:
   summary: The list of currently index actions in queue to index.
   return:
     types:
-    - <xref:List>[<xref:azure.search.documents.models.IndexAction>]
+    - <xref:typing.List>[<xref:azure.search.documents.models.IndexAction>]

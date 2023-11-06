@@ -66,7 +66,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.keyvault.v2018_02_14.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.keyvault.v2018_02_14.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2018_02_14.operations.PrivateEndpointConnectionsOperations.get

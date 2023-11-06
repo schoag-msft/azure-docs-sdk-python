@@ -36,7 +36,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.orbital.models.AvailableGroundStation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.orbital.models.AvailableGroundStation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

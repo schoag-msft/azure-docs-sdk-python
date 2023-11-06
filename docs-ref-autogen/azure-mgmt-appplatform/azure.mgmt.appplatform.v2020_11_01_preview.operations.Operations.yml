@@ -25,7 +25,7 @@ methods:
     description: An iterator like instance of either OperationDetail or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.OperationDetail>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.OperationDetail>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

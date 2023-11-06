@@ -84,7 +84,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2022_08_01.models.VirtualMachineRunCommand>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2022_08_01.models.VirtualMachineRunCommand>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2022_08_01.aio.operations.VirtualMachineScaleSetVMRunCommandsOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2022_08_01.aio.operations.VirtualMachineScaleSetVMRunCommandsOperations.begin_update
@@ -218,7 +218,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2022_08_01.models.VirtualMachineRunCommand>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2022_08_01.models.VirtualMachineRunCommand>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2022_08_01.aio.operations.VirtualMachineScaleSetVMRunCommandsOperations.get
@@ -299,7 +299,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2022_08_01.models.VirtualMachineRunCommand>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2022_08_01.models.VirtualMachineRunCommand>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

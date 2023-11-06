@@ -80,7 +80,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.devcenter.models.AttachedNetworkConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.devcenter.models.AttachedNetworkConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.operations.AttachedNetworksOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.operations.AttachedNetworksOperations.get_by_dev_center
@@ -240,7 +240,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devcenter.models.AttachedNetworkConnection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devcenter.models.AttachedNetworkConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.operations.AttachedNetworksOperations.list_by_project
@@ -279,7 +279,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devcenter.models.AttachedNetworkConnection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devcenter.models.AttachedNetworkConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

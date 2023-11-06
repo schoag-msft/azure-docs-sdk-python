@@ -49,7 +49,7 @@ methods:
     description: An iterator like instance of either PerformanceTierListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.PerformanceTierListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.PerformanceTierListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -60,7 +60,7 @@ methods:
     description: An iterator like instance of either SnapshotResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appcomplianceautomation.models.SnapshotResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appcomplianceautomation.models.SnapshotResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

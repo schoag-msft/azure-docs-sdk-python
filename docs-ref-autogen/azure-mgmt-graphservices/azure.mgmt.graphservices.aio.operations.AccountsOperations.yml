@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.graphservices.models.AccountResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.graphservices.models.AccountResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.graphservices.aio.operations.AccountsOperations.delete
@@ -154,7 +154,7 @@ methods:
     description: An iterator like instance of either AccountResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.graphservices.models.AccountResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.graphservices.models.AccountResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.graphservices.aio.operations.AccountsOperations.list_by_subscription
@@ -170,7 +170,7 @@ methods:
     description: An iterator like instance of either AccountResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.graphservices.models.AccountResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.graphservices.models.AccountResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.graphservices.aio.operations.AccountsOperations.update

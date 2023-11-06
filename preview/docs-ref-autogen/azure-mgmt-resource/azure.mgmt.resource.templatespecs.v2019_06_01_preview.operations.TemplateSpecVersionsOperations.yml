@@ -154,7 +154,7 @@ methods:
     description: An iterator like instance of either TemplateSpecVersion or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.templatespecs.v2019_06_01_preview.models.TemplateSpecVersion>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.templatespecs.v2019_06_01_preview.models.TemplateSpecVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.templatespecs.v2019_06_01_preview.operations.TemplateSpecVersionsOperations.update

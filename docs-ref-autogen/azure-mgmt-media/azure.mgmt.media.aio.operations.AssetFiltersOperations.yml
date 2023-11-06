@@ -181,7 +181,7 @@ methods:
     description: An iterator like instance of either AssetFilter or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.media.models.AssetFilter>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.media.models.AssetFilter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.aio.operations.AssetFiltersOperations.update

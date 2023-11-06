@@ -40,7 +40,7 @@ methods:
     description: An iterator like instance of either SkuAvailability or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.SkuAvailability>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.SkuAvailability>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

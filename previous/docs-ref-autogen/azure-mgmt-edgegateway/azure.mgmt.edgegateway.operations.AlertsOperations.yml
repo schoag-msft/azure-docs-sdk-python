@@ -67,7 +67,7 @@ methods:
     description: Alert or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.Alert>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.AlertsOperations.list_by_data_box_edge_device

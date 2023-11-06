@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VirtualRouter>]
+    - <xref:LROPoller>[<xref:VirtualRouter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualRoutersOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualRoutersOperations.get
@@ -151,7 +151,7 @@ methods:
   return:
     description: VirtualRouter or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualRouter>
+    - <xref:VirtualRouter>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualRoutersOperations.list
@@ -167,7 +167,7 @@ methods:
     description: An iterator like instance of either VirtualRouter or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VirtualRouter>]
+    - <xref:ItemPaged>[<xref:VirtualRouter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualRoutersOperations.list_by_resource_group
@@ -188,7 +188,7 @@ methods:
     description: An iterator like instance of either VirtualRouter or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VirtualRouter>]
+    - <xref:ItemPaged>[<xref:VirtualRouter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualRoutersOperations.update
@@ -228,7 +228,7 @@ methods:
   return:
     description: VirtualRouter or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualRouter>
+    - <xref:VirtualRouter>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

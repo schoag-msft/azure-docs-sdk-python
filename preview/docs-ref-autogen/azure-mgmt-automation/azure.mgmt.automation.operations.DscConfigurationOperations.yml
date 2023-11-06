@@ -148,7 +148,7 @@ methods:
   return:
     description: Iterator of the response bytes or the result of cls(response)
     types:
-    - <xref:Iterator>[<xref:bytes>]
+    - <xref:typing.Iterator>[<xref:bytes>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.operations.DscConfigurationOperations.list_by_automation_account
@@ -196,7 +196,7 @@ methods:
     description: An iterator like instance of either DscConfiguration or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automation.models.DscConfiguration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automation.models.DscConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.operations.DscConfigurationOperations.update

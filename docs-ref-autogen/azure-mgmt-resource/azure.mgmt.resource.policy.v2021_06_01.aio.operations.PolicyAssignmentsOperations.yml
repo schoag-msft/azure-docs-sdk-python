@@ -402,7 +402,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2021_06_01.aio.operations.PolicyAssignmentsOperations.list_for_management_group
@@ -482,7 +482,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2021_06_01.aio.operations.PolicyAssignmentsOperations.list_for_resource
@@ -637,7 +637,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2021_06_01.aio.operations.PolicyAssignmentsOperations.list_for_resource_group
@@ -731,7 +731,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2021_06_01.aio.operations.PolicyAssignmentsOperations.update

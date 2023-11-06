@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.VirtualClustersOperations.begin_update
@@ -125,7 +125,7 @@ methods:
     description: An instance of LROPoller that returns either VirtualCluster or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.VirtualCluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.VirtualCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.VirtualClustersOperations.get
@@ -169,7 +169,7 @@ methods:
     description: An iterator like instance of either VirtualClusterListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.VirtualClusterListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.VirtualClusterListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.VirtualClustersOperations.list_by_resource_group
@@ -192,7 +192,7 @@ methods:
     description: An iterator like instance of either VirtualClusterListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.VirtualClusterListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.VirtualClusterListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.VirtualClustersOperations.update_dns_servers

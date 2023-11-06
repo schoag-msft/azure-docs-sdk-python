@@ -61,7 +61,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.configuration_operations.ConfigurationOperations.create_or_update
@@ -114,7 +114,7 @@ methods:
     description: Configuration or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.Configuration>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.configuration_operations.ConfigurationOperations.delete
@@ -165,7 +165,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.configuration_operations.ConfigurationOperations.get
@@ -201,7 +201,7 @@ methods:
     description: Configuration or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.Configuration>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.configuration_operations.ConfigurationOperations.get_configurations
@@ -241,7 +241,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.iot.hub.protocol.models.Configuration>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.configuration_operations.ConfigurationOperations.test_queries
@@ -281,7 +281,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.iot.hub.protocol.models.ConfigurationQueriesTestResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 attributes:

@@ -154,7 +154,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automanage.models.ConfigurationProfile>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automanage.models.ConfigurationProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

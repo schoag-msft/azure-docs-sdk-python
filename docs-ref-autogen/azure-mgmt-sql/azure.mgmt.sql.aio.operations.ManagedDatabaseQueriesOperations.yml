@@ -121,7 +121,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceQueryStatistics
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceQueryStatistics>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceQueryStatistics>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

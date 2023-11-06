@@ -14,7 +14,7 @@ attributes:
   summary: Last time a message was sent, or the last time there was a receive request
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
 - uid: azure.servicebus.management.SubscriptionRuntimeProperties.active_message_count
   name: active_message_count
   summary: Number of active messages in the subscription.
@@ -26,7 +26,7 @@ attributes:
   summary: The exact time the subscription was created.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
 - uid: azure.servicebus.management.SubscriptionRuntimeProperties.dead_letter_message_count
   name: dead_letter_message_count
   summary: Number of messages that are dead lettered.
@@ -62,4 +62,4 @@ attributes:
   summary: The exact time the entity is updated.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>

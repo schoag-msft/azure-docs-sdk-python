@@ -163,7 +163,7 @@ methods:
   return:
     description: An iterator like instance of Environment objects.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.Environment>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.Environment>]
   examples:
   - "List example.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\

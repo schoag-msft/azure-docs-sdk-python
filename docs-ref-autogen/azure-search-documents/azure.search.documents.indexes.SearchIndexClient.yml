@@ -410,7 +410,7 @@ methods:
   return:
     description: List of index names
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:str>]
+    - <xref:ItemPaged>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.SearchIndexClient.list_indexes
@@ -430,6 +430,6 @@ methods:
   return:
     description: List of indexes
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.search.documents.indexes.models.SearchIndex>]
+    - <xref:ItemPaged>[<xref:azure.search.documents.indexes.models.SearchIndex>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError

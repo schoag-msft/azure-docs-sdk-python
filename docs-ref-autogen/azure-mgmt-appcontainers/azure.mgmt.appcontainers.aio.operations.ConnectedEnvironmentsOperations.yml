@@ -75,7 +75,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ConnectedEnvironment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ConnectedEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ConnectedEnvironmentsOperations.begin_delete
@@ -128,7 +128,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ConnectedEnvironmentsOperations.check_name_availability
@@ -227,7 +227,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ConnectedEnvironment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ConnectedEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ConnectedEnvironmentsOperations.list_by_subscription
@@ -248,7 +248,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ConnectedEnvironment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ConnectedEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ConnectedEnvironmentsOperations.update

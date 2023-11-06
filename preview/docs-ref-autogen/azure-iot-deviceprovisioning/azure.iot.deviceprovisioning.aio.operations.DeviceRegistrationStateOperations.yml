@@ -35,7 +35,7 @@ methods:
   return:
     description: list of JSON object
     types:
-    - <xref:azure.core.paging_async.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   examples:
   - "<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
     : [], \"backrefs\": [], \"xml:space\": \"preserve\", \"force\": false, \"language\"\

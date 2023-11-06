@@ -89,7 +89,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.aio.operations.OnlineDeploymentsOperations.begin_delete
@@ -152,7 +152,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.aio.operations.OnlineDeploymentsOperations.begin_update
@@ -232,7 +232,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.aio.operations.OnlineDeploymentsOperations.get
@@ -383,7 +383,7 @@ methods:
     description: An iterator like instance of either OnlineDeployment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.aio.operations.OnlineDeploymentsOperations.list_skus
@@ -437,7 +437,7 @@ methods:
     description: An iterator like instance of either SkuResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.SkuResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.SkuResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

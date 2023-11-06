@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTapRule>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTapRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkTapRulesOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkTapRulesOperations.begin_resync
@@ -183,7 +183,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkTapRulesOperations.begin_update
@@ -254,7 +254,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTapRule>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTapRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkTapRulesOperations.begin_update_administrative_state
@@ -324,7 +324,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkTapRulesOperations.begin_validate_configuration
@@ -379,7 +379,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkTapRulesOperations.get
@@ -436,7 +436,7 @@ methods:
     description: An iterator like instance of either NetworkTapRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTapRule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTapRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkTapRulesOperations.list_by_subscription
@@ -455,7 +455,7 @@ methods:
     description: An iterator like instance of either NetworkTapRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTapRule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTapRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

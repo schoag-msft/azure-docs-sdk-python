@@ -49,7 +49,7 @@ methods:
     description: An iterator like instance of either DeletedAccount or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storage.v2020_08_01_preview.models.DeletedAccount>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storage.v2020_08_01_preview.models.DeletedAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

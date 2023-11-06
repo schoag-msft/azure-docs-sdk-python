@@ -107,7 +107,7 @@ methods:
     description: An iterator like instance of either BillingPeriodsListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPeriodsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPeriodsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

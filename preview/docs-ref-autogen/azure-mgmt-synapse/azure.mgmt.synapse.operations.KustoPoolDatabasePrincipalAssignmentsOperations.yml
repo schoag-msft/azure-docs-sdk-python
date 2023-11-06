@@ -91,7 +91,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.DatabasePrincipalAssignment>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.DatabasePrincipalAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.KustoPoolDatabasePrincipalAssignmentsOperations.begin_delete
@@ -157,7 +157,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.KustoPoolDatabasePrincipalAssignmentsOperations.check_name_availability
@@ -295,7 +295,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.DatabasePrincipalAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.DatabasePrincipalAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

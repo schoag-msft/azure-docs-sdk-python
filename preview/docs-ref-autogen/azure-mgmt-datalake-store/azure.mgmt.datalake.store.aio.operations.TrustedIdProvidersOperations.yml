@@ -155,7 +155,7 @@ methods:
     description: An iterator like instance of either TrustedIdProvider or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datalake.store.models.TrustedIdProvider>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datalake.store.models.TrustedIdProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.store.aio.operations.TrustedIdProvidersOperations.update

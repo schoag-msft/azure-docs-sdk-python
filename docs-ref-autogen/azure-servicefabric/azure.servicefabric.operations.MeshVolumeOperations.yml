@@ -76,7 +76,7 @@ methods:
     description: VolumeResourceDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.VolumeResourceDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshVolumeOperations.delete
@@ -113,7 +113,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshVolumeOperations.get
@@ -152,7 +152,7 @@ methods:
     description: VolumeResourceDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.VolumeResourceDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshVolumeOperations.list
@@ -190,7 +190,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedVolumeResourceDescriptionList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 attributes:

@@ -158,7 +158,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccountSession>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccountSession>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

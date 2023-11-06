@@ -98,7 +98,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2022_01_03.models.GalleryApplicationVersion>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2022_01_03.models.GalleryApplicationVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2022_01_03.aio.operations.GalleryApplicationVersionsOperations.begin_delete
@@ -162,7 +162,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2022_01_03.aio.operations.GalleryApplicationVersionsOperations.begin_update
@@ -249,7 +249,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2022_01_03.models.GalleryApplicationVersion>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2022_01_03.models.GalleryApplicationVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2022_01_03.aio.operations.GalleryApplicationVersionsOperations.get
@@ -338,7 +338,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2022_01_03.models.GalleryApplicationVersion>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2022_01_03.models.GalleryApplicationVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

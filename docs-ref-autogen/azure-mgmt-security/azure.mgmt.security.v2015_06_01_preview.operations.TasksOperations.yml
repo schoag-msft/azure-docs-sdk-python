@@ -98,7 +98,7 @@ methods:
     description: An iterator like instance of either SecurityTask or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2015_06_01_preview.models.SecurityTask>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2015_06_01_preview.models.SecurityTask>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2015_06_01_preview.operations.TasksOperations.list_by_home_region
@@ -129,7 +129,7 @@ methods:
     description: An iterator like instance of either SecurityTask or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2015_06_01_preview.models.SecurityTask>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2015_06_01_preview.models.SecurityTask>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2015_06_01_preview.operations.TasksOperations.list_by_resource_group
@@ -168,7 +168,7 @@ methods:
     description: An iterator like instance of either SecurityTask or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2015_06_01_preview.models.SecurityTask>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2015_06_01_preview.models.SecurityTask>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2015_06_01_preview.operations.TasksOperations.update_resource_group_level_task_state

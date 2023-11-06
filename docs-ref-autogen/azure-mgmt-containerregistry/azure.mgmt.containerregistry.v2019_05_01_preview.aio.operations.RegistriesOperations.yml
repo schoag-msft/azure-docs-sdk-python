@@ -75,7 +75,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2019_05_01_preview.models.GenerateCredentialsResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2019_05_01_preview.models.GenerateCredentialsResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -65,7 +65,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableGremlinGraphGetResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableGremlinGraphGetResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

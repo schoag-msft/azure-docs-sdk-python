@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either Vault or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservices.models.Vault>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservices.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservices.operations.VaultsOperations.begin_update
@@ -139,7 +139,7 @@ methods:
     description: An instance of LROPoller that returns either Vault or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservices.models.Vault>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservices.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservices.operations.VaultsOperations.delete
@@ -216,7 +216,7 @@ methods:
   return:
     description: An iterator like instance of either Vault or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservices.models.Vault>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservices.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservices.operations.VaultsOperations.list_by_subscription_id
@@ -231,7 +231,7 @@ methods:
   return:
     description: An iterator like instance of either Vault or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservices.models.Vault>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservices.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

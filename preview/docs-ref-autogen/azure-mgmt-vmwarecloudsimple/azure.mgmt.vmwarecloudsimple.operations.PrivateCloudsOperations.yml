@@ -60,7 +60,7 @@ methods:
     description: An iterator like instance of either PrivateCloud or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.PrivateCloud>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.PrivateCloud>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

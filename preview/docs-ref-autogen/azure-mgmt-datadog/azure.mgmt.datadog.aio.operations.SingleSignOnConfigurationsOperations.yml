@@ -81,7 +81,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.datadog.models.DatadogSingleSignOnResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.datadog.models.DatadogSingleSignOnResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datadog.aio.operations.SingleSignOnConfigurationsOperations.get
@@ -151,7 +151,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datadog.models.DatadogSingleSignOnResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datadog.models.DatadogSingleSignOnResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

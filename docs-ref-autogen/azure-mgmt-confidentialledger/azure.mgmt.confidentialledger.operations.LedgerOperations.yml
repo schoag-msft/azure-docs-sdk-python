@@ -86,7 +86,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.confidentialledger.models.ConfidentialLedger>]
+    - <xref:LROPoller>[<xref:azure.mgmt.confidentialledger.models.ConfidentialLedger>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.confidentialledger.operations.LedgerOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.confidentialledger.operations.LedgerOperations.begin_update
@@ -195,7 +195,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.confidentialledger.models.ConfidentialLedger>]
+    - <xref:LROPoller>[<xref:azure.mgmt.confidentialledger.models.ConfidentialLedger>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.confidentialledger.operations.LedgerOperations.get
@@ -261,7 +261,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ConfidentialLedgerList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ConfidentialLedgerList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.confidentialledger.operations.LedgerOperations.list_by_subscription
@@ -291,7 +291,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ConfidentialLedgerList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ConfidentialLedgerList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

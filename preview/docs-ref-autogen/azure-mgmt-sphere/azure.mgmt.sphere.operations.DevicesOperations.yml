@@ -90,7 +90,7 @@ methods:
     description: An instance of LROPoller that returns either Device or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sphere.models.Device>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sphere.models.Device>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.DevicesOperations.begin_delete
@@ -155,7 +155,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.DevicesOperations.begin_generate_capability_image
@@ -244,7 +244,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sphere.models.SignedCapabilityImageResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sphere.models.SignedCapabilityImageResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.DevicesOperations.begin_update
@@ -328,7 +328,7 @@ methods:
     description: An instance of LROPoller that returns either Device or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sphere.models.Device>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sphere.models.Device>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.DevicesOperations.get
@@ -415,7 +415,7 @@ methods:
   return:
     description: An iterator like instance of either Device or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sphere.models.Device>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sphere.models.Device>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

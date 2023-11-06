@@ -63,7 +63,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.datafactory.models.SsisObjectMetadataStatusResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.datafactory.models.SsisObjectMetadataStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datafactory.aio.operations.IntegrationRuntimeObjectMetadataOperations.get

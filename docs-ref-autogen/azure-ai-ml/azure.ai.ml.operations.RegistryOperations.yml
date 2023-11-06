@@ -99,4 +99,4 @@ methods:
   return:
     description: An iterator like instance of Registry objects
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.Registry>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.Registry>]

@@ -86,7 +86,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.GitHubRepo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.GitHubRepo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.aio.operations.GitHubRepoOperations.begin_update
@@ -166,7 +166,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.GitHubRepo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.GitHubRepo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.aio.operations.GitHubRepoOperations.get
@@ -243,7 +243,7 @@ methods:
   return:
     description: An iterator like instance of either GitHubRepo or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securitydevops.models.GitHubRepo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securitydevops.models.GitHubRepo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.aio.operations.GitHubRepoOperations.list_by_connector
@@ -274,7 +274,7 @@ methods:
   return:
     description: An iterator like instance of either GitHubRepo or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securitydevops.models.GitHubRepo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securitydevops.models.GitHubRepo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -67,7 +67,7 @@ methods:
     description: JobCollectionDefinition or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.scheduler.models.JobCollectionDefinition>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.scheduler.operations.JobCollectionsOperations.delete
@@ -108,8 +108,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.scheduler.operations.JobCollectionsOperations.disable
@@ -150,8 +150,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.scheduler.operations.JobCollectionsOperations.enable
@@ -192,8 +192,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.scheduler.operations.JobCollectionsOperations.get
@@ -233,7 +233,7 @@ methods:
     description: JobCollectionDefinition or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.scheduler.models.JobCollectionDefinition>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.scheduler.operations.JobCollectionsOperations.list_by_resource_group
@@ -340,7 +340,7 @@ methods:
     description: JobCollectionDefinition or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.scheduler.models.JobCollectionDefinition>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 attributes:

@@ -79,7 +79,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.paloaltonetworksngfw.models.CertificateObjectLocalRulestackResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.paloaltonetworksngfw.models.CertificateObjectLocalRulestackResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.operations.CertificateObjectLocalRulestackOperations.begin_delete
@@ -134,7 +134,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.operations.CertificateObjectLocalRulestackOperations.get
@@ -198,7 +198,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.paloaltonetworksngfw.models.CertificateObjectLocalRulestackResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.paloaltonetworksngfw.models.CertificateObjectLocalRulestackResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

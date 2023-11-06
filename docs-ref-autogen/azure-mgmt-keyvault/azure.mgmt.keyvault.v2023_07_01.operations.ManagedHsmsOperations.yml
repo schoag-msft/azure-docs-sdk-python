@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either ManagedHsm or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsm>]
+    - <xref:LROPoller>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsm>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.operations.ManagedHsmsOperations.begin_delete
@@ -124,7 +124,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.operations.ManagedHsmsOperations.begin_purge_deleted
@@ -171,7 +171,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.operations.ManagedHsmsOperations.begin_update
@@ -236,7 +236,7 @@ methods:
     description: An instance of LROPoller that returns either ManagedHsm or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsm>]
+    - <xref:LROPoller>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsm>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.operations.ManagedHsmsOperations.check_mhsm_name_availability
@@ -351,7 +351,7 @@ methods:
   return:
     description: An iterator like instance of either ManagedHsm or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsm>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsm>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.operations.ManagedHsmsOperations.list_by_subscription
@@ -374,7 +374,7 @@ methods:
   return:
     description: An iterator like instance of either ManagedHsm or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsm>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsm>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.operations.ManagedHsmsOperations.list_deleted
@@ -393,7 +393,7 @@ methods:
     description: An iterator like instance of either DeletedManagedHsm or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.DeletedManagedHsm>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.DeletedManagedHsm>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -15,7 +15,7 @@ attributes:
   return:
     description: A datetime representing the certificate's creation time.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.certificates.CertificateProperties.enabled
   name: enabled
@@ -31,7 +31,7 @@ attributes:
   return:
     description: A datetime representing the point in time when the certificate expires.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.certificates.CertificateProperties.id
   name: id
@@ -54,7 +54,7 @@ attributes:
     description: A datetime representing the point in time when the certificate becomes
       valid.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.certificates.CertificateProperties.recoverable_days
   name: recoverable_days
@@ -88,7 +88,7 @@ attributes:
     description: A datetime representing the time of the certificate's most recent
       update.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.certificates.CertificateProperties.vault_url
   name: vault_url

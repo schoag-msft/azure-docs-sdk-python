@@ -761,7 +761,7 @@ methods:
     description: Images or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.customimagesearch.models.Images>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.customimagesearch.models.ErrorResponseException
 attributes:

@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.signalr.models.SignalRResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.signalr.models.SignalRResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.signalr.operations.SignalROperations.begin_delete
@@ -125,7 +125,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.signalr.operations.SignalROperations.begin_regenerate_key
@@ -196,7 +196,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.signalr.models.SignalRKeys>]
+    - <xref:LROPoller>[<xref:azure.mgmt.signalr.models.SignalRKeys>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.signalr.operations.SignalROperations.begin_restart
@@ -246,7 +246,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.signalr.operations.SignalROperations.begin_update
@@ -314,7 +314,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.signalr.models.SignalRResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.signalr.models.SignalRResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.signalr.operations.SignalROperations.check_name_availability
@@ -400,7 +400,7 @@ methods:
     description: An iterator like instance of either SignalRResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.signalr.models.SignalRResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.signalr.models.SignalRResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.signalr.operations.SignalROperations.list_by_subscription
@@ -416,7 +416,7 @@ methods:
     description: An iterator like instance of either SignalRResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.signalr.models.SignalRResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.signalr.models.SignalRResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.signalr.operations.SignalROperations.list_keys

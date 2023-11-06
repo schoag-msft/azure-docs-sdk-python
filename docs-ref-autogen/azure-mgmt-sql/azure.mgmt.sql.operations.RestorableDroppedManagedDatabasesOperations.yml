@@ -90,7 +90,7 @@ methods:
     description: An iterator like instance of either RestorableDroppedManagedDatabaseListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.RestorableDroppedManagedDatabaseListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.RestorableDroppedManagedDatabaseListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

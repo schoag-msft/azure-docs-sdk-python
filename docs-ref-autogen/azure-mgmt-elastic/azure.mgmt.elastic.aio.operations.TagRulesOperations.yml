@@ -82,7 +82,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elastic.aio.operations.TagRulesOperations.create_or_update
@@ -192,7 +192,7 @@ methods:
     description: An iterator like instance of either MonitoringTagRulesListResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.elastic.models.MonitoringTagRulesListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.elastic.models.MonitoringTagRulesListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

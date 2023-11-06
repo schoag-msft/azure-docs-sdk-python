@@ -86,7 +86,7 @@ methods:
   return:
     description: An iterator like instance of either Desktop or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.Desktop>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.Desktop>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.desktopvirtualization.aio.operations.DesktopsOperations.update

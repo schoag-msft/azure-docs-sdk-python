@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either NetworkTap or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTap>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTap>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkTapsOperations.begin_delete
@@ -127,7 +127,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkTapsOperations.begin_resync
@@ -182,7 +182,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkTapsOperations.begin_update
@@ -251,7 +251,7 @@ methods:
     description: An instance of LROPoller that returns either NetworkTap or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTap>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTap>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkTapsOperations.begin_update_administrative_state
@@ -321,7 +321,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkTapsOperations.get
@@ -377,7 +377,7 @@ methods:
   return:
     description: An iterator like instance of either NetworkTap or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTap>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTap>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.NetworkTapsOperations.list_by_subscription
@@ -395,7 +395,7 @@ methods:
   return:
     description: An iterator like instance of either NetworkTap or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTap>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkTap>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

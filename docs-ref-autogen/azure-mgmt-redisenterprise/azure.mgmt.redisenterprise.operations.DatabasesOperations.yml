@@ -86,7 +86,7 @@ methods:
     description: An instance of LROPoller that returns either Database or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.redisenterprise.models.Database>]
+    - <xref:LROPoller>[<xref:azure.mgmt.redisenterprise.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.DatabasesOperations.begin_delete
@@ -139,7 +139,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.DatabasesOperations.begin_export
@@ -197,7 +197,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.DatabasesOperations.begin_force_unlink
@@ -255,7 +255,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.DatabasesOperations.begin_import_method
@@ -313,7 +313,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.DatabasesOperations.begin_regenerate_key
@@ -371,7 +371,7 @@ methods:
     description: An instance of LROPoller that returns either AccessKeys or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.redisenterprise.models.AccessKeys>]
+    - <xref:LROPoller>[<xref:azure.mgmt.redisenterprise.models.AccessKeys>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.DatabasesOperations.begin_update
@@ -429,7 +429,7 @@ methods:
     description: An instance of LROPoller that returns either Database or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.redisenterprise.models.Database>]
+    - <xref:LROPoller>[<xref:azure.mgmt.redisenterprise.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.DatabasesOperations.get
@@ -487,7 +487,7 @@ methods:
     description: An iterator like instance of either DatabaseList or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.redisenterprise.models.DatabaseList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.redisenterprise.models.DatabaseList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.DatabasesOperations.list_keys

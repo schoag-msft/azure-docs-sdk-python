@@ -81,7 +81,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.DistributedAvailabilityGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.DistributedAvailabilityGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DistributedAvailabilityGroupsOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DistributedAvailabilityGroupsOperations.begin_update
@@ -209,7 +209,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.DistributedAvailabilityGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.DistributedAvailabilityGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DistributedAvailabilityGroupsOperations.get
@@ -273,7 +273,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DistributedAvailabilityGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DistributedAvailabilityGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

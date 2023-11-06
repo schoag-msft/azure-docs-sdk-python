@@ -108,7 +108,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PartnerTopicsOperations.create_or_update
@@ -261,7 +261,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerTopicsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerTopicsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PartnerTopicsOperations.list_by_subscription
@@ -317,7 +317,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerTopicsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerTopicsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PartnerTopicsOperations.update

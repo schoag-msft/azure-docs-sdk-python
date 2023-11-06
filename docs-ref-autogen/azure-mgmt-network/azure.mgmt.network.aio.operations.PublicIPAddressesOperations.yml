@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.PublicIPAddress>]
+    - <xref:AsyncLROPoller>[<xref:PublicIPAddress>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.begin_ddos_protection_status
@@ -122,7 +122,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.PublicIpDdosProtectionStatusResult>]
+    - <xref:AsyncLROPoller>[<xref:PublicIpDdosProtectionStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.begin_delete
@@ -170,7 +170,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.begin_update_tags
@@ -235,7 +235,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.PublicIPAddress>]
+    - <xref:AsyncLROPoller>[<xref:PublicIPAddress>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.get
@@ -265,7 +265,7 @@ methods:
   return:
     description: PublicIPAddress or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PublicIPAddress>
+    - <xref:PublicIPAddress>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.get_cloud_service_public_ip_address
@@ -317,7 +317,7 @@ methods:
   return:
     description: PublicIPAddress or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PublicIPAddress>
+    - <xref:PublicIPAddress>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.get_virtual_machine_scale_set_public_ip_address
@@ -369,7 +369,7 @@ methods:
   return:
     description: PublicIPAddress or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PublicIPAddress>
+    - <xref:PublicIPAddress>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.list
@@ -390,7 +390,7 @@ methods:
     description: An iterator like instance of either PublicIPAddress or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PublicIPAddress>]
+    - <xref:AsyncItemPaged>[<xref:PublicIPAddress>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.list_all
@@ -406,7 +406,7 @@ methods:
     description: An iterator like instance of either PublicIPAddress or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PublicIPAddress>]
+    - <xref:AsyncItemPaged>[<xref:PublicIPAddress>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.list_cloud_service_public_ip_addresses
@@ -433,7 +433,7 @@ methods:
     description: An iterator like instance of either PublicIPAddress or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PublicIPAddress>]
+    - <xref:AsyncItemPaged>[<xref:PublicIPAddress>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.list_cloud_service_role_instance_public_ip_addresses
@@ -479,7 +479,7 @@ methods:
     description: An iterator like instance of either PublicIPAddress or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PublicIPAddress>]
+    - <xref:AsyncItemPaged>[<xref:PublicIPAddress>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.list_virtual_machine_scale_set_public_ip_addresses
@@ -507,7 +507,7 @@ methods:
     description: An iterator like instance of either PublicIPAddress or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PublicIPAddress>]
+    - <xref:AsyncItemPaged>[<xref:PublicIPAddress>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.list_virtual_machine_scale_set_vm_public_ip_addresses
@@ -553,7 +553,7 @@ methods:
     description: An iterator like instance of either PublicIPAddress or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PublicIPAddress>]
+    - <xref:AsyncItemPaged>[<xref:PublicIPAddress>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPAddressesOperations.update_tags
@@ -594,7 +594,7 @@ methods:
   return:
     description: PublicIPAddress or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PublicIPAddress>
+    - <xref:PublicIPAddress>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -82,7 +82,7 @@ methods:
     description: An instance of LROPoller that returns either ManagedIdentitySqlControlSettingsModel
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.ManagedIdentitySqlControlSettingsModel>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.ManagedIdentitySqlControlSettingsModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.WorkspaceManagedIdentitySqlControlSettingsOperations.get

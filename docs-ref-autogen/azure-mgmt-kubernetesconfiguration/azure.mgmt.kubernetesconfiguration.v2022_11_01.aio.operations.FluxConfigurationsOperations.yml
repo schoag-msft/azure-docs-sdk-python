@@ -95,7 +95,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.kubernetesconfiguration.v2022_11_01.models.FluxConfiguration>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.kubernetesconfiguration.v2022_11_01.models.FluxConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kubernetesconfiguration.v2022_11_01.aio.operations.FluxConfigurationsOperations.begin_delete
@@ -175,7 +175,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kubernetesconfiguration.v2022_11_01.aio.operations.FluxConfigurationsOperations.begin_update
@@ -262,7 +262,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.kubernetesconfiguration.v2022_11_01.models.FluxConfiguration>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.kubernetesconfiguration.v2022_11_01.models.FluxConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kubernetesconfiguration.v2022_11_01.aio.operations.FluxConfigurationsOperations.get
@@ -352,7 +352,7 @@ methods:
     description: An iterator like instance of either FluxConfiguration or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.kubernetesconfiguration.v2022_11_01.models.FluxConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.kubernetesconfiguration.v2022_11_01.models.FluxConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

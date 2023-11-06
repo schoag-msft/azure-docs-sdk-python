@@ -76,7 +76,7 @@ methods:
     description: An iterator like instance of either SharedGalleryImage or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2021_07_01.models.SharedGalleryImage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2021_07_01.models.SharedGalleryImage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -69,7 +69,7 @@ methods:
   return:
     description: An instance of LROPoller that returns a JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.confidentialledger.aio.ConfidentialLedgerClient.begin_get_ledger_entry
@@ -98,7 +98,7 @@ methods:
     description: An instance of LROPoller that returns a JSON object for the ledger
       entry.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.confidentialledger.aio.ConfidentialLedgerClient.begin_get_receipt
@@ -118,7 +118,7 @@ methods:
   return:
     description: An instance of LROPoller that returns a JSON object for the receipt.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.confidentialledger.aio.ConfidentialLedgerClient.begin_wait_for_commit
@@ -141,7 +141,7 @@ methods:
     description: An instance of LROPoller returning a JSON object describing the transaction
       status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.confidentialledger.aio.ConfidentialLedgerClient.close
@@ -485,7 +485,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -505,7 +505,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -546,7 +546,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -595,4 +595,4 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.AsyncHttpResponse>
+    - <xref:AsyncHttpResponse>

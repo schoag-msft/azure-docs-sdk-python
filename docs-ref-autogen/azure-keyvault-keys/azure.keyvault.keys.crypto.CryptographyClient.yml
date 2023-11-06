@@ -210,7 +210,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>
 - uid: azure.keyvault.keys.crypto.CryptographyClient.sign
   name: sign
   summary: 'Create a signature from a digest using the client''s key.

@@ -120,7 +120,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesbackup.activestamp.models.RecoveryPointResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesbackup.activestamp.models.RecoveryPointResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

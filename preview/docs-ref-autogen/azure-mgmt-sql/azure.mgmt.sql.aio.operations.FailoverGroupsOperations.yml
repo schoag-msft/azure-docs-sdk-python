@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.FailoverGroupsOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.FailoverGroupsOperations.begin_failover
@@ -193,7 +193,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.FailoverGroupsOperations.begin_force_failover_allow_data_loss
@@ -253,7 +253,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.FailoverGroupsOperations.begin_try_planned_before_forced_failover
@@ -313,7 +313,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.FailoverGroupsOperations.begin_update
@@ -386,7 +386,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.FailoverGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.FailoverGroupsOperations.get
@@ -448,7 +448,7 @@ methods:
     description: An iterator like instance of either FailoverGroup or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.FailoverGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.FailoverGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

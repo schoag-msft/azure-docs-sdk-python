@@ -225,7 +225,7 @@ methods:
   return:
     description: An iterator like instance of either LabDetails or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.education.models.LabDetails>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.education.models.LabDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.education.operations.LabsOperations.list_all
@@ -262,7 +262,7 @@ methods:
   return:
     description: An iterator like instance of either LabDetails or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.education.models.LabDetails>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.education.models.LabDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

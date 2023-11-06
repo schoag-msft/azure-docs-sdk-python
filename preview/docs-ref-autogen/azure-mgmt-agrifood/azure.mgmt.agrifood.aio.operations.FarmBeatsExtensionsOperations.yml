@@ -73,7 +73,7 @@ methods:
     description: An iterator like instance of either FarmBeatsExtension or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.agrifood.models.FarmBeatsExtension>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.agrifood.models.FarmBeatsExtension>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

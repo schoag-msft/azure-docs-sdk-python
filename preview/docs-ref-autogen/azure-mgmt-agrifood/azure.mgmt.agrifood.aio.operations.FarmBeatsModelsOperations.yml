@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.agrifood.models.FarmBeats>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.agrifood.models.FarmBeats>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.agrifood.aio.operations.FarmBeatsModelsOperations.create_or_update
@@ -242,7 +242,7 @@ methods:
   return:
     description: An iterator like instance of either FarmBeats or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.agrifood.models.FarmBeats>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.agrifood.models.FarmBeats>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.agrifood.aio.operations.FarmBeatsModelsOperations.list_by_subscription
@@ -270,7 +270,7 @@ methods:
   return:
     description: An iterator like instance of either FarmBeats or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.agrifood.models.FarmBeats>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.agrifood.models.FarmBeats>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

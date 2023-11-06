@@ -261,7 +261,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2017_06_01_preview.models.PolicyAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2017_06_01_preview.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2017_06_01_preview.aio.operations.PolicyAssignmentsOperations.list_for_resource
@@ -312,7 +312,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2017_06_01_preview.models.PolicyAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2017_06_01_preview.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2017_06_01_preview.aio.operations.PolicyAssignmentsOperations.list_for_resource_group
@@ -341,7 +341,7 @@ methods:
     description: An iterator like instance of either PolicyAssignment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2017_06_01_preview.models.PolicyAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2017_06_01_preview.models.PolicyAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

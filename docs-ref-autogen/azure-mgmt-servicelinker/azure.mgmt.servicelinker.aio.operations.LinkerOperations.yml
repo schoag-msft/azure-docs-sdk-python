@@ -86,7 +86,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.aio.operations.LinkerOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.aio.operations.LinkerOperations.begin_update
@@ -195,7 +195,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.aio.operations.LinkerOperations.begin_validate
@@ -248,7 +248,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.servicelinker.models.ValidateOperationResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.servicelinker.models.ValidateOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.aio.operations.LinkerOperations.get
@@ -299,7 +299,7 @@ methods:
   return:
     description: An iterator like instance of either LinkerList or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.servicelinker.models.LinkerList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.servicelinker.models.LinkerList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.aio.operations.LinkerOperations.list_configurations

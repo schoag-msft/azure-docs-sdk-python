@@ -156,7 +156,7 @@ methods:
     description: An iterator like instance of either ConnectionTypeListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.automation.models.ConnectionTypeListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.automation.models.ConnectionTypeListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

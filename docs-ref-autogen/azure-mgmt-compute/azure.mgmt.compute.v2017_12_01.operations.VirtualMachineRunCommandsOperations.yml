@@ -56,7 +56,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2017_12_01.models.RunCommandDocumentBase>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2017_12_01.models.RunCommandDocumentBase>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

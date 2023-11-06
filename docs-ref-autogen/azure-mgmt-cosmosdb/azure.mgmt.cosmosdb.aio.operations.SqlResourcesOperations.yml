@@ -92,7 +92,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ClientEncryptionKeyGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ClientEncryptionKeyGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_create_update_sql_container
@@ -171,7 +171,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlContainerGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlContainerGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_create_update_sql_database
@@ -243,7 +243,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlDatabaseGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlDatabaseGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_create_update_sql_role_assignment
@@ -319,7 +319,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlRoleAssignmentGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlRoleAssignmentGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_create_update_sql_role_definition
@@ -395,7 +395,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlRoleDefinitionGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlRoleDefinitionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_create_update_sql_stored_procedure
@@ -481,7 +481,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlStoredProcedureGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlStoredProcedureGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_create_update_sql_trigger
@@ -564,7 +564,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlTriggerGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlTriggerGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_create_update_sql_user_defined_function
@@ -650,7 +650,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlUserDefinedFunctionGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.SqlUserDefinedFunctionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_delete_sql_container
@@ -710,7 +710,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_delete_sql_database
@@ -765,7 +765,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_delete_sql_role_assignment
@@ -820,7 +820,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_delete_sql_role_definition
@@ -875,7 +875,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_delete_sql_stored_procedure
@@ -941,7 +941,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_delete_sql_trigger
@@ -1007,7 +1007,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_delete_sql_user_defined_function
@@ -1073,7 +1073,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_migrate_sql_container_to_autoscale
@@ -1136,7 +1136,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_migrate_sql_container_to_manual_throughput
@@ -1199,7 +1199,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_migrate_sql_database_to_autoscale
@@ -1256,7 +1256,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_migrate_sql_database_to_manual_throughput
@@ -1313,7 +1313,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_retrieve_continuous_backup_information
@@ -1390,7 +1390,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.BackupInformation>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.BackupInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_update_sql_container_throughput
@@ -1471,7 +1471,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.begin_update_sql_database_throughput
@@ -1546,7 +1546,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.get_client_encryption_key
@@ -1972,7 +1972,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.ClientEncryptionKeyGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.ClientEncryptionKeyGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.list_sql_containers
@@ -2008,7 +2008,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlContainerGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlContainerGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.list_sql_databases
@@ -2039,7 +2039,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlDatabaseGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlDatabaseGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.list_sql_role_assignments
@@ -2070,7 +2070,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlRoleAssignmentGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlRoleAssignmentGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.list_sql_role_definitions
@@ -2101,7 +2101,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlRoleDefinitionGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlRoleDefinitionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.list_sql_stored_procedures
@@ -2143,7 +2143,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlStoredProcedureGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlStoredProcedureGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.list_sql_triggers
@@ -2184,7 +2184,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlTriggerGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlTriggerGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.SqlResourcesOperations.list_sql_user_defined_functions
@@ -2226,7 +2226,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlUserDefinedFunctionGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.SqlUserDefinedFunctionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

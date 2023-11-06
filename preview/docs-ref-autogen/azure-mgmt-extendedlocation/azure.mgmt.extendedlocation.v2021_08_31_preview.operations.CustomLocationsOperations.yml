@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.CustomLocation>]
+    - <xref:LROPoller>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.CustomLocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_08_31_preview.operations.CustomLocationsOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_08_31_preview.operations.CustomLocationsOperations.find_target_resource_group
@@ -250,7 +250,7 @@ methods:
     description: An iterator like instance of either CustomLocation or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.CustomLocation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.CustomLocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_08_31_preview.operations.CustomLocationsOperations.list_by_subscription
@@ -272,7 +272,7 @@ methods:
     description: An iterator like instance of either CustomLocation or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.CustomLocation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.CustomLocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_08_31_preview.operations.CustomLocationsOperations.list_enabled_resource_types
@@ -304,7 +304,7 @@ methods:
     description: An iterator like instance of either EnabledResourceType or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.EnabledResourceType>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.EnabledResourceType>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_08_31_preview.operations.CustomLocationsOperations.list_operations
@@ -322,7 +322,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.CustomLocationOperation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.CustomLocationOperation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_08_31_preview.operations.CustomLocationsOperations.update

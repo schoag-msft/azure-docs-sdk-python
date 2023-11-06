@@ -65,7 +65,7 @@ methods:
   return:
     description: An iterator like instance of either Agreement or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.Agreement>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.Agreement>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

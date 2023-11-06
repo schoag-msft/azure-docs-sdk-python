@@ -62,7 +62,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnServerConfigurationsResponse>]
+    - <xref:LROPoller>[<xref:VpnServerConfigurationsResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

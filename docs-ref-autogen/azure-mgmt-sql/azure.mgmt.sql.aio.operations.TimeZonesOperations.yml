@@ -71,7 +71,7 @@ methods:
     description: An iterator like instance of either TimeZoneListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.TimeZoneListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.TimeZoneListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

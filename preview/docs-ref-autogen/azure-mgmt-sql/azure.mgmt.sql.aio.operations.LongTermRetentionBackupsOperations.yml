@@ -83,7 +83,7 @@ methods:
 
       LongTermRetentionBackupOperationResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionBackupOperationResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionBackupOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.begin_copy_by_resource_group
@@ -166,7 +166,7 @@ methods:
 
       LongTermRetentionBackupOperationResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionBackupOperationResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionBackupOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.begin_delete
@@ -225,7 +225,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.begin_delete_by_resource_group
@@ -291,7 +291,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.begin_update
@@ -365,7 +365,7 @@ methods:
 
       LongTermRetentionBackupOperationResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionBackupOperationResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionBackupOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.begin_update_by_resource_group
@@ -447,7 +447,7 @@ methods:
 
       LongTermRetentionBackupOperationResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionBackupOperationResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionBackupOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.get
@@ -580,7 +580,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.list_by_location
@@ -622,7 +622,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.list_by_resource_group_database
@@ -682,7 +682,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.list_by_resource_group_location
@@ -731,7 +731,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.list_by_resource_group_server
@@ -785,7 +785,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.LongTermRetentionBackupsOperations.list_by_server
@@ -832,7 +832,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionBackup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

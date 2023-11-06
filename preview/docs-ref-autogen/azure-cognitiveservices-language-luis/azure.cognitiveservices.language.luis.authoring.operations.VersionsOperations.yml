@@ -71,7 +71,7 @@ methods:
     description: str or ClientRawResponse if raw=true
     types:
     - <xref:str>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.delete
@@ -110,7 +110,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.delete_unlabelled_utterance
@@ -155,7 +155,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.export
@@ -194,7 +194,7 @@ methods:
     description: LuisApp or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.LuisApp>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.export_lu_format
@@ -244,8 +244,8 @@ methods:
   return:
     description: object or ClientRawResponse if raw=true
     types:
-    - <xref:Generator>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:typing.Generator>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.get
@@ -288,7 +288,7 @@ methods:
     description: VersionInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.VersionInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.import_lu_format
@@ -335,7 +335,7 @@ methods:
     description: str or ClientRawResponse if raw=true
     types:
     - <xref:str>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.import_method
@@ -382,7 +382,7 @@ methods:
     description: str or ClientRawResponse if raw=true
     types:
     - <xref:str>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.import_v2_app
@@ -429,7 +429,7 @@ methods:
     description: str or ClientRawResponse if raw=true
     types:
     - <xref:str>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.list
@@ -475,7 +475,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.VersionInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.VersionsOperations.update
@@ -520,7 +520,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 attributes:

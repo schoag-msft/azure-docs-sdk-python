@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.PrivateEndpoint>]
+    - <xref:LROPoller>[<xref:PrivateEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.PrivateEndpointsOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.PrivateEndpointsOperations.get
@@ -151,7 +151,7 @@ methods:
   return:
     description: PrivateEndpoint or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PrivateEndpoint>
+    - <xref:PrivateEndpoint>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.PrivateEndpointsOperations.list
@@ -172,7 +172,7 @@ methods:
     description: An iterator like instance of either PrivateEndpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.PrivateEndpoint>]
+    - <xref:ItemPaged>[<xref:PrivateEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.PrivateEndpointsOperations.list_by_subscription
@@ -188,7 +188,7 @@ methods:
     description: An iterator like instance of either PrivateEndpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.PrivateEndpoint>]
+    - <xref:ItemPaged>[<xref:PrivateEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

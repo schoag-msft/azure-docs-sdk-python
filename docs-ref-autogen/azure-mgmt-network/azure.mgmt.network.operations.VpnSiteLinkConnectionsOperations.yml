@@ -44,7 +44,7 @@ methods:
   return:
     description: VpnSiteLinkConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VpnSiteLinkConnection>
+    - <xref:VpnSiteLinkConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

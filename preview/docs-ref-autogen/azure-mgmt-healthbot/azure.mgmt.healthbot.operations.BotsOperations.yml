@@ -73,7 +73,7 @@ methods:
     description: An instance of LROPoller that returns either HealthBot or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.healthbot.models.HealthBot>]
+    - <xref:LROPoller>[<xref:azure.mgmt.healthbot.models.HealthBot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthbot.operations.BotsOperations.begin_delete
@@ -123,7 +123,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthbot.operations.BotsOperations.get
@@ -165,7 +165,7 @@ methods:
   return:
     description: An iterator like instance of either HealthBot or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.healthbot.models.HealthBot>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.healthbot.models.HealthBot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthbot.operations.BotsOperations.list_by_resource_group
@@ -188,7 +188,7 @@ methods:
   return:
     description: An iterator like instance of either HealthBot or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.healthbot.models.HealthBot>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.healthbot.models.HealthBot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthbot.operations.BotsOperations.list_secrets

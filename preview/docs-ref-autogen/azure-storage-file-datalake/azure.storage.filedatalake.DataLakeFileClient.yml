@@ -975,7 +975,7 @@ methods:
   return:
     description: A streaming object (DataLakeFileQueryReader)
     types:
-    - <xref:azure.storage.filedatalake.DataLakeFileQueryReader>
+    - <xref:DataLakeFileQueryReader>
   examples:
   - "select/project on datalake file data by providing simple query expressions.<!--[!code-python[Main](les\\\
     datalake_samples_query.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\

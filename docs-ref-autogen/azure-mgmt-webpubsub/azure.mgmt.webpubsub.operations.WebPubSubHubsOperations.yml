@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.webpubsub.models.WebPubSubHub>]
+    - <xref:LROPoller>[<xref:azure.mgmt.webpubsub.models.WebPubSubHub>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.webpubsub.operations.WebPubSubHubsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.webpubsub.operations.WebPubSubHubsOperations.get
@@ -197,7 +197,7 @@ methods:
     description: An iterator like instance of either WebPubSubHub or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.webpubsub.models.WebPubSubHub>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.webpubsub.models.WebPubSubHub>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

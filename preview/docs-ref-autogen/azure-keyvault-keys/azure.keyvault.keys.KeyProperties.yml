@@ -42,7 +42,7 @@ attributes:
   return:
     description: When the key was created, in UTC.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.keys.KeyProperties.enabled
   name: enabled
@@ -58,7 +58,7 @@ attributes:
   return:
     description: When the key will expire, in UTC.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.keys.KeyProperties.exportable
   name: exportable
@@ -105,7 +105,7 @@ attributes:
   return:
     description: The time before which the key can not be used, in UTC.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.keys.KeyProperties.recoverable_days
   name: recoverable_days
@@ -147,7 +147,7 @@ attributes:
   return:
     description: When the key was last updated, in UTC.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.keys.KeyProperties.vault_url
   name: vault_url

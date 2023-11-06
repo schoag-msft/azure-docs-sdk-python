@@ -510,7 +510,7 @@ methods:
   return:
     description: An iterator like instance of ClassificationPolicyItem
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.communication.jobrouter.ClassificationPolicyItem>]
+    - <xref:ItemPaged>[<xref:azure.communication.jobrouter.ClassificationPolicyItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:
@@ -542,7 +542,7 @@ methods:
   return:
     description: An iterator like instance of DistributionPolicyItem
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.communication.jobrouter.DistributionPolicyItem>]
+    - <xref:ItemPaged>[<xref:azure.communication.jobrouter.DistributionPolicyItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -574,7 +574,7 @@ methods:
   return:
     description: An iterator like instance of ExceptionPolicyItem
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.communication.jobrouter.ExceptionPolicyItem>]
+    - <xref:ItemPaged>[<xref:azure.communication.jobrouter.ExceptionPolicyItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:
@@ -605,7 +605,7 @@ methods:
   return:
     description: An iterator like instance of RouterQueueItem
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.communication.jobrouter.RouterQueueItem>]
+    - <xref:ItemPaged>[<xref:azure.communication.jobrouter.RouterQueueItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:

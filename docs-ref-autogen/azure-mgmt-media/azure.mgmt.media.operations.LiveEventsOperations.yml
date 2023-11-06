@@ -102,7 +102,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.LiveEventsOperations.begin_create
@@ -184,7 +184,7 @@ methods:
     description: An instance of LROPoller that returns either LiveEvent or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.media.models.LiveEvent>]
+    - <xref:LROPoller>[<xref:azure.mgmt.media.models.LiveEvent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.LiveEventsOperations.begin_delete
@@ -242,7 +242,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.LiveEventsOperations.begin_reset
@@ -306,7 +306,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.LiveEventsOperations.begin_start
@@ -367,7 +367,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.LiveEventsOperations.begin_stop
@@ -438,7 +438,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.LiveEventsOperations.begin_update
@@ -509,7 +509,7 @@ methods:
     description: An instance of LROPoller that returns either LiveEvent or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.media.models.LiveEvent>]
+    - <xref:LROPoller>[<xref:azure.mgmt.media.models.LiveEvent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.LiveEventsOperations.get
@@ -576,7 +576,7 @@ methods:
   return:
     description: An iterator like instance of either LiveEvent or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.media.models.LiveEvent>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.media.models.LiveEvent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.LiveEventsOperations.operation_location

@@ -87,7 +87,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.authorization.v2020_10_01.models.RoleManagementPolicy>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.authorization.v2020_10_01.models.RoleManagementPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.authorization.v2020_10_01.aio.operations.RoleManagementPoliciesOperations.update

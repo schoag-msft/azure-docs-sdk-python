@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.scvmm.models.AvailabilitySet>]
+    - <xref:LROPoller>[<xref:azure.mgmt.scvmm.models.AvailabilitySet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.operations.AvailabilitySetsOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.operations.AvailabilitySetsOperations.begin_update
@@ -200,7 +200,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.scvmm.models.AvailabilitySet>]
+    - <xref:LROPoller>[<xref:azure.mgmt.scvmm.models.AvailabilitySet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.operations.AvailabilitySetsOperations.get
@@ -253,7 +253,7 @@ methods:
     description: An iterator like instance of either AvailabilitySet or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.scvmm.models.AvailabilitySet>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.scvmm.models.AvailabilitySet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.operations.AvailabilitySetsOperations.list_by_subscription
@@ -272,7 +272,7 @@ methods:
     description: An iterator like instance of either AvailabilitySet or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.scvmm.models.AvailabilitySet>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.scvmm.models.AvailabilitySet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

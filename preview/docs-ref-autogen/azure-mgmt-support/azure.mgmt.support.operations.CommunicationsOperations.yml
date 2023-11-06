@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.support.models.CommunicationDetails>]
+    - <xref:LROPoller>[<xref:azure.mgmt.support.models.CommunicationDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.support.operations.CommunicationsOperations.check_name_availability
@@ -204,7 +204,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.support.models.CommunicationDetails>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.support.models.CommunicationDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

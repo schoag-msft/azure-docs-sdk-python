@@ -139,7 +139,7 @@ methods:
     description: An instance of LROPoller that returns either Database or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.kusto.models.Database>]
+    - <xref:LROPoller>[<xref:azure.mgmt.kusto.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.DatabasesOperations.begin_delete
@@ -194,7 +194,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.DatabasesOperations.begin_update
@@ -277,7 +277,7 @@ methods:
     description: An instance of LROPoller that returns either Database or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.kusto.models.Database>]
+    - <xref:LROPoller>[<xref:azure.mgmt.kusto.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.DatabasesOperations.check_name_availability
@@ -402,7 +402,7 @@ methods:
   return:
     description: An iterator like instance of either Database or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kusto.models.Database>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kusto.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.DatabasesOperations.list_principals
@@ -436,7 +436,7 @@ methods:
     description: An iterator like instance of either DatabasePrincipal or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kusto.models.DatabasePrincipal>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kusto.models.DatabasePrincipal>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.DatabasesOperations.remove_principals

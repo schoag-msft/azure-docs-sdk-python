@@ -83,7 +83,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.LongTermRetentionManagedInstanceBackupsOperations.begin_delete_by_resource_group
@@ -145,7 +145,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.LongTermRetentionManagedInstanceBackupsOperations.get
@@ -274,7 +274,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceLongTermRetentionBackupListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.LongTermRetentionManagedInstanceBackupsOperations.list_by_instance
@@ -318,7 +318,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceLongTermRetentionBackupListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.LongTermRetentionManagedInstanceBackupsOperations.list_by_location
@@ -358,7 +358,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceLongTermRetentionBackupListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.LongTermRetentionManagedInstanceBackupsOperations.list_by_resource_group_database
@@ -415,7 +415,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceLongTermRetentionBackupListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.LongTermRetentionManagedInstanceBackupsOperations.list_by_resource_group_instance
@@ -467,7 +467,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceLongTermRetentionBackupListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.LongTermRetentionManagedInstanceBackupsOperations.list_by_resource_group_location
@@ -514,7 +514,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceLongTermRetentionBackupListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionBackupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.webpubsub.models.WebPubSubResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.webpubsub.models.WebPubSubResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.webpubsub.operations.WebPubSubOperations.begin_delete
@@ -125,7 +125,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.webpubsub.operations.WebPubSubOperations.begin_regenerate_key
@@ -196,7 +196,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.webpubsub.models.WebPubSubKeys>]
+    - <xref:LROPoller>[<xref:azure.mgmt.webpubsub.models.WebPubSubKeys>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.webpubsub.operations.WebPubSubOperations.begin_restart
@@ -246,7 +246,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.webpubsub.operations.WebPubSubOperations.begin_update
@@ -314,7 +314,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.webpubsub.models.WebPubSubResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.webpubsub.models.WebPubSubResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.webpubsub.operations.WebPubSubOperations.check_name_availability
@@ -400,7 +400,7 @@ methods:
     description: An iterator like instance of either WebPubSubResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.webpubsub.models.WebPubSubResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.webpubsub.models.WebPubSubResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.webpubsub.operations.WebPubSubOperations.list_by_subscription
@@ -416,7 +416,7 @@ methods:
     description: An iterator like instance of either WebPubSubResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.webpubsub.models.WebPubSubResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.webpubsub.models.WebPubSubResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.webpubsub.operations.WebPubSubOperations.list_keys

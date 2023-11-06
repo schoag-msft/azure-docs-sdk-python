@@ -78,7 +78,7 @@ methods:
     description: An instance of LROPoller that returns either Rack or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.Rack>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.Rack>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.RacksOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.RacksOperations.begin_update
@@ -207,7 +207,7 @@ methods:
     description: An instance of LROPoller that returns either Rack or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.Rack>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.Rack>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.RacksOperations.get
@@ -262,7 +262,7 @@ methods:
   return:
     description: An iterator like instance of either Rack or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.Rack>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.Rack>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.RacksOperations.list_by_subscription
@@ -280,7 +280,7 @@ methods:
   return:
     description: An iterator like instance of either Rack or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.Rack>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.Rack>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

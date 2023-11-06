@@ -79,7 +79,7 @@ methods:
     description: ApplicationSummary or ClientRawResponse if raw=true
     types:
     - <xref:azure.batch.models.ApplicationSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ApplicationOperations.list

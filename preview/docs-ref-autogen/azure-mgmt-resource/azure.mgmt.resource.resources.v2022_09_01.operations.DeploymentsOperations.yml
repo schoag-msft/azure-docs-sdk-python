@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_create_or_update_at_management_group_scope
@@ -149,7 +149,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_create_or_update_at_scope
@@ -219,7 +219,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_create_or_update_at_subscription_scope
@@ -284,7 +284,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_create_or_update_at_tenant_scope
@@ -348,7 +348,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_delete
@@ -423,7 +423,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_delete_at_management_group_scope
@@ -493,7 +493,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_delete_at_scope
@@ -563,7 +563,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_delete_at_subscription_scope
@@ -628,7 +628,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_delete_at_tenant_scope
@@ -693,7 +693,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_validate
@@ -762,7 +762,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_validate_at_management_group_scope
@@ -831,7 +831,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_validate_at_scope
@@ -898,7 +898,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_validate_at_subscription_scope
@@ -960,7 +960,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_validate_at_tenant_scope
@@ -1023,7 +1023,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentValidateResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_what_if
@@ -1094,7 +1094,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.WhatIfOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.WhatIfOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_what_if_at_management_group_scope
@@ -1163,7 +1163,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.WhatIfOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.WhatIfOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_what_if_at_subscription_scope
@@ -1227,7 +1227,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.WhatIfOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.WhatIfOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.begin_what_if_at_tenant_scope
@@ -1290,7 +1290,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.WhatIfOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.WhatIfOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.calculate_template_hash
@@ -1892,7 +1892,7 @@ methods:
     description: An iterator like instance of either DeploymentExtended or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.list_at_scope
@@ -1929,7 +1929,7 @@ methods:
     description: An iterator like instance of either DeploymentExtended or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.list_at_subscription_scope
@@ -1961,7 +1961,7 @@ methods:
     description: An iterator like instance of either DeploymentExtended or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.list_at_tenant_scope
@@ -1993,7 +1993,7 @@ methods:
     description: An iterator like instance of either DeploymentExtended or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2022_09_01.operations.DeploymentsOperations.list_by_resource_group
@@ -2032,7 +2032,7 @@ methods:
     description: An iterator like instance of either DeploymentExtended or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.resources.v2022_09_01.models.DeploymentExtended>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

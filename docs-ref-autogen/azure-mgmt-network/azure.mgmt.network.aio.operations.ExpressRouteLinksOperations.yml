@@ -39,7 +39,7 @@ methods:
   return:
     description: ExpressRouteLink or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteLink>
+    - <xref:ExpressRouteLink>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteLinksOperations.list
@@ -67,7 +67,7 @@ methods:
     description: An iterator like instance of either ExpressRouteLink or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ExpressRouteLink>]
+    - <xref:AsyncItemPaged>[<xref:ExpressRouteLink>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

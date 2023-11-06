@@ -76,7 +76,7 @@ methods:
     description: An instance of LROPoller that returns either Workspace or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.begin_delete
@@ -119,7 +119,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.get
@@ -173,7 +173,7 @@ methods:
     description: An iterator like instance of either WorkspaceListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.WorkspaceListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.WorkspaceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.list_by_subscription
@@ -196,7 +196,7 @@ methods:
     description: An iterator like instance of either WorkspaceListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.WorkspaceListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.WorkspaceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.list_keys

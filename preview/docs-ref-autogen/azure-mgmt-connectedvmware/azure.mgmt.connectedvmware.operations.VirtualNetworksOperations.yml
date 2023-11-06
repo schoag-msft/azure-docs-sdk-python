@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.connectedvmware.models.VirtualNetwork>]
+    - <xref:LROPoller>[<xref:azure.mgmt.connectedvmware.models.VirtualNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VirtualNetworksOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VirtualNetworksOperations.get
@@ -179,7 +179,7 @@ methods:
     description: An iterator like instance of either VirtualNetwork or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VirtualNetwork>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VirtualNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VirtualNetworksOperations.list_by_resource_group
@@ -203,7 +203,7 @@ methods:
     description: An iterator like instance of either VirtualNetwork or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VirtualNetwork>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VirtualNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VirtualNetworksOperations.update

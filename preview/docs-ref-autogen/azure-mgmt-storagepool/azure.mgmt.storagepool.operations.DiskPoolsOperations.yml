@@ -76,7 +76,7 @@ methods:
     description: An instance of LROPoller that returns either DiskPool or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.storagepool.models.DiskPool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.storagepool.models.DiskPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagepool.operations.DiskPoolsOperations.begin_deallocate
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagepool.operations.DiskPoolsOperations.begin_delete
@@ -185,7 +185,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagepool.operations.DiskPoolsOperations.begin_start
@@ -238,7 +238,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagepool.operations.DiskPoolsOperations.begin_update
@@ -303,7 +303,7 @@ methods:
     description: An instance of LROPoller that returns either DiskPool or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.storagepool.models.DiskPool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.storagepool.models.DiskPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagepool.operations.DiskPoolsOperations.begin_upgrade
@@ -356,7 +356,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagepool.operations.DiskPoolsOperations.get
@@ -406,7 +406,7 @@ methods:
   return:
     description: An iterator like instance of either DiskPool or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storagepool.models.DiskPool>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storagepool.models.DiskPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagepool.operations.DiskPoolsOperations.list_by_subscription
@@ -421,7 +421,7 @@ methods:
   return:
     description: An iterator like instance of either DiskPool or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storagepool.models.DiskPool>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storagepool.models.DiskPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagepool.operations.DiskPoolsOperations.list_outbound_network_dependencies_endpoints
@@ -452,7 +452,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storagepool.models.OutboundEnvironmentEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storagepool.models.OutboundEnvironmentEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

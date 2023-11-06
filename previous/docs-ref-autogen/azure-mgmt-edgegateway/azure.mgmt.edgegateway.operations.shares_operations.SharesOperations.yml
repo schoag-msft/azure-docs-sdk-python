@@ -73,8 +73,8 @@ methods:
 
       ClientRawResponse<Share> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.Share>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.Share>]]
+    - <xref:AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.Share>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.Share>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.shares_operations.SharesOperations.delete
@@ -120,8 +120,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.shares_operations.SharesOperations.get
@@ -166,7 +166,7 @@ methods:
     description: Share or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.Share>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.shares_operations.SharesOperations.list_by_data_box_edge_device
@@ -251,8 +251,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 attributes:

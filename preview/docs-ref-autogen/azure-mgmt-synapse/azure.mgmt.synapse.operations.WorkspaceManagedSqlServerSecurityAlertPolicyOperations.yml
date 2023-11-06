@@ -86,7 +86,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.ServerSecurityAlertPolicy>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.ServerSecurityAlertPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.WorkspaceManagedSqlServerSecurityAlertPolicyOperations.get
@@ -157,7 +157,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.ServerSecurityAlertPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.ServerSecurityAlertPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

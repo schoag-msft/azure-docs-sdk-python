@@ -79,7 +79,7 @@ methods:
     description: DetectedLanguage or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.DetectedLanguage>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.text_moderation_operations.TextModerationOperations.screen_text
@@ -163,7 +163,7 @@ methods:
     description: Screen or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Screen>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 attributes:

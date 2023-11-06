@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.begin_delete
@@ -125,7 +125,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.begin_update
@@ -190,7 +190,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.begin_validate
@@ -243,7 +243,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicelinker.models.ValidateOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.servicelinker.models.ValidateOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.get
@@ -298,7 +298,7 @@ methods:
     description: An iterator like instance of either LinkerResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.list_configurations

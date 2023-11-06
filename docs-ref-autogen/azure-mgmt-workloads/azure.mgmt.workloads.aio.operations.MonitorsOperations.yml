@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.Monitor>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.Monitor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.MonitorsOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.MonitorsOperations.get
@@ -191,7 +191,7 @@ methods:
   return:
     description: An iterator like instance of either Monitor or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.workloads.models.Monitor>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.workloads.models.Monitor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.MonitorsOperations.list_by_resource_group
@@ -216,7 +216,7 @@ methods:
   return:
     description: An iterator like instance of either Monitor or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.workloads.models.Monitor>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.workloads.models.Monitor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.MonitorsOperations.update

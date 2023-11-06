@@ -72,7 +72,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.SecurityPartnerProvider>]
+    - <xref:LROPoller>[<xref:SecurityPartnerProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SecurityPartnerProvidersOperations.begin_delete
@@ -120,7 +120,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SecurityPartnerProvidersOperations.get
@@ -146,7 +146,7 @@ methods:
   return:
     description: SecurityPartnerProvider or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SecurityPartnerProvider>
+    - <xref:SecurityPartnerProvider>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SecurityPartnerProvidersOperations.list
@@ -164,7 +164,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.SecurityPartnerProvider>]
+    - <xref:ItemPaged>[<xref:SecurityPartnerProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SecurityPartnerProvidersOperations.list_by_resource_group
@@ -187,7 +187,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.SecurityPartnerProvider>]
+    - <xref:ItemPaged>[<xref:SecurityPartnerProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SecurityPartnerProvidersOperations.update_tags
@@ -228,7 +228,7 @@ methods:
   return:
     description: SecurityPartnerProvider or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SecurityPartnerProvider>
+    - <xref:SecurityPartnerProvider>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

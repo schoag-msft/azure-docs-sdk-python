@@ -189,7 +189,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.testbase.models.FavoriteProcessResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.testbase.models.FavoriteProcessResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

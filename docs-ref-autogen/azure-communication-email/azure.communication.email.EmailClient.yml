@@ -53,7 +53,7 @@ methods:
   return:
     description: An instance of LROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.communication.email.EmailClient.from_connection_string
@@ -69,4 +69,4 @@ methods:
   return:
     description: Instance of EmailClient.
     types:
-    - <xref:azure.communication.EmailClient>
+    - <xref:azure.communication.email.EmailClient>

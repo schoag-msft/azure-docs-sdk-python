@@ -666,7 +666,7 @@ methods:
     description: An iterator like instance of either DetectorResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.DiagnosticsOperations.list_site_analyses
@@ -701,7 +701,7 @@ methods:
     description: An iterator like instance of either AnalysisDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.AnalysisDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.AnalysisDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.DiagnosticsOperations.list_site_analyses_slot
@@ -741,7 +741,7 @@ methods:
     description: An iterator like instance of either AnalysisDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.AnalysisDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.AnalysisDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.DiagnosticsOperations.list_site_detector_responses
@@ -771,7 +771,7 @@ methods:
     description: An iterator like instance of either DetectorResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.DiagnosticsOperations.list_site_detector_responses_slot
@@ -806,7 +806,7 @@ methods:
     description: An iterator like instance of either DetectorResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.DiagnosticsOperations.list_site_detectors
@@ -843,7 +843,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorDefinitionResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorDefinitionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.DiagnosticsOperations.list_site_detectors_slot
@@ -885,7 +885,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorDefinitionResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DetectorDefinitionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.DiagnosticsOperations.list_site_diagnostic_categories
@@ -915,7 +915,7 @@ methods:
     description: An iterator like instance of either DiagnosticCategory or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DiagnosticCategory>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DiagnosticCategory>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.DiagnosticsOperations.list_site_diagnostic_categories_slot
@@ -950,7 +950,7 @@ methods:
     description: An iterator like instance of either DiagnosticCategory or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DiagnosticCategory>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.DiagnosticCategory>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

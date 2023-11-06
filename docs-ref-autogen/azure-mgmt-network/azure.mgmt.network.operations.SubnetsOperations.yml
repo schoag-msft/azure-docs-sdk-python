@@ -75,7 +75,7 @@ methods:
     description: An instance of LROPoller that returns either Subnet or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.Subnet>]
+    - <xref:LROPoller>[<xref:Subnet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SubnetsOperations.begin_delete
@@ -128,7 +128,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SubnetsOperations.begin_prepare_network_policies
@@ -199,7 +199,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SubnetsOperations.begin_unprepare_network_policies
@@ -270,7 +270,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SubnetsOperations.get
@@ -305,7 +305,7 @@ methods:
   return:
     description: Subnet or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.Subnet>
+    - <xref:Subnet>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SubnetsOperations.list
@@ -331,7 +331,7 @@ methods:
   return:
     description: An iterator like instance of either Subnet or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.Subnet>]
+    - <xref:ItemPaged>[<xref:Subnet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -61,7 +61,7 @@ methods:
     description: An iterator like instance of either PartitionMetric or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.PartitionMetric>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.PartitionMetric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CollectionPartitionOperations.list_usages
@@ -112,7 +112,7 @@ methods:
     description: An iterator like instance of either PartitionUsage or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.PartitionUsage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.PartitionUsage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

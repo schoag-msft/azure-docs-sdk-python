@@ -159,7 +159,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2021_07_01_preview.models.CustomEntityStoreAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2021_07_01_preview.models.CustomEntityStoreAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2021_07_01_preview.aio.operations.CustomEntityStoreAssignmentsOperations.list_by_subscription
@@ -180,7 +180,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2021_07_01_preview.models.CustomEntityStoreAssignment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2021_07_01_preview.models.CustomEntityStoreAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

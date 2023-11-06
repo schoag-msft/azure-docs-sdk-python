@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.InternetGateway>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.InternetGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.InternetGatewaysOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.InternetGatewaysOperations.begin_update
@@ -200,7 +200,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.InternetGateway>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.InternetGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.InternetGatewaysOperations.get
@@ -257,7 +257,7 @@ methods:
     description: An iterator like instance of either InternetGateway or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.InternetGateway>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.InternetGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.InternetGatewaysOperations.list_by_subscription
@@ -276,7 +276,7 @@ methods:
     description: An iterator like instance of either InternetGateway or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.InternetGateway>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.InternetGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -117,7 +117,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2019_08_01.models.IoTSecurityAggregatedAlert>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2019_08_01.models.IoTSecurityAggregatedAlert>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

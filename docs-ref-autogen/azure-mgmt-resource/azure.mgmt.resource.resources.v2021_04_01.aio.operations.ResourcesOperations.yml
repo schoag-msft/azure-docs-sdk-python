@@ -96,7 +96,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2021_04_01.aio.operations.ResourcesOperations.begin_create_or_update_by_id
@@ -169,7 +169,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2021_04_01.aio.operations.ResourcesOperations.begin_delete
@@ -240,7 +240,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2021_04_01.aio.operations.ResourcesOperations.begin_delete_by_id
@@ -295,7 +295,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2021_04_01.aio.operations.ResourcesOperations.begin_move_resources
@@ -369,7 +369,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2021_04_01.aio.operations.ResourcesOperations.begin_update
@@ -458,7 +458,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2021_04_01.aio.operations.ResourcesOperations.begin_update_by_id
@@ -531,7 +531,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2021_04_01.aio.operations.ResourcesOperations.begin_validate_move_resources
@@ -611,7 +611,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2021_04_01.aio.operations.ResourcesOperations.check_existence
@@ -883,7 +883,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResourceExpanded>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResourceExpanded>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2021_04_01.aio.operations.ResourcesOperations.list_by_resource_group
@@ -971,7 +971,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResourceExpanded>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.resources.v2021_04_01.models.GenericResourceExpanded>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

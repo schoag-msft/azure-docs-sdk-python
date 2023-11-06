@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VirtualNetworkGateway>]
+    - <xref:LROPoller>[<xref:VirtualNetworkGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_delete
@@ -122,7 +122,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_disconnect_virtual_network_gateway_vpn_connections
@@ -187,7 +187,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_generate_vpn_profile
@@ -253,7 +253,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_generatevpnclientpackage
@@ -319,7 +319,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_get_advertised_routes
@@ -376,7 +376,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.GatewayRouteListResult>]
+    - <xref:LROPoller>[<xref:GatewayRouteListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_get_bgp_peer_status
@@ -431,7 +431,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.BgpPeerStatusListResult>]
+    - <xref:LROPoller>[<xref:BgpPeerStatusListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_get_learned_routes
@@ -484,7 +484,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.GatewayRouteListResult>]
+    - <xref:LROPoller>[<xref:GatewayRouteListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_get_vpn_profile_package_url
@@ -535,7 +535,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_get_vpnclient_connection_health
@@ -587,7 +587,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnClientConnectionHealthDetailListResult>]
+    - <xref:LROPoller>[<xref:VpnClientConnectionHealthDetailListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_get_vpnclient_ipsec_parameters
@@ -643,7 +643,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnClientIPsecParameters>]
+    - <xref:LROPoller>[<xref:VpnClientIPsecParameters>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_reset
@@ -701,7 +701,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VirtualNetworkGateway>]
+    - <xref:LROPoller>[<xref:VirtualNetworkGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_reset_vpn_client_shared_key
@@ -752,7 +752,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_set_vpnclient_ipsec_parameters
@@ -824,7 +824,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnClientIPsecParameters>]
+    - <xref:LROPoller>[<xref:VpnClientIPsecParameters>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_start_packet_capture
@@ -892,7 +892,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_stop_packet_capture
@@ -957,7 +957,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.begin_update_tags
@@ -1022,7 +1022,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VirtualNetworkGateway>]
+    - <xref:LROPoller>[<xref:VirtualNetworkGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.get
@@ -1048,7 +1048,7 @@ methods:
   return:
     description: VirtualNetworkGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualNetworkGateway>
+    - <xref:VirtualNetworkGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.list
@@ -1071,7 +1071,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VirtualNetworkGateway>]
+    - <xref:ItemPaged>[<xref:VirtualNetworkGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.list_connections
@@ -1100,7 +1100,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VirtualNetworkGatewayConnectionListEntity>]
+    - <xref:ItemPaged>[<xref:VirtualNetworkGatewayConnectionListEntity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualNetworkGatewaysOperations.supported_vpn_devices

@@ -50,7 +50,7 @@ methods:
     description: An iterator like instance of either BillingPermissionsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingPermissionsOperations.list_by_billing_profile
@@ -77,7 +77,7 @@ methods:
     description: An iterator like instance of either BillingPermissionsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingPermissionsOperations.list_by_customer
@@ -104,7 +104,7 @@ methods:
     description: An iterator like instance of either BillingPermissionsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingPermissionsOperations.list_by_invoice_sections
@@ -136,7 +136,7 @@ methods:
     description: An iterator like instance of either BillingPermissionsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

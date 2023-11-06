@@ -81,7 +81,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.PrivateEndpointConnectionsOperations.begin_delete
@@ -138,7 +138,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.OperationResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.OperationResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.PrivateEndpointConnectionsOperations.get
@@ -202,7 +202,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.PrivateEndpointConnection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

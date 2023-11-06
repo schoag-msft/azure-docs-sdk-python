@@ -42,7 +42,7 @@ methods:
     description: An iterator like instance of either IotFhirDestination or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.healthcareapis.models.IotFhirDestination>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.healthcareapis.models.IotFhirDestination>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

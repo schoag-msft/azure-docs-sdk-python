@@ -107,7 +107,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.VerifiedPartnersListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.VerifiedPartnersListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.automation.models.DscNodeConfiguration>]
+    - <xref:LROPoller>[<xref:azure.mgmt.automation.models.DscNodeConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.operations.DscNodeConfigurationOperations.delete
@@ -191,7 +191,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automation.models.DscNodeConfiguration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automation.models.DscNodeConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

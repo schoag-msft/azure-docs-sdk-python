@@ -128,7 +128,7 @@ methods:
     description: An iterator like instance of either AlertProcessingRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.alertsmanagement.models.AlertProcessingRule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.alertsmanagement.models.AlertProcessingRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.alertsmanagement.aio.operations.AlertProcessingRulesOperations.list_by_subscription
@@ -144,7 +144,7 @@ methods:
     description: An iterator like instance of either AlertProcessingRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.alertsmanagement.models.AlertProcessingRule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.alertsmanagement.models.AlertProcessingRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.alertsmanagement.aio.operations.AlertProcessingRulesOperations.update

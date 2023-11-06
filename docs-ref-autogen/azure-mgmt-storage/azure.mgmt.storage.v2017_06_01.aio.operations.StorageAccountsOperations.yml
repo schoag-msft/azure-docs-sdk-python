@@ -91,7 +91,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.storage.v2017_06_01.models.StorageAccount>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.storage.v2017_06_01.models.StorageAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2017_06_01.aio.operations.StorageAccountsOperations.check_name_availability
@@ -220,7 +220,7 @@ methods:
     description: An iterator like instance of either StorageAccount or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storage.v2017_06_01.models.StorageAccount>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storage.v2017_06_01.models.StorageAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2017_06_01.aio.operations.StorageAccountsOperations.list_account_sas
@@ -297,7 +297,7 @@ methods:
     description: An iterator like instance of either StorageAccount or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storage.v2017_06_01.models.StorageAccount>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storage.v2017_06_01.models.StorageAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2017_06_01.aio.operations.StorageAccountsOperations.list_keys

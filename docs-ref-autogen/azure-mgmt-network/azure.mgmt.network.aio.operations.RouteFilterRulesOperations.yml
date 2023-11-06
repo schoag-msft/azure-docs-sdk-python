@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.RouteFilterRule>]
+    - <xref:AsyncLROPoller>[<xref:RouteFilterRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteFilterRulesOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteFilterRulesOperations.begin_update
@@ -201,7 +201,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.RouteFilterRule>]
+    - <xref:AsyncLROPoller>[<xref:RouteFilterRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteFilterRulesOperations.get
@@ -232,7 +232,7 @@ methods:
   return:
     description: RouteFilterRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.RouteFilterRule>
+    - <xref:RouteFilterRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteFilterRulesOperations.list_by_route_filter
@@ -259,7 +259,7 @@ methods:
     description: An iterator like instance of either RouteFilterRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.RouteFilterRule>]
+    - <xref:AsyncItemPaged>[<xref:RouteFilterRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

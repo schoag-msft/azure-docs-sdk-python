@@ -93,7 +93,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:batch_ai.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.batchai.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batchai.operations.ClustersOperations.begin_delete
@@ -153,7 +153,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batchai.operations.ClustersOperations.get
@@ -195,7 +195,7 @@ methods:
   return:
     description: Cluster, or the result of cls(response)
     types:
-    - <xref:batch_ai.models.Cluster>
+    - <xref:azure.mgmt.batchai.models.Cluster>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batchai.operations.ClustersOperations.list_by_workspace
@@ -232,7 +232,7 @@ methods:
     description: An iterator like instance of either ClusterListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:batch_ai.models.ClusterListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.batchai.models.ClusterListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batchai.operations.ClustersOperations.list_remote_login_information
@@ -275,7 +275,7 @@ methods:
     description: An iterator like instance of either RemoteLoginInformationListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:batch_ai.models.RemoteLoginInformationListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.batchai.models.RemoteLoginInformationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.batchai.operations.ClustersOperations.update
@@ -322,7 +322,7 @@ methods:
   return:
     description: Cluster, or the result of cls(response)
     types:
-    - <xref:batch_ai.models.Cluster>
+    - <xref:azure.mgmt.batchai.models.Cluster>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

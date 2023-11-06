@@ -33,7 +33,7 @@ methods:
   return:
     description: An iterator like instance of either GuestAgent or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestackhci.models.GuestAgent>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestackhci.models.GuestAgent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

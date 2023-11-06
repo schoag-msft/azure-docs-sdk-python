@@ -105,7 +105,7 @@ methods:
 
       keys/get permission.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.keyvault.keys.DeletedKey>]
+    - <xref:LROPoller>[<xref:azure.keyvault.keys.DeletedKey>]
   exceptions:
   - type: azure.core.exceptions.ResourceNotFoundError
     description: if the key doesn't exist,
@@ -146,7 +146,7 @@ methods:
 
       *wait* method requires keys/get permission.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.keyvault.keys.KeyVaultKey>]
+    - <xref:LROPoller>[<xref:azure.keyvault.keys.KeyVaultKey>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.keyvault.keys.KeyClient.close
@@ -634,7 +634,7 @@ methods:
   return:
     description: An iterator of deleted keys
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.keys.DeletedKey>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.keys.DeletedKey>]
 - uid: azure.keyvault.keys.KeyClient.list_properties_of_key_versions
   name: list_properties_of_key_versions
   summary: 'List the identifiers and properties of a key''s versions.
@@ -651,7 +651,7 @@ methods:
   return:
     description: An iterator of keys without their cryptographic material
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
 - uid: azure.keyvault.keys.KeyClient.list_properties_of_keys
   name: list_properties_of_keys
   summary: 'List identifiers and properties of all keys in the vault.
@@ -663,7 +663,7 @@ methods:
     description: An iterator of keys without their cryptographic material or version
       information
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
 - uid: azure.keyvault.keys.KeyClient.purge_deleted_key
   name: purge_deleted_key
   summary: 'Permanently deletes a deleted key. Only possible in a vault with soft-delete
@@ -826,7 +826,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>
 - uid: azure.keyvault.keys.KeyClient.update_key_properties
   name: update_key_properties
   summary: 'Change a key''s properties (not its cryptographic material).

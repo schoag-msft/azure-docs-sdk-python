@@ -37,7 +37,7 @@ methods:
     description: An iterator like instance of either ManagementGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.loganalytics.models.ManagementGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.loganalytics.models.ManagementGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

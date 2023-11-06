@@ -71,7 +71,7 @@ methods:
     description: An instance of LROPoller that returns either NotebookResourceInfo
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.NotebookResourceInfo>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.NotebookResourceInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

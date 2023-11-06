@@ -85,7 +85,7 @@ methods:
     description: An instance of LROPoller that returns either ManagedInstanceAdministrator
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceAdministrator>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceAdministrator>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ManagedInstanceAdministratorsOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ManagedInstanceAdministratorsOperations.get
@@ -198,7 +198,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceAdministratorListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceAdministratorListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceAdministratorListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

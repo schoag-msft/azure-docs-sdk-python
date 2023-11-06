@@ -65,7 +65,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_create
@@ -133,7 +133,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkFabric>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkFabric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_delete
@@ -186,7 +186,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_deprovision
@@ -240,7 +240,7 @@ methods:
 
       CommonPostActionResponseForDeviceUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_get_topology
@@ -295,7 +295,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_provision
@@ -349,7 +349,7 @@ methods:
 
       CommonPostActionResponseForDeviceUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_refresh_configuration
@@ -404,7 +404,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_update
@@ -475,7 +475,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkFabric>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkFabric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_update_infra_management_bfd_configuration
@@ -548,7 +548,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_update_workload_management_bfd_configuration
@@ -621,7 +621,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_upgrade
@@ -691,7 +691,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.begin_validate_configuration
@@ -762,7 +762,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.get
@@ -819,7 +819,7 @@ methods:
     description: An iterator like instance of either NetworkFabric or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkFabric>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkFabric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkFabricsOperations.list_by_subscription
@@ -838,7 +838,7 @@ methods:
     description: An iterator like instance of either NetworkFabric or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkFabric>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkFabric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.SAPVirtualInstance>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.SAPVirtualInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPVirtualInstancesOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPVirtualInstancesOperations.begin_start
@@ -193,7 +193,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPVirtualInstancesOperations.begin_stop
@@ -266,7 +266,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPVirtualInstancesOperations.get
@@ -319,7 +319,7 @@ methods:
     description: An iterator like instance of either SAPVirtualInstance or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.workloads.models.SAPVirtualInstance>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.workloads.models.SAPVirtualInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPVirtualInstancesOperations.list_by_subscription
@@ -335,7 +335,7 @@ methods:
     description: An iterator like instance of either SAPVirtualInstance or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.workloads.models.SAPVirtualInstance>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.workloads.models.SAPVirtualInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.aio.operations.SAPVirtualInstancesOperations.update

@@ -141,7 +141,7 @@ methods:
     description: An iterator like instance of either PeeringListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.peering.models.PeeringListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.peering.models.PeeringListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.peering.aio.operations.PeeringsOperations.list_by_subscription
@@ -157,7 +157,7 @@ methods:
     description: An iterator like instance of either PeeringListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.peering.models.PeeringListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.peering.models.PeeringListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.peering.aio.operations.PeeringsOperations.update

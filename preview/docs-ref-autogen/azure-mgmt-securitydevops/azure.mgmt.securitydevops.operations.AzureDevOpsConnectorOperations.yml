@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsConnector>]
+    - <xref:LROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsConnector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.operations.AzureDevOpsConnectorOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.operations.AzureDevOpsConnectorOperations.begin_update
@@ -201,7 +201,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsConnector>]
+    - <xref:LROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsConnector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.operations.AzureDevOpsConnectorOperations.get
@@ -257,7 +257,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsConnector>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsConnector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.operations.AzureDevOpsConnectorOperations.list_by_subscription
@@ -278,7 +278,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsConnector>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsConnector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

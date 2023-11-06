@@ -80,7 +80,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Cluster or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabric.aio.operations.ClustersOperations.begin_update
@@ -136,7 +136,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Cluster or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabric.aio.operations.ClustersOperations.delete

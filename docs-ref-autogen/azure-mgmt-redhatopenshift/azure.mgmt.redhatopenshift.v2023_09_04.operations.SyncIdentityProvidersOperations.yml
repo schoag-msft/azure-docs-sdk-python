@@ -174,7 +174,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.redhatopenshift.v2023_09_04.models.SyncIdentityProvider>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.redhatopenshift.v2023_09_04.models.SyncIdentityProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redhatopenshift.v2023_09_04.operations.SyncIdentityProvidersOperations.update

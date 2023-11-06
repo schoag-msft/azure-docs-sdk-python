@@ -49,7 +49,7 @@ methods:
   return:
     description: An iterator like instance of either Location or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storageimportexport.models.Location>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storageimportexport.models.Location>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -75,7 +75,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.logic.models.IntegrationServiceEnvironment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.logic.models.IntegrationServiceEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.IntegrationServiceEnvironmentsOperations.begin_update
@@ -142,7 +142,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.logic.models.IntegrationServiceEnvironment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.logic.models.IntegrationServiceEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.IntegrationServiceEnvironmentsOperations.delete
@@ -228,7 +228,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationServiceEnvironment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationServiceEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.IntegrationServiceEnvironmentsOperations.list_by_subscription
@@ -252,7 +252,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationServiceEnvironment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationServiceEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.IntegrationServiceEnvironmentsOperations.restart

@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.playwrighttesting.models.Account>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.playwrighttesting.models.Account>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.playwrighttesting.aio.operations.AccountsOperations.begin_delete
@@ -124,7 +124,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.playwrighttesting.aio.operations.AccountsOperations.get
@@ -173,7 +173,7 @@ methods:
   return:
     description: An iterator like instance of either Account or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.playwrighttesting.models.Account>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.playwrighttesting.models.Account>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.playwrighttesting.aio.operations.AccountsOperations.list_by_subscription
@@ -188,7 +188,7 @@ methods:
   return:
     description: An iterator like instance of either Account or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.playwrighttesting.models.Account>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.playwrighttesting.models.Account>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.playwrighttesting.aio.operations.AccountsOperations.update

@@ -54,7 +54,7 @@ methods:
   return:
     description: A poller to track the operation status
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.OnlineDeployment>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.OnlineDeployment>]
   exceptions:
   - type: azure.ai.ml.exceptions.ValidationException
     description: 'Raised if OnlineDeployment cannot
@@ -124,7 +124,7 @@ methods:
   return:
     description: A poller to track the operation status
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.ai.ml.exceptions.LocalEndpointNotFoundError
     description: Raised if local endpoint resource does not exist.
@@ -207,4 +207,4 @@ methods:
   return:
     description: an iterator of deployment entities
     types:
-    - <xref:Iterable>[<xref:azure.ai.ml.entities.OnlineDeployment>]
+    - <xref:typing.Iterable>[<xref:azure.ai.ml.entities.OnlineDeployment>]

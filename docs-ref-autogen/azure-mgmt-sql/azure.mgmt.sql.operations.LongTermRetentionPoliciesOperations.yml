@@ -91,7 +91,7 @@ methods:
     description: An instance of LROPoller that returns either LongTermRetentionPolicy
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionPolicy>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.LongTermRetentionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.LongTermRetentionPoliciesOperations.get
@@ -165,7 +165,7 @@ methods:
     description: An iterator like instance of either LongTermRetentionPolicyListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionPolicyListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.LongTermRetentionPolicyListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

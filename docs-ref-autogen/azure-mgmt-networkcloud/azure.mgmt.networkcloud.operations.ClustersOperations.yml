@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClustersOperations.begin_delete
@@ -127,7 +127,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClustersOperations.begin_deploy
@@ -197,7 +197,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClustersOperations.begin_update
@@ -268,7 +268,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClustersOperations.begin_update_version
@@ -338,7 +338,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClustersOperations.get
@@ -393,7 +393,7 @@ methods:
   return:
     description: An iterator like instance of either Cluster or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.Cluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.ClustersOperations.list_by_subscription
@@ -411,7 +411,7 @@ methods:
   return:
     description: An iterator like instance of either Cluster or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.Cluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

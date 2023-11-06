@@ -128,7 +128,7 @@ methods:
   return:
     description: An instance of LROPoller that returns None
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.language.questionanswering.authoring.AuthoringClient.begin_deploy_project
@@ -178,7 +178,7 @@ methods:
   return:
     description: An instance of LROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -244,7 +244,7 @@ methods:
   return:
     description: An instance of LROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -351,7 +351,7 @@ methods:
   return:
     description: An instance of LROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:JSON>]
+    - <xref:LROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -442,7 +442,7 @@ methods:
     description: An instance of LROPoller that returns an iterator like instance of
       JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.core.paging.ItemPaged>[<xref:JSON>]]
+    - <xref:LROPoller>[<xref:ItemPaged>[<xref:JSON>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -566,7 +566,7 @@ methods:
     description: An instance of LROPoller that returns an iterator like instance of
       JSON object
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.core.paging.ItemPaged>[<xref:JSON>]]
+    - <xref:LROPoller>[<xref:ItemPaged>[<xref:JSON>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -722,7 +722,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:JSON>]
+    - <xref:ItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -763,7 +763,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:JSON>]
+    - <xref:ItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -825,7 +825,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:JSON>]
+    - <xref:ItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -926,7 +926,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:JSON>]
+    - <xref:ItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -978,7 +978,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:JSON>]
+    - <xref:ItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1025,7 +1025,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>
 - uid: azure.ai.language.questionanswering.authoring.AuthoringClient.update_synonyms
   name: update_synonyms
   summary: 'Updates all the synonyms of a project.

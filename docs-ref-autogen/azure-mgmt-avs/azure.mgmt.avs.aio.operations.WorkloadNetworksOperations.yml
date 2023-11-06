@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDhcp>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDhcp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_create_dns_service
@@ -161,7 +161,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsService>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_create_dns_zone
@@ -239,7 +239,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsZone>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsZone>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_create_port_mirroring
@@ -316,7 +316,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkPortMirroring>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkPortMirroring>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_create_public_ip
@@ -394,7 +394,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkPublicIP>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkPublicIP>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_create_segments
@@ -472,7 +472,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkSegment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkSegment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_create_vm_group
@@ -550,7 +550,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkVMGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkVMGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_delete_dhcp
@@ -609,7 +609,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_delete_dns_service
@@ -669,7 +669,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_delete_dns_zone
@@ -730,7 +730,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_delete_port_mirroring
@@ -790,7 +790,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_delete_public_ip
@@ -851,7 +851,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_delete_segment
@@ -912,7 +912,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_delete_vm_group
@@ -973,7 +973,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_update_dhcp
@@ -1049,7 +1049,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDhcp>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDhcp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_update_dns_service
@@ -1126,7 +1126,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsService>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_update_dns_zone
@@ -1204,7 +1204,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsZone>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsZone>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_update_port_mirroring
@@ -1282,7 +1282,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkPortMirroring>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkPortMirroring>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_update_segments
@@ -1360,7 +1360,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkSegment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkSegment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.begin_update_vm_group
@@ -1438,7 +1438,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkVMGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.WorkloadNetworkVMGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.get
@@ -1853,7 +1853,7 @@ methods:
     description: An iterator like instance of either WorkloadNetwork or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetwork>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.list_dhcp
@@ -1885,7 +1885,7 @@ methods:
     description: An iterator like instance of either WorkloadNetworkDhcp or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkDhcp>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkDhcp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.list_dns_services
@@ -1919,7 +1919,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsService>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.list_dns_zones
@@ -1953,7 +1953,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsZone>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkDnsZone>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.list_gateways
@@ -1987,7 +1987,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkGateway>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.list_port_mirroring
@@ -2021,7 +2021,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkPortMirroring>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkPortMirroring>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.list_public_i_ps
@@ -2055,7 +2055,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkPublicIP>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkPublicIP>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.list_segments
@@ -2089,7 +2089,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkSegment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkSegment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.list_virtual_machines
@@ -2123,7 +2123,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkVirtualMachine>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkVirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations.list_vm_groups
@@ -2157,7 +2157,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkVMGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.WorkloadNetworkVMGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

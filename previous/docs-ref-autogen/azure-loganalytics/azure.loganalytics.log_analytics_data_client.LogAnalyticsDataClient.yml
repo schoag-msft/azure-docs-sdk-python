@@ -77,6 +77,6 @@ methods:
     description: QueryResults or ClientRawResponse if raw=true
     types:
     - <xref:azure.loganalytics.models.QueryResults>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.loganalytics.models.ErrorResponseException

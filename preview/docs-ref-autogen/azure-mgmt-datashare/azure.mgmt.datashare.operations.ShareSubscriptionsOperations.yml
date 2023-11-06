@@ -81,7 +81,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.begin_delete
@@ -139,7 +139,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.begin_synchronize
@@ -210,7 +210,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.create
@@ -340,7 +340,7 @@ methods:
     description: An iterator like instance of either ShareSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSubscription>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.list_source_share_synchronization_settings
@@ -383,7 +383,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.SourceShareSynchronizationSetting>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.SourceShareSynchronizationSetting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.list_synchronization_details
@@ -451,7 +451,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationDetails>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.list_synchronizations
@@ -504,7 +504,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -148,7 +148,7 @@ methods:
     description: An iterator like instance of either PeeringService or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.peering.models.PeeringService>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.peering.models.PeeringService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.peering.operations.PeeringServicesOperations.list_by_subscription
@@ -164,7 +164,7 @@ methods:
     description: An iterator like instance of either PeeringService or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.peering.models.PeeringService>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.peering.models.PeeringService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.peering.operations.PeeringServicesOperations.update

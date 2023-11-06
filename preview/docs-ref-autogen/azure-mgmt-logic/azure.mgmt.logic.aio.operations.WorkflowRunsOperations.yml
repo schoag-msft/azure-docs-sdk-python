@@ -111,7 +111,7 @@ methods:
     description: An iterator like instance of either WorkflowRun or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowRun>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowRun>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

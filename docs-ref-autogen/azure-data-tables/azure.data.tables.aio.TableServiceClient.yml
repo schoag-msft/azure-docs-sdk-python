@@ -137,7 +137,7 @@ methods:
   return:
     description: TableClient, or the result of cls(response)
     types:
-    - <xref:azure.data.tables.aio.TableClient>
+    - <xref:azure.data.tables.TableClient>
   exceptions:
   - type: azure.core.exceptions.ResourceExistsError
   examples:
@@ -170,7 +170,7 @@ methods:
   return:
     description: TableClient
     types:
-    - <xref:azure.data.tables.aio.TableClient>
+    - <xref:azure.data.tables.TableClient>
   examples:
   - "Creating a table if it does not already exist<!--[!code-python[Main](les\\async_samples\\\
     sample_create_delete_table_async.py )]-->\n\n<!-- literal_block {\"ids\": [],\
@@ -221,7 +221,7 @@ methods:
   return:
     description: A Table service client.
     types:
-    - <xref:azure.data.tables.aio.TableServiceClient>
+    - <xref:azure.data.tables.TableServiceClient>
   examples:
   - "Creating the tableServiceClient from a connection string<!--[!code-python[Main](les\\\
     async_samples\\sample_authentication_async.py )]-->\n\n<!-- literal_block {\"\
@@ -280,7 +280,7 @@ methods:
   return:
     description: A <xref:azure.data.tables.aio.TableClient> object.
     types:
-    - <xref:azure.data.tables.aio.TableClient>
+    - <xref:azure.data.tables.TableClient>
 - uid: azure.data.tables.aio.TableServiceClient.list_tables
   name: list_tables
   summary: Queries tables under the given account.
@@ -293,7 +293,7 @@ methods:
   return:
     description: An async iterator of <xref:azure.data.tables.TableItem>
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.data.tables.TableItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.data.tables.TableItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -327,7 +327,7 @@ methods:
   return:
     description: An async iterator of <xref:azure.data.tables.TableItem>
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.data.tables.TableItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.data.tables.TableItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

@@ -79,7 +79,7 @@ methods:
     description: An iterator like instance of either GalleryImageList or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devtestlabs.models.GalleryImageList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devtestlabs.models.GalleryImageList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

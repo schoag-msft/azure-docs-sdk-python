@@ -82,7 +82,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.redhatopenshift.v2022_09_04.models.OpenShiftCluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.redhatopenshift.v2022_09_04.models.OpenShiftCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redhatopenshift.v2022_09_04.operations.OpenShiftClustersOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redhatopenshift.v2022_09_04.operations.OpenShiftClustersOperations.begin_update
@@ -210,7 +210,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.redhatopenshift.v2022_09_04.models.OpenShiftCluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.redhatopenshift.v2022_09_04.models.OpenShiftCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redhatopenshift.v2022_09_04.operations.OpenShiftClustersOperations.get
@@ -261,7 +261,7 @@ methods:
     description: An iterator like instance of either OpenShiftCluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.redhatopenshift.v2022_09_04.models.OpenShiftCluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.redhatopenshift.v2022_09_04.models.OpenShiftCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redhatopenshift.v2022_09_04.operations.OpenShiftClustersOperations.list_admin_credentials
@@ -321,7 +321,7 @@ methods:
     description: An iterator like instance of either OpenShiftCluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.redhatopenshift.v2022_09_04.models.OpenShiftCluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.redhatopenshift.v2022_09_04.models.OpenShiftCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redhatopenshift.v2022_09_04.operations.OpenShiftClustersOperations.list_credentials

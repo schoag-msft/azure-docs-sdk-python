@@ -88,7 +88,7 @@ methods:
     description: An iterator like instance of either OSUpdateResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.testbase.models.OSUpdateResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.testbase.models.OSUpdateResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

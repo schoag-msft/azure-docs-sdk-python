@@ -77,7 +77,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerinstance.models.ContainerGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerinstance.models.ContainerGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerinstance.operations.ContainerGroupsOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerinstance.models.ContainerGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerinstance.models.ContainerGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerinstance.operations.ContainerGroupsOperations.begin_restart
@@ -187,7 +187,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerinstance.operations.ContainerGroupsOperations.begin_start
@@ -241,7 +241,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerinstance.operations.ContainerGroupsOperations.get
@@ -334,7 +334,7 @@ methods:
     description: An iterator like instance of either ContainerGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerinstance.models.ContainerGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerinstance.models.ContainerGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerinstance.operations.ContainerGroupsOperations.list_by_resource_group
@@ -365,7 +365,7 @@ methods:
     description: An iterator like instance of either ContainerGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerinstance.models.ContainerGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerinstance.models.ContainerGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerinstance.operations.ContainerGroupsOperations.stop

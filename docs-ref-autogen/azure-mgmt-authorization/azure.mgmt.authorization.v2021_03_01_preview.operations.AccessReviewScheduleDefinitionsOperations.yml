@@ -114,7 +114,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.authorization.v2021_03_01_preview.models.AccessReviewScheduleDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.authorization.v2021_03_01_preview.models.AccessReviewScheduleDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.authorization.v2021_03_01_preview.operations.AccessReviewScheduleDefinitionsOperations.stop

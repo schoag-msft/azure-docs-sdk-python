@@ -68,8 +68,8 @@ methods:
 
       ClientRawResponse<DataBoxEdgeDevice> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.DataBoxEdgeDevice>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.DataBoxEdgeDevice>]]
+    - <xref:AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.DataBoxEdgeDevice>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.DataBoxEdgeDevice>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.create_or_update_security_settings
@@ -123,8 +123,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.delete
@@ -165,8 +165,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.download_updates
@@ -207,8 +207,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.get
@@ -248,7 +248,7 @@ methods:
     description: DataBoxEdgeDevice or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.DataBoxEdgeDevice>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.get_extended_information
@@ -292,7 +292,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.mgmt.edgegateway.models.DataBoxEdgeDeviceExtendedInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.get_network_settings
@@ -334,7 +334,7 @@ methods:
     description: NetworkSettings or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.NetworkSettings>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.get_update_summary
@@ -378,7 +378,7 @@ methods:
     description: UpdateSummary or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.UpdateSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.install_updates
@@ -419,8 +419,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.list_by_resource_group
@@ -541,8 +541,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.update
@@ -587,7 +587,7 @@ methods:
     description: DataBoxEdgeDevice or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.DataBoxEdgeDevice>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.devices_operations.DevicesOperations.upload_certificate
@@ -640,7 +640,7 @@ methods:
     description: UploadCertificateResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.UploadCertificateResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 attributes:

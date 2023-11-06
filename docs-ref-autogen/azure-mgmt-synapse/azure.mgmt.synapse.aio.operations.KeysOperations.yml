@@ -154,7 +154,7 @@ methods:
     description: An iterator like instance of either KeyInfoListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.KeyInfoListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.KeyInfoListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

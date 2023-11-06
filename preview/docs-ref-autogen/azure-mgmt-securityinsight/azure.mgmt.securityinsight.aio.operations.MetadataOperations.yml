@@ -176,7 +176,7 @@ methods:
     description: An iterator like instance of either MetadataModel or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.MetadataModel>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.MetadataModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securityinsight.aio.operations.MetadataOperations.update

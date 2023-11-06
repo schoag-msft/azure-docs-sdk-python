@@ -31,7 +31,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.CapabilityProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.CapabilityProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

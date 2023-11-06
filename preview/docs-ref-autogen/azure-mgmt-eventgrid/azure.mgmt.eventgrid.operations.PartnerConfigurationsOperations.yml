@@ -115,7 +115,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PartnerConfigurationsOperations.begin_delete
@@ -162,7 +162,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PartnerConfigurationsOperations.begin_update
@@ -227,7 +227,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PartnerConfigurationsOperations.get
@@ -280,7 +280,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PartnerConfigurationsOperations.list_by_subscription
@@ -336,7 +336,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PartnerConfigurationsOperations.unauthorize_partner

@@ -54,7 +54,7 @@ methods:
   return:
     description: SecurityConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SecurityConfiguration>
+    - <xref:SecurityConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.SecurityUserConfigurationsOperations.delete
@@ -116,7 +116,7 @@ methods:
   return:
     description: SecurityConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SecurityConfiguration>
+    - <xref:SecurityConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.SecurityUserConfigurationsOperations.list
@@ -168,7 +168,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.SecurityConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:SecurityConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

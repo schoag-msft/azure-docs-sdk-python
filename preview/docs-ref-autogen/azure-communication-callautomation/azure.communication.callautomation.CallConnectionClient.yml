@@ -159,7 +159,7 @@ methods:
   return:
     description: An iterable of CallParticipant
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.communication.callautomation.CallParticipant>]
+    - <xref:ItemPaged>[<xref:azure.communication.callautomation.CallParticipant>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.communication.callautomation.CallConnectionClient.mute_participant

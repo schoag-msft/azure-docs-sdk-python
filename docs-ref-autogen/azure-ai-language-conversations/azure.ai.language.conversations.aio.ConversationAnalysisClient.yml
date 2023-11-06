@@ -198,7 +198,7 @@ methods:
   return:
     description: An instance of AsyncLROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:JSON>]
+    - <xref:AsyncLROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -304,4 +304,4 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.AsyncHttpResponse>
+    - <xref:AsyncHttpResponse>

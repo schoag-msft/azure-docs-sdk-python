@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.LtrBackupResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.LtrBackupResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql_flexibleservers.operations.FlexibleServerOperations.trigger_ltr_pre_backup

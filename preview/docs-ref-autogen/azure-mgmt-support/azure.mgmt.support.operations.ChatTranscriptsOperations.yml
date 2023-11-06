@@ -57,7 +57,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.support.models.ChatTranscriptDetails>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.support.models.ChatTranscriptDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

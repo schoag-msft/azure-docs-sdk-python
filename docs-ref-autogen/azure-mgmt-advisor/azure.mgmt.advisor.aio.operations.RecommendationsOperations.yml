@@ -147,7 +147,7 @@ methods:
     description: An iterator like instance of either ResourceRecommendationBaseListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.advisor.models.ResourceRecommendationBaseListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.advisor.models.ResourceRecommendationBaseListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

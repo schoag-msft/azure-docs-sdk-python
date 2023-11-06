@@ -74,7 +74,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Vault or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservices.models.Vault>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservices.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservices.aio.operations.VaultsOperations.begin_update
@@ -140,7 +140,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Vault or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservices.models.Vault>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservices.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservices.aio.operations.VaultsOperations.delete
@@ -218,7 +218,7 @@ methods:
   return:
     description: An iterator like instance of either Vault or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservices.models.Vault>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservices.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservices.aio.operations.VaultsOperations.list_by_subscription_id
@@ -233,7 +233,7 @@ methods:
   return:
     description: An iterator like instance of either Vault or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservices.models.Vault>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservices.models.Vault>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

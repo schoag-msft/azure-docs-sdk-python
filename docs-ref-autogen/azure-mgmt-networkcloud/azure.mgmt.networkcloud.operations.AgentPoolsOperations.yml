@@ -82,7 +82,7 @@ methods:
     description: An instance of LROPoller that returns either AgentPool or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.AgentPool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.AgentPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.AgentPoolsOperations.begin_delete
@@ -140,7 +140,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.AgentPoolsOperations.begin_update
@@ -220,7 +220,7 @@ methods:
     description: An instance of LROPoller that returns either AgentPool or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.AgentPool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.AgentPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.AgentPoolsOperations.get
@@ -287,7 +287,7 @@ methods:
   return:
     description: An iterator like instance of either AgentPool or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.AgentPool>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.AgentPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

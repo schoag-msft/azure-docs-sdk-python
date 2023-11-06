@@ -65,7 +65,7 @@ methods:
   return:
     description: A paged object containing the account's settings.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.administration.KeyVaultSetting>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.administration.KeyVaultSetting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.keyvault.administration.KeyVaultSettingsClient.update_setting

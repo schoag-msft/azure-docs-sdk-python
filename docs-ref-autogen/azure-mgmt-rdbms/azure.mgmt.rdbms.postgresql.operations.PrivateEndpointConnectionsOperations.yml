@@ -80,7 +80,7 @@ methods:
     description: An instance of LROPoller that returns either PrivateEndpointConnection
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.PrivateEndpointConnectionsOperations.begin_delete
@@ -128,7 +128,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.PrivateEndpointConnectionsOperations.begin_update_tags
@@ -186,7 +186,7 @@ methods:
     description: An instance of LROPoller that returns either PrivateEndpointConnection
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.PrivateEndpointConnectionsOperations.get
@@ -244,7 +244,7 @@ methods:
     description: An iterator like instance of either PrivateEndpointConnectionListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.PrivateEndpointConnectionListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.PrivateEndpointConnectionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

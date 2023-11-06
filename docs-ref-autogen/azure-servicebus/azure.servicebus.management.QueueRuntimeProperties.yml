@@ -15,7 +15,7 @@ attributes:
     to this queue.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
 - uid: azure.servicebus.management.QueueRuntimeProperties.active_message_count
   name: active_message_count
   summary: Number of active messages in the queue, topic, or subscription.
@@ -27,7 +27,7 @@ attributes:
   summary: The exact time the queue was created.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
 - uid: azure.servicebus.management.QueueRuntimeProperties.dead_letter_message_count
   name: dead_letter_message_count
   summary: Number of messages that are dead lettered.
@@ -75,4 +75,4 @@ attributes:
   summary: The exact the entity was updated.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>

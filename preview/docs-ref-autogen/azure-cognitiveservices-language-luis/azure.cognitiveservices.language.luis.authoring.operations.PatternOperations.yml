@@ -73,7 +73,7 @@ methods:
     description: PatternRuleInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.PatternRuleInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.PatternOperations.batch_add_patterns
@@ -118,7 +118,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.PatternRuleInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.PatternOperations.delete_pattern
@@ -165,7 +165,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.PatternOperations.delete_patterns
@@ -210,7 +210,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.PatternOperations.list_intent_patterns
@@ -269,7 +269,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.PatternRuleInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.PatternOperations.list_patterns
@@ -321,7 +321,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.PatternRuleInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.PatternOperations.update_pattern
@@ -371,7 +371,7 @@ methods:
     description: PatternRuleInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.PatternRuleInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.PatternOperations.update_patterns
@@ -416,7 +416,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.PatternRuleInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 attributes:

@@ -63,7 +63,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.SnapshotPoliciesOperations.begin_update
@@ -136,7 +136,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.SnapshotPolicy>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.SnapshotPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.SnapshotPoliciesOperations.create
@@ -247,7 +247,7 @@ methods:
     description: An iterator like instance of either SnapshotPolicy or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.netapp.models.SnapshotPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.netapp.models.SnapshotPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.SnapshotPoliciesOperations.list_volumes

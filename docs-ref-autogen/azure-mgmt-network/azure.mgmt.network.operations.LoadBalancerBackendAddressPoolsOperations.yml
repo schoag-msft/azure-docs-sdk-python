@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.BackendAddressPool>]
+    - <xref:LROPoller>[<xref:BackendAddressPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancerBackendAddressPoolsOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancerBackendAddressPoolsOperations.get
@@ -163,7 +163,7 @@ methods:
   return:
     description: BackendAddressPool or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.BackendAddressPool>
+    - <xref:BackendAddressPool>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.LoadBalancerBackendAddressPoolsOperations.list
@@ -190,7 +190,7 @@ methods:
     description: An iterator like instance of either BackendAddressPool or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.BackendAddressPool>]
+    - <xref:ItemPaged>[<xref:BackendAddressPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

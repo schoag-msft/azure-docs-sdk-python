@@ -521,7 +521,7 @@ methods:
   return:
     description: A dictionary with values necessary for the copy authorization.
     types:
-    - <xref:azure.ai.formrecognizer.TargetAuthorization>
+    - <xref:TargetAuthorization>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.formrecognizer.DocumentModelAdministrationClient.get_document_analysis_client
@@ -677,7 +677,7 @@ methods:
   return:
     description: Pageable of DocumentClassifierDetails.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.formrecognizer.DocumentClassifierDetails>]
+    - <xref:ItemPaged>[<xref:azure.ai.formrecognizer.DocumentClassifierDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -701,7 +701,7 @@ methods:
   return:
     description: Pageable of DocumentModelSummary.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.formrecognizer.DocumentModelSummary>]
+    - <xref:ItemPaged>[<xref:azure.ai.formrecognizer.DocumentModelSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -732,7 +732,7 @@ methods:
   return:
     description: A pageable of OperationSummary.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.formrecognizer.OperationSummary>]
+    - <xref:ItemPaged>[<xref:azure.ai.formrecognizer.OperationSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -790,4 +790,4 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>

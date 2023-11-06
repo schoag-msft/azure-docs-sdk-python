@@ -80,7 +80,7 @@ methods:
     description: An instance of LROPoller that returns either OperationResponse or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.SharesOperations.create
@@ -198,7 +198,7 @@ methods:
   return:
     description: An iterator like instance of either ShareList or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.ShareList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.ShareList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.SharesOperations.list_synchronization_details
@@ -255,7 +255,7 @@ methods:
     description: An iterator like instance of either SynchronizationDetailsList or
       the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationDetailsList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationDetailsList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.SharesOperations.list_synchronizations
@@ -306,7 +306,7 @@ methods:
     description: An iterator like instance of either ShareSynchronizationList or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSynchronizationList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSynchronizationList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

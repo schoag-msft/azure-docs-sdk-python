@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.elastic.models.ElasticMonitorResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.elastic.models.ElasticMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elastic.operations.MonitorsOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elastic.operations.MonitorsOperations.get
@@ -183,7 +183,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.elastic.models.ElasticMonitorResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.elastic.models.ElasticMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elastic.operations.MonitorsOperations.list_by_resource_group
@@ -211,7 +211,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.elastic.models.ElasticMonitorResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.elastic.models.ElasticMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elastic.operations.MonitorsOperations.update

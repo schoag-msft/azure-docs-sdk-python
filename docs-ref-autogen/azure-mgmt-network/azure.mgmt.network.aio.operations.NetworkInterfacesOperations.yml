@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.NetworkInterface>]
+    - <xref:AsyncLROPoller>[<xref:NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.begin_get_effective_route_table
@@ -171,7 +171,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.EffectiveRouteListResult>]
+    - <xref:AsyncLROPoller>[<xref:EffectiveRouteListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.begin_list_effective_network_security_groups
@@ -220,7 +220,7 @@ methods:
 
       EffectiveNetworkSecurityGroupListResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.EffectiveNetworkSecurityGroupListResult>]
+    - <xref:AsyncLROPoller>[<xref:EffectiveNetworkSecurityGroupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.begin_update_tags
@@ -285,7 +285,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.NetworkInterface>]
+    - <xref:AsyncLROPoller>[<xref:NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.get
@@ -315,7 +315,7 @@ methods:
   return:
     description: NetworkInterface or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkInterface>
+    - <xref:NetworkInterface>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.get_cloud_service_network_interface
@@ -356,7 +356,7 @@ methods:
   return:
     description: NetworkInterface or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkInterface>
+    - <xref:NetworkInterface>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.get_virtual_machine_scale_set_ip_configuration
@@ -404,7 +404,7 @@ methods:
   return:
     description: NetworkInterfaceIPConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkInterfaceIPConfiguration>
+    - <xref:NetworkInterfaceIPConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.get_virtual_machine_scale_set_network_interface
@@ -445,7 +445,7 @@ methods:
   return:
     description: NetworkInterface or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkInterface>
+    - <xref:NetworkInterface>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.list
@@ -466,7 +466,7 @@ methods:
     description: An iterator like instance of either NetworkInterface or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkInterface>]
+    - <xref:AsyncItemPaged>[<xref:NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.list_all
@@ -482,7 +482,7 @@ methods:
     description: An iterator like instance of either NetworkInterface or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkInterface>]
+    - <xref:AsyncItemPaged>[<xref:NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.list_cloud_service_network_interfaces
@@ -509,7 +509,7 @@ methods:
     description: An iterator like instance of either NetworkInterface or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkInterface>]
+    - <xref:AsyncItemPaged>[<xref:NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.list_cloud_service_role_instance_network_interfaces
@@ -542,7 +542,7 @@ methods:
     description: An iterator like instance of either NetworkInterface or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkInterface>]
+    - <xref:AsyncItemPaged>[<xref:NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.list_virtual_machine_scale_set_ip_configurations
@@ -587,7 +587,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkInterfaceIPConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:NetworkInterfaceIPConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.list_virtual_machine_scale_set_network_interfaces
@@ -614,7 +614,7 @@ methods:
     description: An iterator like instance of either NetworkInterface or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkInterface>]
+    - <xref:AsyncItemPaged>[<xref:NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.list_virtual_machine_scale_set_vm_network_interfaces
@@ -650,7 +650,7 @@ methods:
     description: An iterator like instance of either NetworkInterface or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkInterface>]
+    - <xref:AsyncItemPaged>[<xref:NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfacesOperations.update_tags
@@ -691,7 +691,7 @@ methods:
   return:
     description: NetworkInterface or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkInterface>
+    - <xref:NetworkInterface>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

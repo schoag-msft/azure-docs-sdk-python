@@ -34,7 +34,7 @@ methods:
   return:
     description: An iterator like instance of either Node or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databoxedge.v2021_02_01.models.Node>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databoxedge.v2021_02_01.models.Node>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

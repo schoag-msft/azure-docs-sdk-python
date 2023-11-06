@@ -29,7 +29,7 @@ methods:
     description: An iterator like instance of either MessagingRegions or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2017_04_01.models.MessagingRegions>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2017_04_01.models.MessagingRegions>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

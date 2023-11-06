@@ -77,7 +77,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Job or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.Job>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.JobsOperations.begin_delete
@@ -130,7 +130,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.JobsOperations.begin_start
@@ -200,7 +200,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.JobExecutionBase>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.JobExecutionBase>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.JobsOperations.begin_stop_execution
@@ -258,7 +258,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.JobsOperations.begin_stop_multiple_executions
@@ -313,7 +313,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerAppJobExecutions>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerAppJobExecutions>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.JobsOperations.begin_update
@@ -381,7 +381,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Job or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.Job>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.JobsOperations.get
@@ -437,7 +437,7 @@ methods:
   return:
     description: An iterator like instance of either Job or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.Job>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.JobsOperations.list_by_subscription
@@ -455,7 +455,7 @@ methods:
   return:
     description: An iterator like instance of either Job or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.Job>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.JobsOperations.list_secrets

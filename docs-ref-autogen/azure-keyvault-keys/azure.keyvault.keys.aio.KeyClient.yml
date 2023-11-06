@@ -579,7 +579,7 @@ methods:
   return:
     description: An iterator of deleted keys
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.keyvault.keys.DeletedKey>]
+    - <xref:AsyncItemPaged>[<xref:azure.keyvault.keys.DeletedKey>]
 - uid: azure.keyvault.keys.aio.KeyClient.list_properties_of_key_versions
   name: list_properties_of_key_versions
   summary: 'List the identifiers and properties of a key''s versions.
@@ -596,7 +596,7 @@ methods:
   return:
     description: An iterator of keys without their cryptographic material
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
 - uid: azure.keyvault.keys.aio.KeyClient.list_properties_of_keys
   name: list_properties_of_keys
   summary: 'List identifiers and properties of all keys in the vault.
@@ -608,7 +608,7 @@ methods:
     description: An iterator of keys without their cryptographic material or version
       information
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
 - uid: azure.keyvault.keys.aio.KeyClient.purge_deleted_key
   name: purge_deleted_key
   summary: 'Permanently deletes a deleted key. Only possible in a vault with soft-delete
@@ -795,7 +795,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.AsyncHttpResponse>
+    - <xref:AsyncHttpResponse>
 - uid: azure.keyvault.keys.aio.KeyClient.update_key_properties
   name: update_key_properties
   summary: 'Change a key''s properties (not its cryptographic material).

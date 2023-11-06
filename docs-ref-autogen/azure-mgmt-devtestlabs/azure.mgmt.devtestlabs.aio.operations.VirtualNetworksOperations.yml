@@ -82,7 +82,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either VirtualNetwork
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.devtestlabs.models.VirtualNetwork>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.devtestlabs.models.VirtualNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.VirtualNetworksOperations.begin_delete
@@ -130,7 +130,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.VirtualNetworksOperations.get
@@ -217,7 +217,7 @@ methods:
     description: An iterator like instance of either VirtualNetworkList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.VirtualNetworkList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.VirtualNetworkList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.VirtualNetworksOperations.update

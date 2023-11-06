@@ -26,7 +26,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storagepool.models.StoragePoolRPOperation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storagepool.models.StoragePoolRPOperation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

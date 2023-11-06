@@ -61,7 +61,7 @@ methods:
   return:
     description: An iterator like instance of either TargetType or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.chaos.models.TargetType>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.chaos.models.TargetType>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

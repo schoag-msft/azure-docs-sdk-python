@@ -72,7 +72,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.RouteFilter>]
+    - <xref:LROPoller>[<xref:RouteFilter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.RouteFiltersOperations.begin_delete
@@ -120,7 +120,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.RouteFiltersOperations.begin_update
@@ -184,7 +184,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.RouteFilter>]
+    - <xref:LROPoller>[<xref:RouteFilter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.RouteFiltersOperations.get
@@ -215,7 +215,7 @@ methods:
   return:
     description: RouteFilter or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.RouteFilter>
+    - <xref:RouteFilter>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.RouteFiltersOperations.list
@@ -231,7 +231,7 @@ methods:
     description: An iterator like instance of either RouteFilter or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.RouteFilter>]
+    - <xref:ItemPaged>[<xref:RouteFilter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.RouteFiltersOperations.list_by_resource_group
@@ -252,7 +252,7 @@ methods:
     description: An iterator like instance of either RouteFilter or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.RouteFilter>]
+    - <xref:ItemPaged>[<xref:RouteFilter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.RouteFiltersOperations.update_tags
@@ -293,7 +293,7 @@ methods:
   return:
     description: RouteFilter or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.RouteFilter>
+    - <xref:RouteFilter>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

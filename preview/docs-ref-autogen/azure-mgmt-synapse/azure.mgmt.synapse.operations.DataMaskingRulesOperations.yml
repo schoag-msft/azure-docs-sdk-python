@@ -161,7 +161,7 @@ methods:
     description: An iterator like instance of either DataMaskingRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.DataMaskingRule>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.DataMaskingRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

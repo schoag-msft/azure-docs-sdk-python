@@ -72,7 +72,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.ServiceEndpointPolicy>]
+    - <xref:LROPoller>[<xref:ServiceEndpointPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ServiceEndpointPoliciesOperations.begin_delete
@@ -120,7 +120,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ServiceEndpointPoliciesOperations.begin_update
@@ -185,7 +185,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.ServiceEndpointPolicy>]
+    - <xref:LROPoller>[<xref:ServiceEndpointPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ServiceEndpointPoliciesOperations.get
@@ -215,7 +215,7 @@ methods:
   return:
     description: ServiceEndpointPolicy or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ServiceEndpointPolicy>
+    - <xref:ServiceEndpointPolicy>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ServiceEndpointPoliciesOperations.list
@@ -233,7 +233,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.ServiceEndpointPolicy>]
+    - <xref:ItemPaged>[<xref:ServiceEndpointPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ServiceEndpointPoliciesOperations.list_by_resource_group
@@ -256,7 +256,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.ServiceEndpointPolicy>]
+    - <xref:ItemPaged>[<xref:ServiceEndpointPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ServiceEndpointPoliciesOperations.update_tags
@@ -297,7 +297,7 @@ methods:
   return:
     description: ServiceEndpointPolicy or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ServiceEndpointPolicy>
+    - <xref:ServiceEndpointPolicy>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

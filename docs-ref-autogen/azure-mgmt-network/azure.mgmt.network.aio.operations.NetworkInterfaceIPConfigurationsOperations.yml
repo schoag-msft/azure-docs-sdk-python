@@ -39,7 +39,7 @@ methods:
   return:
     description: NetworkInterfaceIPConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkInterfaceIPConfiguration>
+    - <xref:NetworkInterfaceIPConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkInterfaceIPConfigurationsOperations.list
@@ -68,7 +68,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkInterfaceIPConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:NetworkInterfaceIPConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

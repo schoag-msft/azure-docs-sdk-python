@@ -87,7 +87,7 @@ methods:
     description: An instance of LROPoller that returns either Datastore or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.avs.models.Datastore>]
+    - <xref:LROPoller>[<xref:azure.mgmt.avs.models.Datastore>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.operations.DatastoresOperations.begin_delete
@@ -150,7 +150,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.operations.DatastoresOperations.get
@@ -227,7 +227,7 @@ methods:
   return:
     description: An iterator like instance of either Datastore or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.avs.models.Datastore>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.avs.models.Datastore>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

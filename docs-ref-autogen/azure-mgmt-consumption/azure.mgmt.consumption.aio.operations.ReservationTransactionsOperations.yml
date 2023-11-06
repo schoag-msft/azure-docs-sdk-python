@@ -41,7 +41,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationTransactionsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationTransactionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.consumption.aio.operations.ReservationTransactionsOperations.list_by_billing_profile
@@ -79,7 +79,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ModernReservationTransactionsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ModernReservationTransactionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

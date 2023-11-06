@@ -158,7 +158,7 @@ methods:
     description: An iterator like instance of either BillingRoleDefinitionListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinitionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinitionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.BillingRoleDefinitionsOperations.list_by_billing_profile
@@ -189,7 +189,7 @@ methods:
     description: An iterator like instance of either BillingRoleDefinitionListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinitionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinitionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.BillingRoleDefinitionsOperations.list_by_invoice_section
@@ -225,7 +225,7 @@ methods:
     description: An iterator like instance of either BillingRoleDefinitionListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinitionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinitionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

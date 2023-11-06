@@ -75,7 +75,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managedapplications.models.JitRequestDefinition>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managedapplications.models.JitRequestDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.aio.operations.JitRequestsOperations.delete

@@ -74,7 +74,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.LabsOperations.begin_create_environment
@@ -123,7 +123,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.LabsOperations.begin_create_or_update
@@ -171,7 +171,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Lab or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.devtestlabs.models.Lab>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.devtestlabs.models.Lab>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.LabsOperations.begin_delete
@@ -214,7 +214,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.LabsOperations.begin_export_resource_usage
@@ -275,7 +275,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.LabsOperations.begin_import_virtual_machine
@@ -334,7 +334,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.LabsOperations.generate_upload_uri
@@ -441,7 +441,7 @@ methods:
   return:
     description: An iterator like instance of either LabList or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.LabList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.LabList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.LabsOperations.list_by_subscription
@@ -480,7 +480,7 @@ methods:
   return:
     description: An iterator like instance of either LabList or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.LabList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.LabList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.LabsOperations.list_vhds
@@ -505,7 +505,7 @@ methods:
   return:
     description: An iterator like instance of either LabVhdList or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.LabVhdList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.LabVhdList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.LabsOperations.update

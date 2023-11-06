@@ -188,7 +188,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.communication.models.SenderUsernameResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.communication.models.SenderUsernameResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

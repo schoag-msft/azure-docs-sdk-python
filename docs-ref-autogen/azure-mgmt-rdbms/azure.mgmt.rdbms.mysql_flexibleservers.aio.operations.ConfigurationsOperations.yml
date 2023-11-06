@@ -83,7 +83,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.ConfigurationListResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.ConfigurationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mysql_flexibleservers.aio.operations.ConfigurationsOperations.begin_update
@@ -143,7 +143,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.Configuration>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.Configuration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mysql_flexibleservers.aio.operations.ConfigurationsOperations.get
@@ -203,7 +203,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.ConfigurationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.ConfigurationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

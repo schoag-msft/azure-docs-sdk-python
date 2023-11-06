@@ -94,7 +94,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2016_03_01.models.ResourceHealthMetadata>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2016_03_01.models.ResourceHealthMetadata>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2016_03_01.operations.ResourceHealthMetadataOperations.list_by_resource_group
@@ -121,7 +121,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2016_03_01.models.ResourceHealthMetadata>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2016_03_01.models.ResourceHealthMetadata>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2016_03_01.operations.ResourceHealthMetadataOperations.list_by_site
@@ -154,7 +154,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2016_03_01.models.ResourceHealthMetadata>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2016_03_01.models.ResourceHealthMetadata>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2016_03_01.operations.ResourceHealthMetadataOperations.list_by_site_slot
@@ -195,7 +195,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2016_03_01.models.ResourceHealthMetadata>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2016_03_01.models.ResourceHealthMetadata>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

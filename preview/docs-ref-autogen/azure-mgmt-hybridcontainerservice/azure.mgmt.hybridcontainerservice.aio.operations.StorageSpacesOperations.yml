@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.StorageSpaces>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.StorageSpaces>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.StorageSpacesOperations.begin_update
@@ -144,7 +144,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.StorageSpaces>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.StorageSpaces>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.StorageSpacesOperations.delete
@@ -201,7 +201,7 @@ methods:
     description: An iterator like instance of either StorageSpaces or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.StorageSpaces>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.StorageSpaces>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.StorageSpacesOperations.list_by_subscription
@@ -220,7 +220,7 @@ methods:
     description: An iterator like instance of either StorageSpaces or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.StorageSpaces>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.StorageSpaces>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.StorageSpacesOperations.retrieve

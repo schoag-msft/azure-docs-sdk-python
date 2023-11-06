@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.VirtualMachine>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.VirtualMachinesOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.VirtualMachinesOperations.begin_power_off
@@ -203,7 +203,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.VirtualMachinesOperations.begin_reimage
@@ -258,7 +258,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.VirtualMachinesOperations.begin_restart
@@ -313,7 +313,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.VirtualMachinesOperations.begin_start
@@ -368,7 +368,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.VirtualMachinesOperations.begin_update
@@ -441,7 +441,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.VirtualMachine>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.VirtualMachinesOperations.get
@@ -498,7 +498,7 @@ methods:
     description: An iterator like instance of either VirtualMachine or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.VirtualMachine>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.VirtualMachinesOperations.list_by_subscription
@@ -517,7 +517,7 @@ methods:
     description: An iterator like instance of either VirtualMachine or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.VirtualMachine>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

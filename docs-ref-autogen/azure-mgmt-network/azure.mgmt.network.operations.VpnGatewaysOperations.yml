@@ -71,7 +71,7 @@ methods:
     description: An instance of LROPoller that returns either VpnGateway or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnGateway>]
+    - <xref:LROPoller>[<xref:VpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnGatewaysOperations.begin_delete
@@ -119,7 +119,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnGatewaysOperations.begin_reset
@@ -173,7 +173,7 @@ methods:
     description: An instance of LROPoller that returns either VpnGateway or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnGateway>]
+    - <xref:LROPoller>[<xref:VpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnGatewaysOperations.begin_start_packet_capture
@@ -240,7 +240,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnGatewaysOperations.begin_stop_packet_capture
@@ -307,7 +307,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnGatewaysOperations.begin_update_tags
@@ -369,7 +369,7 @@ methods:
     description: An instance of LROPoller that returns either VpnGateway or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnGateway>]
+    - <xref:LROPoller>[<xref:VpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnGatewaysOperations.get
@@ -394,7 +394,7 @@ methods:
   return:
     description: VpnGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VpnGateway>
+    - <xref:VpnGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnGatewaysOperations.list
@@ -409,7 +409,7 @@ methods:
   return:
     description: An iterator like instance of either VpnGateway or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VpnGateway>]
+    - <xref:ItemPaged>[<xref:VpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnGatewaysOperations.list_by_resource_group
@@ -429,7 +429,7 @@ methods:
   return:
     description: An iterator like instance of either VpnGateway or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VpnGateway>]
+    - <xref:ItemPaged>[<xref:VpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnGatewaysOperations.update_tags
@@ -469,7 +469,7 @@ methods:
   return:
     description: VpnGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VpnGateway>
+    - <xref:VpnGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

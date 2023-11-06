@@ -72,7 +72,7 @@ methods:
     description: An instance of LROPoller that returns either Catalog or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sphere.models.Catalog>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sphere.models.Catalog>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.CatalogsOperations.begin_delete
@@ -122,7 +122,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.CatalogsOperations.count_devices
@@ -199,7 +199,7 @@ methods:
   return:
     description: An iterator like instance of either Catalog or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sphere.models.Catalog>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sphere.models.Catalog>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.CatalogsOperations.list_by_subscription
@@ -214,7 +214,7 @@ methods:
   return:
     description: An iterator like instance of either Catalog or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sphere.models.Catalog>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sphere.models.Catalog>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.CatalogsOperations.list_deployments
@@ -264,7 +264,7 @@ methods:
   return:
     description: An iterator like instance of either Deployment or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sphere.models.Deployment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sphere.models.Deployment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.CatalogsOperations.list_device_groups
@@ -330,7 +330,7 @@ methods:
     description: An iterator like instance of either DeviceGroup or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sphere.models.DeviceGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sphere.models.DeviceGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.CatalogsOperations.list_device_insights
@@ -381,7 +381,7 @@ methods:
     description: An iterator like instance of either DeviceInsight or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sphere.models.DeviceInsight>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sphere.models.DeviceInsight>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.CatalogsOperations.list_devices
@@ -431,7 +431,7 @@ methods:
   return:
     description: An iterator like instance of either Device or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sphere.models.Device>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sphere.models.Device>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.CatalogsOperations.update

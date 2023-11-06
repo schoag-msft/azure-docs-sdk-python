@@ -55,7 +55,7 @@ methods:
   return:
     description: AnalyzeResult
     types:
-    - <xref:azure.search.documents.indexes.models.AnalyzeRequest>
+    - <xref:AnalyzeRequest>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -445,7 +445,7 @@ methods:
     description: Statistics for the given index, including a document count and storage
       usage.
     types:
-    - <xref:Dict>
+    - <xref:typing.Dict>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.aio.SearchIndexClient.get_search_client
@@ -504,7 +504,7 @@ methods:
   return:
     description: List of synonym map names
     types:
-    - <xref:List>[<xref:str>]
+    - <xref:typing.List>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.aio.SearchIndexClient.get_synonym_maps
@@ -525,7 +525,7 @@ methods:
   return:
     description: List of synonym maps
     types:
-    - <xref:List>[<xref:azure.search.documents.indexes.models.SynonymMap>]
+    - <xref:typing.List>[<xref:azure.search.documents.indexes.models.SynonymMap>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -545,7 +545,7 @@ methods:
   return:
     description: List of alias names
     types:
-    - <xref:azure.core.paging.AsyncItemPaged>[<xref:str>]
+    - <xref:AsyncItemPaged>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.aio.SearchIndexClient.list_aliases
@@ -565,7 +565,7 @@ methods:
   return:
     description: List of Aliases
     types:
-    - <xref:azure.core.paging.AsyncItemPaged>[<xref:azure.search.documents.indexes.models.SearchAlias>]
+    - <xref:AsyncItemPaged>[<xref:azure.search.documents.indexes.models.SearchAlias>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.aio.SearchIndexClient.list_index_names
@@ -575,7 +575,7 @@ methods:
   return:
     description: List of index names
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:str>]
+    - <xref:AsyncItemPaged>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.aio.SearchIndexClient.list_indexes
@@ -595,6 +595,6 @@ methods:
   return:
     description: List of indexes
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.search.documents.indexes.models.SearchIndex>]
+    - ~<xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.search.documents.indexes.models.SearchIndex>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError

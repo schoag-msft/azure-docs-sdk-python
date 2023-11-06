@@ -79,7 +79,7 @@ methods:
     description: LanguageBatchResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.textanalytics.models.LanguageBatchResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.textanalytics.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.textanalytics.TextAnalyticsClient.entities
@@ -131,7 +131,7 @@ methods:
     description: EntitiesBatchResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.textanalytics.models.EntitiesBatchResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.textanalytics.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.textanalytics.TextAnalyticsClient.key_phrases
@@ -183,7 +183,7 @@ methods:
     description: KeyPhraseBatchResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.textanalytics.models.KeyPhraseBatchResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.textanalytics.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.textanalytics.TextAnalyticsClient.sentiment
@@ -237,6 +237,6 @@ methods:
     description: object or ClientRawResponse if raw=true
     types:
     - <xref:object>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError

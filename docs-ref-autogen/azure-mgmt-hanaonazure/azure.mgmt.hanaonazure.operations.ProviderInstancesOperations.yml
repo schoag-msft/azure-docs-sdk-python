@@ -89,7 +89,7 @@ methods:
     description: An instance of LROPoller that returns either ProviderInstance or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hanaonazure.models.ProviderInstance>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hanaonazure.models.ProviderInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hanaonazure.operations.ProviderInstancesOperations.begin_delete
@@ -144,7 +144,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hanaonazure.operations.ProviderInstancesOperations.get
@@ -214,7 +214,7 @@ methods:
     description: An iterator like instance of either ProviderInstanceListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hanaonazure.models.ProviderInstanceListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hanaonazure.models.ProviderInstanceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

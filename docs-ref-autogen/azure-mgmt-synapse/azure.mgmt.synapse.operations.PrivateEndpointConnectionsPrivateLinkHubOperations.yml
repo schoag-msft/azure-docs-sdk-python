@@ -56,7 +56,7 @@ methods:
     description: An iterator like instance of either PrivateEndpointConnectionForPrivateLinkHubResourceCollectionResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.PrivateEndpointConnectionForPrivateLinkHubResourceCollectionResponse>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.PrivateEndpointConnectionForPrivateLinkHubResourceCollectionResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

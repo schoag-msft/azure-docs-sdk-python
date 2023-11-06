@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.Snapshot>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.aio.operations.SnapshotsOperations.begin_delete
@@ -128,7 +128,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.aio.operations.SnapshotsOperations.begin_grant_access
@@ -195,7 +195,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.AccessUri>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.AccessUri>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.aio.operations.SnapshotsOperations.begin_revoke_access
@@ -247,7 +247,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.aio.operations.SnapshotsOperations.begin_update
@@ -315,7 +315,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.Snapshot>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.aio.operations.SnapshotsOperations.get
@@ -358,7 +358,7 @@ methods:
   return:
     description: An iterator like instance of either Snapshot or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.Snapshot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.aio.operations.SnapshotsOperations.list_by_resource_group
@@ -378,7 +378,7 @@ methods:
   return:
     description: An iterator like instance of either Snapshot or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.Snapshot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

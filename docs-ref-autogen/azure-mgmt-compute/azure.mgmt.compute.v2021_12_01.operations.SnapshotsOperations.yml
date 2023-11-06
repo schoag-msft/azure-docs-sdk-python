@@ -78,7 +78,7 @@ methods:
     description: An instance of LROPoller that returns either Snapshot or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2021_12_01.models.Snapshot>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2021_12_01.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_12_01.operations.SnapshotsOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_12_01.operations.SnapshotsOperations.begin_grant_access
@@ -201,7 +201,7 @@ methods:
     description: An instance of LROPoller that returns either AccessUri or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2021_12_01.models.AccessUri>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2021_12_01.models.AccessUri>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_12_01.operations.SnapshotsOperations.begin_revoke_access
@@ -255,7 +255,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_12_01.operations.SnapshotsOperations.begin_update
@@ -325,7 +325,7 @@ methods:
     description: An instance of LROPoller that returns either Snapshot or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2021_12_01.models.Snapshot>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2021_12_01.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_12_01.operations.SnapshotsOperations.get
@@ -372,7 +372,7 @@ methods:
   return:
     description: An iterator like instance of either Snapshot or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2021_12_01.models.Snapshot>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2021_12_01.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_12_01.operations.SnapshotsOperations.list_by_resource_group
@@ -392,7 +392,7 @@ methods:
   return:
     description: An iterator like instance of either Snapshot or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2021_12_01.models.Snapshot>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2021_12_01.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

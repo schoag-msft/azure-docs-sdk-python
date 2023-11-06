@@ -84,7 +84,7 @@ methods:
     description: An instance of LROPoller that returns either Trigger or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datashare.models.Trigger>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datashare.models.Trigger>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.TriggersOperations.begin_delete
@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.TriggersOperations.get
@@ -226,7 +226,7 @@ methods:
   return:
     description: An iterator like instance of either Trigger or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.Trigger>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.Trigger>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

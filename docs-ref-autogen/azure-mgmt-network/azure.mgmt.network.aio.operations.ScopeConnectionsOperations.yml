@@ -55,7 +55,7 @@ methods:
   return:
     description: ScopeConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ScopeConnection>
+    - <xref:ScopeConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ScopeConnectionsOperations.delete
@@ -117,7 +117,7 @@ methods:
   return:
     description: ScopeConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ScopeConnection>
+    - <xref:ScopeConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ScopeConnectionsOperations.list
@@ -164,7 +164,7 @@ methods:
     description: An iterator like instance of either ScopeConnection or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ScopeConnection>]
+    - <xref:AsyncItemPaged>[<xref:ScopeConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

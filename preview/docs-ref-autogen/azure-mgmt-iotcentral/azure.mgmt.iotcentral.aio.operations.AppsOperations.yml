@@ -81,7 +81,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either App or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.iotcentral.models.App>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.iotcentral.models.App>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotcentral.aio.operations.AppsOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotcentral.aio.operations.AppsOperations.begin_update
@@ -197,7 +197,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either App or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.iotcentral.models.App>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.iotcentral.models.App>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotcentral.aio.operations.AppsOperations.check_name_availability
@@ -311,7 +311,7 @@ methods:
   return:
     description: An iterator like instance of either App or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.iotcentral.models.App>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.iotcentral.models.App>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotcentral.aio.operations.AppsOperations.list_by_subscription
@@ -326,7 +326,7 @@ methods:
   return:
     description: An iterator like instance of either App or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.iotcentral.models.App>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.iotcentral.models.App>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotcentral.aio.operations.AppsOperations.list_templates
@@ -342,7 +342,7 @@ methods:
     description: An iterator like instance of either AppTemplate or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.iotcentral.models.AppTemplate>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.iotcentral.models.AppTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -32,7 +32,7 @@ methods:
     description: An iterator like instance of either CachedImages or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerinstance.models.CachedImages>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerinstance.models.CachedImages>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerinstance.aio.operations.LocationOperations.list_capabilities
@@ -56,7 +56,7 @@ methods:
     description: An iterator like instance of either Capabilities or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerinstance.models.Capabilities>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerinstance.models.Capabilities>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerinstance.aio.operations.LocationOperations.list_usage
@@ -76,7 +76,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerinstance.models.Usage>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerinstance.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

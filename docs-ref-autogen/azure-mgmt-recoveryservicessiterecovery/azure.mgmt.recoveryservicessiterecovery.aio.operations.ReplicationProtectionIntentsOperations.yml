@@ -102,7 +102,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ReplicationProtectionIntent>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.ReplicationProtectionIntent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

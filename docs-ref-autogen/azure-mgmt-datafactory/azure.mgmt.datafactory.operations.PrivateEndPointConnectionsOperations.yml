@@ -37,7 +37,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datafactory.models.PrivateEndpointConnectionResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datafactory.models.PrivateEndpointConnectionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

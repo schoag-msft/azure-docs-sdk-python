@@ -79,7 +79,7 @@ methods:
     description: An iterator like instance of either UsageAggregation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.commerce.models.UsageAggregation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.commerce.models.UsageAggregation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://docs.microsoft.com/rest/api/commerce/usageaggregates](https://docs.microsoft.com/rest/api/commerce/usageaggregates)\

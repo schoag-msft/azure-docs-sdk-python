@@ -38,7 +38,7 @@ methods:
     defaultValue: UTF-8
   return:
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.eventhub.EventData.body_as_str
   name: body_as_str
   summary: The content of the event as a string, if the data is of a compatible type.

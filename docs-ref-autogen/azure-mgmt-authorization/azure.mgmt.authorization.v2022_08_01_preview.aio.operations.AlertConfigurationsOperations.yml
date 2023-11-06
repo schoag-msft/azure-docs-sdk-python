@@ -67,7 +67,7 @@ methods:
     description: An iterator like instance of either AlertConfiguration or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.authorization.v2022_08_01_preview.models.AlertConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.authorization.v2022_08_01_preview.models.AlertConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.authorization.v2022_08_01_preview.aio.operations.AlertConfigurationsOperations.update

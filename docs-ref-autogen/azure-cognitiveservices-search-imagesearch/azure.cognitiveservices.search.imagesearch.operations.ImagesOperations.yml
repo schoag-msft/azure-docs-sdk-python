@@ -667,7 +667,7 @@ methods:
     description: ImageInsights or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.imagesearch.models.ImageInsights>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.imagesearch.models.ErrorResponseException
 - uid: azure.cognitiveservices.search.imagesearch.operations.ImagesOperations.search
@@ -1403,7 +1403,7 @@ methods:
     description: Images or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.imagesearch.models.Images>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.imagesearch.models.ErrorResponseException
 - uid: azure.cognitiveservices.search.imagesearch.operations.ImagesOperations.trending
@@ -1800,7 +1800,7 @@ methods:
     description: TrendingImages or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.imagesearch.models.TrendingImages>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.imagesearch.models.ErrorResponseException
 attributes:

@@ -38,7 +38,7 @@ methods:
   return:
     description: The list of created models
     types:
-    - <xref:List>[<xref:azure.digitaltwins.core.DigitalTwinsModelData>]
+    - <xref:typing.List>[<xref:azure.digitaltwins.core.DigitalTwinsModelData>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ResourceExistsError
@@ -194,7 +194,7 @@ methods:
   return:
     description: Dictionary containing the component.
     types:
-    - <xref:Dict>[<xref:str>, <xref:object>]
+    - <xref:typing.Dict>[<xref:str>, <xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ResourceNotFoundError
@@ -215,7 +215,7 @@ methods:
   return:
     description: Dictionary containing the twin.
     types:
-    - <xref:Dict>[<xref:str>, <xref:object>]
+    - <xref:typing.Dict>[<xref:str>, <xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ResourceNotFoundError
@@ -285,7 +285,7 @@ methods:
   return:
     description: Dictionary containing the relationship.
     types:
-    - <xref:Dict>[<xref:str>, <xref:object>]
+    - <xref:typing.Dict>[<xref:str>, <xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ResourceNotFoundError
@@ -306,7 +306,7 @@ methods:
   return:
     description: An iterator instance of event routes.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.digitaltwins.core.DigitalTwinsEventRoute>]
+    - <xref:AsyncItemPaged>[<xref:azure.digitaltwins.core.DigitalTwinsEventRoute>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.digitaltwins.core.aio.DigitalTwinsClient.list_incoming_relationships
@@ -322,7 +322,7 @@ methods:
   return:
     description: An iterator instance of list of incoming relationships.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.digitaltwins.core.IncomingRelationship>]
+    - <xref:AsyncItemPaged>[<xref:azure.digitaltwins.core.IncomingRelationship>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ResourceNotFoundError
@@ -357,7 +357,7 @@ methods:
   return:
     description: An iterator instance of list of model data.
     types:
-    - <xref:azure.core.paging.AsyncItemPaged>[<xref:azure.digitaltwins.core.DigitalTwinsModelData>]
+    - <xref:AsyncItemPaged>[<xref:azure.digitaltwins.core.DigitalTwinsModelData>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.digitaltwins.core.aio.DigitalTwinsClient.list_relationships
@@ -381,7 +381,7 @@ methods:
   return:
     description: An iterator instance of list of relationships.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:Dict>[<xref:str,object>]]
+    - <xref:AsyncItemPaged>[<xref:typing.Dict>[<xref:str>,<xref:object>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ResourceNotFoundError
@@ -479,7 +479,7 @@ methods:
   return:
     description: An iterable of query results.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:Dict>[<xref:str>, <xref:object>]]
+    - <xref:AsyncItemPaged>[<xref:typing.Dict>[<xref:str>, <xref:object>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.digitaltwins.core.aio.DigitalTwinsClient.update_component
@@ -638,7 +638,7 @@ methods:
   return:
     description: Dictionary containing the created or updated twin.
     types:
-    - <xref:Dict>[<xref:str>, <xref:object>]
+    - <xref:typing.Dict>[<xref:str>, <xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ResourceExistsError
@@ -700,7 +700,7 @@ methods:
   return:
     description: The created or updated relationship.
     types:
-    - <xref:Dict>[<xref:str>, <xref:object>]
+    - <xref:typing.Dict>[<xref:str>, <xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ResourceNotFoundError

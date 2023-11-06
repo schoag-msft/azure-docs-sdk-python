@@ -82,7 +82,7 @@ methods:
     description: ImageRegionCreateSummary or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImageRegionCreateSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.create_image_tags
@@ -122,7 +122,7 @@ methods:
     description: ImageTagCreateSummary or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImageTagCreateSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.create_images_from_data
@@ -186,7 +186,7 @@ methods:
     description: ImageCreateSummary or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImageCreateSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.create_images_from_files
@@ -241,7 +241,7 @@ methods:
     description: ImageCreateSummary or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImageCreateSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.create_images_from_predictions
@@ -296,7 +296,7 @@ methods:
     description: ImageCreateSummary or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImageCreateSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.create_images_from_urls
@@ -351,7 +351,7 @@ methods:
     description: ImageCreateSummary or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImageCreateSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.create_project
@@ -431,7 +431,7 @@ methods:
     description: Project or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Project>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.create_tag
@@ -483,7 +483,7 @@ methods:
     description: Tag or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Tag>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.delete_image_regions
@@ -523,7 +523,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.delete_image_tags
@@ -570,7 +570,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.delete_images
@@ -630,7 +630,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.delete_iteration
@@ -670,7 +670,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.delete_prediction
@@ -711,7 +711,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.delete_project
@@ -745,7 +745,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.delete_tag
@@ -784,7 +784,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.export_iteration
@@ -840,7 +840,7 @@ methods:
     description: Export or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Export>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.export_project
@@ -874,7 +874,7 @@ methods:
     description: ProjectExport or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ProjectExport>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_artifact
@@ -926,8 +926,8 @@ methods:
   return:
     description: object or ClientRawResponse if raw=true
     types:
-    - <xref:Generator>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:typing.Generator>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_domain
@@ -961,7 +961,7 @@ methods:
     description: Domain or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Domain>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_domains
@@ -990,7 +990,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Domain>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_exports
@@ -1030,7 +1030,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Export>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_image_count
@@ -1110,7 +1110,7 @@ methods:
     description: int or ClientRawResponse if raw=true
     types:
     - <xref:int>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_image_performance_count
@@ -1170,7 +1170,7 @@ methods:
     description: int or ClientRawResponse if raw=true
     types:
     - <xref:int>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_image_performances
@@ -1255,7 +1255,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.ImagePerformance>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_image_region_proposals
@@ -1302,7 +1302,7 @@ methods:
     description: ImageRegionProposal or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImageRegionProposal>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_images
@@ -1411,7 +1411,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Image>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_images_by_ids
@@ -1463,7 +1463,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Image>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_iteration
@@ -1503,7 +1503,7 @@ methods:
     description: Iteration or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Iteration>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_iteration_performance
@@ -1555,7 +1555,7 @@ methods:
     description: IterationPerformance or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.IterationPerformance>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_iterations
@@ -1589,7 +1589,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Iteration>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_project
@@ -1623,7 +1623,7 @@ methods:
     description: Project or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Project>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_projects
@@ -1652,7 +1652,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Project>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_tag
@@ -1699,7 +1699,7 @@ methods:
     description: Tag or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Tag>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_tagged_image_count
@@ -1755,7 +1755,7 @@ methods:
     description: int or ClientRawResponse if raw=true
     types:
     - <xref:int>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_tagged_images
@@ -1840,7 +1840,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Image>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_tags
@@ -1880,7 +1880,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Tag>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_untagged_image_count
@@ -1927,7 +1927,7 @@ methods:
     description: int or ClientRawResponse if raw=true
     types:
     - <xref:int>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.get_untagged_images
@@ -1997,7 +1997,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.Image>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.import_project
@@ -2038,7 +2038,7 @@ methods:
     description: Project or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Project>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.publish_iteration
@@ -2095,7 +2095,7 @@ methods:
     description: bool or ClientRawResponse if raw=true
     types:
     - <xref:bool>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.query_predictions
@@ -2137,7 +2137,7 @@ methods:
     description: PredictionQueryResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.PredictionQueryResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.query_suggested_image_count
@@ -2200,7 +2200,7 @@ methods:
     description: dict or ClientRawResponse if raw=true
     types:
     - <xref:dict>[<xref:str>, <xref:int>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.query_suggested_images
@@ -2254,7 +2254,7 @@ methods:
     description: SuggestedTagAndRegionQuery or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.SuggestedTagAndRegionQuery>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.quick_test_image
@@ -2312,7 +2312,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.quick_test_image_url
@@ -2368,7 +2368,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.suggest_tags_and_regions
@@ -2426,7 +2426,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.customvision.training.models.SuggestedTagAndRegion>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.train_project
@@ -2506,7 +2506,7 @@ methods:
     description: Iteration or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Iteration>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.unpublish_iteration
@@ -2546,7 +2546,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.update_image_metadata
@@ -2600,7 +2600,7 @@ methods:
     description: ImageMetadataUpdateSummary or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.ImageMetadataUpdateSummary>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.update_iteration
@@ -2645,7 +2645,7 @@ methods:
     description: Iteration or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Iteration>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.update_project
@@ -2685,7 +2685,7 @@ methods:
     description: Project or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Project>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.training.CustomVisionTrainingClient.update_tag
@@ -2730,6 +2730,6 @@ methods:
     description: Tag or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.training.models.Tag>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.training.models.CustomVisionErrorException

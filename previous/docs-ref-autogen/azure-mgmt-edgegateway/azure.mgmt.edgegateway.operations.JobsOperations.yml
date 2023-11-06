@@ -67,7 +67,7 @@ methods:
     description: Job or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.Job>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 attributes:

@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.NetworkVirtualAppliance>]
+    - <xref:LROPoller>[<xref:NetworkVirtualAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkVirtualAppliancesOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkVirtualAppliancesOperations.get
@@ -151,7 +151,7 @@ methods:
   return:
     description: NetworkVirtualAppliance or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkVirtualAppliance>
+    - <xref:NetworkVirtualAppliance>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkVirtualAppliancesOperations.list
@@ -169,7 +169,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NetworkVirtualAppliance>]
+    - <xref:ItemPaged>[<xref:NetworkVirtualAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkVirtualAppliancesOperations.list_by_resource_group
@@ -192,7 +192,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NetworkVirtualAppliance>]
+    - <xref:ItemPaged>[<xref:NetworkVirtualAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkVirtualAppliancesOperations.update_tags
@@ -235,7 +235,7 @@ methods:
   return:
     description: NetworkVirtualAppliance or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkVirtualAppliance>
+    - <xref:NetworkVirtualAppliance>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

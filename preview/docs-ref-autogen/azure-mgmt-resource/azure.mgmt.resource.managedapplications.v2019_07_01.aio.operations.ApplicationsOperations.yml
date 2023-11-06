@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.Application>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.Application>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationsOperations.begin_create_or_update_by_id
@@ -144,7 +144,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.Application>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.Application>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationsOperations.begin_delete
@@ -194,7 +194,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationsOperations.begin_delete_by_id
@@ -243,7 +243,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationsOperations.begin_refresh_permissions
@@ -293,7 +293,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationsOperations.get
@@ -371,7 +371,7 @@ methods:
     description: An iterator like instance of either Application or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.Application>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.Application>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationsOperations.list_by_subscription
@@ -387,7 +387,7 @@ methods:
     description: An iterator like instance of either Application or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.Application>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.managedapplications.v2019_07_01.models.Application>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.managedapplications.v2019_07_01.aio.operations.ApplicationsOperations.update

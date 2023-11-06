@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.networkcloud.models.L2Network>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.networkcloud.models.L2Network>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.aio.operations.L2NetworksOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.aio.operations.L2NetworksOperations.get
@@ -187,7 +187,7 @@ methods:
   return:
     description: An iterator like instance of either L2Network or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.networkcloud.models.L2Network>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.networkcloud.models.L2Network>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.aio.operations.L2NetworksOperations.list_by_subscription
@@ -205,7 +205,7 @@ methods:
   return:
     description: An iterator like instance of either L2Network or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.networkcloud.models.L2Network>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.networkcloud.models.L2Network>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.aio.operations.L2NetworksOperations.update

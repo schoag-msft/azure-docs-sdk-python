@@ -145,7 +145,7 @@ methods:
   return:
     description: An iterator like instance of either Connection or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automation.models.Connection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automation.models.Connection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.operations.ConnectionOperations.update

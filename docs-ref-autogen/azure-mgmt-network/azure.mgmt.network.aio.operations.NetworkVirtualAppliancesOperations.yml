@@ -73,7 +73,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.NetworkVirtualAppliance>]
+    - <xref:AsyncLROPoller>[<xref:NetworkVirtualAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkVirtualAppliancesOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkVirtualAppliancesOperations.get
@@ -151,7 +151,7 @@ methods:
   return:
     description: NetworkVirtualAppliance or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkVirtualAppliance>
+    - <xref:NetworkVirtualAppliance>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkVirtualAppliancesOperations.list
@@ -169,7 +169,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkVirtualAppliance>]
+    - <xref:AsyncItemPaged>[<xref:NetworkVirtualAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkVirtualAppliancesOperations.list_by_resource_group
@@ -192,7 +192,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkVirtualAppliance>]
+    - <xref:AsyncItemPaged>[<xref:NetworkVirtualAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NetworkVirtualAppliancesOperations.update_tags
@@ -235,7 +235,7 @@ methods:
   return:
     description: NetworkVirtualAppliance or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkVirtualAppliance>
+    - <xref:NetworkVirtualAppliance>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

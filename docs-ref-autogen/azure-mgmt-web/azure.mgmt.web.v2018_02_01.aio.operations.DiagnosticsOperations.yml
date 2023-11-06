@@ -415,7 +415,7 @@ methods:
     description: An iterator like instance of either DetectorDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.get_site_detector_response
@@ -565,7 +565,7 @@ methods:
     description: An iterator like instance of either DetectorDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.get_site_diagnostic_category
@@ -668,7 +668,7 @@ methods:
     description: An iterator like instance of either DetectorResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.list_site_analyses
@@ -703,7 +703,7 @@ methods:
     description: An iterator like instance of either AnalysisDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AnalysisDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AnalysisDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.list_site_analyses_slot
@@ -743,7 +743,7 @@ methods:
     description: An iterator like instance of either AnalysisDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AnalysisDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AnalysisDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.list_site_detector_responses
@@ -773,7 +773,7 @@ methods:
     description: An iterator like instance of either DetectorResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.list_site_detector_responses_slot
@@ -808,7 +808,7 @@ methods:
     description: An iterator like instance of either DetectorResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.list_site_detectors
@@ -843,7 +843,7 @@ methods:
     description: An iterator like instance of either DetectorDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.list_site_detectors_slot
@@ -883,7 +883,7 @@ methods:
     description: An iterator like instance of either DetectorDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DetectorDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.list_site_diagnostic_categories
@@ -913,7 +913,7 @@ methods:
     description: An iterator like instance of either DiagnosticCategory or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DiagnosticCategory>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DiagnosticCategory>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.aio.operations.DiagnosticsOperations.list_site_diagnostic_categories_slot
@@ -948,7 +948,7 @@ methods:
     description: An iterator like instance of either DiagnosticCategory or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DiagnosticCategory>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.DiagnosticCategory>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

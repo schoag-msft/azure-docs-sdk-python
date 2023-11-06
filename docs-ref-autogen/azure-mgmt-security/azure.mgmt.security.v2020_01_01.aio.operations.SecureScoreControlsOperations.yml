@@ -33,7 +33,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.SecureScoreControlDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.SecureScoreControlDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2020_01_01.aio.operations.SecureScoreControlsOperations.list_by_secure_score
@@ -65,7 +65,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.SecureScoreControlDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.SecureScoreControlDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -93,7 +93,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.CreateDataFlowDebugSessionResponse>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.CreateDataFlowDebugSessionResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.DataFlowDebugSessionOperations.begin_execute_command
@@ -147,7 +147,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.DataFlowDebugCommandResponse>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.DataFlowDebugCommandResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.DataFlowDebugSessionOperations.delete_data_flow_debug_session
@@ -195,7 +195,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.DataFlowDebugSessionInfo>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.DataFlowDebugSessionInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

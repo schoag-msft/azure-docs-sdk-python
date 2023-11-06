@@ -183,7 +183,7 @@ methods:
     description: An iterator like instance of either RegistrationList or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.azurestack.models.RegistrationList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.azurestack.models.RegistrationList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestack.operations.RegistrationsOperations.update

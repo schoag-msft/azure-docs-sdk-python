@@ -75,7 +75,7 @@ methods:
     description: An instance of LROPoller that returns either Order or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.Order>]
+    - <xref:LROPoller>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.Order>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_05_01_preview.operations.OrdersOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_05_01_preview.operations.OrdersOperations.get
@@ -183,7 +183,7 @@ methods:
   return:
     description: An iterator like instance of either Order or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.Order>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.Order>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

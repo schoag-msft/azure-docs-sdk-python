@@ -180,7 +180,7 @@ methods:
   return:
     description: An iterator like instance of either Extension or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.agrifood.models.Extension>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.agrifood.models.Extension>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

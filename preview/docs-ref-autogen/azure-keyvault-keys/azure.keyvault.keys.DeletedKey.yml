@@ -48,7 +48,7 @@ attributes:
   return:
     description: When the key was deleted, in UTC.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.keys.DeletedKey.recovery_id
   name: recovery_id
@@ -68,5 +68,5 @@ attributes:
     description: When the key is scheduled to be purged, in UTC. Returns `None` if
       soft-delete is disabled.
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>

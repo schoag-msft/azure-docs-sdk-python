@@ -63,7 +63,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.costmanagement.models.GenerateDetailedCostReportOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.costmanagement.models.GenerateDetailedCostReportOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

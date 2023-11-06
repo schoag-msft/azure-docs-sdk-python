@@ -308,7 +308,7 @@ methods:
   return:
     description: An iterable of <xref:azure.containerregistry.ArtifactManifestProperties>
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.containerregistry.ArtifactManifestProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.containerregistry.ArtifactManifestProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.containerregistry.aio.ContainerRegistryClient.list_repository_names
@@ -323,7 +323,7 @@ methods:
   return:
     description: An iterable of strings
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:str>]
+    - <xref:AsyncItemPaged>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.containerregistry.aio.ContainerRegistryClient.list_tag_properties
@@ -356,7 +356,7 @@ methods:
   return:
     description: An iterable of <xref:azure.containerregistry.ArtifactTagProperties>
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.containerregistry.ArtifactTagProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.containerregistry.ArtifactTagProperties>]
   exceptions:
   - type: azure.core.exceptions.ResourceNotFoundError
 - uid: azure.containerregistry.aio.ContainerRegistryClient.set_manifest
@@ -434,7 +434,7 @@ methods:
   return:
     description: The digest and size in bytes of the uploaded blob.
     types:
-    - <xref:Tuple>[<xref:str>, <xref:int>]
+    - <xref:typing.Tuple>[<xref:str>, <xref:int>]
   exceptions:
   - type: ValueError
     description: If the parameter repository or data is None.

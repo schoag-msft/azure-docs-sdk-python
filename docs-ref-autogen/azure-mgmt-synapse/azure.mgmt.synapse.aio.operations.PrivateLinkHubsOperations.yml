@@ -72,7 +72,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.PrivateLinkHubsOperations.create_or_update
@@ -145,7 +145,7 @@ methods:
     description: An iterator like instance of either PrivateLinkHubInfoListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.PrivateLinkHubInfoListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.PrivateLinkHubInfoListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.PrivateLinkHubsOperations.list_by_resource_group
@@ -166,7 +166,7 @@ methods:
     description: An iterator like instance of either PrivateLinkHubInfoListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.PrivateLinkHubInfoListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.PrivateLinkHubInfoListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.PrivateLinkHubsOperations.update

@@ -372,7 +372,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.notificationhubs.models.NotificationHubListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.notificationhubs.models.NotificationHubListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.notificationhubs.aio.operations.NotificationHubsOperations.list_authorization_rules
@@ -406,7 +406,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.notificationhubs.aio.operations.NotificationHubsOperations.list_keys

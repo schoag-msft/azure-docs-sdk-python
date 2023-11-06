@@ -88,7 +88,7 @@ methods:
   return:
     description: An iterator like instance of either AlertList or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.AlertList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_05_01_preview.models.AlertList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

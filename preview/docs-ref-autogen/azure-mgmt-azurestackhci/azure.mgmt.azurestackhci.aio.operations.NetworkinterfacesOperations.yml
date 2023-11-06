@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.azurestackhci.models.NetworkInterfaces>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.azurestackhci.models.NetworkInterfaces>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestackhci.aio.operations.NetworkInterfacesOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestackhci.aio.operations.NetworkInterfacesOperations.begin_update
@@ -193,7 +193,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.azurestackhci.models.NetworkInterfaces>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.azurestackhci.models.NetworkInterfaces>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestackhci.aio.operations.NetworkInterfacesOperations.get
@@ -247,7 +247,7 @@ methods:
     description: An iterator like instance of either NetworkInterfaces or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestackhci.models.NetworkInterfaces>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestackhci.models.NetworkInterfaces>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestackhci.aio.operations.NetworkInterfacesOperations.list_all
@@ -266,7 +266,7 @@ methods:
     description: An iterator like instance of either NetworkInterfaces or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestackhci.models.NetworkInterfaces>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestackhci.models.NetworkInterfaces>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -448,7 +448,7 @@ methods:
     description: An iterator like instance of either ScheduledAction or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.costmanagement.models.ScheduledAction>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.costmanagement.models.ScheduledAction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://docs.microsoft.com/rest/api/cost-management/](https://docs.microsoft.com/rest/api/cost-management/)\
@@ -518,7 +518,7 @@ methods:
     description: An iterator like instance of either ScheduledAction or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.costmanagement.models.ScheduledAction>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.costmanagement.models.ScheduledAction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://docs.microsoft.com/rest/api/cost-management/](https://docs.microsoft.com/rest/api/cost-management/)\

@@ -59,7 +59,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.notificationhubs.operations.NamespacesOperations.check_availability
@@ -293,7 +293,7 @@ methods:
     description: An iterator like instance of either NamespaceResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.notificationhubs.models.NamespaceResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.notificationhubs.models.NamespaceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.notificationhubs.operations.NamespacesOperations.list_all
@@ -310,7 +310,7 @@ methods:
     description: An iterator like instance of either NamespaceResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.notificationhubs.models.NamespaceResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.notificationhubs.models.NamespaceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.notificationhubs.operations.NamespacesOperations.list_authorization_rules
@@ -339,7 +339,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.notificationhubs.operations.NamespacesOperations.list_keys

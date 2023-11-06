@@ -182,7 +182,7 @@ methods:
     description: An iterator like instance of either ArtifactSourceList or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devtestlabs.models.ArtifactSourceList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devtestlabs.models.ArtifactSourceList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.ArtifactSourcesOperations.update

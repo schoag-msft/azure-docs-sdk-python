@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.AzureFirewall>]
+    - <xref:LROPoller>[<xref:AzureFirewall>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AzureFirewallsOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AzureFirewallsOperations.begin_list_learned_prefixes
@@ -172,7 +172,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.IPPrefixesList>]
+    - <xref:LROPoller>[<xref:IPPrefixesList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AzureFirewallsOperations.begin_packet_capture
@@ -235,7 +235,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AzureFirewallsOperations.begin_update_tags
@@ -299,7 +299,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.AzureFirewall>]
+    - <xref:LROPoller>[<xref:AzureFirewall>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AzureFirewallsOperations.get
@@ -325,7 +325,7 @@ methods:
   return:
     description: AzureFirewall or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.AzureFirewall>
+    - <xref:AzureFirewall>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AzureFirewallsOperations.list
@@ -346,7 +346,7 @@ methods:
     description: An iterator like instance of either AzureFirewall or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.AzureFirewall>]
+    - <xref:ItemPaged>[<xref:AzureFirewall>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AzureFirewallsOperations.list_all
@@ -362,7 +362,7 @@ methods:
     description: An iterator like instance of either AzureFirewall or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.AzureFirewall>]
+    - <xref:ItemPaged>[<xref:AzureFirewall>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AzureFirewallsOperations.update_tags
@@ -402,7 +402,7 @@ methods:
   return:
     description: AzureFirewall or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.AzureFirewall>
+    - <xref:AzureFirewall>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

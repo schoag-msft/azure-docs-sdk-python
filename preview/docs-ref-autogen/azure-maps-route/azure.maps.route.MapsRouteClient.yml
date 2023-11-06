@@ -80,7 +80,7 @@ methods:
   return:
     description: An instance of LROPoller that returns RouteDirectionsBatchResult
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.maps.route.models.RouteDirectionsBatchResult>]
+    - <xref:LROPoller>[<xref:azure.maps.route.models.RouteDirectionsBatchResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.maps.route.MapsRouteClient.begin_get_route_matrix_batch
@@ -349,7 +349,7 @@ methods:
   return:
     description: An instance of LROPoller that returns RouteMatrixResult
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.maps.route.models.RouteMatrixResult>]
+    - <xref:LROPoller>[<xref:azure.maps.route.models.RouteMatrixResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.maps.route.MapsRouteClient.get_route_directions

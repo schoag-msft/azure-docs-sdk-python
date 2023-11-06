@@ -75,7 +75,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.MonitoringSettingResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.MonitoringSettingResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.operations.MonitoringSettingsOperations.begin_update_put
@@ -142,7 +142,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.MonitoringSettingResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.MonitoringSettingResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.operations.MonitoringSettingsOperations.get

@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either FrontDoor or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.frontdoor.models.FrontDoor>]
+    - <xref:LROPoller>[<xref:azure.mgmt.frontdoor.models.FrontDoor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.frontdoor.operations.FrontDoorsOperations.begin_delete
@@ -122,7 +122,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.frontdoor.operations.FrontDoorsOperations.get
@@ -166,7 +166,7 @@ methods:
   return:
     description: An iterator like instance of either FrontDoor or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.frontdoor.models.FrontDoor>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.frontdoor.models.FrontDoor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.frontdoor.operations.FrontDoorsOperations.list_by_resource_group
@@ -186,7 +186,7 @@ methods:
   return:
     description: An iterator like instance of either FrontDoor or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.frontdoor.models.FrontDoor>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.frontdoor.models.FrontDoor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.frontdoor.operations.FrontDoorsOperations.validate_custom_domain

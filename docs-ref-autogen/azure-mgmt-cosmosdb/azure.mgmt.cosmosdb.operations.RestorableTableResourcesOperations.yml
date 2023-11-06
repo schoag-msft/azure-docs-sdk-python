@@ -61,7 +61,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableTableResourcesGetResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableTableResourcesGetResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

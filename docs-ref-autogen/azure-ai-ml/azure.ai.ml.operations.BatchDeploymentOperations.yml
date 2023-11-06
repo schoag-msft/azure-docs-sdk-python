@@ -61,7 +61,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.BatchDeployment>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.BatchDeployment>]
   exceptions:
   - type: azure.ai.ml.exceptions.ValidationException
     description: 'Raised if BatchDeployment cannot be
@@ -107,7 +107,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   examples:
   - "Delete example.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\n<!--\
     \ literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [],\
@@ -156,7 +156,7 @@ methods:
   return:
     description: An iterator of deployment entities
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.BatchDeployment>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.BatchDeployment>]
   examples:
   - "List deployment resource example.<!--[!code-python[Main](les\\ml_samples_misc.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -183,7 +183,7 @@ methods:
   return:
     description: List of jobs
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.BatchJob>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.BatchJob>]
   examples:
   - "List jobs example.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\n<!--\
     \ literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [],\

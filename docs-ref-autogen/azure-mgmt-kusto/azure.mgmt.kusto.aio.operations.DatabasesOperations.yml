@@ -141,7 +141,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.kusto.models.Database>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.kusto.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.aio.operations.DatabasesOperations.begin_delete
@@ -196,7 +196,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.aio.operations.DatabasesOperations.begin_update
@@ -281,7 +281,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.kusto.models.Database>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.kusto.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.aio.operations.DatabasesOperations.check_name_availability
@@ -406,7 +406,7 @@ methods:
   return:
     description: An iterator like instance of either Database or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.kusto.models.Database>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.kusto.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.aio.operations.DatabasesOperations.list_principals
@@ -440,7 +440,7 @@ methods:
     description: An iterator like instance of either DatabasePrincipal or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.kusto.models.DatabasePrincipal>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.kusto.models.DatabasePrincipal>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.aio.operations.DatabasesOperations.remove_principals

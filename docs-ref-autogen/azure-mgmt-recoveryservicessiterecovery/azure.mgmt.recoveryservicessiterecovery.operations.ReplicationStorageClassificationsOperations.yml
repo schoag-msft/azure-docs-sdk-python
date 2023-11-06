@@ -58,7 +58,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.StorageClassification>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.StorageClassification>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationStorageClassificationsOperations.list_by_replication_fabrics
@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.StorageClassification>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.StorageClassification>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

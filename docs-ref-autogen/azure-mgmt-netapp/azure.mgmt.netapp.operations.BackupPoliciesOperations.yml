@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.BackupPolicy>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.BackupPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.BackupPoliciesOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.BackupPoliciesOperations.begin_update
@@ -218,7 +218,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.BackupPolicy>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.BackupPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.BackupPoliciesOperations.get
@@ -286,7 +286,7 @@ methods:
     description: An iterator like instance of either BackupPolicy or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.netapp.models.BackupPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.netapp.models.BackupPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

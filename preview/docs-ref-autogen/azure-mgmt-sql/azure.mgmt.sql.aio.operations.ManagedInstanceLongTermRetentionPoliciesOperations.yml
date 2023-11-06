@@ -86,7 +86,7 @@ methods:
 
       ManagedInstanceLongTermRetentionPolicy or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionPolicy>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ManagedInstanceLongTermRetentionPoliciesOperations.get
@@ -162,7 +162,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionPolicy>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

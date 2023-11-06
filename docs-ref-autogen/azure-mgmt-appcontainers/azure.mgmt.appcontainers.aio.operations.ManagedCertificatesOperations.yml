@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ManagedCertificate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ManagedCertificate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ManagedCertificatesOperations.delete
@@ -188,7 +188,7 @@ methods:
     description: An iterator like instance of either ManagedCertificate or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ManagedCertificate>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ManagedCertificate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ManagedCertificatesOperations.update

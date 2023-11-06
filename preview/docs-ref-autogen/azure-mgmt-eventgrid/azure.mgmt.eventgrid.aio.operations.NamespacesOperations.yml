@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.Namespace>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.Namespace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.NamespacesOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.NamespacesOperations.begin_regenerate_key
@@ -201,7 +201,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.NamespaceSharedAccessKeys>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.NamespaceSharedAccessKeys>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.NamespacesOperations.begin_update
@@ -271,7 +271,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.Namespace>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.Namespace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.NamespacesOperations.get
@@ -362,7 +362,7 @@ methods:
   return:
     description: An iterator like instance of either Namespace or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.Namespace>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.Namespace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.NamespacesOperations.list_by_subscription
@@ -415,7 +415,7 @@ methods:
   return:
     description: An iterator like instance of either Namespace or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.Namespace>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.Namespace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.NamespacesOperations.list_shared_access_keys

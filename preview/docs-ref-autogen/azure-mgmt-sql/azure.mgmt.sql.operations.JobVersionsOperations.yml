@@ -89,7 +89,7 @@ methods:
   return:
     description: An iterator like instance of either JobVersion or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.JobVersion>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.JobVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

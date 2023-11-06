@@ -45,7 +45,7 @@ methods:
     description: An iterator like instance of either SkuInformation or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databox.v2019_09_01.models.SkuInformation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databox.v2019_09_01.models.SkuInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2019_09_01.operations.ServiceOperations.list_available_skus_by_resource_group
@@ -90,7 +90,7 @@ methods:
     description: An iterator like instance of either SkuInformation or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databox.v2019_09_01.models.SkuInformation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databox.v2019_09_01.models.SkuInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2019_09_01.operations.ServiceOperations.region_configuration

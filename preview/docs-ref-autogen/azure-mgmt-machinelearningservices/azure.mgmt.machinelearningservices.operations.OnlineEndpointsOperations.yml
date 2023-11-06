@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.OnlineEndpointsOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.OnlineEndpointsOperations.begin_regenerate_keys
@@ -217,7 +217,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.OnlineEndpointsOperations.begin_update
@@ -292,7 +292,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.OnlineEndpointsOperations.get
@@ -451,7 +451,7 @@ methods:
     description: An iterator like instance of either OnlineEndpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.OnlineEndpointsOperations.list_keys

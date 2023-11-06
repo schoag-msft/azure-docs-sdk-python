@@ -83,7 +83,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsOrg>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsOrg>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.aio.operations.AzureDevOpsOrgOperations.begin_update
@@ -158,7 +158,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsOrg>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsOrg>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.aio.operations.AzureDevOpsOrgOperations.get
@@ -223,7 +223,7 @@ methods:
     description: An iterator like instance of either AzureDevOpsOrg or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsOrg>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsOrg>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

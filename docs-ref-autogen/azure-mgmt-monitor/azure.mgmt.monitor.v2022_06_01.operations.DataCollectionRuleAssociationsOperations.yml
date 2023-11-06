@@ -145,7 +145,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.DataCollectionRuleAssociationProxyOnlyResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.DataCollectionRuleAssociationProxyOnlyResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2022_06_01.operations.DataCollectionRuleAssociationsOperations.list_by_resource
@@ -171,7 +171,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.DataCollectionRuleAssociationProxyOnlyResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.DataCollectionRuleAssociationProxyOnlyResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2022_06_01.operations.DataCollectionRuleAssociationsOperations.list_by_rule
@@ -207,7 +207,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.DataCollectionRuleAssociationProxyOnlyResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.DataCollectionRuleAssociationProxyOnlyResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

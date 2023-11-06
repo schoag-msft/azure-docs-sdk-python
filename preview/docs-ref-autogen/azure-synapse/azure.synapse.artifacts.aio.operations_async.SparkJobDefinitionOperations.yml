@@ -66,7 +66,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either SparkBatchJob or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.synapse.artifacts.models.SparkBatchJob>]
+    - <xref:AsyncLROPoller>[<xref:azure.synapse.artifacts.models.SparkBatchJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.aio.operations_async.SparkJobDefinitionOperations.begin_execute_spark_job_definition
@@ -104,7 +104,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either SparkBatchJob or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.synapse.artifacts.models.SparkBatchJob>]
+    - <xref:AsyncLROPoller>[<xref:azure.synapse.artifacts.models.SparkBatchJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.aio.operations_async.SparkJobDefinitionOperations.create_or_update_spark_job_definition
@@ -209,7 +209,7 @@ methods:
     description: An iterator like instance of either SparkJobDefinitionsListResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.synapse.artifacts.models.SparkJobDefinitionsListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.synapse.artifacts.models.SparkJobDefinitionsListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

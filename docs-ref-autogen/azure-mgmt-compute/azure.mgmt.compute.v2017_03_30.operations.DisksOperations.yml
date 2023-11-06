@@ -77,7 +77,7 @@ methods:
     description: An instance of LROPoller that returns either Disk or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.Disk>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.Disk>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2017_03_30.operations.DisksOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2017_03_30.operations.DisksOperations.begin_grant_access
@@ -202,7 +202,7 @@ methods:
     description: An instance of LROPoller that returns either AccessUri or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.AccessUri>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.AccessUri>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2017_03_30.operations.DisksOperations.begin_revoke_access
@@ -258,7 +258,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2017_03_30.operations.DisksOperations.begin_update
@@ -327,7 +327,7 @@ methods:
     description: An instance of LROPoller that returns either Disk or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.Disk>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2017_03_30.models.Disk>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2017_03_30.operations.DisksOperations.get
@@ -373,7 +373,7 @@ methods:
   return:
     description: An iterator like instance of either Disk or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2017_03_30.models.Disk>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2017_03_30.models.Disk>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2017_03_30.operations.DisksOperations.list_by_resource_group
@@ -393,7 +393,7 @@ methods:
   return:
     description: An iterator like instance of either Disk or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2017_03_30.models.Disk>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2017_03_30.models.Disk>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

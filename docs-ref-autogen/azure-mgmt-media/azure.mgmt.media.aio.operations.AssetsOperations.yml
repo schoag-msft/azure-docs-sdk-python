@@ -224,7 +224,7 @@ methods:
   return:
     description: An iterator like instance of either Asset or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.media.models.Asset>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.media.models.Asset>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.aio.operations.AssetsOperations.list_container_sas

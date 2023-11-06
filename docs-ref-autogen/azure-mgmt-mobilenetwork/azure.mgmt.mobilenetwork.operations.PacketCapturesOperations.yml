@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.mobilenetwork.models.PacketCapture>]
+    - <xref:LROPoller>[<xref:azure.mgmt.mobilenetwork.models.PacketCapture>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.operations.PacketCapturesOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.operations.PacketCapturesOperations.begin_stop
@@ -193,7 +193,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.operations.PacketCapturesOperations.get
@@ -255,7 +255,7 @@ methods:
     description: An iterator like instance of either PacketCapture or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.mobilenetwork.models.PacketCapture>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.mobilenetwork.models.PacketCapture>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

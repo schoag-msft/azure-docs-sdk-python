@@ -378,7 +378,7 @@ methods:
   return:
     description: Instance of JobRouterAdministrationClient.
     types:
-    - <xref:azure.communication.jobrouter.aio.JobRouterAdministrationClient>
+    - <xref:azure.communication.jobrouter.JobRouterAdministrationClient>
   examples:
   - "Authenticating a JobRouterAdministrationClient from a connection_string<!--[!code-python[Main](les\\\
     sample_authentication_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
@@ -522,7 +522,7 @@ methods:
   return:
     description: An iterator like instance of ClassificationPolicyItem
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.jobrouter.ClassificationPolicyItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.jobrouter.ClassificationPolicyItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:
@@ -555,7 +555,7 @@ methods:
   return:
     description: An iterator like instance of DistributionPolicyItem
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.jobrouter.DistributionPolicyItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.jobrouter.DistributionPolicyItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -588,7 +588,7 @@ methods:
   return:
     description: An iterator like instance of ExceptionPolicyItem
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.jobrouter.ExceptionPolicyItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.jobrouter.ExceptionPolicyItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:
@@ -621,7 +621,7 @@ methods:
   return:
     description: An iterator like instance of RouterQueueItem
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.jobrouter.RouterQueueItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.jobrouter.RouterQueueItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:

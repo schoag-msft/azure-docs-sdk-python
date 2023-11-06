@@ -182,7 +182,7 @@ methods:
     description: An iterator like instance of either NotificationChannelList or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devtestlabs.models.NotificationChannelList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devtestlabs.models.NotificationChannelList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.NotificationChannelsOperations.notify

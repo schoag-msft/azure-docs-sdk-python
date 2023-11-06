@@ -275,7 +275,7 @@ methods:
     description: An iterator like instance of either AuthorizationRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.relay.models.AuthorizationRule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.relay.models.AuthorizationRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.relay.aio.operations.WCFRelaysOperations.list_by_namespace
@@ -301,7 +301,7 @@ methods:
   return:
     description: An iterator like instance of either WcfRelay or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.relay.models.WcfRelay>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.relay.models.WcfRelay>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.relay.aio.operations.WCFRelaysOperations.list_keys

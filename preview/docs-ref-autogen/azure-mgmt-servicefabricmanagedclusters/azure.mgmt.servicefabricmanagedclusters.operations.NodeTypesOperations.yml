@@ -77,7 +77,7 @@ methods:
     description: An instance of LROPoller that returns either NodeType or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicefabricmanagedclusters.models.NodeType>]
+    - <xref:LROPoller>[<xref:azure.mgmt.servicefabricmanagedclusters.models.NodeType>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabricmanagedclusters.operations.NodeTypesOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabricmanagedclusters.operations.NodeTypesOperations.begin_delete_node
@@ -208,7 +208,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabricmanagedclusters.operations.NodeTypesOperations.begin_reimage
@@ -283,7 +283,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabricmanagedclusters.operations.NodeTypesOperations.begin_restart
@@ -358,7 +358,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabricmanagedclusters.operations.NodeTypesOperations.get
@@ -421,7 +421,7 @@ methods:
   return:
     description: An iterator like instance of either NodeType or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.servicefabricmanagedclusters.models.NodeType>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.servicefabricmanagedclusters.models.NodeType>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabricmanagedclusters.operations.NodeTypesOperations.update

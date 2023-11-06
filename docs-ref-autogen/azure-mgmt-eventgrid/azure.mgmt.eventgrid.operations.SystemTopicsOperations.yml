@@ -86,7 +86,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.SystemTopic>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.SystemTopic>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.SystemTopicsOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.SystemTopicsOperations.begin_update
@@ -195,7 +195,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.SystemTopic>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.SystemTopic>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.SystemTopicsOperations.get
@@ -285,7 +285,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.SystemTopicsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.SystemTopicsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.SystemTopicsOperations.list_by_subscription
@@ -341,7 +341,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.SystemTopicsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.SystemTopicsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

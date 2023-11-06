@@ -66,7 +66,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.ChannelsOperations.create_or_update
@@ -252,7 +252,7 @@ methods:
   return:
     description: An iterator like instance of either Channel or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.Channel>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.Channel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.ChannelsOperations.update

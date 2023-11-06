@@ -79,7 +79,7 @@ methods:
     description: An instance of LROPoller that returns either Client or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.Client>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.Client>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.ClientsOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.ClientsOperations.get
@@ -238,7 +238,7 @@ methods:
   return:
     description: An iterator like instance of either Client or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.Client>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.Client>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

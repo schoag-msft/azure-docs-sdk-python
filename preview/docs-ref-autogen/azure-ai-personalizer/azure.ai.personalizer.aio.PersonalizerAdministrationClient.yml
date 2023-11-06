@@ -229,7 +229,7 @@ methods:
   return:
     description: Async iterator of the response bytes
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.personalizer.aio.PersonalizerAdministrationClient.get_evaluation
@@ -543,7 +543,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -588,7 +588,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -672,7 +672,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.AsyncHttpResponse>
+    - <xref:AsyncHttpResponse>
 - uid: azure.ai.personalizer.aio.PersonalizerAdministrationClient.update_policy
   name: update_policy
   summary: 'Update Policy.

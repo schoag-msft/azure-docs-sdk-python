@@ -71,7 +71,7 @@ methods:
   return:
     description: A paged object containing the account's settings.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.administration.KeyVaultSetting>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.administration.KeyVaultSetting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.keyvault.administration.KeyVaultSettingsClient.send_request
@@ -105,7 +105,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>
 - uid: azure.keyvault.administration.KeyVaultSettingsClient.update_setting
   name: update_setting
   summary: Updates the named account setting with the provided value.

@@ -89,7 +89,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.MongoDBCollectionGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.MongoDBCollectionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_create_update_mongo_db_database
@@ -165,7 +165,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.MongoDBDatabaseGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.MongoDBDatabaseGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_create_update_mongo_role_definition
@@ -241,7 +241,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.MongoRoleDefinitionGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.MongoRoleDefinitionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_create_update_mongo_user_definition
@@ -317,7 +317,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.MongoUserDefinitionGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.MongoUserDefinitionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_delete_mongo_db_collection
@@ -377,7 +377,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_delete_mongo_db_database
@@ -432,7 +432,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_delete_mongo_role_definition
@@ -487,7 +487,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_delete_mongo_user_definition
@@ -542,7 +542,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_list_mongo_db_collection_partition_merge
@@ -619,7 +619,7 @@ methods:
 
       PhysicalPartitionStorageInfoCollection or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionStorageInfoCollection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionStorageInfoCollection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_migrate_mongo_db_collection_to_autoscale
@@ -683,7 +683,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_migrate_mongo_db_collection_to_manual_throughput
@@ -747,7 +747,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_migrate_mongo_db_database_to_autoscale
@@ -804,7 +804,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_migrate_mongo_db_database_to_manual_throughput
@@ -861,7 +861,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_mongo_db_container_redistribute_throughput
@@ -941,7 +941,7 @@ methods:
 
       PhysicalPartitionThroughputInfoResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionThroughputInfoResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionThroughputInfoResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_mongo_db_container_retrieve_throughput_distribution
@@ -1021,7 +1021,7 @@ methods:
 
       PhysicalPartitionThroughputInfoResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionThroughputInfoResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionThroughputInfoResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_mongo_db_database_partition_merge
@@ -1092,7 +1092,7 @@ methods:
 
       PhysicalPartitionStorageInfoCollection or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionStorageInfoCollection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionStorageInfoCollection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_mongo_db_database_redistribute_throughput
@@ -1167,7 +1167,7 @@ methods:
 
       PhysicalPartitionThroughputInfoResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionThroughputInfoResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionThroughputInfoResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_mongo_db_database_retrieve_throughput_distribution
@@ -1241,7 +1241,7 @@ methods:
 
       PhysicalPartitionThroughputInfoResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionThroughputInfoResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.PhysicalPartitionThroughputInfoResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_retrieve_continuous_backup_information
@@ -1318,7 +1318,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.BackupInformation>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.BackupInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_update_mongo_db_collection_throughput
@@ -1399,7 +1399,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.begin_update_mongo_db_database_throughput
@@ -1474,7 +1474,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.get_mongo_db_collection
@@ -1735,7 +1735,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MongoDBCollectionGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MongoDBCollectionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.list_mongo_db_databases
@@ -1767,7 +1767,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MongoDBDatabaseGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MongoDBDatabaseGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.list_mongo_role_definitions
@@ -1798,7 +1798,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MongoRoleDefinitionGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MongoRoleDefinitionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.MongoDBResourcesOperations.list_mongo_user_definitions
@@ -1829,7 +1829,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MongoUserDefinitionGetResults>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.MongoUserDefinitionGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

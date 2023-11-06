@@ -76,7 +76,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either CommunicationDetails
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.support.models.CommunicationDetails>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.support.models.CommunicationDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.support.aio.operations.CommunicationsOperations.check_name_availability
@@ -190,7 +190,7 @@ methods:
     description: An iterator like instance of either CommunicationsListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.support.models.CommunicationsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.support.models.CommunicationsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

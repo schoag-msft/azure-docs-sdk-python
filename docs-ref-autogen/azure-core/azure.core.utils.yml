@@ -23,7 +23,7 @@ functions:
   return:
     description: A case-insensitive mutable mapping object.
     types:
-    - <xref:collections.abc.MutableMapping>
+    - <xref:typing.MutableMapping>
 - uid: azure.core.utils.parse_connection_string
   name: parse_connection_string
   summary: 'Parses the connection string into a dict of its component parts, with
@@ -54,7 +54,7 @@ functions:
   return:
     description: Dict of connection string key/value pairs.
     types:
-    - <xref:Mapping>
+    - <xref:typing.Mapping>
   exceptions:
   - type: <xref:for other bad formatting of connection strings - including duplicateargs>,
       <xref:bad syntax>, <xref:etc.>

@@ -56,7 +56,7 @@ methods:
     description: object or ClientRawResponse if raw=true
     types:
     - <xref:object>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.digital_twin_operations.DigitalTwinOperations.invoke_component_command
@@ -119,7 +119,7 @@ methods:
     description: object or ClientRawResponse if raw=true
     types:
     - <xref:object>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.digital_twin_operations.DigitalTwinOperations.invoke_root_level_command
@@ -178,7 +178,7 @@ methods:
     description: object or ClientRawResponse if raw=true
     types:
     - <xref:object>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.digital_twin_operations.DigitalTwinOperations.update_digital_twin
@@ -222,7 +222,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 attributes:

@@ -81,7 +81,7 @@ methods:
 
       RemotePrivateEndpointConnectionARMResource or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.RemotePrivateEndpointConnectionARMResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.RemotePrivateEndpointConnectionARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.begin_change_vnet
@@ -150,7 +150,7 @@ methods:
 
       WebAppCollection or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Site>]]
+    - <xref:AsyncLROPoller>[<xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Site>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.begin_create_or_update
@@ -218,7 +218,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.AppServiceEnvironmentResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.AppServiceEnvironmentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.begin_create_or_update_multi_role_pool
@@ -286,7 +286,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.WorkerPoolResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.WorkerPoolResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.begin_create_or_update_worker_pool
@@ -359,7 +359,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.WorkerPoolResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.WorkerPoolResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.begin_delete
@@ -420,7 +420,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.begin_delete_private_endpoint_connection
@@ -477,7 +477,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either JSON or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:JSON>]
+    - <xref:AsyncLROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.begin_resume
@@ -530,7 +530,7 @@ methods:
 
       WebAppCollection or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Site>]]
+    - <xref:AsyncLROPoller>[<xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Site>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.begin_suspend
@@ -583,7 +583,7 @@ methods:
 
       WebAppCollection or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Site>]]
+    - <xref:AsyncLROPoller>[<xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Site>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.get
@@ -707,7 +707,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.InboundEnvironmentEndpoint>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.InboundEnvironmentEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.get_multi_role_pool
@@ -769,7 +769,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.OutboundEnvironmentEndpoint>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.OutboundEnvironmentEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.get_private_endpoint_connection
@@ -835,7 +835,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.RemotePrivateEndpointConnectionARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.RemotePrivateEndpointConnectionARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.get_private_link_resources
@@ -948,7 +948,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.AppServiceEnvironmentResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.AppServiceEnvironmentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_app_service_plans
@@ -978,7 +978,7 @@ methods:
     description: An iterator like instance of either AppServicePlan or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.AppServicePlan>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.AppServicePlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_by_resource_group
@@ -1004,7 +1004,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.AppServiceEnvironmentResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.AppServiceEnvironmentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_capacities
@@ -1034,7 +1034,7 @@ methods:
     description: An iterator like instance of either StampCapacity or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StampCapacity>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StampCapacity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_diagnostics
@@ -1095,7 +1095,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.ResourceMetricDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.ResourceMetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_multi_role_pool_instance_metric_definitions
@@ -1138,7 +1138,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.ResourceMetricDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.ResourceMetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_multi_role_pool_skus
@@ -1167,7 +1167,7 @@ methods:
   return:
     description: An iterator like instance of either SkuInfo or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.SkuInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.SkuInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_multi_role_pools
@@ -1197,7 +1197,7 @@ methods:
     description: An iterator like instance of either WorkerPoolResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.WorkerPoolResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.WorkerPoolResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_multi_role_usages
@@ -1226,7 +1226,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Usage>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_operations
@@ -1298,7 +1298,7 @@ methods:
     description: An iterator like instance of either CsmUsageQuota or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.CsmUsageQuota>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.CsmUsageQuota>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_web_apps
@@ -1334,7 +1334,7 @@ methods:
   return:
     description: An iterator like instance of either Site or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Site>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Site>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_web_worker_metric_definitions
@@ -1371,7 +1371,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.ResourceMetricDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.ResourceMetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_web_worker_usages
@@ -1405,7 +1405,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Usage>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_worker_pool_instance_metric_definitions
@@ -1449,7 +1449,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.ResourceMetricDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.ResourceMetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_worker_pool_skus
@@ -1483,7 +1483,7 @@ methods:
   return:
     description: An iterator like instance of either SkuInfo or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.SkuInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.SkuInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.list_worker_pools
@@ -1513,7 +1513,7 @@ methods:
     description: An iterator like instance of either WorkerPoolResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.WorkerPoolResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.WorkerPoolResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.AppServiceEnvironmentsOperations.reboot

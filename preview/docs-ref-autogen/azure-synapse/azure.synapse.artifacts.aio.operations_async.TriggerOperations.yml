@@ -65,7 +65,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.aio.operations_async.TriggerOperations.begin_stop_trigger
@@ -102,7 +102,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.aio.operations_async.TriggerOperations.begin_subscribe_trigger_to_events
@@ -140,7 +140,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either TriggerSubscriptionOperationStatus
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.synapse.artifacts.models.TriggerSubscriptionOperationStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.synapse.artifacts.models.TriggerSubscriptionOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.aio.operations_async.TriggerOperations.begin_unsubscribe_trigger_from_events
@@ -178,7 +178,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either TriggerSubscriptionOperationStatus
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.synapse.artifacts.models.TriggerSubscriptionOperationStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.synapse.artifacts.models.TriggerSubscriptionOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.aio.operations_async.TriggerOperations.create_or_update_trigger
@@ -300,7 +300,7 @@ methods:
     description: An iterator like instance of either TriggerListResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.synapse.artifacts.models.TriggerListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.synapse.artifacts.models.TriggerListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

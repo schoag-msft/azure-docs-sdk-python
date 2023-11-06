@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.Cluster>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.ClustersOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.ClustersOperations.begin_update
@@ -218,7 +218,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.Cluster>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.ClustersOperations.get
@@ -285,7 +285,7 @@ methods:
   return:
     description: An iterator like instance of either Cluster or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.Cluster>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.ClustersOperations.list_zones

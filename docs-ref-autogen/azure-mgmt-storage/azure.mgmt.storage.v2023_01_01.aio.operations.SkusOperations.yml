@@ -24,7 +24,7 @@ methods:
     description: An iterator like instance of either SkuInformation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storage.v2023_01_01.models.SkuInformation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storage.v2023_01_01.models.SkuInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -52,7 +52,7 @@ methods:
     description: An iterator like instance of either SecureScoreItem or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.SecureScoreItem>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.SecureScoreItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

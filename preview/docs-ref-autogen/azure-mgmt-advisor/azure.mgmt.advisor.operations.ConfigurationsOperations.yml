@@ -125,7 +125,7 @@ methods:
   return:
     description: An iterator like instance of either ConfigData or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.advisor.models.ConfigData>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.advisor.models.ConfigData>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.advisor.operations.ConfigurationsOperations.list_by_subscription
@@ -146,7 +146,7 @@ methods:
   return:
     description: An iterator like instance of either ConfigData or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.advisor.models.ConfigData>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.advisor.models.ConfigData>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

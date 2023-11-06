@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.InboundSecurityRule>]
+    - <xref:LROPoller>[<xref:InboundSecurityRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -24,7 +24,7 @@ methods:
     description: An iterator like instance of either ApiOperation or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storagecache.models.ApiOperation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storagecache.models.ApiOperation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -77,7 +77,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.CertificateOperations.cancel_deletion
@@ -151,7 +151,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.CertificateOperations.delete
@@ -229,7 +229,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.CertificateOperations.get
@@ -287,7 +287,7 @@ methods:
     description: Certificate or ClientRawResponse if raw=true
     types:
     - <xref:azure.batch.models.Certificate>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.CertificateOperations.list

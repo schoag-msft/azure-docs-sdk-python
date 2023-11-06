@@ -84,7 +84,7 @@ methods:
     description: An instance of LROPoller that returns either SyncGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.SyncGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.SyncGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncGroupsOperations.begin_delete
@@ -144,7 +144,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncGroupsOperations.begin_refresh_hub_schema
@@ -204,7 +204,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncGroupsOperations.begin_update
@@ -280,7 +280,7 @@ methods:
     description: An instance of LROPoller that returns either SyncGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.SyncGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.SyncGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncGroupsOperations.cancel_sync
@@ -389,7 +389,7 @@ methods:
   return:
     description: An iterator like instance of either SyncGroup or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SyncGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SyncGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncGroupsOperations.list_hub_schemas
@@ -430,7 +430,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SyncFullSchemaProperties>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SyncFullSchemaProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncGroupsOperations.list_logs
@@ -498,7 +498,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SyncGroupLogProperties>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SyncGroupLogProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncGroupsOperations.list_sync_database_ids
@@ -521,7 +521,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SyncDatabaseIdProperties>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SyncDatabaseIdProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncGroupsOperations.trigger_sync

@@ -83,7 +83,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.StorageAppliance>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.StorageAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.StorageAppliancesOperations.begin_delete
@@ -141,7 +141,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.StorageAppliancesOperations.begin_disable_remote_vendor_management
@@ -196,7 +196,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.StorageAppliancesOperations.begin_enable_remote_vendor_management
@@ -270,7 +270,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.StorageAppliancesOperations.begin_update
@@ -343,7 +343,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.networkcloud.models.StorageAppliance>]
+    - <xref:LROPoller>[<xref:azure.mgmt.networkcloud.models.StorageAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.StorageAppliancesOperations.get
@@ -400,7 +400,7 @@ methods:
     description: An iterator like instance of either StorageAppliance or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.StorageAppliance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.StorageAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.networkcloud.operations.StorageAppliancesOperations.list_by_subscription
@@ -419,7 +419,7 @@ methods:
     description: An iterator like instance of either StorageAppliance or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.networkcloud.models.StorageAppliance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.networkcloud.models.StorageAppliance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

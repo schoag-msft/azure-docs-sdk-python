@@ -113,7 +113,7 @@ methods:
     description: An iterator like instance of either PeerAsnListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.peering.models.PeerAsnListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.peering.models.PeerAsnListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

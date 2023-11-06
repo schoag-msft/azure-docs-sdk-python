@@ -69,7 +69,7 @@ methods:
     description: An iterator like instance of either PolicyMetadataCollection or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyMetadataCollection>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyMetadataCollection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

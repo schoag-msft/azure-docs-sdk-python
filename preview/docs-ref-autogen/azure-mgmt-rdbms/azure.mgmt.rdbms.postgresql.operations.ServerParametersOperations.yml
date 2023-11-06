@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.ConfigurationListResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.ConfigurationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

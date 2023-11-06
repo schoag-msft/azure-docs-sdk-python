@@ -149,7 +149,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.guestconfig.models.GuestConfigurationAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.guestconfig.models.GuestConfigurationAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.guestconfig.operations.GuestConfigurationAssignmentsOperations.rg_list
@@ -172,7 +172,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.guestconfig.models.GuestConfigurationAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.guestconfig.models.GuestConfigurationAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.guestconfig.operations.GuestConfigurationAssignmentsOperations.subscription_list
@@ -190,7 +190,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.guestconfig.models.GuestConfigurationAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.guestconfig.models.GuestConfigurationAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

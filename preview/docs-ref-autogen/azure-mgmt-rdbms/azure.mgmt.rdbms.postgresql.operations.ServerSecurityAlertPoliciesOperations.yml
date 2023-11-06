@@ -82,7 +82,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.ServerSecurityAlertPolicy>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.ServerSecurityAlertPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.ServerSecurityAlertPoliciesOperations.get
@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerSecurityAlertPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerSecurityAlertPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

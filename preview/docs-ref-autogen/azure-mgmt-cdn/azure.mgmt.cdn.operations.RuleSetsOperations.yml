@@ -69,7 +69,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.RuleSetsOperations.create
@@ -173,7 +173,7 @@ methods:
   return:
     description: An iterator like instance of either RuleSet or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.RuleSet>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.RuleSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.RuleSetsOperations.list_resource_usage
@@ -212,7 +212,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.Usage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

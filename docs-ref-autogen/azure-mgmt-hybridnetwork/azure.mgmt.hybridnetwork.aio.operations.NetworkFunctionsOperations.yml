@@ -83,7 +83,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either NetworkFunction
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:hybrid_network_management_client.models.NetworkFunction>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionsOperations.begin_delete
@@ -130,7 +130,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionsOperations.get
@@ -156,7 +156,7 @@ methods:
   return:
     description: NetworkFunction, or the result of cls(response)
     types:
-    - <xref:hybrid_network_management_client.models.NetworkFunction>
+    - <xref:azure.mgmt.hybridnetwork.models.NetworkFunction>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionsOperations.list_by_resource_group
@@ -177,7 +177,7 @@ methods:
     description: An iterator like instance of either NetworkFunctionListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:hybrid_network_management_client.models.NetworkFunctionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunctionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionsOperations.list_by_subscription
@@ -193,7 +193,7 @@ methods:
     description: An iterator like instance of either NetworkFunctionListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:hybrid_network_management_client.models.NetworkFunctionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunctionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionsOperations.update_tags
@@ -224,7 +224,7 @@ methods:
   return:
     description: NetworkFunction, or the result of cls(response)
     types:
-    - <xref:hybrid_network_management_client.models.NetworkFunction>
+    - <xref:azure.mgmt.hybridnetwork.models.NetworkFunction>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -76,7 +76,7 @@ methods:
     description: An instance of LROPoller that returns either Pool or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.devcenter.models.Pool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.devcenter.models.Pool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.operations.PoolsOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.operations.PoolsOperations.begin_run_health_checks
@@ -186,7 +186,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.operations.PoolsOperations.begin_update
@@ -255,7 +255,7 @@ methods:
     description: An instance of LROPoller that returns either Pool or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.devcenter.models.Pool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.devcenter.models.Pool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.operations.PoolsOperations.get
@@ -324,7 +324,7 @@ methods:
   return:
     description: An iterator like instance of either Pool or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devcenter.models.Pool>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devcenter.models.Pool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

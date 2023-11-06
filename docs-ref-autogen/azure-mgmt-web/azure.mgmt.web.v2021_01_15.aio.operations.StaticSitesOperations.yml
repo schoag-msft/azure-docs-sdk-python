@@ -81,7 +81,7 @@ methods:
 
       RemotePrivateEndpointConnectionARMResource or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.RemotePrivateEndpointConnectionARMResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.RemotePrivateEndpointConnectionARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_create_or_update_static_site
@@ -151,7 +151,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteARMResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_create_or_update_static_site_custom_domain
@@ -228,7 +228,7 @@ methods:
 
       StaticSiteCustomDomainOverviewARMResource or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteCustomDomainOverviewARMResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteCustomDomainOverviewARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_create_zip_deployment_for_static_site
@@ -296,7 +296,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_create_zip_deployment_for_static_site_build
@@ -369,7 +369,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_delete_private_endpoint_connection
@@ -426,7 +426,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either JSON or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:JSON>]
+    - <xref:AsyncLROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_delete_static_site
@@ -477,7 +477,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_delete_static_site_build
@@ -533,7 +533,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_delete_static_site_custom_domain
@@ -589,7 +589,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_detach_static_site
@@ -640,7 +640,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_register_user_provided_function_app_with_static_site
@@ -725,7 +725,7 @@ methods:
 
       StaticSiteUserProvidedFunctionAppARMResource or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserProvidedFunctionAppARMResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserProvidedFunctionAppARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_register_user_provided_function_app_with_static_site_build
@@ -817,7 +817,7 @@ methods:
 
       StaticSiteUserProvidedFunctionAppARMResource or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserProvidedFunctionAppARMResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserProvidedFunctionAppARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.begin_validate_custom_domain_can_be_added_to_static_site
@@ -891,7 +891,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.create_or_update_static_site_app_settings
@@ -1307,7 +1307,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.RemotePrivateEndpointConnectionARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.RemotePrivateEndpointConnectionARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.get_private_link_resources
@@ -1431,7 +1431,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteBuildARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteBuildARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.get_static_site_custom_domain
@@ -1492,7 +1492,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.get_user_provided_function_app_for_static_site
@@ -1604,7 +1604,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserProvidedFunctionAppARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserProvidedFunctionAppARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.get_user_provided_function_apps_for_static_site_build
@@ -1643,7 +1643,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserProvidedFunctionAppARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserProvidedFunctionAppARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.list
@@ -1664,7 +1664,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.list_static_site_app_settings
@@ -1798,7 +1798,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteFunctionOverviewARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteFunctionOverviewARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.list_static_site_configured_roles
@@ -1859,7 +1859,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteCustomDomainOverviewARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteCustomDomainOverviewARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.list_static_site_function_app_settings
@@ -1920,7 +1920,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteFunctionOverviewARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteFunctionOverviewARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.list_static_site_secrets
@@ -1986,7 +1986,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_15.models.StaticSiteUserARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_15.aio.operations.StaticSitesOperations.preview_workflow

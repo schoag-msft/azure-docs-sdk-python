@@ -133,7 +133,7 @@ methods:
     description: An iterator like instance of either MapsAccount or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.maps.models.MapsAccount>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.maps.models.MapsAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.maps.aio.operations.AccountsOperations.list_by_subscription
@@ -149,7 +149,7 @@ methods:
     description: An iterator like instance of either MapsAccount or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.maps.models.MapsAccount>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.maps.models.MapsAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.maps.aio.operations.AccountsOperations.list_keys

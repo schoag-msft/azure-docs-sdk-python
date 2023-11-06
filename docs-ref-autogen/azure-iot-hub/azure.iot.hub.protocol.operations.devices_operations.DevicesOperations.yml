@@ -73,7 +73,7 @@ methods:
     description: Device or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.Device>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.devices_operations.DevicesOperations.delete_identity
@@ -124,7 +124,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.devices_operations.DevicesOperations.get_devices
@@ -172,7 +172,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.iot.hub.protocol.models.Device>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.devices_operations.DevicesOperations.get_identity
@@ -206,7 +206,7 @@ methods:
     description: Device or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.Device>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.devices_operations.DevicesOperations.get_twin
@@ -244,7 +244,7 @@ methods:
     description: Twin or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.Twin>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.devices_operations.DevicesOperations.invoke_method
@@ -290,7 +290,7 @@ methods:
     description: CloudToDeviceMethodResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.CloudToDeviceMethodResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.devices_operations.DevicesOperations.replace_twin
@@ -345,7 +345,7 @@ methods:
     description: Twin or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.Twin>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.devices_operations.DevicesOperations.update_twin
@@ -400,7 +400,7 @@ methods:
     description: Twin or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.Twin>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 attributes:

@@ -178,7 +178,7 @@ methods:
     description: An iterator like instance of either ComponentContainer or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.ComponentContainer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.ComponentContainer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

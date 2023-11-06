@@ -78,7 +78,7 @@ methods:
     description: An instance of LROPoller that returns either ScopeMap or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerregistry.v2022_02_01_preview.models.ScopeMap>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerregistry.v2022_02_01_preview.models.ScopeMap>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2022_02_01_preview.operations.ScopeMapsOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2022_02_01_preview.operations.ScopeMapsOperations.begin_update
@@ -203,7 +203,7 @@ methods:
     description: An instance of LROPoller that returns either ScopeMap or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerregistry.v2022_02_01_preview.models.ScopeMap>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerregistry.v2022_02_01_preview.models.ScopeMap>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2022_02_01_preview.operations.ScopeMapsOperations.get
@@ -264,7 +264,7 @@ methods:
   return:
     description: An iterator like instance of either ScopeMap or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerregistry.v2022_02_01_preview.models.ScopeMap>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerregistry.v2022_02_01_preview.models.ScopeMap>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -86,7 +86,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.AzureADOnlyAuthentication>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.AzureADOnlyAuthentication>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.AzureADOnlyAuthenticationsOperations.get
@@ -157,7 +157,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.AzureADOnlyAuthentication>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.AzureADOnlyAuthentication>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

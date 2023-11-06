@@ -132,7 +132,7 @@ methods:
     description: An iterator like instance of either LinkedSubscriptionsList or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.LinkedSubscriptionsList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.LinkedSubscriptionsList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestack.aio.operations.LinkedSubscriptionsOperations.list_by_subscription
@@ -148,7 +148,7 @@ methods:
     description: An iterator like instance of either LinkedSubscriptionsList or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.LinkedSubscriptionsList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.azurestack.models.LinkedSubscriptionsList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurestack.aio.operations.LinkedSubscriptionsOperations.update

@@ -82,7 +82,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.redisenterprise.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.redisenterprise.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.RedisEnterpriseOperations.begin_delete
@@ -130,7 +130,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.RedisEnterpriseOperations.begin_update
@@ -183,7 +183,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.redisenterprise.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.redisenterprise.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.RedisEnterpriseOperations.get
@@ -224,7 +224,7 @@ methods:
     description: An iterator like instance of either ClusterList or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.redisenterprise.models.ClusterList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.redisenterprise.models.ClusterList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redisenterprise.operations.RedisEnterpriseOperations.list_by_resource_group
@@ -245,7 +245,7 @@ methods:
     description: An iterator like instance of either ClusterList or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.redisenterprise.models.ClusterList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.redisenterprise.models.ClusterList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

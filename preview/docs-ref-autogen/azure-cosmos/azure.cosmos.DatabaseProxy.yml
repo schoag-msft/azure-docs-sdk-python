@@ -414,7 +414,7 @@ methods:
   return:
     description: An Iterable of container properties (dicts).
     types:
-    - <xref:Iterable>[<xref:Dict>[<xref:str>, <xref:Any>]]
+    - <xref:typing.Iterable>[<xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
   examples:
   - "List all containers in the database:<!--[!code-python[Main](les\\examples.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -442,7 +442,7 @@ methods:
   return:
     description: An Iterable of user properties (dicts).
     types:
-    - <xref:Iterable>[<xref:Dict>[<xref:str>, <xref:Any>]]
+    - <xref:typing.Iterable>[<xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
 - uid: azure.cosmos.DatabaseProxy.query_containers
   name: query_containers
   summary: List the properties for containers in the current database.
@@ -481,7 +481,7 @@ methods:
   return:
     description: An Iterable of container properties (dicts).
     types:
-    - <xref:Iterable>[<xref:Dict>[<xref:str>, <xref:Any>]]
+    - <xref:typing.Iterable>[<xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
 - uid: azure.cosmos.DatabaseProxy.query_users
   name: query_users
   summary: Return all users matching the given *query*.
@@ -511,7 +511,7 @@ methods:
   return:
     description: An Iterable of user properties (dicts).
     types:
-    - <xref:Iterable>[<xref:Dict>[<xref:str>, <xref:Any>]]
+    - <xref:typing.Iterable>[<xref:typing.Dict>[<xref:str>, <xref:typing.Any>]]
 - uid: azure.cosmos.DatabaseProxy.read
   name: read
   summary: Read the database properties.
@@ -532,7 +532,7 @@ methods:
     - <xref:typing.Callable>
   return:
     types:
-    - <xref:Dict>[<xref:Str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:Str>, <xref:typing.Any>]
   exceptions:
   - type: azure.cosmos.exceptions.CosmosHttpResponseError
     description: If the given database couldn't be retrieved.

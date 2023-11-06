@@ -151,7 +151,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.DataTransferJobGetResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.DataTransferJobGetResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.DataTransferJobsOperations.pause

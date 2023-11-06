@@ -63,7 +63,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.DiscoveredSecuritySolution>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.DiscoveredSecuritySolution>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2020_01_01.aio.operations.DiscoveredSecuritySolutionsOperations.list_by_home_region
@@ -89,7 +89,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.DiscoveredSecuritySolution>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.DiscoveredSecuritySolution>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

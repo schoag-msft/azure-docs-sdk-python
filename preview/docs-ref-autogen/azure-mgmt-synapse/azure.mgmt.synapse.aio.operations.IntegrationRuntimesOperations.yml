@@ -95,7 +95,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.IntegrationRuntimeResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.IntegrationRuntimeResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IntegrationRuntimesOperations.begin_delete
@@ -153,7 +153,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IntegrationRuntimesOperations.begin_disable_interactive_query
@@ -208,7 +208,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IntegrationRuntimesOperations.begin_enable_interactive_query
@@ -263,7 +263,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IntegrationRuntimesOperations.begin_start
@@ -323,7 +323,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.IntegrationRuntimeStatusResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.IntegrationRuntimeStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IntegrationRuntimesOperations.begin_stop
@@ -381,7 +381,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IntegrationRuntimesOperations.get
@@ -464,7 +464,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.IntegrationRuntimeResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.IntegrationRuntimeResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IntegrationRuntimesOperations.list_outbound_network_dependencies_endpoints

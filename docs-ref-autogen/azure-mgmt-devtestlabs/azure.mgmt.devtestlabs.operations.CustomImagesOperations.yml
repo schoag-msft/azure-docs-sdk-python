@@ -82,7 +82,7 @@ methods:
     description: An instance of LROPoller that returns either CustomImage or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.devtestlabs.models.CustomImage>]
+    - <xref:LROPoller>[<xref:azure.mgmt.devtestlabs.models.CustomImage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.CustomImagesOperations.begin_delete
@@ -130,7 +130,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.CustomImagesOperations.get
@@ -217,7 +217,7 @@ methods:
     description: An iterator like instance of either CustomImageList or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devtestlabs.models.CustomImageList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devtestlabs.models.CustomImageList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.CustomImagesOperations.update

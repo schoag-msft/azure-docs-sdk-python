@@ -86,7 +86,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.DeviceGroupsOperations.begin_create_or_update
@@ -167,7 +167,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sphere.models.DeviceGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sphere.models.DeviceGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.DeviceGroupsOperations.begin_delete
@@ -230,7 +230,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.DeviceGroupsOperations.begin_update
@@ -311,7 +311,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sphere.models.DeviceGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sphere.models.DeviceGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sphere.operations.DeviceGroupsOperations.count_devices
@@ -452,7 +452,7 @@ methods:
     description: An iterator like instance of either DeviceGroup or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sphere.models.DeviceGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sphere.models.DeviceGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

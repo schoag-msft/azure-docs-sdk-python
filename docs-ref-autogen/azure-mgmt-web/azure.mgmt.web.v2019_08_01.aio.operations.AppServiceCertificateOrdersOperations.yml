@@ -76,7 +76,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateOrder>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateOrder>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.AppServiceCertificateOrdersOperations.begin_create_or_update_certificate
@@ -149,7 +149,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.AppServiceCertificateOrdersOperations.delete
@@ -296,7 +296,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateOrder>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateOrder>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.AppServiceCertificateOrdersOperations.list_by_resource_group
@@ -322,7 +322,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateOrder>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateOrder>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.AppServiceCertificateOrdersOperations.list_certificates
@@ -354,7 +354,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.AppServiceCertificateResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.AppServiceCertificateOrdersOperations.reissue

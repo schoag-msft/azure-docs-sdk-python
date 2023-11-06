@@ -94,7 +94,7 @@ methods:
   return:
     description: The private numbers of the key.
     types:
-    - <xref:cryptography.hazmat.primitives.asymmetric.rsa.RSAPrivateNumbers>
+    - <xref:RSAPrivateNumbers>
 - uid: azure.keyvault.keys.crypto.KeyVaultRSAPrivateKey.public_key
   name: public_key
   summary: 'The *RSAPublicKey* associated with this private key, as a *KeyVaultRSAPublicKey*.

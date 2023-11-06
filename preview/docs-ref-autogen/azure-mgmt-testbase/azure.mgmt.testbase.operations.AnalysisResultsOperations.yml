@@ -117,7 +117,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.testbase.models.AnalysisResultSingletonResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.testbase.models.AnalysisResultSingletonResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

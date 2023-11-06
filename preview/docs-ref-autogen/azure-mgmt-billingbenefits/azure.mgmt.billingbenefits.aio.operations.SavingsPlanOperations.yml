@@ -55,7 +55,7 @@ methods:
     description: An iterator like instance of either SavingsPlanModel or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billingbenefits.models.SavingsPlanModel>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billingbenefits.models.SavingsPlanModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billingbenefits.aio.operations.SavingsPlanOperations.list_all
@@ -124,7 +124,7 @@ methods:
     description: An iterator like instance of either SavingsPlanModel or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billingbenefits.models.SavingsPlanModel>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billingbenefits.models.SavingsPlanModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billingbenefits.aio.operations.SavingsPlanOperations.update

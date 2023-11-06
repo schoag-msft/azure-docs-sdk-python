@@ -82,7 +82,7 @@ methods:
     description: An instance of LROPoller that returns either User or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.devtestlabs.models.User>]
+    - <xref:LROPoller>[<xref:azure.mgmt.devtestlabs.models.User>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.UsersOperations.begin_delete
@@ -130,7 +130,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.UsersOperations.get
@@ -216,7 +216,7 @@ methods:
   return:
     description: An iterator like instance of either UserList or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devtestlabs.models.UserList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devtestlabs.models.UserList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.UsersOperations.update

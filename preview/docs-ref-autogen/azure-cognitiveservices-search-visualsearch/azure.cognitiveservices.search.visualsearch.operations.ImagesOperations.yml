@@ -447,7 +447,7 @@ methods:
     description: ImageKnowledge or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.visualsearch.models.ImageKnowledge>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.visualsearch.models.ErrorResponseException
 attributes:

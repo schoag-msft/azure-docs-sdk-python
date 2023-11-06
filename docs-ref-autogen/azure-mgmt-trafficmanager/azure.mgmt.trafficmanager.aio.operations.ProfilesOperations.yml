@@ -197,7 +197,7 @@ methods:
   return:
     description: An iterator like instance of either Profile or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.trafficmanager.models.Profile>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.trafficmanager.models.Profile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.trafficmanager.aio.operations.ProfilesOperations.list_by_subscription
@@ -212,7 +212,7 @@ methods:
   return:
     description: An iterator like instance of either Profile or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.trafficmanager.models.Profile>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.trafficmanager.models.Profile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.trafficmanager.aio.operations.ProfilesOperations.update

@@ -137,7 +137,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datafactory.models.ManagedVirtualNetworkResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datafactory.models.ManagedVirtualNetworkResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

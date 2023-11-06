@@ -92,7 +92,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storage.v2021_06_01.models.BlobServiceProperties>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storage.v2021_06_01.models.BlobServiceProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2021_06_01.operations.BlobServicesOperations.set_service_properties

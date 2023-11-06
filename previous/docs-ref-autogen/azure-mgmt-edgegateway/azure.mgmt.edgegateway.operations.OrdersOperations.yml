@@ -68,8 +68,8 @@ methods:
 
       ClientRawResponse<Order> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.Order>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.Order>]]
+    - <xref:AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.Order>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.Order>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.OrdersOperations.delete
@@ -110,8 +110,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.OrdersOperations.get
@@ -151,7 +151,7 @@ methods:
     description: Order or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.Order>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.OrdersOperations.list_by_data_box_edge_device

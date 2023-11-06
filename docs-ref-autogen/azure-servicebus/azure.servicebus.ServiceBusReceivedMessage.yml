@@ -71,7 +71,7 @@ attributes:
     the body could be any type.'
   return:
     types:
-    - <xref:Any>
+    - <xref:typing.Any>
 - uid: azure.servicebus.ServiceBusReceivedMessage.body_type
   name: body_type
   summary: The body type of the underlying AMQP message.
@@ -160,7 +160,7 @@ attributes:
     entity.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
 - uid: azure.servicebus.ServiceBusReceivedMessage.expires_at_utc
   name: expires_at_utc
   summary: 'The UTC datetime at which the message is marked for removal and no longer
@@ -172,7 +172,7 @@ attributes:
     This property is computed from *Message.enqueued_time_utc* + *Message.time_to_live*.'
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
 - uid: azure.servicebus.ServiceBusReceivedMessage.lock_token
   name: lock_token
   summary: 'The lock token for the current message serving as a reference to the lock
@@ -181,7 +181,7 @@ attributes:
     is being held by the broker in PEEK_LOCK mode.'
   return:
     types:
-    - <xref:uuid.UUID>
+    - <xref:UUID>
     - <xref:str>
 - uid: azure.servicebus.ServiceBusReceivedMessage.locked_until_utc
   name: locked_until_utc
@@ -303,7 +303,7 @@ attributes:
     *scheduled_enqueue_time_utc* is None if not set.'
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
 - uid: azure.servicebus.ServiceBusReceivedMessage.sequence_number
   name: sequence_number
   summary: 'The unique number assigned to a message by Service Bus. The sequence number
@@ -381,7 +381,7 @@ attributes:
     See Expiration in *https://docs.microsoft.com/azure/service-bus-messaging/message-expiration*'
   return:
     types:
-    - <xref:datetime.timedelta>
+    - <xref:timedelta>
 - uid: azure.servicebus.ServiceBusReceivedMessage.to
   name: to
   summary: 'The *to* address.

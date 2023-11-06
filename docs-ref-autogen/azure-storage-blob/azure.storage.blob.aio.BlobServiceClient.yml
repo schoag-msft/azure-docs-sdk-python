@@ -176,7 +176,7 @@ methods:
     - <xref:int>
   return:
     types:
-    - <xref:azure.storage.blob.aio.ContainerClient>
+    - <xref:azure.storage.blob.ContainerClient>
 - uid: azure.storage.blob.aio.BlobServiceClient.delete_container
   name: delete_container
   summary: 'Marks the specified container for deletion.
@@ -293,7 +293,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of BlobProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.storage.blob.FilteredBlob>]
+    - <xref:AsyncItemPaged>[<xref:azure.storage.blob.FilteredBlob>]
 - uid: azure.storage.blob.aio.BlobServiceClient.from_connection_string
   name: from_connection_string
   summary: Create BlobServiceClient from a Connection String.
@@ -394,7 +394,7 @@ methods:
   return:
     description: A BlobClient.
     types:
-    - <xref:azure.storage.blob.aio.BlobClient>
+    - <xref:azure.storage.blob.BlobClient>
 - uid: azure.storage.blob.aio.BlobServiceClient.get_container_client
   name: get_container_client
   summary: 'Get a client to interact with the specified container.
@@ -414,7 +414,7 @@ methods:
   return:
     description: A ContainerClient.
     types:
-    - <xref:azure.storage.blob.aio.ContainerClient>
+    - <xref:azure.storage.blob.ContainerClient>
 - uid: azure.storage.blob.aio.BlobServiceClient.get_service_properties
   name: get_service_properties
   summary: 'Gets the properties of a storage account''s Blob service, including
@@ -439,7 +439,7 @@ methods:
 
       analytics logging, hour/minute metrics, cors rules, etc.'
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.blob.aio.BlobServiceClient.get_service_stats
   name: get_service_stats
   summary: 'Retrieves statistics related to replication for the Blob service.
@@ -490,7 +490,7 @@ methods:
   return:
     description: The blob service stats.
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.blob.aio.BlobServiceClient.get_user_delegation_key
   name: get_user_delegation_key
   summary: 'Obtain a user delegation key for the purpose of signing SAS tokens.
@@ -586,7 +586,7 @@ methods:
   return:
     description: An iterable (auto-paging) of ContainerProperties.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.storage.blob.ContainerProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.storage.blob.ContainerProperties>]
 - uid: azure.storage.blob.aio.BlobServiceClient.set_service_properties
   name: set_service_properties
   summary: 'Sets the properties of a storage account''s Blob service, including
@@ -707,7 +707,7 @@ methods:
   return:
     description: The recovered soft-deleted ContainerClient.
     types:
-    - <xref:azure.storage.blob.aio.ContainerClient>
+    - <xref:azure.storage.blob.ContainerClient>
 attributes:
 - uid: azure.storage.blob.aio.BlobServiceClient.api_version
   name: api_version

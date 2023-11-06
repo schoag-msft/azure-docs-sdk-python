@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingRoleDefinitionsOperations.list_by_billing_profile
@@ -180,7 +180,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingRoleDefinitionsOperations.list_by_invoice_section
@@ -218,7 +218,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingRoleDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -88,7 +88,7 @@ methods:
     description: An instance of LROPoller that returns either ComputeResource or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.ComputeResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.ComputeResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.MachineLearningComputeOperations.begin_delete
@@ -145,7 +145,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.MachineLearningComputeOperations.begin_update
@@ -201,7 +201,7 @@ methods:
     description: An instance of LROPoller that returns either ComputeResource or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.ComputeResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.ComputeResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.MachineLearningComputeOperations.get
@@ -267,7 +267,7 @@ methods:
     description: An iterator like instance of either PaginatedComputeResourcesList
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.PaginatedComputeResourcesList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.PaginatedComputeResourcesList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.MachineLearningComputeOperations.list_keys

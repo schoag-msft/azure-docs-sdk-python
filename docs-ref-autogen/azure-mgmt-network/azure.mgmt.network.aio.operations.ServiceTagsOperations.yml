@@ -34,7 +34,7 @@ methods:
   return:
     description: ServiceTagsListResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ServiceTagsListResult>
+    - <xref:ServiceTagsListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

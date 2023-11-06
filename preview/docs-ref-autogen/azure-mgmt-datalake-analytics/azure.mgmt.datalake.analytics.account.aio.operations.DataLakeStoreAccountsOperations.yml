@@ -213,7 +213,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInformation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

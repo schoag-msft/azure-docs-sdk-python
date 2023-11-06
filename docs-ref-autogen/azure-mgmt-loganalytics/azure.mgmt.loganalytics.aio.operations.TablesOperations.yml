@@ -122,7 +122,7 @@ methods:
     description: An iterator like instance of either TablesListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.TablesListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.TablesListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.aio.operations.TablesOperations.update

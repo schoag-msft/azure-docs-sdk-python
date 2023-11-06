@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.BastionHost>]
+    - <xref:LROPoller>[<xref:BastionHost>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.BastionHostsOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.BastionHostsOperations.begin_update_tags
@@ -186,7 +186,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.BastionHost>]
+    - <xref:LROPoller>[<xref:BastionHost>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.BastionHostsOperations.get
@@ -212,7 +212,7 @@ methods:
   return:
     description: BastionHost or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.BastionHost>
+    - <xref:BastionHost>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.BastionHostsOperations.list
@@ -228,7 +228,7 @@ methods:
     description: An iterator like instance of either BastionHost or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.BastionHost>]
+    - <xref:ItemPaged>[<xref:BastionHost>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.BastionHostsOperations.list_by_resource_group
@@ -249,7 +249,7 @@ methods:
     description: An iterator like instance of either BastionHost or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.BastionHost>]
+    - <xref:ItemPaged>[<xref:BastionHost>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

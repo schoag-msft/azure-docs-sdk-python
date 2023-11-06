@@ -156,7 +156,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.connectedvmware.models.HybridIdentityMetadata>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.connectedvmware.models.HybridIdentityMetadata>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

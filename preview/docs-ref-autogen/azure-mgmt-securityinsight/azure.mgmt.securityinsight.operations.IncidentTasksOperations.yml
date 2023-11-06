@@ -169,7 +169,7 @@ methods:
     description: An iterator like instance of either IncidentTask or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.securityinsight.models.IncidentTask>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.securityinsight.models.IncidentTask>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

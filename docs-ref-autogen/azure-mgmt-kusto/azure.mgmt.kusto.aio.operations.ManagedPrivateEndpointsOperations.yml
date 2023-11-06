@@ -80,7 +80,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.kusto.models.ManagedPrivateEndpoint>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.kusto.models.ManagedPrivateEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.aio.operations.ManagedPrivateEndpointsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.aio.operations.ManagedPrivateEndpointsOperations.begin_update
@@ -207,7 +207,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.kusto.models.ManagedPrivateEndpoint>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.kusto.models.ManagedPrivateEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.aio.operations.ManagedPrivateEndpointsOperations.check_name_availability
@@ -315,7 +315,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.kusto.models.ManagedPrivateEndpoint>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.kusto.models.ManagedPrivateEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

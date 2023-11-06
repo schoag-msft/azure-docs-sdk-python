@@ -137,7 +137,7 @@ methods:
     description: An iterator like instance of either AlertRulesList or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.AlertRulesList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.AlertRulesList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.alertsmanagement.operations.SmartDetectorAlertRulesOperations.list_by_resource_group
@@ -165,7 +165,7 @@ methods:
     description: An iterator like instance of either AlertRulesList or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.AlertRulesList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.AlertRulesList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.alertsmanagement.operations.SmartDetectorAlertRulesOperations.patch

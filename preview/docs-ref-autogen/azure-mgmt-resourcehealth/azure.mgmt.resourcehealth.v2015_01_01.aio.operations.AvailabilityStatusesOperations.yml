@@ -114,7 +114,7 @@ methods:
     description: An iterator like instance of either AvailabilityStatus or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2015_01_01.models.AvailabilityStatus>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2015_01_01.models.AvailabilityStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resourcehealth.v2015_01_01.aio.operations.AvailabilityStatusesOperations.list_by_resource_group
@@ -157,7 +157,7 @@ methods:
     description: An iterator like instance of either AvailabilityStatus or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2015_01_01.models.AvailabilityStatus>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2015_01_01.models.AvailabilityStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resourcehealth.v2015_01_01.aio.operations.AvailabilityStatusesOperations.list_by_subscription_id
@@ -195,7 +195,7 @@ methods:
     description: An iterator like instance of either AvailabilityStatus or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2015_01_01.models.AvailabilityStatus>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2015_01_01.models.AvailabilityStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

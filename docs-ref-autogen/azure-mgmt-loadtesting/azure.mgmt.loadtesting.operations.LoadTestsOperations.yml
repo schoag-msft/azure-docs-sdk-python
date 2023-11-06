@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.loadtesting.models.LoadTestResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.loadtesting.models.LoadTestResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loadtesting.operations.LoadTestsOperations.begin_delete
@@ -125,7 +125,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loadtesting.operations.LoadTestsOperations.begin_update
@@ -192,7 +192,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.loadtesting.models.LoadTestResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.loadtesting.models.LoadTestResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loadtesting.operations.LoadTestsOperations.get
@@ -243,7 +243,7 @@ methods:
     description: An iterator like instance of either LoadTestResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.loadtesting.models.LoadTestResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.loadtesting.models.LoadTestResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loadtesting.operations.LoadTestsOperations.list_by_subscription
@@ -259,7 +259,7 @@ methods:
     description: An iterator like instance of either LoadTestResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.loadtesting.models.LoadTestResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.loadtesting.models.LoadTestResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loadtesting.operations.LoadTestsOperations.list_outbound_network_dependencies_endpoints
@@ -290,7 +290,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.loadtesting.models.OutboundEnvironmentEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.loadtesting.models.OutboundEnvironmentEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

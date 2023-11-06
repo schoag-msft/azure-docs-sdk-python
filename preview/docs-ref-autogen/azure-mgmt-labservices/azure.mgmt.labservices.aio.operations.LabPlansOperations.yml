@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.labservices.models.LabPlan>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.labservices.models.LabPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabPlansOperations.begin_delete
@@ -139,7 +139,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabPlansOperations.begin_save_image
@@ -207,7 +207,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabPlansOperations.begin_update
@@ -277,7 +277,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.labservices.models.LabPlan>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.labservices.models.LabPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabPlansOperations.get
@@ -335,7 +335,7 @@ methods:
   return:
     description: An iterator like instance of either LabPlan or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.labservices.models.LabPlan>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.labservices.models.LabPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabPlansOperations.list_by_subscription
@@ -358,7 +358,7 @@ methods:
   return:
     description: An iterator like instance of either LabPlan or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.labservices.models.LabPlan>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.labservices.models.LabPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

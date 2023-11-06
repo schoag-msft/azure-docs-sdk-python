@@ -290,7 +290,7 @@ methods:
     description: An iterator like instance of either ArmDisasterRecovery or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2017_04_01.models.ArmDisasterRecovery>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2017_04_01.models.ArmDisasterRecovery>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventhub.v2017_04_01.aio.operations.DisasterRecoveryConfigsOperations.list_authorization_rules
@@ -322,7 +322,7 @@ methods:
     description: An iterator like instance of either AuthorizationRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2017_04_01.models.AuthorizationRule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2017_04_01.models.AuthorizationRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventhub.v2017_04_01.aio.operations.DisasterRecoveryConfigsOperations.list_keys

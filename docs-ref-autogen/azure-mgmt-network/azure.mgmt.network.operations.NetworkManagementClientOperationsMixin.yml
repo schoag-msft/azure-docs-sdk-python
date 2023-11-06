@@ -68,7 +68,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.begin_generatevirtualwanvpnserverconfigurationvpnprofile
@@ -138,7 +138,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnProfileResponse>]
+    - <xref:LROPoller>[<xref:VpnProfileResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.begin_get_active_sessions
@@ -188,7 +188,7 @@ methods:
 
       BastionActiveSessionListResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.BastionActiveSession>]]
+    - <xref:LROPoller>[<xref:ItemPaged>[<xref:BastionActiveSession>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.begin_put_bastion_shareable_link
@@ -253,7 +253,7 @@ methods:
 
       BastionShareableLinkListResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.BastionShareableLink>]]
+    - <xref:LROPoller>[<xref:ItemPaged>[<xref:BastionShareableLink>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.check_dns_name_availability
@@ -281,7 +281,7 @@ methods:
   return:
     description: DnsNameAvailabilityResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.DnsNameAvailabilityResult>
+    - <xref:DnsNameAvailabilityResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.disconnect_active_sessions
@@ -323,7 +323,7 @@ methods:
     description: An iterator like instance of either BastionSessionState or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.BastionSessionState>]
+    - <xref:ItemPaged>[<xref:BastionSessionState>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.express_route_provider_port
@@ -343,7 +343,7 @@ methods:
   return:
     description: ExpressRouteProviderPort or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteProviderPort>
+    - <xref:ExpressRouteProviderPort>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.get_bastion_shareable_link
@@ -387,7 +387,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.BastionShareableLink>]
+    - <xref:ItemPaged>[<xref:BastionShareableLink>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.list_active_connectivity_configurations
@@ -435,7 +435,7 @@ methods:
   return:
     description: ActiveConnectivityConfigurationsListResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ActiveConnectivityConfigurationsListResult>
+    - <xref:ActiveConnectivityConfigurationsListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.list_active_security_admin_rules
@@ -483,7 +483,7 @@ methods:
   return:
     description: ActiveSecurityAdminRulesListResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ActiveSecurityAdminRulesListResult>
+    - <xref:ActiveSecurityAdminRulesListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.list_network_manager_effective_connectivity_configurations
@@ -534,7 +534,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.mgmt.network.models.NetworkManagerEffectiveConnectivityConfigurationListResult>
+    - <xref:NetworkManagerEffectiveConnectivityConfigurationListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.list_network_manager_effective_security_admin_rules
@@ -583,7 +583,7 @@ methods:
     description: NetworkManagerEffectiveSecurityAdminRulesListResult or the result
       of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkManagerEffectiveSecurityAdminRulesListResult>
+    - <xref:NetworkManagerEffectiveSecurityAdminRulesListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkManagementClientOperationsMixin.supported_security_providers
@@ -612,6 +612,6 @@ methods:
   return:
     description: VirtualWanSecurityProviders or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualWanSecurityProviders>
+    - <xref:VirtualWanSecurityProviders>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError

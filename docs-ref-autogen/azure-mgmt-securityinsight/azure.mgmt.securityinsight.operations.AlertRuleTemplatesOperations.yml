@@ -68,7 +68,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.securityinsight.models.AlertRuleTemplatesList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.securityinsight.models.AlertRuleTemplatesList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

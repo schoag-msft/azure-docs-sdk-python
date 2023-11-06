@@ -66,7 +66,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.SharesOperations.create
@@ -192,7 +192,7 @@ methods:
   return:
     description: An iterator like instance of either Share or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datashare.models.Share>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datashare.models.Share>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.SharesOperations.list_synchronization_details
@@ -260,7 +260,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.SharesOperations.list_synchronizations
@@ -313,7 +313,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datashare.models.ShareSynchronization>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datashare.models.ShareSynchronization>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

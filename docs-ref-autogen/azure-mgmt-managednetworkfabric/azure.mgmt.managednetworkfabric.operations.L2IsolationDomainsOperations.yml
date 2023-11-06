@@ -63,7 +63,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.L2IsolationDomainsOperations.begin_create
@@ -135,7 +135,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.L2IsolationDomain>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.L2IsolationDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.L2IsolationDomainsOperations.begin_delete
@@ -189,7 +189,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.L2IsolationDomainsOperations.begin_update
@@ -260,7 +260,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.L2IsolationDomain>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.L2IsolationDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.L2IsolationDomainsOperations.begin_update_administrative_state
@@ -330,7 +330,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForDeviceUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.L2IsolationDomainsOperations.begin_validate_configuration
@@ -382,7 +382,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ValidateConfigurationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.L2IsolationDomainsOperations.get
@@ -439,7 +439,7 @@ methods:
     description: An iterator like instance of either L2IsolationDomain or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.L2IsolationDomain>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.L2IsolationDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.operations.L2IsolationDomainsOperations.list_by_subscription
@@ -458,7 +458,7 @@ methods:
     description: An iterator like instance of either L2IsolationDomain or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.L2IsolationDomain>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.L2IsolationDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

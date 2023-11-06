@@ -69,7 +69,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.DataSetsOperations.create
@@ -211,7 +211,7 @@ methods:
   return:
     description: An iterator like instance of either DataSet or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datashare.models.DataSet>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datashare.models.DataSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -113,7 +113,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.add_video_frame_stream
@@ -181,7 +181,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.add_video_frame_url
@@ -244,7 +244,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.add_video_transcript
@@ -304,7 +304,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.add_video_transcript_moderation_result
@@ -362,7 +362,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.create_job
@@ -519,7 +519,7 @@ methods:
     description: JobId or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.JobId>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.create_reviews
@@ -617,7 +617,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:str>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.create_video_reviews
@@ -715,7 +715,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:str>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.get_job_details
@@ -754,7 +754,7 @@ methods:
     description: Job or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Job>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.get_review
@@ -793,7 +793,7 @@ methods:
     description: Review or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Review>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.get_video_frames
@@ -896,7 +896,7 @@ methods:
     description: Frames or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Frames>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.reviews_operations.ReviewsOperations.publish_video_review
@@ -936,7 +936,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 attributes:

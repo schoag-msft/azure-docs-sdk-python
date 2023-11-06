@@ -55,7 +55,7 @@ methods:
     description: An iterator like instance of either ScriptActionExecutionHistoryList
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.hdinsight.models.ScriptActionExecutionHistoryList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hdinsight.models.ScriptActionExecutionHistoryList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsight.aio.operations.ScriptExecutionHistoryOperations.promote

@@ -72,7 +72,7 @@ methods:
     description: JobDefinition or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.scheduler.models.JobDefinition>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.scheduler.operations.JobsOperations.delete
@@ -117,7 +117,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.scheduler.operations.JobsOperations.get
@@ -162,7 +162,7 @@ methods:
     description: JobDefinition or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.scheduler.models.JobDefinition>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.scheduler.operations.JobsOperations.list
@@ -333,7 +333,7 @@ methods:
     description: JobDefinition or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.scheduler.models.JobDefinition>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.scheduler.operations.JobsOperations.run
@@ -378,7 +378,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 attributes:

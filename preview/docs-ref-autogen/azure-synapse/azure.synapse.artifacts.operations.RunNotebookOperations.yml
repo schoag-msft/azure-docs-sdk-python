@@ -67,7 +67,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.RunNotebookResponse>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.RunNotebookResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.RunNotebookOperations.cancel_run

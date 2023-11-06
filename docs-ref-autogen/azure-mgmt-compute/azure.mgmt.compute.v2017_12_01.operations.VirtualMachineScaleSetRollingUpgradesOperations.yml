@@ -58,7 +58,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2017_12_01.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2017_12_01.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2017_12_01.operations.VirtualMachineScaleSetRollingUpgradesOperations.begin_start_os_upgrade
@@ -114,7 +114,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2017_12_01.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2017_12_01.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2017_12_01.operations.VirtualMachineScaleSetRollingUpgradesOperations.get_latest

@@ -79,7 +79,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.VpnServerConfiguration>]
+    - <xref:AsyncLROPoller>[<xref:VpnServerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnServerConfigurationsOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnServerConfigurationsOperations.begin_update_tags
@@ -195,7 +195,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.VpnServerConfiguration>]
+    - <xref:AsyncLROPoller>[<xref:VpnServerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnServerConfigurationsOperations.get
@@ -223,7 +223,7 @@ methods:
   return:
     description: VpnServerConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VpnServerConfiguration>
+    - <xref:VpnServerConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnServerConfigurationsOperations.list
@@ -241,7 +241,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.VpnServerConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:VpnServerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnServerConfigurationsOperations.list_by_resource_group
@@ -264,7 +264,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.VpnServerConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:VpnServerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnServerConfigurationsOperations.update_tags
@@ -306,7 +306,7 @@ methods:
   return:
     description: VpnServerConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VpnServerConfiguration>
+    - <xref:VpnServerConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

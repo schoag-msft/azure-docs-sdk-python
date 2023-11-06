@@ -185,7 +185,7 @@ methods:
     description: An iterator like instance of either WebhookListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automation.models.WebhookListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automation.models.WebhookListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.operations.WebhookOperations.update

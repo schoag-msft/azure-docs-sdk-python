@@ -83,7 +83,7 @@ methods:
 
       operation to complete and get a <xref:azure.keyvault.administration.KeyVaultBackupResult>.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.keyvault.administration.KeyVaultBackupResult>]
+    - <xref:LROPoller>[<xref:azure.keyvault.administration.KeyVaultBackupResult>]
   examples:
   - "Create a vault backup<!--[!code-python[Main](s\\test_examples_administration.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -149,7 +149,7 @@ methods:
 
       for the operation to complete (the return value is None in either case).'
     types:
-    - <xref:azure.core.polling.LROPoller>
+    - <xref:LROPoller>
   examples:
   - "Restore a vault backup<!--[!code-python[Main](s\\test_examples_administration.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\

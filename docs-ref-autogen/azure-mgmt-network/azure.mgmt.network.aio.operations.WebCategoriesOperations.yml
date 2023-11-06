@@ -36,7 +36,7 @@ methods:
   return:
     description: AzureWebCategory or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.AzureWebCategory>
+    - <xref:AzureWebCategory>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.WebCategoriesOperations.list_by_subscription
@@ -52,7 +52,7 @@ methods:
     description: An iterator like instance of either AzureWebCategory or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.AzureWebCategory>]
+    - <xref:AsyncItemPaged>[<xref:AzureWebCategory>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

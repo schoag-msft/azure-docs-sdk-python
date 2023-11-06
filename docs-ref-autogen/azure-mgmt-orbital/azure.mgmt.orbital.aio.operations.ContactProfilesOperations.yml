@@ -145,7 +145,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.orbital.models.ContactProfile>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.orbital.models.ContactProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.aio.operations.ContactProfilesOperations.begin_delete
@@ -195,7 +195,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.aio.operations.ContactProfilesOperations.begin_update_tags
@@ -263,7 +263,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.orbital.models.ContactProfile>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.orbital.models.ContactProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.aio.operations.ContactProfilesOperations.get
@@ -331,7 +331,7 @@ methods:
     description: An iterator like instance of either ContactProfile or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.orbital.models.ContactProfile>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.orbital.models.ContactProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.aio.operations.ContactProfilesOperations.list_by_subscription
@@ -364,7 +364,7 @@ methods:
     description: An iterator like instance of either ContactProfile or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.orbital.models.ContactProfile>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.orbital.models.ContactProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

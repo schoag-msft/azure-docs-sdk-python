@@ -90,7 +90,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.storagecache.models.StorageTarget>]
+    - <xref:LROPoller>[<xref:azure.mgmt.storagecache.models.StorageTarget>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagecache.operations.StorageTargetsOperations.begin_delete
@@ -168,7 +168,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagecache.operations.StorageTargetsOperations.begin_dns_refresh
@@ -226,7 +226,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagecache.operations.StorageTargetsOperations.begin_restore_defaults
@@ -284,7 +284,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagecache.operations.StorageTargetsOperations.get
@@ -352,7 +352,7 @@ methods:
     description: An iterator like instance of either StorageTarget or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storagecache.models.StorageTarget>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storagecache.models.StorageTarget>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

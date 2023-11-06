@@ -77,7 +77,7 @@ methods:
     description: SpatialAnchorsAccount or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.SpatialAnchorsAccount>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.SpatialAnchorsAccountsOperations.delete
@@ -117,7 +117,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.SpatialAnchorsAccountsOperations.get
@@ -157,7 +157,7 @@ methods:
     description: SpatialAnchorsAccount or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.SpatialAnchorsAccount>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.SpatialAnchorsAccountsOperations.list_by_resource_group
@@ -259,7 +259,7 @@ methods:
     description: AccountKeys or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.AccountKeys>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.SpatialAnchorsAccountsOperations.regenerate_keys
@@ -304,7 +304,7 @@ methods:
     description: AccountKeys or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.AccountKeys>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.SpatialAnchorsAccountsOperations.update
@@ -354,7 +354,7 @@ methods:
     description: SpatialAnchorsAccount or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.SpatialAnchorsAccount>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 attributes:

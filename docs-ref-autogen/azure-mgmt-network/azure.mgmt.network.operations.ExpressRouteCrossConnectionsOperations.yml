@@ -73,7 +73,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCrossConnection>]
+    - <xref:LROPoller>[<xref:ExpressRouteCrossConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ExpressRouteCrossConnectionsOperations.begin_list_arp_table
@@ -136,7 +136,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCircuitsArpTableListResult>]
+    - <xref:LROPoller>[<xref:ExpressRouteCircuitsArpTableListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ExpressRouteCrossConnectionsOperations.begin_list_routes_table
@@ -198,7 +198,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCircuitsRoutesTableListResult>]
+    - <xref:LROPoller>[<xref:ExpressRouteCircuitsRoutesTableListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ExpressRouteCrossConnectionsOperations.begin_list_routes_table_summary
@@ -260,7 +260,7 @@ methods:
 
       ExpressRouteCrossConnectionsRoutesTableSummaryListResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCrossConnectionsRoutesTableSummaryListResult>]
+    - <xref:LROPoller>[<xref:ExpressRouteCrossConnectionsRoutesTableSummaryListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ExpressRouteCrossConnectionsOperations.begin_update_tags
@@ -324,7 +324,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCrossConnection>]
+    - <xref:LROPoller>[<xref:ExpressRouteCrossConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ExpressRouteCrossConnectionsOperations.get
@@ -354,7 +354,7 @@ methods:
   return:
     description: ExpressRouteCrossConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteCrossConnection>
+    - <xref:ExpressRouteCrossConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ExpressRouteCrossConnectionsOperations.list
@@ -372,7 +372,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.ExpressRouteCrossConnection>]
+    - <xref:ItemPaged>[<xref:ExpressRouteCrossConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ExpressRouteCrossConnectionsOperations.list_by_resource_group
@@ -395,7 +395,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.ExpressRouteCrossConnection>]
+    - <xref:ItemPaged>[<xref:ExpressRouteCrossConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ExpressRouteCrossConnectionsOperations.update_tags
@@ -435,7 +435,7 @@ methods:
   return:
     description: ExpressRouteCrossConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteCrossConnection>
+    - <xref:ExpressRouteCrossConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

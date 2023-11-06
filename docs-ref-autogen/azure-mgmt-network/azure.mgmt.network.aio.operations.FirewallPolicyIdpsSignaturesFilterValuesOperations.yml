@@ -47,7 +47,7 @@ methods:
   return:
     description: SignatureOverridesFilterValuesResponse or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SignatureOverridesFilterValuesResponse>
+    - <xref:SignatureOverridesFilterValuesResponse>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

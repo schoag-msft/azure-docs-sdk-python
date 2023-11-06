@@ -86,7 +86,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.JobOperations.delete
@@ -145,7 +145,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.JobOperations.disable
@@ -212,7 +212,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.JobOperations.enable
@@ -267,7 +267,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.JobOperations.get
@@ -306,7 +306,7 @@ methods:
     description: CloudJob or ClientRawResponse if raw=true
     types:
     - <xref:azure.batch.models.CloudJob>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.JobOperations.get_task_counts
@@ -359,7 +359,7 @@ methods:
     description: TaskCountsResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.batch.models.TaskCountsResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.JobOperations.list
@@ -543,7 +543,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.JobOperations.terminate
@@ -602,7 +602,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.JobOperations.update
@@ -656,7 +656,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 attributes:

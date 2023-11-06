@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.begin_create_order_item
@@ -151,7 +151,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.begin_delete_address_by_name
@@ -206,7 +206,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.begin_delete_order_item_by_name
@@ -256,7 +256,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.begin_return_order_item
@@ -321,7 +321,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.begin_update_address
@@ -401,7 +401,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.begin_update_order_item
@@ -476,7 +476,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.cancel_order_item
@@ -671,7 +671,7 @@ methods:
     description: An iterator like instance of either AddressResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.list_addresses_at_subscription_level
@@ -704,7 +704,7 @@ methods:
     description: An iterator like instance of either AddressResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.list_configurations
@@ -747,7 +747,7 @@ methods:
     description: An iterator like instance of either Configuration or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.Configuration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.Configuration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.list_operations
@@ -762,7 +762,7 @@ methods:
   return:
     description: An iterator like instance of either Operation or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.Operation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.Operation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.list_order_at_resource_group_level
@@ -794,7 +794,7 @@ methods:
     description: An iterator like instance of either OrderResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.list_order_at_subscription_level
@@ -819,7 +819,7 @@ methods:
     description: An iterator like instance of either OrderResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.list_order_items_at_resource_group_level
@@ -877,7 +877,7 @@ methods:
     description: An iterator like instance of either OrderItemResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.list_order_items_at_subscription_level
@@ -927,7 +927,7 @@ methods:
     description: An iterator like instance of either OrderItemResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.list_product_families
@@ -975,7 +975,7 @@ methods:
     description: An iterator like instance of either ProductFamily or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ProductFamily>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ProductFamily>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.operations.EdgeOrderManagementClientOperationsMixin.list_product_families_metadata
@@ -1003,6 +1003,6 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ProductFamiliesMetadataDetails>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ProductFamiliesMetadataDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError

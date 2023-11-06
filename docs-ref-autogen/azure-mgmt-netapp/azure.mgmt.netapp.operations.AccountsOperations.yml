@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.NetAppAccount>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.NetAppAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.AccountsOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.AccountsOperations.begin_renew_credentials
@@ -191,7 +191,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.AccountsOperations.begin_update
@@ -261,7 +261,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.NetAppAccount>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.NetAppAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.AccountsOperations.get
@@ -317,7 +317,7 @@ methods:
     description: An iterator like instance of either NetAppAccount or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.netapp.models.NetAppAccount>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.netapp.models.NetAppAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.AccountsOperations.list_by_subscription
@@ -336,7 +336,7 @@ methods:
     description: An iterator like instance of either NetAppAccount or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.netapp.models.NetAppAccount>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.netapp.models.NetAppAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

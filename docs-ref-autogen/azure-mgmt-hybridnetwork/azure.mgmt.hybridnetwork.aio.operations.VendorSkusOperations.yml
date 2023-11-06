@@ -80,7 +80,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either VendorSku or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:hybrid_network_management_client.models.VendorSku>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.hybridnetwork.models.VendorSku>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.VendorSkusOperations.begin_delete
@@ -127,7 +127,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.VendorSkusOperations.get
@@ -152,7 +152,7 @@ methods:
   return:
     description: VendorSku, or the result of cls(response)
     types:
-    - <xref:hybrid_network_management_client.models.VendorSku>
+    - <xref:azure.mgmt.hybridnetwork.models.VendorSku>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.VendorSkusOperations.list
@@ -173,7 +173,7 @@ methods:
     description: An iterator like instance of either VendorSkuListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:hybrid_network_management_client.models.VendorSkuListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridnetwork.models.VendorSkuListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

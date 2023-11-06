@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.ResourceSyncRule>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.ResourceSyncRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_08_31_preview.aio.operations.ResourceSyncRulesOperations.begin_update
@@ -196,7 +196,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.ResourceSyncRule>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.ResourceSyncRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_08_31_preview.aio.operations.ResourceSyncRulesOperations.delete
@@ -305,7 +305,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.ResourceSyncRuleListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_08_31_preview.models.ResourceSyncRuleListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

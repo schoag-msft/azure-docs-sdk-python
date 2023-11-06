@@ -81,7 +81,7 @@ methods:
   return:
     description: Dictionary mapping operation metadata returned from the service
     types:
-    - <xref:dict>[<xref:str>, <xref:Any>]
+    - <xref:dict>[<xref:str>, <xref:typing.Any>]
   exceptions:
   - type: azure.core.exceptions.ResourceExistsError
     description: If the entity already exists
@@ -307,7 +307,7 @@ methods:
   return:
     description: An async iterator of <xref:azure.data.tables.TableEntity>
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.data.tables.TableEntity>]
+    - <xref:AsyncItemPaged>[<xref:azure.data.tables.TableEntity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -348,7 +348,7 @@ methods:
   return:
     description: An async iterator of <xref:azure.data.tables.TableEntity>
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.data.tables.TableEntity>]
+    - <xref:AsyncItemPaged>[<xref:azure.data.tables.TableEntity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -432,7 +432,7 @@ methods:
     description: A list of mappings with response metadata for each operation in the
       transaction.
     types:
-    - <xref:list>[<xref:Mapping>[<xref:str>, <xref:Any>]]
+    - <xref:list>[<xref:typing.Mapping>[<xref:str>, <xref:typing.Any>]]
   exceptions:
   - type: azure.data.tables.TableTransactionError
   examples:
@@ -486,7 +486,7 @@ methods:
   return:
     description: Dictionary of operation metadata returned from service
     types:
-    - <xref:dict>[<xref:str>, <xref:Any>]
+    - <xref:dict>[<xref:str>, <xref:typing.Any>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -525,7 +525,7 @@ methods:
   return:
     description: Dictionary mapping operation metadata returned from the service
     types:
-    - <xref:dict>[<xref:str>, <xref:Any>]
+    - <xref:dict>[<xref:str>, <xref:typing.Any>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

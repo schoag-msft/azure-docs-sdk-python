@@ -85,7 +85,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2018_02_01_preview.models.BuildStep>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2018_02_01_preview.models.BuildStep>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2018_02_01_preview.aio.operations.BuildStepsOperations.begin_delete
@@ -145,7 +145,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2018_02_01_preview.aio.operations.BuildStepsOperations.begin_update
@@ -222,7 +222,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2018_02_01_preview.models.BuildStep>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.containerregistry.v2018_02_01_preview.models.BuildStep>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2018_02_01_preview.aio.operations.BuildStepsOperations.get
@@ -293,7 +293,7 @@ methods:
   return:
     description: An iterator like instance of either BuildStep or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerregistry.v2018_02_01_preview.models.BuildStep>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerregistry.v2018_02_01_preview.models.BuildStep>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerregistry.v2018_02_01_preview.aio.operations.BuildStepsOperations.list_build_arguments
@@ -332,7 +332,7 @@ methods:
     description: An iterator like instance of either BuildArgument or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerregistry.v2018_02_01_preview.models.BuildArgument>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerregistry.v2018_02_01_preview.models.BuildArgument>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

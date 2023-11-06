@@ -153,7 +153,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.SnapshotOperations.delete
@@ -195,7 +195,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.SnapshotOperations.get
@@ -233,7 +233,7 @@ methods:
     description: Snapshot or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.Snapshot>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.SnapshotOperations.get_operation_status
@@ -269,7 +269,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.SnapshotOperations.list
@@ -325,7 +325,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.Snapshot>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.SnapshotOperations.take
@@ -460,7 +460,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.SnapshotOperations.update
@@ -515,7 +515,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 attributes:

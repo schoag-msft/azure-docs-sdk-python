@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.keyvault.v2020_04_01_preview.models.ManagedHsm>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.keyvault.v2020_04_01_preview.models.ManagedHsm>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2020_04_01_preview.aio.operations.ManagedHsmsOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2020_04_01_preview.aio.operations.ManagedHsmsOperations.begin_update
@@ -194,7 +194,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.keyvault.v2020_04_01_preview.models.ManagedHsm>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.keyvault.v2020_04_01_preview.models.ManagedHsm>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2020_04_01_preview.aio.operations.ManagedHsmsOperations.get
@@ -254,7 +254,7 @@ methods:
   return:
     description: An iterator like instance of either ManagedHsm or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2020_04_01_preview.models.ManagedHsm>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2020_04_01_preview.models.ManagedHsm>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2020_04_01_preview.aio.operations.ManagedHsmsOperations.list_by_subscription
@@ -277,7 +277,7 @@ methods:
   return:
     description: An iterator like instance of either ManagedHsm or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2020_04_01_preview.models.ManagedHsm>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2020_04_01_preview.models.ManagedHsm>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

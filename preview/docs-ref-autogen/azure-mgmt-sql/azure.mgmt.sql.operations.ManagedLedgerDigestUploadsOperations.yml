@@ -92,7 +92,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ManagedLedgerDigestUploads>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ManagedLedgerDigestUploads>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ManagedLedgerDigestUploadsOperations.begin_disable
@@ -159,7 +159,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ManagedLedgerDigestUploads>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ManagedLedgerDigestUploads>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ManagedLedgerDigestUploadsOperations.get
@@ -235,7 +235,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedLedgerDigestUploads>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedLedgerDigestUploads>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

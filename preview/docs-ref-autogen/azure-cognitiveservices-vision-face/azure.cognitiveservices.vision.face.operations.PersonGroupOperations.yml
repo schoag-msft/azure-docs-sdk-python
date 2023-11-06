@@ -140,7 +140,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.PersonGroupOperations.delete
@@ -176,7 +176,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.PersonGroupOperations.get
@@ -222,7 +222,7 @@ methods:
     description: PersonGroup or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.PersonGroup>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.PersonGroupOperations.get_training_status
@@ -257,7 +257,7 @@ methods:
     description: TrainingStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.TrainingStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.PersonGroupOperations.list
@@ -336,7 +336,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.PersonGroup>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.PersonGroupOperations.train
@@ -372,7 +372,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.PersonGroupOperations.update
@@ -419,7 +419,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 attributes:

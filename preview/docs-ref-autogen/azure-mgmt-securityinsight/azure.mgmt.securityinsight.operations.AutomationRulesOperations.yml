@@ -151,7 +151,7 @@ methods:
     description: An iterator like instance of either AutomationRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.securityinsight.models.AutomationRule>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.securityinsight.models.AutomationRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

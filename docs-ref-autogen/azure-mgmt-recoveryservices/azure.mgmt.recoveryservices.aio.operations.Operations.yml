@@ -26,7 +26,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservices.models.ClientDiscoveryValueForSingleApi>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservices.models.ClientDiscoveryValueForSingleApi>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

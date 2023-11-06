@@ -85,7 +85,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.DeploymentResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.DeploymentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.DeploymentsOperations.begin_delete
@@ -145,7 +145,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.DeploymentsOperations.begin_restart
@@ -205,7 +205,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.DeploymentsOperations.begin_start
@@ -265,7 +265,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.DeploymentsOperations.begin_stop
@@ -325,7 +325,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.DeploymentsOperations.begin_update
@@ -402,7 +402,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.DeploymentResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.DeploymentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.DeploymentsOperations.get
@@ -518,7 +518,7 @@ methods:
     description: An iterator like instance of either DeploymentResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.DeploymentResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.DeploymentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.DeploymentsOperations.list_for_cluster
@@ -552,7 +552,7 @@ methods:
     description: An iterator like instance of either DeploymentResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.DeploymentResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.DeploymentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

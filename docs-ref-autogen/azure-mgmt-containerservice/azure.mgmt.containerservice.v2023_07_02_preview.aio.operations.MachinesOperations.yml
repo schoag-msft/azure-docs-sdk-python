@@ -85,7 +85,7 @@ methods:
   return:
     description: An iterator like instance of either Machine or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerservice.v2023_07_02_preview.models.Machine>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerservice.v2023_07_02_preview.models.Machine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

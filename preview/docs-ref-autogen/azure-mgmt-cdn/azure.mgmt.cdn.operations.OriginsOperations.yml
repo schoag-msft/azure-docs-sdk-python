@@ -83,7 +83,7 @@ methods:
     description: An instance of LROPoller that returns either Origin or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.Origin>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.Origin>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.OriginsOperations.begin_delete
@@ -145,7 +145,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.OriginsOperations.begin_update
@@ -222,7 +222,7 @@ methods:
     description: An instance of LROPoller that returns either Origin or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.Origin>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.Origin>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.OriginsOperations.get
@@ -297,7 +297,7 @@ methods:
   return:
     description: An iterator like instance of either Origin or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.Origin>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.Origin>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

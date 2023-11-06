@@ -96,7 +96,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.streamanalytics.models.ResourceTestStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.streamanalytics.models.ResourceTestStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.aio.operations.OutputsOperations.create_or_replace
@@ -277,7 +277,7 @@ methods:
   return:
     description: An iterator like instance of either Output or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.streamanalytics.models.Output>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.streamanalytics.models.Output>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.aio.operations.OutputsOperations.update

@@ -180,7 +180,7 @@ methods:
     description: An iterator like instance of either PipelineListResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.synapse.artifacts.models.PipelineListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.synapse.artifacts.models.PipelineListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

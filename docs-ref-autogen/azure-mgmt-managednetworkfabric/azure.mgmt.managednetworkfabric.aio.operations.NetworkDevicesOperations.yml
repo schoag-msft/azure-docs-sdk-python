@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkDevicesOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkDevicesOperations.begin_reboot
@@ -197,7 +197,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkDevicesOperations.begin_refresh_configuration
@@ -251,7 +251,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkDevicesOperations.begin_update
@@ -322,7 +322,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkDevicesOperations.begin_update_administrative_state
@@ -392,7 +392,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkDevicesOperations.begin_upgrade
@@ -459,7 +459,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkDevicesOperations.get
@@ -516,7 +516,7 @@ methods:
     description: An iterator like instance of either NetworkDevice or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.NetworkDevicesOperations.list_by_subscription
@@ -535,7 +535,7 @@ methods:
     description: An iterator like instance of either NetworkDevice or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.NetworkDevice>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

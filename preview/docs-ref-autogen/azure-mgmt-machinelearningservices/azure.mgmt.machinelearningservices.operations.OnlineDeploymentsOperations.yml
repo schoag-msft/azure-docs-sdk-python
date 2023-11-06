@@ -89,7 +89,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.OnlineDeploymentsOperations.begin_delete
@@ -152,7 +152,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.OnlineDeploymentsOperations.begin_update
@@ -232,7 +232,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.OnlineDeploymentsOperations.get
@@ -383,7 +383,7 @@ methods:
     description: An iterator like instance of either OnlineDeployment or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.OnlineDeployment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.OnlineDeploymentsOperations.list_skus
@@ -437,7 +437,7 @@ methods:
     description: An iterator like instance of either SkuResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.SkuResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.SkuResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

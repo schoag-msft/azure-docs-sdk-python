@@ -98,7 +98,7 @@ methods:
     description: An iterator like instance of either DatabaseTable or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.DatabaseTable>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.DatabaseTable>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.resource.deploymentscripts.v2020_10_01.models.DeploymentScript>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.resource.deploymentscripts.v2020_10_01.models.DeploymentScript>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.deploymentscripts.v2020_10_01.aio.operations.DeploymentScriptsOperations.delete
@@ -224,7 +224,7 @@ methods:
     description: An iterator like instance of either DeploymentScript or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.deploymentscripts.v2020_10_01.models.DeploymentScript>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.deploymentscripts.v2020_10_01.models.DeploymentScript>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.deploymentscripts.v2020_10_01.aio.operations.DeploymentScriptsOperations.list_by_subscription
@@ -240,7 +240,7 @@ methods:
     description: An iterator like instance of either DeploymentScript or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.deploymentscripts.v2020_10_01.models.DeploymentScript>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.deploymentscripts.v2020_10_01.models.DeploymentScript>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.deploymentscripts.v2020_10_01.aio.operations.DeploymentScriptsOperations.update

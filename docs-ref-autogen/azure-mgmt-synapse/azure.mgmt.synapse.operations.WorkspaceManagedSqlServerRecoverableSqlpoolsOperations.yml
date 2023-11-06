@@ -93,7 +93,7 @@ methods:
     description: An iterator like instance of either RecoverableSqlPoolListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.RecoverableSqlPoolListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.RecoverableSqlPoolListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

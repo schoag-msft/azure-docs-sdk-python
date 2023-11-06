@@ -146,7 +146,7 @@ methods:
   return:
     description: An iterator like instance of Datastore objects
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.Datastore>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.Datastore>]
   examples:
   - "List datastore example.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\

@@ -67,6 +67,6 @@ methods:
     description: RankResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.personalizer.models.RankResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.personalizer.models.ErrorResponseException

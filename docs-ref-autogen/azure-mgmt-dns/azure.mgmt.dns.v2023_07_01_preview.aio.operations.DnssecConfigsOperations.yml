@@ -83,7 +83,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dns.v2023_07_01_preview.models.DnssecConfig>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dns.v2023_07_01_preview.models.DnssecConfig>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dns.v2023_07_01_preview.aio.operations.DnssecConfigsOperations.begin_delete
@@ -145,7 +145,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dns.v2023_07_01_preview.aio.operations.DnssecConfigsOperations.get
@@ -202,7 +202,7 @@ methods:
     description: An iterator like instance of either DnssecConfig or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dns.v2023_07_01_preview.models.DnssecConfig>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dns.v2023_07_01_preview.models.DnssecConfig>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -77,7 +77,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.ResourceNotFoundError
     description: Raised if no job with the given name can be found.
@@ -263,7 +263,7 @@ methods:
   return:
     description: An iterator-like instance of Job objects.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.Job>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.Job>]
   examples:
   - "Retrieving a list of the archived jobs in a workspace with parent job named\n\
     \"iris-dataset-jobs\".<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\n\

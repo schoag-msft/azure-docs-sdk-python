@@ -73,8 +73,8 @@ methods:
 
       ClientRawResponse<Role> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.Role>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.Role>]]
+    - <xref:AzureOperationPoller>[<xref:azure.mgmt.edgegateway.models.Role>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:azure.mgmt.edgegateway.models.Role>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.RolesOperations.delete
@@ -120,8 +120,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.RolesOperations.get
@@ -166,7 +166,7 @@ methods:
     description: Role or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.edgegateway.models.Role>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.edgegateway.operations.RolesOperations.list_by_data_box_edge_device

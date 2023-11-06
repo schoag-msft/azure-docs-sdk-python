@@ -133,7 +133,7 @@ methods:
     description: An iterator like instance of either DatabaseBlobAuditingPolicyListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseBlobAuditingPolicyListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseBlobAuditingPolicyListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

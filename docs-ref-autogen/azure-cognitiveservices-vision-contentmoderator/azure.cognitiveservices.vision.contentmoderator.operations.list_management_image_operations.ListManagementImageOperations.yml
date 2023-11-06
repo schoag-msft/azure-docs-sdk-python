@@ -64,7 +64,7 @@ methods:
     description: Image or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Image>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.list_management_image_operations.ListManagementImageOperations.add_image_file_input
@@ -125,7 +125,7 @@ methods:
     description: Image or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Image>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.list_management_image_operations.ListManagementImageOperations.add_image_url_input
@@ -183,7 +183,7 @@ methods:
     description: Image or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.Image>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.list_management_image_operations.ListManagementImageOperations.delete_all_images
@@ -217,7 +217,7 @@ methods:
     description: str or ClientRawResponse if raw=true
     types:
     - <xref:str>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.list_management_image_operations.ListManagementImageOperations.delete_image
@@ -256,7 +256,7 @@ methods:
     description: str or ClientRawResponse if raw=true
     types:
     - <xref:str>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 - uid: azure.cognitiveservices.vision.contentmoderator.operations.list_management_image_operations.ListManagementImageOperations.get_all_image_ids
@@ -290,7 +290,7 @@ methods:
     description: ImageIds or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.contentmoderator.models.ImageIds>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.contentmoderator.models.APIErrorException
 attributes:

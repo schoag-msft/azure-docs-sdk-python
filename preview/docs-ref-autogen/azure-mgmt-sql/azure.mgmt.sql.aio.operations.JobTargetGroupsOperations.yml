@@ -172,7 +172,7 @@ methods:
     description: An iterator like instance of either JobTargetGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobTargetGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobTargetGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

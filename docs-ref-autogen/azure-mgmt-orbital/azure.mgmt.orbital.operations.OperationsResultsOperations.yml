@@ -57,7 +57,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.orbital.models.OperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.orbital.models.OperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

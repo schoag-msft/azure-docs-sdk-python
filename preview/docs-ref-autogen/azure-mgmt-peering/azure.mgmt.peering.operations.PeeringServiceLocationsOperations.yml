@@ -34,7 +34,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.peering.models.PeeringServiceLocation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.peering.models.PeeringServiceLocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

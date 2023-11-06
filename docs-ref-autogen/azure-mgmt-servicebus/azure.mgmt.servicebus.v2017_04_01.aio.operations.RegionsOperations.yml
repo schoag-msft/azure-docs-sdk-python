@@ -31,7 +31,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2017_04_01.models.PremiumMessagingRegions>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2017_04_01.models.PremiumMessagingRegions>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

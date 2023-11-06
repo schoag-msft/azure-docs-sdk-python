@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2019_08_01.models.IoTSecuritySolutionModel>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2019_08_01.models.IoTSecuritySolutionModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2019_08_01.operations.IotSecuritySolutionOperations.list_by_subscription
@@ -173,7 +173,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2019_08_01.models.IoTSecuritySolutionModel>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2019_08_01.models.IoTSecuritySolutionModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2019_08_01.operations.IotSecuritySolutionOperations.update

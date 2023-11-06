@@ -146,7 +146,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.monitor.v2023_03_01_preview.models.TenantActionGroupResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.monitor.v2023_03_01_preview.models.TenantActionGroupResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2023_03_01_preview.aio.operations.TenantActionGroupsOperations.update

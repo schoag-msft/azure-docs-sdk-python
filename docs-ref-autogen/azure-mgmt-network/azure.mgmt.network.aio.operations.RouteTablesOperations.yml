@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.RouteTable>]
+    - <xref:AsyncLROPoller>[<xref:RouteTable>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteTablesOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteTablesOperations.begin_update_tags
@@ -186,7 +186,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.RouteTable>]
+    - <xref:AsyncLROPoller>[<xref:RouteTable>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteTablesOperations.get
@@ -216,7 +216,7 @@ methods:
   return:
     description: RouteTable or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.RouteTable>
+    - <xref:RouteTable>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteTablesOperations.list
@@ -236,7 +236,7 @@ methods:
   return:
     description: An iterator like instance of either RouteTable or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.RouteTable>]
+    - <xref:AsyncItemPaged>[<xref:RouteTable>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteTablesOperations.list_all
@@ -251,7 +251,7 @@ methods:
   return:
     description: An iterator like instance of either RouteTable or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.RouteTable>]
+    - <xref:AsyncItemPaged>[<xref:RouteTable>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.RouteTablesOperations.update_tags
@@ -292,7 +292,7 @@ methods:
   return:
     description: RouteTable or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.RouteTable>
+    - <xref:RouteTable>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

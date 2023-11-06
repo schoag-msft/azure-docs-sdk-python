@@ -82,7 +82,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2021_11_01.models.VirtualMachineRunCommand>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2021_11_01.models.VirtualMachineRunCommand>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_11_01.operations.VirtualMachineRunCommandsOperations.begin_delete
@@ -138,7 +138,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_11_01.operations.VirtualMachineRunCommandsOperations.begin_update
@@ -212,7 +212,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2021_11_01.models.VirtualMachineRunCommand>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2021_11_01.models.VirtualMachineRunCommand>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_11_01.operations.VirtualMachineRunCommandsOperations.get
@@ -296,7 +296,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2021_11_01.models.RunCommandDocumentBase>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2021_11_01.models.RunCommandDocumentBase>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_11_01.operations.VirtualMachineRunCommandsOperations.list_by_virtual_machine
@@ -330,7 +330,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2021_11_01.models.VirtualMachineRunCommand>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2021_11_01.models.VirtualMachineRunCommand>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

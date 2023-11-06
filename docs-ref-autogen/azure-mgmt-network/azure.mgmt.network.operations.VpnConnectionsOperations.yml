@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnConnection>]
+    - <xref:LROPoller>[<xref:VpnConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnConnectionsOperations.begin_delete
@@ -134,7 +134,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnConnectionsOperations.begin_start_packet_capture
@@ -206,7 +206,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnConnectionsOperations.begin_stop_packet_capture
@@ -278,7 +278,7 @@ methods:
     description: An instance of LROPoller that returns either str or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:str>]
+    - <xref:LROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnConnectionsOperations.get
@@ -309,7 +309,7 @@ methods:
   return:
     description: VpnConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VpnConnection>
+    - <xref:VpnConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnConnectionsOperations.list_by_vpn_gateway
@@ -336,7 +336,7 @@ methods:
     description: An iterator like instance of either VpnConnection or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VpnConnection>]
+    - <xref:ItemPaged>[<xref:VpnConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

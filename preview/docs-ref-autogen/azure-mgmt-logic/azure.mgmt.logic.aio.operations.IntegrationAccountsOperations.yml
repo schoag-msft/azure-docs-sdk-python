@@ -129,7 +129,7 @@ methods:
     description: An iterator like instance of either IntegrationAccount or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccount>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.IntegrationAccountsOperations.list_by_subscription
@@ -151,7 +151,7 @@ methods:
     description: An iterator like instance of either IntegrationAccount or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccount>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.IntegrationAccountsOperations.list_callback_url
@@ -233,7 +233,7 @@ methods:
     description: An iterator like instance of either KeyVaultKey or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.KeyVaultKey>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.KeyVaultKey>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.IntegrationAccountsOperations.log_tracking_events

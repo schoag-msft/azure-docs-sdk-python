@@ -1570,7 +1570,7 @@ methods:
   return:
     description: The file service properties.
     types:
-    - <xref:azure.storage.common.models.ServiceProperties>
+    - <xref:ServiceProperties>
 - uid: azure.storage.file.fileservice.FileService.get_file_to_bytes
   name: get_file_to_bytes
   summary: 'Downloads a file as an array of bytes, with automatic chunking and
@@ -2143,7 +2143,7 @@ methods:
   return:
     description: A dictionary of access policies associated with the share.
     types:
-    - <xref:dict>(<xref:str>, <xref:azure.storage.common.models.AccessPolicy>)
+    - <xref:dict>(<xref:str>, <xref:AccessPolicy>)
 - uid: azure.storage.file.fileservice.FileService.get_share_metadata
   name: get_share_metadata
   summary: Returns all user-defined metadata for the specified share.
@@ -2453,7 +2453,7 @@ methods:
   return:
     description: a list of valid ranges
     types:
-    - a list of <xref:azure.storage.file.models.FileRange>
+    - <xref:a> <xref:list> <xref:of> <xref:azure.storage.file.models.FileRange>
 - uid: azure.storage.file.fileservice.FileService.list_shares
   name: list_shares
   summary: 'Returns a generator to list the shares under the specified account.

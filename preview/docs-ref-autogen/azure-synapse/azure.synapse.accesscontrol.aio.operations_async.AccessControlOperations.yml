@@ -158,7 +158,7 @@ methods:
   return:
     description: SynapseRole, or the result of cls(response)
     types:
-    - <xref:azure.synapse.accesscontrol.models.SynapseRole>
+    - <xref:SynapseRole>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.accesscontrol.aio.operations_async.AccessControlOperations.get_role_definitions
@@ -174,7 +174,7 @@ methods:
     description: An iterator like instance of either RolesListResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.synapse.accesscontrol.models.RolesListResponse>]
+    - <xref:AsyncItemPaged>[<xref:RolesListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

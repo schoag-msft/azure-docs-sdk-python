@@ -35,7 +35,7 @@ methods:
     description: An iterator like instance of either NetworkInterface or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NetworkInterface>]
+    - <xref:ItemPaged>[<xref:NetworkInterface>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

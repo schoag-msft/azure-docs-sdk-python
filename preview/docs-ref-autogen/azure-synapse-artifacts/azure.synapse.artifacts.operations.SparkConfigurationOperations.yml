@@ -70,7 +70,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.SparkConfigurationResource>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.SparkConfigurationResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.SparkConfigurationOperations.begin_delete_spark_configuration
@@ -113,7 +113,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.SparkConfigurationOperations.begin_rename_spark_configuration
@@ -161,7 +161,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.SparkConfigurationOperations.get_spark_configuration
@@ -212,7 +212,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.SparkConfigurationResource>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.SparkConfigurationResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -87,7 +87,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_break_file_locks
@@ -166,7 +166,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_break_replication
@@ -244,7 +244,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_create_or_update
@@ -323,7 +323,7 @@ methods:
     description: An instance of LROPoller that returns either Volume or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.Volume>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.Volume>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_delete
@@ -394,7 +394,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_delete_replication
@@ -460,7 +460,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_finalize_relocation
@@ -523,7 +523,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_list_get_group_id_list_for_ldap_user
@@ -603,7 +603,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.GetGroupIdListForLDAPUserResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.GetGroupIdListForLDAPUserResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_pool_change
@@ -682,7 +682,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_populate_availability_zone
@@ -745,7 +745,7 @@ methods:
     description: An instance of LROPoller that returns either Volume or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.Volume>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.Volume>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_re_initialize_replication
@@ -808,7 +808,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_reestablish_replication
@@ -889,7 +889,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_relocate
@@ -968,7 +968,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_reset_cifs_password
@@ -1031,7 +1031,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_resync_replication
@@ -1097,7 +1097,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_revert
@@ -1176,7 +1176,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_revert_relocation
@@ -1242,7 +1242,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.begin_update
@@ -1321,7 +1321,7 @@ methods:
     description: An instance of LROPoller that returns either Volume or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.Volume>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.Volume>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.get
@@ -1398,7 +1398,7 @@ methods:
   return:
     description: An iterator like instance of either Volume or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.netapp.models.Volume>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.netapp.models.Volume>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.list_replications
@@ -1440,7 +1440,7 @@ methods:
     description: An iterator like instance of either Replication or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.netapp.models.Replication>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.netapp.models.Replication>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumesOperations.replication_status

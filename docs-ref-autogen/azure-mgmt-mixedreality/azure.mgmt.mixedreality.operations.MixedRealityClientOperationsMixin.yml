@@ -54,6 +54,6 @@ methods:
       raw=true'
     types:
     - <xref:azure.mgmt.mixedreality.models.CheckNameAvailabilityResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError

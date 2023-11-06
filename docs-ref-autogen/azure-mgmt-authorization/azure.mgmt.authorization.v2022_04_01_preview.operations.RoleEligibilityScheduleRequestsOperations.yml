@@ -169,7 +169,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.authorization.v2022_04_01_preview.models.RoleEligibilityScheduleRequest>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.authorization.v2022_04_01_preview.models.RoleEligibilityScheduleRequest>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.authorization.v2022_04_01_preview.operations.RoleEligibilityScheduleRequestsOperations.validate

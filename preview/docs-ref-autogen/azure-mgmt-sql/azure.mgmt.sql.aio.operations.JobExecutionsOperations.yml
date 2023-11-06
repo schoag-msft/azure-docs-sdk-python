@@ -70,7 +70,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.JobExecution>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.JobExecution>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.JobExecutionsOperations.begin_create_or_update
@@ -138,7 +138,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.JobExecution>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.JobExecution>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.JobExecutionsOperations.cancel
@@ -311,7 +311,7 @@ methods:
     description: An iterator like instance of either JobExecution or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobExecution>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobExecution>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.JobExecutionsOperations.list_by_job
@@ -403,7 +403,7 @@ methods:
     description: An iterator like instance of either JobExecution or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobExecution>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobExecution>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

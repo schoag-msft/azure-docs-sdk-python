@@ -129,7 +129,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storage.v2021_06_01.models.PrivateEndpointConnection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storage.v2021_06_01.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2021_06_01.operations.PrivateEndpointConnectionsOperations.put

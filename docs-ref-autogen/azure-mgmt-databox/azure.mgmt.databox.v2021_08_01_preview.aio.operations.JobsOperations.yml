@@ -83,7 +83,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.JobResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.JobResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_08_01_preview.aio.operations.JobsOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_08_01_preview.aio.operations.JobsOperations.begin_update
@@ -216,7 +216,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.JobResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.JobResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_08_01_preview.aio.operations.JobsOperations.book_shipment_pick_up
@@ -375,7 +375,7 @@ methods:
     description: An iterator like instance of either JobResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.JobResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.JobResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_08_01_preview.aio.operations.JobsOperations.list_by_resource_group
@@ -405,7 +405,7 @@ methods:
     description: An iterator like instance of either JobResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.JobResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.JobResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_08_01_preview.aio.operations.JobsOperations.list_credentials
@@ -440,7 +440,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.UnencryptedCredentials>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.databox.v2021_08_01_preview.models.UnencryptedCredentials>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_08_01_preview.aio.operations.JobsOperations.mark_devices_shipped

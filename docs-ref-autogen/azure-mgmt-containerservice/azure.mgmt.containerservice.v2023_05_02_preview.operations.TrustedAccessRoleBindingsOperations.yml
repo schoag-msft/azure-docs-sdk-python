@@ -165,7 +165,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservice.v2023_05_02_preview.models.TrustedAccessRoleBinding>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservice.v2023_05_02_preview.models.TrustedAccessRoleBinding>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

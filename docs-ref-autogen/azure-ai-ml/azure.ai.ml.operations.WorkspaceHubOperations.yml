@@ -44,7 +44,7 @@ methods:
   return:
     description: An instance of LROPoller that returns a WorkspaceHub.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.WorkspaceHub>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.WorkspaceHub>]
 - uid: azure.ai.ml.operations.WorkspaceHubOperations.begin_delete
   name: begin_delete
   summary: Delete a WorkspaceHub.
@@ -75,7 +75,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
 - uid: azure.ai.ml.operations.WorkspaceHubOperations.begin_update
   name: begin_update
   summary: Update friendly name, description, tags, or PNA, manageNetworkSettings,
@@ -91,7 +91,7 @@ methods:
   return:
     description: An instance of LROPoller that returns a WorkspaceHub.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.WorkspaceHub>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.WorkspaceHub>]
 - uid: azure.ai.ml.operations.WorkspaceHubOperations.get
   name: get
   summary: Get a Workspace WorkspaceHub by name.
@@ -121,4 +121,4 @@ methods:
   return:
     description: An iterator like instance of WorkspaceHub objects
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.WorkspaceHub>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.WorkspaceHub>]

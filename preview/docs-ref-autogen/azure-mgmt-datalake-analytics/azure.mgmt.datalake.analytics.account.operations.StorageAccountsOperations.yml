@@ -246,7 +246,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.StorageAccountInformation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.StorageAccountInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_sas_tokens
@@ -291,7 +291,7 @@ methods:
     description: An iterator like instance of either SasTokenInformation or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.SasTokenInformation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.SasTokenInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_storage_containers
@@ -331,7 +331,7 @@ methods:
     description: An iterator like instance of either StorageContainer or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.StorageContainer>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.StorageContainer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.update

@@ -92,7 +92,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.netapp.models.NetworkSiblingSet>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.netapp.models.NetworkSiblingSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.aio.operations.NetAppResourceOperations.check_file_path_availability

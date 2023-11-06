@@ -83,7 +83,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.databox.v2021_05_01.models.JobResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.databox.v2021_05_01.models.JobResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_05_01.operations.JobsOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_05_01.operations.JobsOperations.begin_update
@@ -216,7 +216,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.databox.v2021_05_01.models.JobResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.databox.v2021_05_01.models.JobResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_05_01.operations.JobsOperations.book_shipment_pick_up
@@ -375,7 +375,7 @@ methods:
     description: An iterator like instance of either JobResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databox.v2021_05_01.models.JobResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databox.v2021_05_01.models.JobResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_05_01.operations.JobsOperations.list_by_resource_group
@@ -405,7 +405,7 @@ methods:
     description: An iterator like instance of either JobResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databox.v2021_05_01.models.JobResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databox.v2021_05_01.models.JobResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databox.v2021_05_01.operations.JobsOperations.list_credentials
@@ -440,7 +440,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databox.v2021_05_01.models.UnencryptedCredentials>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databox.v2021_05_01.models.UnencryptedCredentials>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

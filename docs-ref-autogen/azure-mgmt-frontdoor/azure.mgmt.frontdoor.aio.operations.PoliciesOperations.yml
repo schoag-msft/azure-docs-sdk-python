@@ -75,7 +75,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.frontdoor.models.WebApplicationFirewallPolicy>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.frontdoor.models.WebApplicationFirewallPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.frontdoor.aio.operations.PoliciesOperations.begin_delete
@@ -123,7 +123,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.frontdoor.aio.operations.PoliciesOperations.begin_update
@@ -192,7 +192,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.frontdoor.models.WebApplicationFirewallPolicy>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.frontdoor.models.WebApplicationFirewallPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.frontdoor.aio.operations.PoliciesOperations.get
@@ -241,7 +241,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.frontdoor.models.WebApplicationFirewallPolicy>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.frontdoor.models.WebApplicationFirewallPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.frontdoor.aio.operations.PoliciesOperations.list_by_subscription
@@ -259,7 +259,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.frontdoor.models.WebApplicationFirewallPolicy>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.frontdoor.models.WebApplicationFirewallPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

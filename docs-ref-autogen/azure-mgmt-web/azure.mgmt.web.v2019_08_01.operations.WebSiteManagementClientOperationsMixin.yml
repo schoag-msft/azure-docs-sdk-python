@@ -133,7 +133,7 @@ methods:
     description: An iterator like instance of either BillingMeter or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.BillingMeter>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.BillingMeter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.operations.WebSiteManagementClientOperationsMixin.list_geo_regions
@@ -186,7 +186,7 @@ methods:
   return:
     description: An iterator like instance of either GeoRegion or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.GeoRegion>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.GeoRegion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.operations.WebSiteManagementClientOperationsMixin.list_premier_add_on_offers
@@ -205,7 +205,7 @@ methods:
     description: An iterator like instance of either PremierAddOnOffer or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.PremierAddOnOffer>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.PremierAddOnOffer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.operations.WebSiteManagementClientOperationsMixin.list_site_identifiers_assigned_to_host_name
@@ -238,7 +238,7 @@ methods:
   return:
     description: An iterator like instance of either Identifier or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Identifier>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Identifier>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.operations.WebSiteManagementClientOperationsMixin.list_skus
@@ -275,7 +275,7 @@ methods:
     description: An iterator like instance of either SourceControl or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.SourceControl>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.SourceControl>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.operations.WebSiteManagementClientOperationsMixin.move

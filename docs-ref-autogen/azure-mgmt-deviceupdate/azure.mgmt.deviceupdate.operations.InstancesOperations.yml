@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either Instance or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.deviceupdate.models.Instance>]
+    - <xref:LROPoller>[<xref:azure.mgmt.deviceupdate.models.Instance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.deviceupdate.operations.InstancesOperations.begin_delete
@@ -127,7 +127,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.deviceupdate.operations.InstancesOperations.get
@@ -215,7 +215,7 @@ methods:
   return:
     description: An iterator like instance of either Instance or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.deviceupdate.models.Instance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.deviceupdate.models.Instance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.deviceupdate.operations.InstancesOperations.update

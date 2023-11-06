@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ExpressRouteGateway>]
+    - <xref:AsyncLROPoller>[<xref:ExpressRouteGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteGatewaysOperations.begin_delete
@@ -124,7 +124,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteGatewaysOperations.begin_update_tags
@@ -188,7 +188,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ExpressRouteGateway>]
+    - <xref:AsyncLROPoller>[<xref:ExpressRouteGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteGatewaysOperations.get
@@ -214,7 +214,7 @@ methods:
   return:
     description: ExpressRouteGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteGateway>
+    - <xref:ExpressRouteGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteGatewaysOperations.list_by_resource_group
@@ -235,7 +235,7 @@ methods:
   return:
     description: ExpressRouteGatewayList or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteGatewayList>
+    - <xref:ExpressRouteGatewayList>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteGatewaysOperations.list_by_subscription
@@ -250,7 +250,7 @@ methods:
   return:
     description: ExpressRouteGatewayList or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteGatewayList>
+    - <xref:ExpressRouteGatewayList>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

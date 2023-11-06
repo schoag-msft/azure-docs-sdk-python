@@ -38,7 +38,7 @@ methods:
     description: An iterator like instance of either Transaction or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.Transaction>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.Transaction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

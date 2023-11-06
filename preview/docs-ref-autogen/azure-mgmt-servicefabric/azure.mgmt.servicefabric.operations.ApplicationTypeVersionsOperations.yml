@@ -88,7 +88,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicefabric.models.ApplicationTypeVersionResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.servicefabric.models.ApplicationTypeVersionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabric.operations.ApplicationTypeVersionsOperations.begin_delete
@@ -149,7 +149,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabric.operations.ApplicationTypeVersionsOperations.get

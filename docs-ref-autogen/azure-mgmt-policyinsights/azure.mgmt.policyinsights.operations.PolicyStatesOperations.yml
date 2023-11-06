@@ -72,7 +72,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.begin_trigger_subscription_evaluation
@@ -110,7 +110,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.list_query_results_for_management_group
@@ -149,7 +149,7 @@ methods:
     description: An iterator like instance of either PolicyStatesQueryResults or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.list_query_results_for_policy_definition
@@ -194,7 +194,7 @@ methods:
     description: An iterator like instance of either PolicyStatesQueryResults or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.list_query_results_for_policy_set_definition
@@ -239,7 +239,7 @@ methods:
     description: An iterator like instance of either PolicyStatesQueryResults or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.list_query_results_for_resource
@@ -278,7 +278,7 @@ methods:
     description: An iterator like instance of either PolicyStatesQueryResults or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.list_query_results_for_resource_group
@@ -322,7 +322,7 @@ methods:
     description: An iterator like instance of either PolicyStatesQueryResults or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.list_query_results_for_resource_group_level_policy_assignment
@@ -372,7 +372,7 @@ methods:
     description: An iterator like instance of either PolicyStatesQueryResults or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.list_query_results_for_subscription
@@ -411,7 +411,7 @@ methods:
     description: An iterator like instance of either PolicyStatesQueryResults or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.list_query_results_for_subscription_level_policy_assignment
@@ -456,7 +456,7 @@ methods:
     description: An iterator like instance of either PolicyStatesQueryResults or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.policyinsights.models.PolicyStatesQueryResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.operations.PolicyStatesOperations.summarize_for_management_group

@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.GitHubOwner>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.GitHubOwner>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.aio.operations.GitHubOwnerOperations.begin_update
@@ -155,7 +155,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.GitHubOwner>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.securitydevops.models.GitHubOwner>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.aio.operations.GitHubOwnerOperations.get
@@ -223,7 +223,7 @@ methods:
     description: An iterator like instance of either GitHubOwner or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securitydevops.models.GitHubOwner>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securitydevops.models.GitHubOwner>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

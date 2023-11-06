@@ -531,7 +531,7 @@ methods:
   return:
     description: A streaming object (StorageStreamDownloader)
     types:
-    - <xref:azure.storage.filedatalake.aio.StorageStreamDownloader>
+    - <xref:azure.storage.filedatalake.StorageStreamDownloader>
   examples:
   - "Return the downloaded data.<!--[!code-python[Main](les\\datalake_samples_upload_download_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -916,7 +916,7 @@ methods:
   return:
     description: the renamed file client
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeFileClient>
+    - <xref:azure.storage.filedatalake.DataLakeFileClient>
   examples:
   - "Rename the source file.<!--[!code-python[Main](les\\datalake_samples_upload_download_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\

@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.PrivateCloud>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.PrivateCloud>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.PrivateCloudsOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.PrivateCloudsOperations.begin_rotate_nsxt_password
@@ -182,7 +182,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.PrivateCloudsOperations.begin_rotate_vcenter_password
@@ -235,7 +235,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.PrivateCloudsOperations.begin_update
@@ -305,7 +305,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.avs.models.PrivateCloud>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.avs.models.PrivateCloud>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.PrivateCloudsOperations.get
@@ -362,7 +362,7 @@ methods:
     description: An iterator like instance of either PrivateCloud or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.PrivateCloud>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.PrivateCloud>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.avs.aio.operations.PrivateCloudsOperations.list_admin_credentials
@@ -412,7 +412,7 @@ methods:
     description: An iterator like instance of either PrivateCloud or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.avs.models.PrivateCloud>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.avs.models.PrivateCloud>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

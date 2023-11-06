@@ -533,7 +533,7 @@ methods:
     description: VideoDetails or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.videosearch.models.VideoDetails>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.videosearch.models.ErrorResponseException
 - uid: azure.cognitiveservices.search.videosearch.operations.VideosOperations.search
@@ -1109,7 +1109,7 @@ methods:
     description: Videos or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.videosearch.models.Videos>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.videosearch.models.ErrorResponseException
 - uid: azure.cognitiveservices.search.videosearch.operations.VideosOperations.trending
@@ -1540,7 +1540,7 @@ methods:
     description: TrendingVideos or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.videosearch.models.TrendingVideos>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.videosearch.models.ErrorResponseException
 attributes:

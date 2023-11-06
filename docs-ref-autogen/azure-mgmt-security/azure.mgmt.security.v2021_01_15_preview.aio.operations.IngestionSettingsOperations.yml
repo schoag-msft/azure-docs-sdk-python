@@ -109,7 +109,7 @@ methods:
     description: An iterator like instance of either IngestionSetting or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2021_01_15_preview.models.IngestionSetting>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2021_01_15_preview.models.IngestionSetting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2021_01_15_preview.aio.operations.IngestionSettingsOperations.list_connection_strings

@@ -83,7 +83,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.healthcareapis.models.ServicesDescription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.healthcareapis.models.ServicesDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.aio.operations.ServicesOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.aio.operations.ServicesOperations.begin_update
@@ -186,7 +186,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.healthcareapis.models.ServicesDescription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.healthcareapis.models.ServicesDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.aio.operations.ServicesOperations.check_name_availability
@@ -254,7 +254,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.healthcareapis.models.ServicesDescriptionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.healthcareapis.models.ServicesDescriptionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.aio.operations.ServicesOperations.list_by_resource_group
@@ -277,7 +277,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.healthcareapis.models.ServicesDescriptionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.healthcareapis.models.ServicesDescriptionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

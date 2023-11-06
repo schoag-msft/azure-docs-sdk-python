@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sqlvirtualmachine.operations.SqlVirtualMachinesOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sqlvirtualmachine.operations.SqlVirtualMachinesOperations.begin_redeploy
@@ -176,7 +176,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sqlvirtualmachine.operations.SqlVirtualMachinesOperations.begin_start_assessment
@@ -226,7 +226,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sqlvirtualmachine.operations.SqlVirtualMachinesOperations.begin_update
@@ -294,7 +294,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sqlvirtualmachine.operations.SqlVirtualMachinesOperations.get
@@ -344,7 +344,7 @@ methods:
     description: An iterator like instance of either SqlVirtualMachine or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sqlvirtualmachine.operations.SqlVirtualMachinesOperations.list_by_resource_group
@@ -367,7 +367,7 @@ methods:
     description: An iterator like instance of either SqlVirtualMachine or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sqlvirtualmachine.operations.SqlVirtualMachinesOperations.list_by_sql_vm_group
@@ -396,7 +396,7 @@ methods:
     description: An iterator like instance of either SqlVirtualMachine or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

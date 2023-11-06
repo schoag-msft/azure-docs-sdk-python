@@ -78,7 +78,7 @@ methods:
     description: An instance of LROPoller that returns either BillingSubscription
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.billing.models.BillingSubscription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.billing.models.BillingSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingSubscriptionsOperations.get
@@ -126,7 +126,7 @@ methods:
     description: An iterator like instance of either BillingSubscriptionsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingSubscriptionsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingSubscriptionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingSubscriptionsOperations.list_by_billing_profile
@@ -159,7 +159,7 @@ methods:
     description: An iterator like instance of either BillingSubscriptionsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingSubscriptionsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingSubscriptionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingSubscriptionsOperations.list_by_customer
@@ -189,7 +189,7 @@ methods:
     description: An iterator like instance of either BillingSubscriptionsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingSubscriptionsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingSubscriptionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingSubscriptionsOperations.list_by_invoice_section
@@ -224,7 +224,7 @@ methods:
     description: An iterator like instance of either BillingSubscriptionsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingSubscriptionsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingSubscriptionsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingSubscriptionsOperations.update

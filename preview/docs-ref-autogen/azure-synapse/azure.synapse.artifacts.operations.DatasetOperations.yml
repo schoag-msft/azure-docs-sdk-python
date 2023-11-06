@@ -67,7 +67,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.DatasetResource>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.DatasetResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.DatasetOperations.begin_delete_dataset
@@ -109,7 +109,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.DatasetOperations.begin_rename_dataset
@@ -157,7 +157,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.DatasetOperations.get_dataset
@@ -206,7 +206,7 @@ methods:
     description: An iterator like instance of either DatasetResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.DatasetResource>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.DatasetResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

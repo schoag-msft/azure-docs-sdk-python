@@ -125,7 +125,7 @@ methods:
     - <xref:int>
   return:
     types:
-    - <xref:List>[<xref:dict>]
+    - <xref:typing.List>[<xref:dict>]
   examples:
   - "Get a auto-completions.<!--[!code-python[Main](les\\sample_autocomplete.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -171,7 +171,7 @@ methods:
     - <xref:typing.List>[<xref:dict>]
   return:
     types:
-    - <xref:List>[<xref:azure.search.documents.models.IndexingResult>]
+    - <xref:typing.List>[<xref:azure.search.documents.models.IndexingResult>]
   examples:
   - "Delete existing documents to an index<!--[!code-python[Main](les\\sample_crud_operations.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -237,7 +237,7 @@ methods:
     - <xref:azure.search.documents.IndexDocumentsBatch>
   return:
     types:
-    - <xref:List>[<xref:azure.search.documents.models.IndexingResult>]
+    - <xref:typing.List>[<xref:azure.search.documents.models.IndexingResult>]
 - uid: azure.search.documents.SearchClient.merge_documents
   name: merge_documents
   summary: 'Merge documents in to existing documents in the Azure search index.
@@ -259,7 +259,7 @@ methods:
     - <xref:typing.List>[<xref:dict>]
   return:
     types:
-    - <xref:List>[<xref:azure.search.documents.models.IndexingResult>]
+    - <xref:typing.List>[<xref:azure.search.documents.models.IndexingResult>]
   examples:
   - "Merge fields into existing documents to an index<!--[!code-python[Main](les\\\
     sample_crud_operations.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
@@ -291,7 +291,7 @@ methods:
     - <xref:typing.List>[<xref:dict>]
   return:
     types:
-    - <xref:List>[<xref:azure.search.documents.models.IndexingResult>]
+    - <xref:typing.List>[<xref:azure.search.documents.models.IndexingResult>]
 - uid: azure.search.documents.SearchClient.search
   name: search
   summary: "Search the Azure search index for documents.\n:param str search_text:\
@@ -545,7 +545,7 @@ methods:
     - <xref:int>
   return:
     types:
-    - <xref:List>[<xref:dict>]
+    - <xref:typing.List>[<xref:dict>]
   examples:
   - "Get search suggestions.<!--[!code-python[Main](les\\sample_suggestions.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -579,7 +579,7 @@ methods:
     - <xref:typing.List>[<xref:dict>]
   return:
     types:
-    - <xref:List>[<xref:azure.search.documents.models.IndexingResult>]
+    - <xref:typing.List>[<xref:azure.search.documents.models.IndexingResult>]
   examples:
   - "Upload new documents to an index<!--[!code-python[Main](les\\sample_crud_operations.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\

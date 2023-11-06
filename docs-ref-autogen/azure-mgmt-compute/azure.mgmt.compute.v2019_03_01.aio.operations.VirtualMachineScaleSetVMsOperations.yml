@@ -67,7 +67,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_delete
@@ -120,7 +120,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_perform_maintenance
@@ -173,7 +173,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_power_off
@@ -242,7 +242,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_redeploy
@@ -298,7 +298,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_reimage
@@ -369,7 +369,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_reimage_all
@@ -425,7 +425,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_restart
@@ -478,7 +478,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_run_command
@@ -548,7 +548,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2019_03_01.models.RunCommandResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2019_03_01.models.RunCommandResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_start
@@ -601,7 +601,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.begin_update
@@ -675,7 +675,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2019_03_01.models.VirtualMachineScaleSetVM>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2019_03_01.models.VirtualMachineScaleSetVM>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2019_03_01.aio.operations.VirtualMachineScaleSetVMsOperations.get
@@ -795,7 +795,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2019_03_01.models.VirtualMachineScaleSetVM>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2019_03_01.models.VirtualMachineScaleSetVM>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

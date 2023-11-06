@@ -85,7 +85,7 @@ methods:
     description: An iterator like instance of either SecurityEventCollection or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SecurityEventCollection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SecurityEventCollection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

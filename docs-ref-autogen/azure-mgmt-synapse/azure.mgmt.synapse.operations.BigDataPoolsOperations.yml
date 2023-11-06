@@ -91,7 +91,7 @@ methods:
     description: An instance of LROPoller that returns either BigDataPoolResourceInfo
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfo>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.BigDataPoolsOperations.begin_delete
@@ -143,7 +143,7 @@ methods:
     description: An instance of LROPoller that returns either object or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:object>]
+    - <xref:LROPoller>[<xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.BigDataPoolsOperations.get
@@ -207,7 +207,7 @@ methods:
     description: An iterator like instance of either BigDataPoolResourceInfoListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfoListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.BigDataPoolResourceInfoListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.BigDataPoolsOperations.update

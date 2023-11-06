@@ -60,7 +60,7 @@ methods:
     description: An instance of LROPoller object to check the validation status of
       file
     types:
-    - <xref:azure.developer.loadtesting._polling.LoadTestingLROPoller>
+    - <xref:LoadTestingLROPoller>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ResourceNotFoundError
@@ -854,7 +854,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:JSON>]
+    - <xref:ItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -917,7 +917,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:JSON>]
+    - <xref:ItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -1088,4 +1088,4 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>

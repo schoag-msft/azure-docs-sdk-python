@@ -139,7 +139,7 @@ methods:
   return:
     description: An iterator like instance of either Revision or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.Revision>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.Revision>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.ContainerAppsRevisionsOperations.restart_revision

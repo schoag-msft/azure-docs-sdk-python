@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.dashboard.models.PrivateLinkResourceListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.dashboard.models.PrivateLinkResourceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

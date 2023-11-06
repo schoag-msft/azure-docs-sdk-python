@@ -57,7 +57,7 @@ methods:
   return:
     description: An iterator like instance of either Service or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.support.models.Service>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.support.models.Service>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2022_09_01.models.ContainerApp>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2022_09_01.models.ContainerApp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.ContainerAppsOperations.begin_delete
@@ -125,7 +125,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.ContainerAppsOperations.get
@@ -177,7 +177,7 @@ methods:
     description: An iterator like instance of either ContainerApp or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.ContainerApp>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.ContainerApp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.ContainerAppsOperations.list_by_subscription
@@ -196,7 +196,7 @@ methods:
     description: An iterator like instance of either ContainerApp or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.ContainerApp>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.ContainerApp>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.ContainerAppsOperations.list_secrets

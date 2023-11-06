@@ -48,7 +48,7 @@ methods:
   return:
     description: ActiveConnectivityConfigurationsListResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ActiveConnectivityConfigurationsListResult>
+    - <xref:ActiveConnectivityConfigurationsListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

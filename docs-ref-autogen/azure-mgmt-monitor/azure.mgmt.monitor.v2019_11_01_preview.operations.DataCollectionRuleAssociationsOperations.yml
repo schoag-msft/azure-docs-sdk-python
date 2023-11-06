@@ -135,7 +135,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2019_11_01_preview.models.DataCollectionRuleAssociationProxyOnlyResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2019_11_01_preview.models.DataCollectionRuleAssociationProxyOnlyResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2019_11_01_preview.operations.DataCollectionRuleAssociationsOperations.list_by_rule
@@ -171,7 +171,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2019_11_01_preview.models.DataCollectionRuleAssociationProxyOnlyResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2019_11_01_preview.models.DataCollectionRuleAssociationProxyOnlyResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

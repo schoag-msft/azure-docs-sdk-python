@@ -82,7 +82,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ExpressRouteConnection>]
+    - <xref:AsyncLROPoller>[<xref:ExpressRouteConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteConnectionsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteConnectionsOperations.get
@@ -166,7 +166,7 @@ methods:
   return:
     description: ExpressRouteConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteConnection>
+    - <xref:ExpressRouteConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteConnectionsOperations.list
@@ -192,7 +192,7 @@ methods:
   return:
     description: ExpressRouteConnectionList or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteConnectionList>
+    - <xref:ExpressRouteConnectionList>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -84,7 +84,7 @@ methods:
     description: An instance of LROPoller that returns either JobAgent or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.JobAgent>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.JobAgent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.JobAgentsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.JobAgentsOperations.begin_update
@@ -191,7 +191,7 @@ methods:
     description: An instance of LROPoller that returns either JobAgent or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.JobAgent>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.JobAgent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.JobAgentsOperations.get
@@ -253,7 +253,7 @@ methods:
     description: An iterator like instance of either JobAgentListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.JobAgentListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.JobAgentListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

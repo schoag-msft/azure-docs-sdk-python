@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.DdosCustomPolicy>]
+    - <xref:LROPoller>[<xref:DdosCustomPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.DdosCustomPoliciesOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.DdosCustomPoliciesOperations.begin_update_tags
@@ -186,7 +186,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.DdosCustomPolicy>]
+    - <xref:LROPoller>[<xref:DdosCustomPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.DdosCustomPoliciesOperations.get
@@ -212,7 +212,7 @@ methods:
   return:
     description: DdosCustomPolicy or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.DdosCustomPolicy>
+    - <xref:DdosCustomPolicy>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.DdosCustomPoliciesOperations.update_tags
@@ -253,7 +253,7 @@ methods:
   return:
     description: DdosCustomPolicy or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.DdosCustomPolicy>
+    - <xref:DdosCustomPolicy>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

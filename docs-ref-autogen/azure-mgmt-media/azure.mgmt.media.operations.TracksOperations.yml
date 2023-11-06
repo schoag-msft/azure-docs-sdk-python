@@ -84,7 +84,7 @@ methods:
     description: An instance of LROPoller that returns either AssetTrack or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.media.models.AssetTrack>]
+    - <xref:LROPoller>[<xref:azure.mgmt.media.models.AssetTrack>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.TracksOperations.begin_delete
@@ -147,7 +147,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.TracksOperations.begin_update
@@ -223,7 +223,7 @@ methods:
     description: An instance of LROPoller that returns either AssetTrack or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.media.models.AssetTrack>]
+    - <xref:LROPoller>[<xref:azure.mgmt.media.models.AssetTrack>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.TracksOperations.begin_update_track_data
@@ -298,7 +298,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.operations.TracksOperations.get
@@ -375,7 +375,7 @@ methods:
   return:
     description: An iterator like instance of either AssetTrack or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.media.models.AssetTrack>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.media.models.AssetTrack>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

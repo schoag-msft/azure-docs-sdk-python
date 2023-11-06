@@ -81,7 +81,7 @@ methods:
   return:
     description: An AsyncLROPoller. Call *result()* on this object to get a <xref:azure.keyvault.administration.aio.KeyVaultBackupResult>.
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.keyvault.administration.KeyVaultBackupResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.keyvault.administration.KeyVaultBackupResult>]
   examples:
   - "Create a vault backup<!--[!code-python[Main](s\\test_examples_administration_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -151,7 +151,7 @@ methods:
 
       (the return value is None in either case).'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>
+    - <xref:AsyncLROPoller>
   examples:
   - "Restore a vault backup<!--[!code-python[Main](s\\test_examples_administration_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\

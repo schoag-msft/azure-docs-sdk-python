@@ -23,7 +23,7 @@ methods:
   return:
     description: An iterator like instance of either Violation or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.portal.models.Violation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.portal.models.Violation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

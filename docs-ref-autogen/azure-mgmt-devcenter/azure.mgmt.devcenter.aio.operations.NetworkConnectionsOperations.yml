@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.devcenter.models.NetworkConnection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.devcenter.models.NetworkConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.NetworkConnectionsOperations.begin_delete
@@ -130,7 +130,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.NetworkConnectionsOperations.begin_run_health_checks
@@ -185,7 +185,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.NetworkConnectionsOperations.begin_update
@@ -255,7 +255,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.devcenter.models.NetworkConnection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.devcenter.models.NetworkConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.NetworkConnectionsOperations.get
@@ -347,7 +347,7 @@ methods:
     description: An iterator like instance of either NetworkConnection or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.NetworkConnection>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.NetworkConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.NetworkConnectionsOperations.list_by_subscription
@@ -371,7 +371,7 @@ methods:
     description: An iterator like instance of either NetworkConnection or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.NetworkConnection>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.NetworkConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.NetworkConnectionsOperations.list_health_details
@@ -412,7 +412,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.HealthCheckStatusDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.HealthCheckStatusDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.NetworkConnectionsOperations.list_outbound_network_dependencies_endpoints
@@ -456,7 +456,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.OutboundEnvironmentEndpoint>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.OutboundEnvironmentEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -82,7 +82,7 @@ methods:
     description: An iterator like instance of either RecoveryPoint or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

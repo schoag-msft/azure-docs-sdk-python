@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.AFDOriginGroupsOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.AFDOriginGroupsOperations.begin_update
@@ -217,7 +217,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.AFDOriginGroupsOperations.get
@@ -283,7 +283,7 @@ methods:
     description: An iterator like instance of either AFDOriginGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cdn.models.AFDOriginGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.AFDOriginGroupsOperations.list_resource_usage
@@ -320,7 +320,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cdn.models.Usage>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cdn.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

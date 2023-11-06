@@ -42,7 +42,7 @@ methods:
   return:
     description: An instance of LROPoller that returns an OutboundRule.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.OutboundRule>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.OutboundRule>]
 - uid: azure.ai.ml.operations.WorkspaceOutboundRuleOperations.begin_remove
   name: begin_remove
   summary: Remove a Workspace OutboundRule.
@@ -62,7 +62,7 @@ methods:
   return:
     description: An Iterable of OutboundRule.
     types:
-    - <xref:Iterable>[<xref:azure.ai.ml.entities.OutboundRule>]
+    - <xref:typing.Iterable>[<xref:azure.ai.ml.entities.OutboundRule>]
 - uid: azure.ai.ml.operations.WorkspaceOutboundRuleOperations.begin_update
   name: begin_update
   summary: Update a Workspace OutboundRule.
@@ -82,7 +82,7 @@ methods:
   return:
     description: An instance of LROPoller that returns an OutboundRule.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.OutboundRule>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.OutboundRule>]
 - uid: azure.ai.ml.operations.WorkspaceOutboundRuleOperations.get
   name: get
   summary: Get a workspace OutboundRule by name.
@@ -115,4 +115,4 @@ methods:
   return:
     description: An Iterable of OutboundRule.
     types:
-    - <xref:Iterable>[<xref:azure.ai.ml.entities.OutboundRule>]
+    - <xref:typing.Iterable>[<xref:azure.ai.ml.entities.OutboundRule>]

@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.Server>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql_flexibleservers.aio.operations.ServersOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql_flexibleservers.aio.operations.ServersOperations.begin_restart
@@ -192,7 +192,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql_flexibleservers.aio.operations.ServersOperations.begin_start
@@ -242,7 +242,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql_flexibleservers.aio.operations.ServersOperations.begin_stop
@@ -292,7 +292,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql_flexibleservers.aio.operations.ServersOperations.begin_update
@@ -362,7 +362,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.Server>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql_flexibleservers.aio.operations.ServersOperations.get
@@ -405,7 +405,7 @@ methods:
   return:
     description: An iterator like instance of either Server or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.Server>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql_flexibleservers.aio.operations.ServersOperations.list_by_resource_group
@@ -427,7 +427,7 @@ methods:
   return:
     description: An iterator like instance of either Server or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.Server>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.postgresql_flexibleservers.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

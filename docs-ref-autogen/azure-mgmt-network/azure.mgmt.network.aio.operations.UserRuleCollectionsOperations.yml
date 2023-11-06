@@ -61,7 +61,7 @@ methods:
   return:
     description: RuleCollection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.RuleCollection>
+    - <xref:RuleCollection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.UserRuleCollectionsOperations.delete
@@ -137,7 +137,7 @@ methods:
   return:
     description: RuleCollection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.RuleCollection>
+    - <xref:RuleCollection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.UserRuleCollectionsOperations.list
@@ -191,7 +191,7 @@ methods:
     description: An iterator like instance of either RuleCollection or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.RuleCollection>]
+    - <xref:AsyncItemPaged>[<xref:RuleCollection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

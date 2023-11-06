@@ -23,7 +23,7 @@ functions:
   return:
     description: A case-insensitive mutable mapping object.
     types:
-    - <xref:collections.abc.MutableMapping>
+    - <xref:typing.MutableMapping>
 classes:
 - corehttp.utils.CaseInsensitiveDict
 enums:

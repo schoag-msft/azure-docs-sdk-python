@@ -77,7 +77,7 @@ methods:
     description: An instance of LROPoller that returns either RegistrationAssignment
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managedservices.models.RegistrationAssignment>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managedservices.models.RegistrationAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedservices.operations.RegistrationAssignmentsOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedservices.operations.RegistrationAssignmentsOperations.get
@@ -183,7 +183,7 @@ methods:
     description: An iterator like instance of either RegistrationAssignmentList or
       the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managedservices.models.RegistrationAssignmentList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managedservices.models.RegistrationAssignmentList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

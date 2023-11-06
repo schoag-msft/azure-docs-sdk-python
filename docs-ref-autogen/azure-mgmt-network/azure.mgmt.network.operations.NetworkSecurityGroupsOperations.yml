@@ -72,7 +72,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.NetworkSecurityGroup>]
+    - <xref:LROPoller>[<xref:NetworkSecurityGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.begin_delete
@@ -120,7 +120,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.begin_update_tags
@@ -185,7 +185,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.NetworkSecurityGroup>]
+    - <xref:LROPoller>[<xref:NetworkSecurityGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.get
@@ -215,7 +215,7 @@ methods:
   return:
     description: NetworkSecurityGroup or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkSecurityGroup>
+    - <xref:NetworkSecurityGroup>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.list
@@ -238,7 +238,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NetworkSecurityGroup>]
+    - <xref:ItemPaged>[<xref:NetworkSecurityGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.list_all
@@ -256,7 +256,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.NetworkSecurityGroup>]
+    - <xref:ItemPaged>[<xref:NetworkSecurityGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.update_tags
@@ -297,7 +297,7 @@ methods:
   return:
     description: NetworkSecurityGroup or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkSecurityGroup>
+    - <xref:NetworkSecurityGroup>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

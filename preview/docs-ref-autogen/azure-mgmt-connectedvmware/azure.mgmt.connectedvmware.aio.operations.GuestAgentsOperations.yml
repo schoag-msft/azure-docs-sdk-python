@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.connectedvmware.models.GuestAgent>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.connectedvmware.models.GuestAgent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.aio.operations.GuestAgentsOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.aio.operations.GuestAgentsOperations.get
@@ -199,7 +199,7 @@ methods:
   return:
     description: An iterator like instance of either GuestAgent or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.connectedvmware.models.GuestAgent>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.connectedvmware.models.GuestAgent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

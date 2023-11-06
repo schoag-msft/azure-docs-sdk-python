@@ -151,7 +151,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2019_11_01_preview.models.DataCollectionRuleResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2019_11_01_preview.models.DataCollectionRuleResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2019_11_01_preview.operations.DataCollectionRulesOperations.list_by_subscription
@@ -172,7 +172,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2019_11_01_preview.models.DataCollectionRuleResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2019_11_01_preview.models.DataCollectionRuleResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2019_11_01_preview.operations.DataCollectionRulesOperations.update

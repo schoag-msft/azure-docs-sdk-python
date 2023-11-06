@@ -55,7 +55,7 @@ methods:
     description: An iterator like instance of either LogFileListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.LogFileListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.LogFileListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

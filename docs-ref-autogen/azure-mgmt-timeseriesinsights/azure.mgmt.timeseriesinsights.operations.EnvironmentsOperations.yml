@@ -78,7 +78,7 @@ methods:
     description: An instance of LROPoller that returns either EnvironmentResource
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.timeseriesinsights.models.EnvironmentResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.timeseriesinsights.models.EnvironmentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.timeseriesinsights.operations.EnvironmentsOperations.begin_update
@@ -134,7 +134,7 @@ methods:
     description: An instance of LROPoller that returns either EnvironmentResource
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.timeseriesinsights.models.EnvironmentResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.timeseriesinsights.models.EnvironmentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.timeseriesinsights.operations.EnvironmentsOperations.delete

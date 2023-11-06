@@ -67,7 +67,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.CustomLocation>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.CustomLocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_03_15_preview.aio.operations.CustomLocationsOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_03_15_preview.aio.operations.CustomLocationsOperations.get
@@ -180,7 +180,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.CustomLocationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.CustomLocationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_03_15_preview.aio.operations.CustomLocationsOperations.list_by_subscription
@@ -204,7 +204,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.CustomLocationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.CustomLocationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_03_15_preview.aio.operations.CustomLocationsOperations.list_enabled_resource_types
@@ -236,7 +236,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.EnabledResourceTypesListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.EnabledResourceTypesListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_03_15_preview.aio.operations.CustomLocationsOperations.list_operations
@@ -254,7 +254,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.CustomLocationOperationsList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.extendedlocation.v2021_03_15_preview.models.CustomLocationOperationsList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.extendedlocation.v2021_03_15_preview.aio.operations.CustomLocationsOperations.update

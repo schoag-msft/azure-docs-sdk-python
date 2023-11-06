@@ -175,7 +175,7 @@ methods:
     description: An iterator like instance of either Application or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.Application>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.Application>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.desktopvirtualization.aio.operations.ApplicationsOperations.update

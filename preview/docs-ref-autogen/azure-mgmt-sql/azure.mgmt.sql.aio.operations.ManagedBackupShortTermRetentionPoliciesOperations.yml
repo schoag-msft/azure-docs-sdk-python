@@ -86,7 +86,7 @@ methods:
 
       ManagedBackupShortTermRetentionPolicy or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedBackupShortTermRetentionPolicy>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedBackupShortTermRetentionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ManagedBackupShortTermRetentionPoliciesOperations.begin_update
@@ -164,7 +164,7 @@ methods:
 
       ManagedBackupShortTermRetentionPolicy or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedBackupShortTermRetentionPolicy>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedBackupShortTermRetentionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ManagedBackupShortTermRetentionPoliciesOperations.get
@@ -240,7 +240,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedBackupShortTermRetentionPolicy>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedBackupShortTermRetentionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

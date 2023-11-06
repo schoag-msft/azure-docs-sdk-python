@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicebus.v2015_08_01.models.NamespaceResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.servicebus.v2015_08_01.models.NamespaceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639408.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639408.aspx)\
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639389.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639389.aspx)\
@@ -333,7 +333,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.SharedAccessAuthorizationRuleResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.SharedAccessAuthorizationRuleResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639376.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639376.aspx)\
@@ -356,7 +356,7 @@ methods:
     description: An iterator like instance of either NamespaceResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.NamespaceResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.NamespaceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639412.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639412.aspx)\
@@ -375,7 +375,7 @@ methods:
     description: An iterator like instance of either NamespaceResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.NamespaceResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.NamespaceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639412.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639412.aspx)\

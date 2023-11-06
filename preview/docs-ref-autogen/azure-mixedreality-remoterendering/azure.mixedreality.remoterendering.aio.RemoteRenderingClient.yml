@@ -83,7 +83,7 @@ methods:
   return:
     description: A poller for the created asset conversion
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mixedreality.remoterendering.AssetConversion>]
+    - <xref:AsyncLROPoller>[<xref:azure.mixedreality.remoterendering.AssetConversion>]
 - uid: azure.mixedreality.remoterendering.aio.RemoteRenderingClient.begin_rendering_session
   name: begin_rendering_session
   signature: 'async begin_rendering_session(session_id: str, size: str | RenderingSessionSize,
@@ -146,7 +146,7 @@ methods:
   return:
     description: A poller for the created asset conversion
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mixedreality.remoterendering.AssetConversion>]
+    - <xref:AsyncLROPoller>[<xref:azure.mixedreality.remoterendering.AssetConversion>]
 - uid: azure.mixedreality.remoterendering.aio.RemoteRenderingClient.get_rendering_session
   name: get_rendering_session
   summary: 'Returns the properties of a previously generated rendering session.
@@ -168,7 +168,7 @@ methods:
   return:
     description: A poller for the created rendering session
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mixedreality.remoterendering.RenderingSession>]
+    - <xref:AsyncLROPoller>[<xref:azure.mixedreality.remoterendering.RenderingSession>]
 - uid: azure.mixedreality.remoterendering.aio.RemoteRenderingClient.list_asset_conversions
   name: list_asset_conversions
   summary: 'Gets conversions for the remote rendering account.
@@ -182,7 +182,7 @@ methods:
   signature: async list_rendering_sessions(**kwargs) -> AsyncItemPaged[RenderingSession]
   return:
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mixedreality.remoterendering.RenderingSession>]
+    - <xref:AsyncItemPaged>[<xref:azure.mixedreality.remoterendering.RenderingSession>]
 - uid: azure.mixedreality.remoterendering.aio.RemoteRenderingClient.stop_rendering_session
   name: stop_rendering_session
   signature: 'async stop_rendering_session(session_id: str, **kwargs) -> None'
@@ -205,6 +205,6 @@ methods:
   signature: 'async update_rendering_session(session_id: str, **kwargs) -> RenderingSession'
   return:
     types:
-    - <xref:azure.mixedreality.remoterendering.models.RenderingSession>
+    - <xref:azure.mixedreality.remoterendering.RenderingSession>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError

@@ -286,7 +286,7 @@ methods:
   return:
     description: An iterator of <xref:azure.data.tables.TableItem>
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.data.tables.TableItem>]
+    - <xref:ItemPaged>[<xref:azure.data.tables.TableItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -320,7 +320,7 @@ methods:
   return:
     description: An iterator of <xref:azure.data.tables.TableItem>
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.data.tables.TableItem>]
+    - <xref:ItemPaged>[<xref:azure.data.tables.TableItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

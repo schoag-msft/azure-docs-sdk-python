@@ -94,7 +94,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.SyncMember>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.SyncMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncMembersOperations.begin_delete
@@ -161,7 +161,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncMembersOperations.begin_refresh_member_schema
@@ -229,7 +229,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncMembersOperations.begin_update
@@ -314,7 +314,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.SyncMember>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.SyncMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncMembersOperations.get
@@ -397,7 +397,7 @@ methods:
   return:
     description: An iterator like instance of either SyncMember or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncMember>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.SyncMembersOperations.list_member_schemas
@@ -445,7 +445,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncFullSchemaProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.SyncFullSchemaProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

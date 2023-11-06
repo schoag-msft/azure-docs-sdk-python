@@ -38,7 +38,7 @@ methods:
     description: An iterator like instance of either ResourceSku or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2021_07_01.models.ResourceSku>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2021_07_01.models.ResourceSku>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

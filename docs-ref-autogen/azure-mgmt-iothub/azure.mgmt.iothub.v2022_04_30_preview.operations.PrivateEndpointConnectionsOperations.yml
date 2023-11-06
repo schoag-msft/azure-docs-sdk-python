@@ -66,7 +66,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothub.v2022_04_30_preview.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothub.v2022_04_30_preview.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2022_04_30_preview.operations.PrivateEndpointConnectionsOperations.begin_update
@@ -139,7 +139,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothub.v2022_04_30_preview.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothub.v2022_04_30_preview.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2022_04_30_preview.operations.PrivateEndpointConnectionsOperations.get

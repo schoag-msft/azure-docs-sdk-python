@@ -104,4 +104,4 @@ attributes:
   summary: The properties of the job.
   return:
     types:
-    - <xref:azure.ai.ml.entities._job.job_resource_configuration.Properties>
+    - <xref:Properties>

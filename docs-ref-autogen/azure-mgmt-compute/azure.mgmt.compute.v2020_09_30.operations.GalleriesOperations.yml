@@ -78,7 +78,7 @@ methods:
     description: An instance of LROPoller that returns either Gallery or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2020_09_30.models.Gallery>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2020_09_30.models.Gallery>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2020_09_30.operations.GalleriesOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2020_09_30.operations.GalleriesOperations.begin_update
@@ -195,7 +195,7 @@ methods:
     description: An instance of LROPoller that returns either Gallery or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2020_09_30.models.Gallery>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2020_09_30.models.Gallery>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2020_09_30.operations.GalleriesOperations.get
@@ -244,7 +244,7 @@ methods:
   return:
     description: An iterator like instance of either Gallery or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2020_09_30.models.Gallery>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2020_09_30.models.Gallery>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2020_09_30.operations.GalleriesOperations.list_by_resource_group
@@ -264,7 +264,7 @@ methods:
   return:
     description: An iterator like instance of either Gallery or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2020_09_30.models.Gallery>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2020_09_30.models.Gallery>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

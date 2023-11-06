@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.VpnGatewayNatRule>]
+    - <xref:AsyncLROPoller>[<xref:VpnGatewayNatRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NatRulesOperations.begin_delete
@@ -134,7 +134,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NatRulesOperations.get
@@ -165,7 +165,7 @@ methods:
   return:
     description: VpnGatewayNatRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VpnGatewayNatRule>
+    - <xref:VpnGatewayNatRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.NatRulesOperations.list_by_vpn_gateway
@@ -192,7 +192,7 @@ methods:
     description: An iterator like instance of either VpnGatewayNatRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.VpnGatewayNatRule>]
+    - <xref:AsyncItemPaged>[<xref:VpnGatewayNatRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

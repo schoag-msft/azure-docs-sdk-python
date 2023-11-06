@@ -80,7 +80,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.PrivateEndpointConnection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2023_01_31.aio.operations.PrivateEndpointConnectionsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2023_01_31.aio.operations.PrivateEndpointConnectionsOperations.get

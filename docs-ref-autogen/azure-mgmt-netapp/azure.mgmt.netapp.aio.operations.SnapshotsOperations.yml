@@ -94,7 +94,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.netapp.models.Snapshot>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.netapp.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.aio.operations.SnapshotsOperations.begin_delete
@@ -162,7 +162,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.aio.operations.SnapshotsOperations.begin_restore_files
@@ -246,7 +246,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.aio.operations.SnapshotsOperations.begin_update
@@ -322,7 +322,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.netapp.models.Snapshot>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.netapp.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.aio.operations.SnapshotsOperations.get
@@ -409,7 +409,7 @@ methods:
   return:
     description: An iterator like instance of either Snapshot or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.netapp.models.Snapshot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.netapp.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

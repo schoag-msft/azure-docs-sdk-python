@@ -185,7 +185,7 @@ methods:
     description: An iterator like instance of either ManagedHsmKey or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsmKey>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsmKey>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.operations.ManagedHsmKeysOperations.list_versions
@@ -226,7 +226,7 @@ methods:
     description: An iterator like instance of either ManagedHsmKey or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsmKey>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.ManagedHsmKey>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

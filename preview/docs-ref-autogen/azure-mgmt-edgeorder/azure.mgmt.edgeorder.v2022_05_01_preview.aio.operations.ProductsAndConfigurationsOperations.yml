@@ -51,7 +51,7 @@ methods:
     description: An iterator like instance of either Configuration or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2022_05_01_preview.models.Configuration>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2022_05_01_preview.models.Configuration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2022_05_01_preview.aio.operations.ProductsAndConfigurationsOperations.list_product_families
@@ -99,7 +99,7 @@ methods:
     description: An iterator like instance of either ProductFamily or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2022_05_01_preview.models.ProductFamily>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2022_05_01_preview.models.ProductFamily>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2022_05_01_preview.aio.operations.ProductsAndConfigurationsOperations.list_product_families_metadata
@@ -126,7 +126,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2022_05_01_preview.models.ProductFamiliesMetadataDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2022_05_01_preview.models.ProductFamiliesMetadataDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -81,7 +81,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2023_01_31.aio.operations.DigitalTwinsOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2023_01_31.aio.operations.DigitalTwinsOperations.begin_update
@@ -200,7 +200,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2023_01_31.aio.operations.DigitalTwinsOperations.check_name_availability
@@ -285,7 +285,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2023_01_31.aio.operations.DigitalTwinsOperations.list_by_resource_group
@@ -310,7 +310,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.digitaltwins.v2023_01_31.models.DigitalTwinsDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

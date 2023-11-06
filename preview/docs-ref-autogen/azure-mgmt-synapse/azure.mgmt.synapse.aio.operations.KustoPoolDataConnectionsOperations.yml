@@ -92,7 +92,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.DataConnection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.DataConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.KustoPoolDataConnectionsOperations.begin_data_connection_validation
@@ -169,7 +169,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.DataConnectionValidationListResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.DataConnectionValidationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.KustoPoolDataConnectionsOperations.begin_delete
@@ -234,7 +234,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.KustoPoolDataConnectionsOperations.begin_update
@@ -317,7 +317,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.DataConnection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.DataConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.KustoPoolDataConnectionsOperations.check_name_availability
@@ -452,7 +452,7 @@ methods:
     description: An iterator like instance of either DataConnection or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.DataConnection>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.DataConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

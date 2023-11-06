@@ -85,7 +85,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.delete_user
@@ -144,7 +144,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.disable_scheduling
@@ -207,7 +207,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.enable_scheduling
@@ -261,7 +261,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.get
@@ -310,7 +310,7 @@ methods:
     description: ComputeNode or ClientRawResponse if raw=true
     types:
     - <xref:azure.batch.models.ComputeNode>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.get_remote_desktop
@@ -380,8 +380,8 @@ methods:
   return:
     description: object or ClientRawResponse if raw=true
     types:
-    - <xref:Generator>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:typing.Generator>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.get_remote_login_settings
@@ -443,7 +443,7 @@ methods:
       if raw=true'
     types:
     - <xref:azure.batch.models.ComputeNodeGetRemoteLoginSettingsResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.list
@@ -548,7 +548,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.reimage
@@ -612,7 +612,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.update_user
@@ -684,7 +684,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeOperations.upload_batch_service_logs
@@ -754,7 +754,7 @@ methods:
     description: UploadBatchServiceLogsResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.batch.models.UploadBatchServiceLogsResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 attributes:

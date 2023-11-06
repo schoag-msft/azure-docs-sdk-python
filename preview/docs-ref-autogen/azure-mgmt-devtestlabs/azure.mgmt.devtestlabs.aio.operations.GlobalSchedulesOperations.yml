@@ -56,7 +56,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.GlobalSchedulesOperations.begin_retarget
@@ -120,7 +120,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.GlobalSchedulesOperations.create_or_update
@@ -271,7 +271,7 @@ methods:
   return:
     description: An iterator like instance of either Schedule or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.Schedule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.Schedule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.GlobalSchedulesOperations.list_by_subscription
@@ -317,7 +317,7 @@ methods:
   return:
     description: An iterator like instance of either Schedule or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.Schedule>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.Schedule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.GlobalSchedulesOperations.update

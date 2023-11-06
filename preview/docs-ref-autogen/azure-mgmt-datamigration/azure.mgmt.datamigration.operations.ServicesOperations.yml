@@ -97,7 +97,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datamigration.models.DataMigrationService>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datamigration.models.DataMigrationService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.ServicesOperations.begin_delete
@@ -158,7 +158,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.ServicesOperations.begin_start
@@ -211,7 +211,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.ServicesOperations.begin_stop
@@ -267,7 +267,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.ServicesOperations.begin_update
@@ -343,7 +343,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datamigration.models.DataMigrationService>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datamigration.models.DataMigrationService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.ServicesOperations.check_children_name_availability
@@ -512,7 +512,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datamigration.models.DataMigrationService>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datamigration.models.DataMigrationService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.ServicesOperations.list_by_resource_group
@@ -541,7 +541,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datamigration.models.DataMigrationService>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datamigration.models.DataMigrationService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datamigration.operations.ServicesOperations.list_skus
@@ -574,7 +574,7 @@ methods:
     description: An iterator like instance of either AvailableServiceSku or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datamigration.models.AvailableServiceSku>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datamigration.models.AvailableServiceSku>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

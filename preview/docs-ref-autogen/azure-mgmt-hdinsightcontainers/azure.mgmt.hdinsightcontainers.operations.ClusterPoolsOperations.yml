@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClusterPoolsOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClusterPoolsOperations.begin_update_tags
@@ -194,7 +194,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClusterPoolsOperations.get
@@ -245,7 +245,7 @@ methods:
     description: An iterator like instance of either ClusterPool or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPool>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClusterPoolsOperations.list_by_subscription
@@ -261,7 +261,7 @@ methods:
     description: An iterator like instance of either ClusterPool or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPool>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -74,7 +74,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.ApplicationResourceDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshApplicationOperations.delete
@@ -111,7 +111,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshApplicationOperations.get
@@ -154,7 +154,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.ApplicationResourceDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshApplicationOperations.get_upgrade_progress
@@ -200,7 +200,7 @@ methods:
       if raw=true'
     types:
     - <xref:azure.servicefabric.models.ApplicationResourceUpgradeProgressInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshApplicationOperations.list
@@ -238,7 +238,7 @@ methods:
       if raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedApplicationResourceDescriptionList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 attributes:

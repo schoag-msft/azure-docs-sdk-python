@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.VaultSetting>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.VaultSetting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.aio.operations.ReplicationVaultSettingOperations.get
@@ -116,7 +116,7 @@ methods:
     description: An iterator like instance of either VaultSetting or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.VaultSetting>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.VaultSetting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

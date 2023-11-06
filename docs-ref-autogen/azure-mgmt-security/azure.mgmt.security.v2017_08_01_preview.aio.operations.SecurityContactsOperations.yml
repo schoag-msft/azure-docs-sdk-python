@@ -99,7 +99,7 @@ methods:
     description: An iterator like instance of either SecurityContact or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2017_08_01_preview.models.SecurityContact>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2017_08_01_preview.models.SecurityContact>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2017_08_01_preview.aio.operations.SecurityContactsOperations.update

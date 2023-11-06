@@ -87,7 +87,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either ManagedInstanceEncryptionProtector
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceEncryptionProtector>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceEncryptionProtector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ManagedInstanceEncryptionProtectorsOperations.begin_revalidate
@@ -140,7 +140,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ManagedInstanceEncryptionProtectorsOperations.get
@@ -203,7 +203,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceEncryptionProtectorListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceEncryptionProtectorListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceEncryptionProtectorListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

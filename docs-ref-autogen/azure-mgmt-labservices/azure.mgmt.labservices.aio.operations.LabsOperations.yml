@@ -77,7 +77,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Lab or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.labservices.models.Lab>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.labservices.models.Lab>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabsOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabsOperations.begin_publish
@@ -192,7 +192,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabsOperations.begin_sync_group
@@ -248,7 +248,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabsOperations.begin_update
@@ -316,7 +316,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Lab or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.labservices.models.Lab>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.labservices.models.Lab>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabsOperations.get
@@ -375,7 +375,7 @@ methods:
   return:
     description: An iterator like instance of either Lab or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.labservices.models.Lab>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.labservices.models.Lab>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.LabsOperations.list_by_subscription
@@ -398,7 +398,7 @@ methods:
   return:
     description: An iterator like instance of either Lab or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.labservices.models.Lab>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.labservices.models.Lab>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

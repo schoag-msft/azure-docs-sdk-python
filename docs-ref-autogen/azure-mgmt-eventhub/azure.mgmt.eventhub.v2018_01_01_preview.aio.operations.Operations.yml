@@ -23,7 +23,7 @@ methods:
   return:
     description: An iterator like instance of either Operation or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2018_01_01_preview.models.Operation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2018_01_01_preview.models.Operation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

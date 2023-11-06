@@ -146,7 +146,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.SqlPoolBlobAuditingPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.SqlPoolBlobAuditingPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

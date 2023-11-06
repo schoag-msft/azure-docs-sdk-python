@@ -120,7 +120,7 @@ methods:
     description: An iterator like instance of either ConfigurationListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.advisor.models.ConfigurationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.advisor.models.ConfigurationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.advisor.aio.operations.ConfigurationsOperations.list_by_subscription
@@ -142,7 +142,7 @@ methods:
     description: An iterator like instance of either ConfigurationListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.advisor.models.ConfigurationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.advisor.models.ConfigurationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

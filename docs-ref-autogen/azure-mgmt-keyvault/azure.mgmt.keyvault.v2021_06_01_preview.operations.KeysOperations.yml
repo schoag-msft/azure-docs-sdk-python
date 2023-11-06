@@ -162,7 +162,7 @@ methods:
   return:
     description: An iterator like instance of either Key or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.keyvault.v2021_06_01_preview.models.Key>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.keyvault.v2021_06_01_preview.models.Key>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2021_06_01_preview.operations.KeysOperations.list_versions
@@ -197,7 +197,7 @@ methods:
   return:
     description: An iterator like instance of either Key or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.keyvault.v2021_06_01_preview.models.Key>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.keyvault.v2021_06_01_preview.models.Key>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

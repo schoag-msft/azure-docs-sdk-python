@@ -47,7 +47,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automanage.models.ServicePrincipalListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automanage.models.ServicePrincipalListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

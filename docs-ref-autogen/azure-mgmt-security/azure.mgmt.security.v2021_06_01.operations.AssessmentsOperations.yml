@@ -145,7 +145,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2021_06_01.models.SecurityAssessmentResponse>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2021_06_01.models.SecurityAssessmentResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

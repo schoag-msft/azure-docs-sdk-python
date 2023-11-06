@@ -76,7 +76,7 @@ methods:
     description: An instance of LROPoller that returns either ManagedCCF or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.confidentialledger.models.ManagedCCF>]
+    - <xref:LROPoller>[<xref:azure.mgmt.confidentialledger.models.ManagedCCF>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.confidentialledger.operations.ManagedCCFOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.confidentialledger.operations.ManagedCCFOperations.begin_update
@@ -197,7 +197,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.confidentialledger.operations.ManagedCCFOperations.get
@@ -264,7 +264,7 @@ methods:
   return:
     description: An iterator like instance of either ManagedCCF or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ManagedCCF>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ManagedCCF>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.confidentialledger.operations.ManagedCCFOperations.list_by_subscription
@@ -291,7 +291,7 @@ methods:
   return:
     description: An iterator like instance of either ManagedCCF or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ManagedCCF>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.confidentialledger.models.ManagedCCF>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

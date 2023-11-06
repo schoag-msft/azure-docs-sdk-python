@@ -88,7 +88,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowRunActionRepetitionDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowRunActionRepetitionDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.WorkflowRunActionRepetitionsOperations.list_expression_traces
@@ -130,7 +130,7 @@ methods:
     description: An iterator like instance of either ExpressionRoot or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.ExpressionRoot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.ExpressionRoot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

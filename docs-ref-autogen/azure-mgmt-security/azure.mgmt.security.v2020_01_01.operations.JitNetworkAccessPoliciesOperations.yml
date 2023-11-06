@@ -221,7 +221,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2020_01_01.operations.JitNetworkAccessPoliciesOperations.list_by_region
@@ -250,7 +250,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2020_01_01.operations.JitNetworkAccessPoliciesOperations.list_by_resource_group
@@ -279,7 +279,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2020_01_01.operations.JitNetworkAccessPoliciesOperations.list_by_resource_group_and_region
@@ -317,7 +317,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.JitNetworkAccessPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -81,7 +81,7 @@ methods:
     description: An instance of LROPoller that returns either Workspace or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.healthcareapis.models.Workspace>]
+    - <xref:LROPoller>[<xref:azure.mgmt.healthcareapis.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.operations.WorkspacesOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.operations.WorkspacesOperations.begin_update
@@ -182,7 +182,7 @@ methods:
     description: An instance of LROPoller that returns either Workspace or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.healthcareapis.models.Workspace>]
+    - <xref:LROPoller>[<xref:azure.mgmt.healthcareapis.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.operations.WorkspacesOperations.get
@@ -229,7 +229,7 @@ methods:
     description: An iterator like instance of either WorkspaceList or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.healthcareapis.models.WorkspaceList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.healthcareapis.models.WorkspaceList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.operations.WorkspacesOperations.list_by_subscription
@@ -245,7 +245,7 @@ methods:
     description: An iterator like instance of either WorkspaceList or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.healthcareapis.models.WorkspaceList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.healthcareapis.models.WorkspaceList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

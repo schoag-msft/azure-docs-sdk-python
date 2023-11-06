@@ -34,7 +34,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.PerimeterAssociableResource>]
+    - <xref:ItemPaged>[<xref:PerimeterAssociableResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

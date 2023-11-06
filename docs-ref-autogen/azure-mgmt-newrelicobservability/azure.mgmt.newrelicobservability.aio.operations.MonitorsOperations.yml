@@ -76,7 +76,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.newrelicobservability.models.NewRelicMonitorResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.newrelicobservability.models.NewRelicMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.newrelicobservability.aio.operations.MonitorsOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.newrelicobservability.aio.operations.MonitorsOperations.get
@@ -291,7 +291,7 @@ methods:
     description: An iterator like instance of either AppServiceInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.AppServiceInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.AppServiceInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.newrelicobservability.aio.operations.MonitorsOperations.list_by_resource_group
@@ -316,7 +316,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.NewRelicMonitorResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.NewRelicMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.newrelicobservability.aio.operations.MonitorsOperations.list_by_subscription
@@ -334,7 +334,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.NewRelicMonitorResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.NewRelicMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.newrelicobservability.aio.operations.MonitorsOperations.list_hosts
@@ -378,7 +378,7 @@ methods:
   return:
     description: An iterator like instance of either VMInfo or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.VMInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.VMInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.newrelicobservability.aio.operations.MonitorsOperations.list_monitored_resources
@@ -407,7 +407,7 @@ methods:
     description: An iterator like instance of either MonitoredResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.MonitoredResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.MonitoredResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.newrelicobservability.aio.operations.MonitorsOperations.switch_billing

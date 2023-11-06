@@ -142,7 +142,7 @@ methods:
     description: An iterator like instance of either ResourceLink or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.links.v2016_09_01.models.ResourceLink>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.links.v2016_09_01.models.ResourceLink>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.links.v2016_09_01.operations.ResourceLinksOperations.list_at_subscription
@@ -169,7 +169,7 @@ methods:
     description: An iterator like instance of either ResourceLink or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.links.v2016_09_01.models.ResourceLink>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.links.v2016_09_01.models.ResourceLink>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

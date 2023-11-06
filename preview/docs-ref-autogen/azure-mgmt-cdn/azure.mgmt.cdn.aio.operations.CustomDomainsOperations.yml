@@ -87,7 +87,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cdn.models.CustomDomain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cdn.models.CustomDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.CustomDomainsOperations.begin_delete
@@ -151,7 +151,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cdn.models.CustomDomain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cdn.models.CustomDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.CustomDomainsOperations.begin_disable_custom_https
@@ -215,7 +215,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cdn.models.CustomDomain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cdn.models.CustomDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.CustomDomainsOperations.begin_enable_custom_https
@@ -301,7 +301,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cdn.models.CustomDomain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cdn.models.CustomDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.CustomDomainsOperations.get
@@ -377,7 +377,7 @@ methods:
     description: An iterator like instance of either CustomDomain or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cdn.models.CustomDomain>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cdn.models.CustomDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -96,7 +96,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.begin_delete
@@ -149,8 +149,8 @@ methods:
 
       LROPoller that returns either ErrorDetails or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothub.v2021_07_02.models.ErrorDetails>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothub.v2021_07_02.models.ErrorDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.begin_update
@@ -220,7 +220,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.check_name_availability
@@ -465,7 +465,7 @@ methods:
     description: An iterator like instance of either EndpointHealthData or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.EndpointHealthData>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.EndpointHealthData>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.get_event_hub_consumer_group
@@ -617,7 +617,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubQuotaMetricInfo>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubQuotaMetricInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.get_stats
@@ -678,7 +678,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubSkuDescription>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubSkuDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.import_devices
@@ -756,7 +756,7 @@ methods:
     description: An iterator like instance of either IotHubDescription or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.list_by_subscription
@@ -775,7 +775,7 @@ methods:
     description: An iterator like instance of either IotHubDescription or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.IotHubDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.list_event_hub_consumer_groups
@@ -818,7 +818,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.EventHubConsumerGroupInfo>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.EventHubConsumerGroupInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.list_jobs
@@ -852,7 +852,7 @@ methods:
     description: An iterator like instance of either JobResponse or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.JobResponse>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.JobResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.list_keys
@@ -888,7 +888,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.SharedAccessSignatureAuthorizationRule>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2021_07_02.models.SharedAccessSignatureAuthorizationRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2021_07_02.operations.IotHubResourceOperations.test_all_routes

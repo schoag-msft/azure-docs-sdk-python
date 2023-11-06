@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulesResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulesResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.operations.LocalRulesOperations.begin_delete
@@ -136,7 +136,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.operations.LocalRulesOperations.get
@@ -236,7 +236,7 @@ methods:
     description: An iterator like instance of either LocalRulesResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulesResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.paloaltonetworksngfw.models.LocalRulesResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.paloaltonetworksngfw.operations.LocalRulesOperations.refresh_counters

@@ -77,7 +77,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.analytics.account.operations.AccountsOperations.begin_delete
@@ -128,7 +128,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.analytics.account.operations.AccountsOperations.begin_update
@@ -197,7 +197,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.analytics.account.operations.AccountsOperations.check_name_availability
@@ -329,7 +329,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountBasic>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountBasic>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datalake.analytics.account.operations.AccountsOperations.list_by_resource_group
@@ -407,7 +407,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountBasic>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountBasic>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

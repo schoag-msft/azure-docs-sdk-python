@@ -80,7 +80,7 @@ methods:
     description: An instance of LROPoller that returns either BillingProfile or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.billing.models.BillingProfile>]
+    - <xref:LROPoller>[<xref:azure.mgmt.billing.models.BillingProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.BillingProfilesOperations.get
@@ -145,7 +145,7 @@ methods:
     description: An iterator like instance of either BillingProfileListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.BillingProfileListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.BillingProfileListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

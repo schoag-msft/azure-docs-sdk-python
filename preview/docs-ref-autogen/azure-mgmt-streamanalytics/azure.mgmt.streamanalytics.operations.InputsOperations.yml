@@ -96,7 +96,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.streamanalytics.models.ResourceTestStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.streamanalytics.models.ResourceTestStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.InputsOperations.create_or_replace
@@ -277,7 +277,7 @@ methods:
   return:
     description: An iterator like instance of either Input or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.streamanalytics.models.Input>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.streamanalytics.models.Input>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.InputsOperations.update

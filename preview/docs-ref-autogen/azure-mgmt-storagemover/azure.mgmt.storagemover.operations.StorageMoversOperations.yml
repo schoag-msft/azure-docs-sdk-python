@@ -58,7 +58,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagemover.operations.StorageMoversOperations.create_or_update
@@ -150,7 +150,7 @@ methods:
     description: An iterator like instance of either StorageMover or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storagemover.models.StorageMover>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storagemover.models.StorageMover>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagemover.operations.StorageMoversOperations.list_by_subscription
@@ -166,7 +166,7 @@ methods:
     description: An iterator like instance of either StorageMover or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.storagemover.models.StorageMover>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.storagemover.models.StorageMover>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagemover.operations.StorageMoversOperations.update

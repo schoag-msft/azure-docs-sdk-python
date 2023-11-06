@@ -67,7 +67,7 @@ methods:
     description: BackupCertificateResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.BackupCertificateResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.backup_key
@@ -140,7 +140,7 @@ methods:
     description: BackupKeyResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.BackupKeyResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.backup_secret
@@ -189,7 +189,7 @@ methods:
     description: BackupSecretResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.BackupSecretResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.backup_storage_account
@@ -236,7 +236,7 @@ methods:
     description: BackupStorageResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.BackupStorageResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.create_certificate
@@ -302,7 +302,7 @@ methods:
     description: CertificateOperation or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateOperation>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.create_key
@@ -398,7 +398,7 @@ methods:
     description: KeyBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.decrypt
@@ -474,7 +474,7 @@ methods:
     description: KeyOperationResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyOperationResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.delete_certificate
@@ -525,7 +525,7 @@ methods:
     description: DeletedCertificateBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedCertificateBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.delete_certificate_contacts
@@ -567,7 +567,7 @@ methods:
     description: Contacts or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.Contacts>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.delete_certificate_issuer
@@ -616,7 +616,7 @@ methods:
     description: IssuerBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.IssuerBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.delete_certificate_operation
@@ -665,7 +665,7 @@ methods:
     description: CertificateOperation or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateOperation>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.delete_key
@@ -718,7 +718,7 @@ methods:
     description: DeletedKeyBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedKeyBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.delete_sas_definition
@@ -767,7 +767,7 @@ methods:
     description: DeletedSasDefinitionBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedSasDefinitionBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.delete_secret
@@ -816,7 +816,7 @@ methods:
     description: DeletedSecretBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedSecretBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.delete_storage_account
@@ -860,7 +860,7 @@ methods:
     description: DeletedStorageBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedStorageBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.encrypt
@@ -942,7 +942,7 @@ methods:
     description: KeyOperationResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyOperationResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_certificate
@@ -996,7 +996,7 @@ methods:
     description: CertificateBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_certificate_contacts
@@ -1040,7 +1040,7 @@ methods:
     description: Contacts or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.Contacts>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_certificate_issuer
@@ -1089,7 +1089,7 @@ methods:
     description: IssuerBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.IssuerBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_certificate_issuers
@@ -1186,7 +1186,7 @@ methods:
     description: CertificateOperation or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateOperation>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_certificate_policy
@@ -1237,7 +1237,7 @@ methods:
     description: CertificatePolicy or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificatePolicy>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_certificate_versions
@@ -1400,7 +1400,7 @@ methods:
     description: DeletedCertificateBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedCertificateBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_deleted_certificates
@@ -1514,7 +1514,7 @@ methods:
     description: DeletedKeyBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedKeyBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_deleted_keys
@@ -1626,7 +1626,7 @@ methods:
     description: DeletedSasDefinitionBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedSasDefinitionBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_deleted_sas_definitions
@@ -1732,7 +1732,7 @@ methods:
     description: DeletedSecretBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedSecretBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_deleted_secrets
@@ -1831,7 +1831,7 @@ methods:
     description: DeletedStorageBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.DeletedStorageBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_deleted_storage_accounts
@@ -1937,7 +1937,7 @@ methods:
     description: KeyBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_key_versions
@@ -2095,7 +2095,7 @@ methods:
     description: SasDefinitionBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.SasDefinitionBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_sas_definitions
@@ -2197,7 +2197,7 @@ methods:
     description: SecretBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.SecretBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_secret_versions
@@ -2348,7 +2348,7 @@ methods:
     description: StorageBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.StorageBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.get_storage_accounts
@@ -2482,7 +2482,7 @@ methods:
     description: CertificateBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.import_key
@@ -2557,7 +2557,7 @@ methods:
     description: KeyBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.merge_certificate
@@ -2629,7 +2629,7 @@ methods:
     description: CertificateBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.purge_deleted_certificate
@@ -2680,7 +2680,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.purge_deleted_key
@@ -2731,7 +2731,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.purge_deleted_secret
@@ -2782,7 +2782,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.purge_deleted_storage_account
@@ -2833,7 +2833,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.recover_deleted_certificate
@@ -2888,7 +2888,7 @@ methods:
     description: CertificateBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.recover_deleted_key
@@ -2943,7 +2943,7 @@ methods:
     description: KeyBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.recover_deleted_sas_definition
@@ -2997,7 +2997,7 @@ methods:
     description: SasDefinitionBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.SasDefinitionBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.recover_deleted_secret
@@ -3046,7 +3046,7 @@ methods:
     description: SecretBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.SecretBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.recover_deleted_storage_account
@@ -3095,7 +3095,7 @@ methods:
     description: StorageBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.StorageBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.regenerate_storage_account_key
@@ -3144,7 +3144,7 @@ methods:
     description: StorageBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.StorageBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.restore_certificate
@@ -3193,7 +3193,7 @@ methods:
     description: CertificateBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.restore_key
@@ -3266,7 +3266,7 @@ methods:
     description: KeyBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.restore_secret
@@ -3315,7 +3315,7 @@ methods:
     description: SecretBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.SecretBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.restore_storage_account
@@ -3364,7 +3364,7 @@ methods:
     description: StorageBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.StorageBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.set_certificate_contacts
@@ -3411,7 +3411,7 @@ methods:
     description: Contacts or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.Contacts>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.set_certificate_issuer
@@ -3482,7 +3482,7 @@ methods:
     description: IssuerBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.IssuerBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.set_sas_definition
@@ -3570,7 +3570,7 @@ methods:
     description: SasDefinitionBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.SasDefinitionBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.set_secret
@@ -3641,7 +3641,7 @@ methods:
     description: SecretBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.SecretBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.set_storage_account
@@ -3724,7 +3724,7 @@ methods:
     description: StorageBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.StorageBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.sign
@@ -3796,7 +3796,7 @@ methods:
     description: KeyOperationResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyOperationResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.unwrap_key
@@ -3868,7 +3868,7 @@ methods:
     description: KeyOperationResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyOperationResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.update_certificate
@@ -3944,7 +3944,7 @@ methods:
     description: CertificateBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.update_certificate_issuer
@@ -4016,7 +4016,7 @@ methods:
     description: IssuerBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.IssuerBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.update_certificate_operation
@@ -4070,7 +4070,7 @@ methods:
     description: CertificateOperation or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificateOperation>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.update_certificate_policy
@@ -4124,7 +4124,7 @@ methods:
     description: CertificatePolicy or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.CertificatePolicy>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.update_key
@@ -4201,7 +4201,7 @@ methods:
     description: KeyBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.update_sas_definition
@@ -4289,7 +4289,7 @@ methods:
     description: SasDefinitionBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.SasDefinitionBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.update_secret
@@ -4364,7 +4364,7 @@ methods:
     description: SecretBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.SecretBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.update_storage_account
@@ -4442,7 +4442,7 @@ methods:
     description: StorageBundle or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.StorageBundle>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.verify
@@ -4528,7 +4528,7 @@ methods:
     description: KeyVerifyResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyVerifyResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException
 - uid: azure.keyvault.v7_0.key_vault_client.KeyVaultClient.wrap_key
@@ -4604,6 +4604,6 @@ methods:
     description: KeyOperationResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.keyvault.v7_0.models.KeyOperationResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.keyvault.v7_0.models.KeyVaultErrorException

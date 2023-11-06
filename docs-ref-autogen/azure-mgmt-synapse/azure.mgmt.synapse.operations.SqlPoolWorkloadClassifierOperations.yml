@@ -96,7 +96,7 @@ methods:
     description: An instance of LROPoller that returns either WorkloadClassifier or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.WorkloadClassifier>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.WorkloadClassifier>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.SqlPoolWorkloadClassifierOperations.begin_delete
@@ -159,7 +159,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.SqlPoolWorkloadClassifierOperations.get
@@ -243,7 +243,7 @@ methods:
     description: An iterator like instance of either WorkloadClassifierListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.WorkloadClassifierListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.WorkloadClassifierListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

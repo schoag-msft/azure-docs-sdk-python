@@ -89,7 +89,7 @@ methods:
     description: ContainerLogs or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ContainerLogs>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 attributes:

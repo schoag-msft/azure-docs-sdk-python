@@ -73,7 +73,7 @@ methods:
     description: An instance of LROPoller that returns either Domain or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.web.v2020_09_01.models.Domain>]
+    - <xref:LROPoller>[<xref:azure.mgmt.web.v2020_09_01.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_09_01.operations.DomainsOperations.check_availability
@@ -331,7 +331,7 @@ methods:
   return:
     description: An iterator like instance of either Domain or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2020_09_01.models.Domain>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2020_09_01.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_09_01.operations.DomainsOperations.list_by_resource_group
@@ -354,7 +354,7 @@ methods:
   return:
     description: An iterator like instance of either Domain or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2020_09_01.models.Domain>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2020_09_01.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_09_01.operations.DomainsOperations.list_ownership_identifiers
@@ -386,7 +386,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2020_09_01.models.DomainOwnershipIdentifier>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2020_09_01.models.DomainOwnershipIdentifier>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_09_01.operations.DomainsOperations.list_recommendations
@@ -420,7 +420,7 @@ methods:
     description: An iterator like instance of either NameIdentifier or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2020_09_01.models.NameIdentifier>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2020_09_01.models.NameIdentifier>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_09_01.operations.DomainsOperations.renew

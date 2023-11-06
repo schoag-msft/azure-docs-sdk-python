@@ -115,7 +115,7 @@ methods:
     description: An instance of LROPoller that returns either SupportTicketDetails
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.support.models.SupportTicketDetails>]
+    - <xref:LROPoller>[<xref:azure.mgmt.support.models.SupportTicketDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.support.operations.SupportTicketsOperations.check_name_availability
@@ -217,7 +217,7 @@ methods:
     description: An iterator like instance of either SupportTicketsListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.support.models.SupportTicketsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.support.models.SupportTicketsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.support.operations.SupportTicketsOperations.update

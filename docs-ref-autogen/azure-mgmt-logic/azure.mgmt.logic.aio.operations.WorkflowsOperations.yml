@@ -81,7 +81,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.WorkflowsOperations.create_or_update
@@ -283,7 +283,7 @@ methods:
     description: An iterator like instance of either WorkflowListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.WorkflowsOperations.list_by_subscription
@@ -314,7 +314,7 @@ methods:
     description: An iterator like instance of either WorkflowListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.WorkflowsOperations.list_callback_url

@@ -53,7 +53,7 @@ methods:
     description: An iterator like instance of either AscLocation or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2015_06_01_preview.models.AscLocation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2015_06_01_preview.models.AscLocation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -66,7 +66,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableMongodbCollectionGetResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableMongodbCollectionGetResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

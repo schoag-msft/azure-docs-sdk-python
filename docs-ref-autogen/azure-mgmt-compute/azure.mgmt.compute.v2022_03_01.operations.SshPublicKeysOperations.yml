@@ -159,7 +159,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2022_03_01.models.SshPublicKeyResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2022_03_01.models.SshPublicKeyResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2022_03_01.operations.SshPublicKeysOperations.list_by_subscription
@@ -180,7 +180,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2022_03_01.models.SshPublicKeyResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2022_03_01.models.SshPublicKeyResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2022_03_01.operations.SshPublicKeysOperations.update

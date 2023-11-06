@@ -36,7 +36,7 @@ methods:
   return:
     description: An iterator like instance of either Server or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.Server>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

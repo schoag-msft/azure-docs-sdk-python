@@ -75,7 +75,7 @@ methods:
     description: An instance of LROPoller that returns either VaultModel or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.VaultModel>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.VaultModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.operations.VaultOperations.begin_delete
@@ -128,7 +128,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.operations.VaultOperations.begin_update
@@ -197,7 +197,7 @@ methods:
     description: An instance of LROPoller that returns either VaultModel or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.VaultModel>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.VaultModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.operations.VaultOperations.get
@@ -260,7 +260,7 @@ methods:
   return:
     description: An iterator like instance of either VaultModel or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.VaultModel>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.VaultModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.operations.VaultOperations.list_by_subscription
@@ -286,7 +286,7 @@ methods:
   return:
     description: An iterator like instance of either VaultModel or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.VaultModel>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.VaultModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

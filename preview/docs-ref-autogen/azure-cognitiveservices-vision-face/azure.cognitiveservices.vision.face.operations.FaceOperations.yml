@@ -253,7 +253,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.DetectedFace>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceOperations.detect_with_url
@@ -472,7 +472,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.DetectedFace>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceOperations.find_similar
@@ -621,7 +621,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.SimilarFace>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceOperations.group
@@ -687,7 +687,7 @@ methods:
     description: GroupResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.GroupResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceOperations.identify
@@ -825,7 +825,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.vision.face.models.IdentifyResult>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceOperations.verify_face_to_face
@@ -889,7 +889,7 @@ methods:
     description: VerifyResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.VerifyResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 - uid: azure.cognitiveservices.vision.face.operations.FaceOperations.verify_face_to_person
@@ -957,7 +957,7 @@ methods:
     description: VerifyResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.face.models.VerifyResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.face.models.APIErrorException
 attributes:

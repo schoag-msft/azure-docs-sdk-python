@@ -124,7 +124,7 @@ methods:
     description: An iterator like instance of either AvailabilitySet or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_03_30.models.AvailabilitySet>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_03_30.models.AvailabilitySet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_03_30.aio.operations.AvailabilitySetsOperations.list_available_sizes
@@ -154,7 +154,7 @@ methods:
     description: An iterator like instance of either VirtualMachineSize or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_03_30.models.VirtualMachineSize>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_03_30.models.VirtualMachineSize>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_03_30.aio.operations.AvailabilitySetsOperations.list_by_subscription
@@ -178,7 +178,7 @@ methods:
     description: An iterator like instance of either AvailabilitySet or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_03_30.models.AvailabilitySet>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2016_03_30.models.AvailabilitySet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

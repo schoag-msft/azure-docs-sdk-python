@@ -86,7 +86,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.EncryptionProtector>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.EncryptionProtector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.WorkspaceManagedSqlServerEncryptionProtectorOperations.begin_revalidate
@@ -145,7 +145,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.WorkspaceManagedSqlServerEncryptionProtectorOperations.get
@@ -214,7 +214,7 @@ methods:
     description: An iterator like instance of either EncryptionProtector or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.EncryptionProtector>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.EncryptionProtector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

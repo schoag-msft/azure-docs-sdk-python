@@ -85,7 +85,7 @@ methods:
     description: An iterator like instance of either VerifiedPartner or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.VerifiedPartner>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.VerifiedPartner>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

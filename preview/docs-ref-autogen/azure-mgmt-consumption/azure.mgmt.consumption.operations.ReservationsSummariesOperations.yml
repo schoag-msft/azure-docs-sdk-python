@@ -90,7 +90,7 @@ methods:
     description: An iterator like instance of either ReservationSummary or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.consumption.operations.ReservationsSummariesOperations.list_by_reservation_order
@@ -127,7 +127,7 @@ methods:
     description: An iterator like instance of either ReservationSummary or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.consumption.operations.ReservationsSummariesOperations.list_by_reservation_order_and_reservation
@@ -170,7 +170,7 @@ methods:
     description: An iterator like instance of either ReservationSummary or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.consumption.models.ReservationSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

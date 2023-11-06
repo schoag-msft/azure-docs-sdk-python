@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cdn.models.AFDDomain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cdn.models.AFDDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.AFDCustomDomainsOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.AFDCustomDomainsOperations.begin_refresh_validation_token
@@ -200,7 +200,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.AFDCustomDomainsOperations.begin_update
@@ -275,7 +275,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cdn.models.AFDDomain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.cdn.models.AFDDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.aio.operations.AFDCustomDomainsOperations.get
@@ -343,7 +343,7 @@ methods:
   return:
     description: An iterator like instance of either AFDDomain or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cdn.models.AFDDomain>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cdn.models.AFDDomain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

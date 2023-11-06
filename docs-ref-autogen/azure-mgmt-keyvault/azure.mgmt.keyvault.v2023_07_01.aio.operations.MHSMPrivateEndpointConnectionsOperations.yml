@@ -68,7 +68,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.keyvault.v2023_07_01.models.MHSMPrivateEndpointConnection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.keyvault.v2023_07_01.models.MHSMPrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.aio.operations.MHSMPrivateEndpointConnectionsOperations.get
@@ -138,7 +138,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.MHSMPrivateEndpointConnection>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.keyvault.v2023_07_01.models.MHSMPrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.keyvault.v2023_07_01.aio.operations.MHSMPrivateEndpointConnectionsOperations.put

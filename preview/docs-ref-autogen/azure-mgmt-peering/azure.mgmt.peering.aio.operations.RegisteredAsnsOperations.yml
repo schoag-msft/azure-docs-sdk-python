@@ -156,7 +156,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.peering.models.PeeringRegisteredAsn>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.peering.models.PeeringRegisteredAsn>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

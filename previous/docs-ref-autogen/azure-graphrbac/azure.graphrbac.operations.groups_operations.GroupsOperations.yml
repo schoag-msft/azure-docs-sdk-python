@@ -79,7 +79,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.groups_operations.GroupsOperations.add_owner
@@ -136,7 +136,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.groups_operations.GroupsOperations.create
@@ -170,7 +170,7 @@ methods:
     description: ADGroup or ClientRawResponse if raw=true
     types:
     - <xref:azure.graphrbac.models.ADGroup>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.groups_operations.GroupsOperations.delete
@@ -204,7 +204,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.groups_operations.GroupsOperations.get
@@ -240,7 +240,7 @@ methods:
     description: ADGroup or ClientRawResponse if raw=true
     types:
     - <xref:azure.graphrbac.models.ADGroup>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.groups_operations.GroupsOperations.get_group_members
@@ -365,7 +365,7 @@ methods:
     description: CheckGroupMembershipResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.graphrbac.models.CheckGroupMembershipResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.groups_operations.GroupsOperations.list
@@ -478,7 +478,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.groups_operations.GroupsOperations.remove_owner
@@ -520,7 +520,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 attributes:

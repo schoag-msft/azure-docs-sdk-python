@@ -62,7 +62,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableDatabaseAccountGetResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableDatabaseAccountGetResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.RestorableDatabaseAccountsOperations.list_by_location
@@ -92,7 +92,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableDatabaseAccountGetResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.cosmosdb.models.RestorableDatabaseAccountGetResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

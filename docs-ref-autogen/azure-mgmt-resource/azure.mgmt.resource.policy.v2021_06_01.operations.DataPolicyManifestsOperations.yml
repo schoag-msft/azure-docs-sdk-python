@@ -76,7 +76,7 @@ methods:
     description: An iterator like instance of either DataPolicyManifest or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.DataPolicyManifest>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.policy.v2021_06_01.models.DataPolicyManifest>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

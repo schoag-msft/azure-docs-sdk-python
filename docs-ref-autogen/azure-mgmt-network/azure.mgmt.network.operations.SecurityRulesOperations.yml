@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.SecurityRule>]
+    - <xref:LROPoller>[<xref:SecurityRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SecurityRulesOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SecurityRulesOperations.get
@@ -162,7 +162,7 @@ methods:
   return:
     description: SecurityRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SecurityRule>
+    - <xref:SecurityRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.SecurityRulesOperations.list
@@ -189,7 +189,7 @@ methods:
     description: An iterator like instance of either SecurityRule or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.SecurityRule>]
+    - <xref:ItemPaged>[<xref:SecurityRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

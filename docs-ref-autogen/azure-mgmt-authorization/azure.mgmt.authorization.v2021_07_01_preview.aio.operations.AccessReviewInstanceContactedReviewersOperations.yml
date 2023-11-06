@@ -36,7 +36,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.authorization.v2021_07_01_preview.models.AccessReviewContactedReviewer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.authorization.v2021_07_01_preview.models.AccessReviewContactedReviewer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

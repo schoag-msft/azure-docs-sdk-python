@@ -169,7 +169,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.loganalytics.models.LogAnalyticsQueryPack>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.loganalytics.models.LogAnalyticsQueryPack>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.operations.QueryPacksOperations.list_by_resource_group
@@ -194,7 +194,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.loganalytics.models.LogAnalyticsQueryPack>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.loganalytics.models.LogAnalyticsQueryPack>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.operations.QueryPacksOperations.update_tags

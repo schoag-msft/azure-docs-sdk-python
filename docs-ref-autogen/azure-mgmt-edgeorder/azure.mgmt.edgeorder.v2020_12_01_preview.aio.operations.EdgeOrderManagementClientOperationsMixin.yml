@@ -62,7 +62,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either AddressResource
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.begin_create_order_item
@@ -114,7 +114,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either OrderItemResource
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.begin_delete_address_by_name
@@ -163,7 +163,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.begin_delete_order_item_by_name
@@ -207,7 +207,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.begin_return_order_item
@@ -256,7 +256,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.begin_update_address
@@ -319,7 +319,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either AddressResource
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.begin_update_order_item
@@ -377,7 +377,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either OrderItemResource
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.cancel_order_item
@@ -548,7 +548,7 @@ methods:
     description: An iterator like instance of either AddressResourceList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResourceList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResourceList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.list_addresses_at_subscription_level
@@ -581,7 +581,7 @@ methods:
     description: An iterator like instance of either AddressResourceList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResourceList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.AddressResourceList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.list_configurations
@@ -614,7 +614,7 @@ methods:
     description: An iterator like instance of either Configurations or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.Configurations>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.Configurations>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.list_operations
@@ -630,7 +630,7 @@ methods:
     description: An iterator like instance of either OperationListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OperationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OperationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.list_order_at_resource_group_level
@@ -660,7 +660,7 @@ methods:
     description: An iterator like instance of either OrderResourceList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderResourceList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderResourceList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.list_order_at_subscription_level
@@ -685,7 +685,7 @@ methods:
     description: An iterator like instance of either OrderResourceList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderResourceList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderResourceList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.list_order_items_at_resource_group_level
@@ -738,7 +738,7 @@ methods:
     description: An iterator like instance of either OrderItemResourceList or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResourceList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResourceList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.list_order_items_at_subscription_level
@@ -785,7 +785,7 @@ methods:
     description: An iterator like instance of either OrderItemResourceList or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResourceList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.OrderItemResourceList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.list_product_families
@@ -823,7 +823,7 @@ methods:
     description: An iterator like instance of either ProductFamilies or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ProductFamilies>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ProductFamilies>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.edgeorder.v2020_12_01_preview.aio.operations.EdgeOrderManagementClientOperationsMixin.list_product_families_metadata
@@ -849,6 +849,6 @@ methods:
     description: An iterator like instance of either ProductFamiliesMetadata or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ProductFamiliesMetadata>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.edgeorder.v2020_12_01_preview.models.ProductFamiliesMetadata>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError

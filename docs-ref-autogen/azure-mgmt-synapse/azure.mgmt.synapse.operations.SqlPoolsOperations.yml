@@ -85,7 +85,7 @@ methods:
     description: An instance of LROPoller that returns either SqlPool or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.SqlPoolsOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of LROPoller that returns either object or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:object>]
+    - <xref:LROPoller>[<xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.SqlPoolsOperations.begin_pause
@@ -189,7 +189,7 @@ methods:
     description: An instance of LROPoller that returns either object or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:object>]
+    - <xref:LROPoller>[<xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.SqlPoolsOperations.begin_resume
@@ -241,7 +241,7 @@ methods:
     description: An instance of LROPoller that returns either object or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:object>]
+    - <xref:LROPoller>[<xref:object>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.SqlPoolsOperations.get
@@ -305,7 +305,7 @@ methods:
     description: An iterator like instance of either SqlPoolInfoListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.SqlPoolInfoListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.SqlPoolInfoListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.SqlPoolsOperations.rename

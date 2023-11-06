@@ -114,7 +114,7 @@ attributes:
     the body could be any type.'
   return:
     types:
-    - <xref:Any>
+    - <xref:typing.Any>
 - uid: azure.servicebus.ServiceBusMessage.body_type
   name: body_type
   summary: The body type of the underlying AMQP message.
@@ -263,7 +263,7 @@ attributes:
     *scheduled_enqueue_time_utc* is None if not set.'
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
 - uid: azure.servicebus.ServiceBusMessage.session_id
   name: session_id
   summary: 'The session identifier of the message for a sessionful entity.
@@ -317,7 +317,7 @@ attributes:
     See Expiration in *https://docs.microsoft.com/azure/service-bus-messaging/message-expiration*'
   return:
     types:
-    - <xref:datetime.timedelta>
+    - <xref:timedelta>
 - uid: azure.servicebus.ServiceBusMessage.to
   name: to
   summary: 'The *to* address.

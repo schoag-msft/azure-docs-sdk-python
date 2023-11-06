@@ -162,7 +162,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.ProjectEnvironmentType>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devcenter.models.ProjectEnvironmentType>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.aio.operations.ProjectEnvironmentTypesOperations.update

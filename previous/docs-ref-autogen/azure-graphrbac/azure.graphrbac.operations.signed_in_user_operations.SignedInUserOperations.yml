@@ -51,7 +51,7 @@ methods:
     description: User or ClientRawResponse if raw=true
     types:
     - <xref:azure.graphrbac.models.User>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.signed_in_user_operations.SignedInUserOperations.list_owned_objects

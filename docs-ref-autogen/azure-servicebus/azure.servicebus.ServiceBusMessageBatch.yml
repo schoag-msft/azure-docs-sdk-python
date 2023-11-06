@@ -72,7 +72,7 @@ attributes:
     \ is deprecated and will be removed in a later release."
   return:
     types:
-    - <xref:uamqp.BatchMessage>
+    - <xref:BatchMessage>
     - <xref:LegacyBatchMessage>
 - uid: azure.servicebus.ServiceBusMessageBatch.size_in_bytes
   name: size_in_bytes

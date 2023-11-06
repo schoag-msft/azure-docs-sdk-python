@@ -55,7 +55,7 @@ methods:
     description: An iterator like instance of either NetworkFunctionSkuDetails or
       the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:hybrid_network_management_client.models.NetworkFunctionSkuDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunctionSkuDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.aio.operations.NetworkFunctionVendorSkusOperations.list_by_vendor
@@ -76,7 +76,7 @@ methods:
     description: An iterator like instance of either NetworkFunctionSkuListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:hybrid_network_management_client.models.NetworkFunctionSkuListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunctionSkuListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

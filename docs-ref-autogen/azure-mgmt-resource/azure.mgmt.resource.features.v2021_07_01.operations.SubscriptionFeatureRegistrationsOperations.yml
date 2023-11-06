@@ -119,7 +119,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.features.v2021_07_01.models.SubscriptionFeatureRegistration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.features.v2021_07_01.models.SubscriptionFeatureRegistration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.features.v2021_07_01.operations.SubscriptionFeatureRegistrationsOperations.list_by_subscription
@@ -143,7 +143,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.features.v2021_07_01.models.SubscriptionFeatureRegistration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.features.v2021_07_01.models.SubscriptionFeatureRegistration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

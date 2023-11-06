@@ -175,7 +175,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.loganalytics.models.LinkedStorageAccountsResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.loganalytics.models.LinkedStorageAccountsResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

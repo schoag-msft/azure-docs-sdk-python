@@ -602,7 +602,7 @@ methods:
   return:
     description: An iterator like instance of RouterJobItem
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.communication.jobrouter.RouterJobItem>]
+    - <xref:ItemPaged>[<xref:azure.communication.jobrouter.RouterJobItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:
@@ -661,7 +661,7 @@ methods:
   return:
     description: An iterator like instance of RouterWorkerItem
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.communication.jobrouter.RouterWorkerItem>]
+    - <xref:ItemPaged>[<xref:azure.communication.jobrouter.RouterWorkerItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:

@@ -84,7 +84,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Database or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.Database>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.begin_export
@@ -191,7 +191,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either ImportExportOperationResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ImportExportOperationResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ImportExportOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.begin_failover
@@ -248,7 +248,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.begin_import_method
@@ -305,7 +305,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either ImportExportOperationResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ImportExportOperationResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ImportExportOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.begin_pause
@@ -356,7 +356,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Database or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.Database>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.begin_resume
@@ -407,7 +407,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Database or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.Database>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.begin_update
@@ -463,7 +463,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Database or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.Database>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.begin_upgrade_data_warehouse
@@ -514,7 +514,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.get
@@ -581,7 +581,7 @@ methods:
     description: An iterator like instance of either DatabaseListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.list_by_server
@@ -614,7 +614,7 @@ methods:
     description: An iterator like instance of either DatabaseListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.list_inaccessible_by_server
@@ -643,7 +643,7 @@ methods:
     description: An iterator like instance of either DatabaseListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.list_metric_definitions
@@ -677,7 +677,7 @@ methods:
     description: An iterator like instance of either MetricDefinitionListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.MetricDefinitionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.MetricDefinitionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.list_metrics
@@ -717,7 +717,7 @@ methods:
     description: An iterator like instance of either MetricListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.MetricListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.MetricListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabasesOperations.rename

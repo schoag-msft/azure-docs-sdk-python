@@ -63,7 +63,7 @@ methods:
     - <xref:str>
   return:
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.communication.administration.PhoneNumberRelease>]
+    - <xref:LROPoller>[<xref:azure.communication.administration.PhoneNumberRelease>]
 - uid: azure.communication.administration.PhoneNumberAdministrationClient.begin_reserve_phone_numbers
   name: begin_reserve_phone_numbers
   summary: 'Begins creating a phone number search to reserve phone numbers.
@@ -128,7 +128,7 @@ methods:
   return:
     description: Instance of PhoneNumberAdministrationClient.
     types:
-    - <xref:azure.communication.PhoneNumberAdministrationClient>
+    - <xref:azure.communication.administration.PhoneNumberAdministrationClient>
 - uid: azure.communication.administration.PhoneNumberAdministrationClient.get_all_area_codes
   name: get_all_area_codes
   summary: 'Gets a list of the supported area codes.

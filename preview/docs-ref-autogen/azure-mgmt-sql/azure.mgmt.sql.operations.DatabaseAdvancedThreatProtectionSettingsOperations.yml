@@ -143,7 +143,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseAdvancedThreatProtection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseAdvancedThreatProtection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

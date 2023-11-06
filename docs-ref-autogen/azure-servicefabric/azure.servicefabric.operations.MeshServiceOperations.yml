@@ -74,7 +74,7 @@ methods:
     description: ServiceResourceDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.ServiceResourceDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshServiceOperations.list
@@ -117,7 +117,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedServiceResourceDescriptionList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 attributes:

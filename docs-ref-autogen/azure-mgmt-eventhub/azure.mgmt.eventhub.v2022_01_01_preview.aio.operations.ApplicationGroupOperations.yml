@@ -144,7 +144,7 @@ methods:
     description: An iterator like instance of either ApplicationGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2022_01_01_preview.models.ApplicationGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventhub.v2022_01_01_preview.models.ApplicationGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

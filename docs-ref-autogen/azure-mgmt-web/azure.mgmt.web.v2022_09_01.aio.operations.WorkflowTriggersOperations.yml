@@ -66,7 +66,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.WorkflowTriggersOperations.get
@@ -181,7 +181,7 @@ methods:
     description: An iterator like instance of either WorkflowTrigger or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.WorkflowTrigger>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.WorkflowTrigger>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.WorkflowTriggersOperations.list_callback_url

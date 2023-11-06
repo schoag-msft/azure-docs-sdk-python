@@ -180,7 +180,7 @@ methods:
   return:
     description: An iterator like instance of either Table or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storage.v2021_08_01.models.Table>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storage.v2021_08_01.models.Table>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2021_08_01.aio.operations.TableOperations.update

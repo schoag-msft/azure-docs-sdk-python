@@ -483,7 +483,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteBuildARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteBuildARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.aio.operations.StaticSitesOperations.get_static_sites_by_resource_group
@@ -510,7 +510,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.aio.operations.StaticSitesOperations.list
@@ -531,7 +531,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.aio.operations.StaticSitesOperations.list_static_site_build_function_app_settings
@@ -602,7 +602,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteFunctionOverviewARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteFunctionOverviewARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.aio.operations.StaticSitesOperations.list_static_site_custom_domains
@@ -634,7 +634,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteCustomDomainOverviewARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteCustomDomainOverviewARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.aio.operations.StaticSitesOperations.list_static_site_function_app_settings
@@ -695,7 +695,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteFunctionOverviewARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteFunctionOverviewARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.aio.operations.StaticSitesOperations.list_static_site_secrets
@@ -761,7 +761,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteUserARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2020_06_01.models.StaticSiteUserARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2020_06_01.aio.operations.StaticSitesOperations.preview_workflow

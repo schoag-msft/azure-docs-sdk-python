@@ -164,7 +164,7 @@ methods:
     description: An iterator like instance of either DataFlowResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datafactory.models.DataFlowResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datafactory.models.DataFlowResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

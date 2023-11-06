@@ -70,7 +70,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.authorization.v2021_12_01_preview.models.AccessReviewInstance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.authorization.v2021_12_01_preview.models.AccessReviewInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

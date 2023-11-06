@@ -82,7 +82,7 @@ methods:
     description: NodeVMExtension or ClientRawResponse if raw=true
     types:
     - <xref:azure.batch.models.NodeVMExtension>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.batch.models.BatchErrorException
 - uid: azure.batch.operations.ComputeNodeExtensionOperations.list

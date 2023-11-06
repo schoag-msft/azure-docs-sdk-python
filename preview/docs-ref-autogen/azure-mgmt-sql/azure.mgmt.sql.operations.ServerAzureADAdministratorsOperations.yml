@@ -84,7 +84,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ServerAzureADAdministrator>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ServerAzureADAdministrator>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ServerAzureADAdministratorsOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ServerAzureADAdministratorsOperations.get
@@ -209,7 +209,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ServerAzureADAdministrator>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ServerAzureADAdministrator>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

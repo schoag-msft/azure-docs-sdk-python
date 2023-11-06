@@ -57,7 +57,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.RecommendationActionsResultList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.RecommendationActionsResultList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

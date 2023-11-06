@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ExternalNetwork>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ExternalNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.ExternalNetworksOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.ExternalNetworksOperations.begin_update
@@ -218,7 +218,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ExternalNetwork>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.ExternalNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.ExternalNetworksOperations.begin_update_administrative_state
@@ -293,7 +293,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.ExternalNetworksOperations.begin_update_static_route_bfd_administrative_state
@@ -368,7 +368,7 @@ methods:
 
       CommonPostActionResponseForStateUpdate or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managednetworkfabric.models.CommonPostActionResponseForStateUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managednetworkfabric.aio.operations.ExternalNetworksOperations.get
@@ -437,7 +437,7 @@ methods:
     description: An iterator like instance of either ExternalNetwork or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.ExternalNetwork>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managednetworkfabric.models.ExternalNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

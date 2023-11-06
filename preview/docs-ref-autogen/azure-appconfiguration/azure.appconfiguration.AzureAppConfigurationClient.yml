@@ -131,7 +131,7 @@ methods:
 
       operation to complete and get the created snapshot.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.appconfiguration.ConfigurationSnapshot>]
+    - <xref:LROPoller>[<xref:azure.appconfiguration.ConfigurationSnapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.appconfiguration.AzureAppConfigurationClient.close
@@ -320,7 +320,7 @@ methods:
   return:
     description: An iterator of <xref:azure.appconfiguration.ConfigurationSetting>
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
+    - <xref:ItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   - type: azure.core.exceptions.ClientAuthenticationError
@@ -343,7 +343,7 @@ methods:
   return:
     description: An iterator of <xref:azure.appconfiguration.ConfigurationSnapshot>
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.appconfiguration.ConfigurationSnapshot>]
+    - <xref:ItemPaged>[<xref:azure.appconfiguration.ConfigurationSnapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.appconfiguration.AzureAppConfigurationClient.recover_snapshot

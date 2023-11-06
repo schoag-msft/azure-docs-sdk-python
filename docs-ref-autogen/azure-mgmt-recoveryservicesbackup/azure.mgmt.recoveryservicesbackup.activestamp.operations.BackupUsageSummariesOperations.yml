@@ -50,7 +50,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicesbackup.activestamp.models.BackupManagementUsage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicesbackup.activestamp.models.BackupManagementUsage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

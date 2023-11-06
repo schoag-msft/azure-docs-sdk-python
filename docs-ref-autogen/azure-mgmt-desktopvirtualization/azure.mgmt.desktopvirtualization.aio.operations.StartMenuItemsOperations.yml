@@ -54,7 +54,7 @@ methods:
     description: An iterator like instance of either StartMenuItem or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.StartMenuItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.StartMenuItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

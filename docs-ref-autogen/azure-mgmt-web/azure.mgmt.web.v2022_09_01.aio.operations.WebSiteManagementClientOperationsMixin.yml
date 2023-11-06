@@ -134,7 +134,7 @@ methods:
     description: An iterator like instance of either BillingMeter or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.BillingMeter>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.BillingMeter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.WebSiteManagementClientOperationsMixin.list_custom_host_name_sites
@@ -159,7 +159,7 @@ methods:
     description: An iterator like instance of either CustomHostnameSites or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.CustomHostnameSites>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.CustomHostnameSites>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.WebSiteManagementClientOperationsMixin.list_geo_regions
@@ -213,7 +213,7 @@ methods:
   return:
     description: An iterator like instance of either GeoRegion or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.GeoRegion>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.GeoRegion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.WebSiteManagementClientOperationsMixin.list_premier_add_on_offers
@@ -232,7 +232,7 @@ methods:
     description: An iterator like instance of either PremierAddOnOffer or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.PremierAddOnOffer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.PremierAddOnOffer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.WebSiteManagementClientOperationsMixin.list_site_identifiers_assigned_to_host_name
@@ -265,7 +265,7 @@ methods:
   return:
     description: An iterator like instance of either Identifier or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.Identifier>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.Identifier>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.WebSiteManagementClientOperationsMixin.list_skus
@@ -302,7 +302,7 @@ methods:
     description: An iterator like instance of either SourceControl or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.SourceControl>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2022_09_01.models.SourceControl>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2022_09_01.aio.operations.WebSiteManagementClientOperationsMixin.move

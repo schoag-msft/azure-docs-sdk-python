@@ -149,7 +149,7 @@ methods:
     description: An iterator like instance of either JobSchedule or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automation.models.JobSchedule>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automation.models.JobSchedule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

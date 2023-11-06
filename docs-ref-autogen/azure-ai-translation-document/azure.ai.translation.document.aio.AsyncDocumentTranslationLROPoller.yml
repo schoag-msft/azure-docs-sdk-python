@@ -41,7 +41,7 @@ methods:
   return:
     description: The polling method associated to this poller.
     types:
-    - <xref:azure.core.polling.AsyncPollingMethod>
+    - <xref:AsyncPollingMethod>
 - uid: azure.ai.translation.document.aio.AsyncDocumentTranslationLROPoller.result
   name: result
   summary: Return the result of the long running operation.

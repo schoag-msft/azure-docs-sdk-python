@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.VirtualMachineTemplate>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.VirtualMachineTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

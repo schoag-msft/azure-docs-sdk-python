@@ -145,7 +145,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.orbital.models.ContactProfile>]
+    - <xref:LROPoller>[<xref:azure.mgmt.orbital.models.ContactProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.operations.ContactProfilesOperations.begin_delete
@@ -195,7 +195,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.operations.ContactProfilesOperations.begin_update_tags
@@ -263,7 +263,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.orbital.models.ContactProfile>]
+    - <xref:LROPoller>[<xref:azure.mgmt.orbital.models.ContactProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.operations.ContactProfilesOperations.get
@@ -331,7 +331,7 @@ methods:
     description: An iterator like instance of either ContactProfile or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.orbital.models.ContactProfile>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.orbital.models.ContactProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.operations.ContactProfilesOperations.list_by_subscription
@@ -364,7 +364,7 @@ methods:
     description: An iterator like instance of either ContactProfile or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.orbital.models.ContactProfile>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.orbital.models.ContactProfile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

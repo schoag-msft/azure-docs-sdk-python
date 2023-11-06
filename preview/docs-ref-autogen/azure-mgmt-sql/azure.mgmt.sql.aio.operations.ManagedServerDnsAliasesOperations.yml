@@ -78,7 +78,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedServerDnsAlias>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedServerDnsAlias>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ManagedServerDnsAliasesOperations.begin_create_or_update
@@ -148,7 +148,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedServerDnsAlias>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedServerDnsAlias>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ManagedServerDnsAliasesOperations.begin_delete
@@ -203,7 +203,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ManagedServerDnsAliasesOperations.get
@@ -267,7 +267,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedServerDnsAlias>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedServerDnsAlias>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.VpnConnection>]
+    - <xref:AsyncLROPoller>[<xref:VpnConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnConnectionsOperations.begin_delete
@@ -134,7 +134,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnConnectionsOperations.begin_start_packet_capture
@@ -206,7 +206,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either str or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:str>]
+    - <xref:AsyncLROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnConnectionsOperations.begin_stop_packet_capture
@@ -278,7 +278,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either str or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:str>]
+    - <xref:AsyncLROPoller>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnConnectionsOperations.get
@@ -309,7 +309,7 @@ methods:
   return:
     description: VpnConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VpnConnection>
+    - <xref:VpnConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VpnConnectionsOperations.list_by_vpn_gateway
@@ -336,7 +336,7 @@ methods:
     description: An iterator like instance of either VpnConnection or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.VpnConnection>]
+    - <xref:AsyncItemPaged>[<xref:VpnConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

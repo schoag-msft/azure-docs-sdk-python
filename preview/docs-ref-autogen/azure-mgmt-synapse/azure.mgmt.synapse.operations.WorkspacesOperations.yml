@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either Workspace or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.WorkspacesOperations.begin_delete
@@ -124,7 +124,7 @@ methods:
     description: An instance of LROPoller that returns either Workspace or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.WorkspacesOperations.begin_update
@@ -190,7 +190,7 @@ methods:
     description: An instance of LROPoller that returns either Workspace or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.WorkspacesOperations.get
@@ -233,7 +233,7 @@ methods:
   return:
     description: An iterator like instance of either Workspace or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.WorkspacesOperations.list_by_resource_group
@@ -255,7 +255,7 @@ methods:
   return:
     description: An iterator like instance of either Workspace or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

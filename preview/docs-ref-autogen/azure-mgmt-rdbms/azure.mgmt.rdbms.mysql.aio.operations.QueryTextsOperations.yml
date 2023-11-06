@@ -74,7 +74,7 @@ methods:
   return:
     description: An iterator like instance of either QueryText or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.QueryText>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.QueryText>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

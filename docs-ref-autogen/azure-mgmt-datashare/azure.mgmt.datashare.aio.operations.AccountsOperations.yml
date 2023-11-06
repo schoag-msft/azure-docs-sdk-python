@@ -80,7 +80,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Account or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.datashare.models.Account>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.datashare.models.Account>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.AccountsOperations.begin_delete
@@ -127,7 +127,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either OperationResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.AccountsOperations.get
@@ -186,7 +186,7 @@ methods:
     description: An iterator like instance of either AccountList or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datashare.models.AccountList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datashare.models.AccountList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.AccountsOperations.list_by_subscription
@@ -210,7 +210,7 @@ methods:
     description: An iterator like instance of either AccountList or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datashare.models.AccountList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datashare.models.AccountList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.AccountsOperations.update

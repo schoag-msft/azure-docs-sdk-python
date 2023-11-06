@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVmTroubleshooting>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sqlvirtualmachine.models.SqlVmTroubleshooting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

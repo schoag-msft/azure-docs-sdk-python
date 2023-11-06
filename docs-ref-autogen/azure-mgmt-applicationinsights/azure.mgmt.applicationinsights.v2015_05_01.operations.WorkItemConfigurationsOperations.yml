@@ -182,7 +182,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.applicationinsights.v2015_05_01.models.WorkItemConfiguration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.applicationinsights.v2015_05_01.models.WorkItemConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.applicationinsights.v2015_05_01.operations.WorkItemConfigurationsOperations.update_item

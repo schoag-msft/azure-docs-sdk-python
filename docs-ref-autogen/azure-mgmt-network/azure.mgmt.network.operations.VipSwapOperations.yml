@@ -81,7 +81,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VipSwapOperations.get
@@ -118,7 +118,7 @@ methods:
   return:
     description: SwapResource or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SwapResource>
+    - <xref:SwapResource>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VipSwapOperations.list
@@ -146,7 +146,7 @@ methods:
   return:
     description: SwapResourceListResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SwapResourceListResult>
+    - <xref:SwapResourceListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

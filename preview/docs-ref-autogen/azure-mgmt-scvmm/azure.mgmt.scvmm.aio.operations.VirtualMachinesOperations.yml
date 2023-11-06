@@ -75,7 +75,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.begin_create_or_update
@@ -141,7 +141,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.scvmm.models.VirtualMachine>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.scvmm.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.begin_delete
@@ -208,7 +208,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.begin_delete_checkpoint
@@ -275,7 +275,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.begin_restart
@@ -326,7 +326,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.begin_restore_checkpoint
@@ -393,7 +393,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.begin_start
@@ -444,7 +444,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.begin_stop
@@ -511,7 +511,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.begin_update
@@ -578,7 +578,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.scvmm.models.VirtualMachine>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.scvmm.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.get
@@ -631,7 +631,7 @@ methods:
     description: An iterator like instance of either VirtualMachine or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.scvmm.models.VirtualMachine>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.scvmm.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.scvmm.aio.operations.VirtualMachinesOperations.list_by_subscription
@@ -650,7 +650,7 @@ methods:
     description: An iterator like instance of either VirtualMachine or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.scvmm.models.VirtualMachine>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.scvmm.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

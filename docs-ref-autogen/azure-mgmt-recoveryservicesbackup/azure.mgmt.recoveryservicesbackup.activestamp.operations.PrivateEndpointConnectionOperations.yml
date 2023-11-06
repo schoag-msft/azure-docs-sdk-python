@@ -64,7 +64,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesbackup.activestamp.operations.PrivateEndpointConnectionOperations.begin_put
@@ -138,7 +138,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicesbackup.activestamp.models.PrivateEndpointConnectionResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicesbackup.activestamp.models.PrivateEndpointConnectionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesbackup.activestamp.operations.PrivateEndpointConnectionOperations.get

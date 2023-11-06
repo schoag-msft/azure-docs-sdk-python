@@ -88,7 +88,7 @@ methods:
   return:
     description: An instance of LROPoller that returns ~azure.ai.ml.entities.FeatureSetBackfillMetadata
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.FeatureSetBackfillMetadata>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.FeatureSetBackfillMetadata>]
 - uid: azure.ai.ml.operations.FeatureSetOperations.begin_create_or_update
   name: begin_create_or_update
   summary: Create or update FeatureSet
@@ -102,7 +102,7 @@ methods:
   return:
     description: An instance of LROPoller that returns a FeatureSet.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.FeatureSet>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.FeatureSet>]
 - uid: azure.ai.ml.operations.FeatureSetOperations.get
   name: get
   summary: Get the specified FeatureSet asset.
@@ -195,7 +195,7 @@ methods:
   return:
     description: An iterator like instance of Feature objects
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.Feature>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.Feature>]
 - uid: azure.ai.ml.operations.FeatureSetOperations.list_materialization_operations
   name: list_materialization_operations
   summary: List Materialization operation.
@@ -230,7 +230,7 @@ methods:
     description: An iterator like instance of ~azure.ai.ml.entities.FeatureSetMaterializationMetadata
       objects
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.FeatureSetMaterializationMetadata>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.FeatureSetMaterializationMetadata>]
 - uid: azure.ai.ml.operations.FeatureSetOperations.restore
   name: restore
   summary: Restore an archived FeatureSet asset.

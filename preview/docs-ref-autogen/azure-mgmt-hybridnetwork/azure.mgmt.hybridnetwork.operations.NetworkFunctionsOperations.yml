@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunction>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionsOperations.begin_delete
@@ -132,7 +132,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionsOperations.begin_execute_request
@@ -198,7 +198,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionsOperations.get
@@ -249,7 +249,7 @@ methods:
     description: An iterator like instance of either NetworkFunction or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunction>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionsOperations.list_by_subscription
@@ -265,7 +265,7 @@ methods:
     description: An iterator like instance of either NetworkFunction or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunction>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.NetworkFunctionsOperations.update_tags

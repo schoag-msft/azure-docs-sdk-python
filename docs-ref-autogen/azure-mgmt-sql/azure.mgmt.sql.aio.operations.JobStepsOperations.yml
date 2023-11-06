@@ -249,7 +249,7 @@ methods:
     description: An iterator like instance of either JobStepListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobStepListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobStepListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.JobStepsOperations.list_by_version
@@ -293,7 +293,7 @@ methods:
     description: An iterator like instance of either JobStepListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobStepListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.JobStepListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

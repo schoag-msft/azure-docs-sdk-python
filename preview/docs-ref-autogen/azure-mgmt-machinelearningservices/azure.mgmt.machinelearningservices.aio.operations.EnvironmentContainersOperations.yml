@@ -180,7 +180,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.EnvironmentContainer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.EnvironmentContainer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

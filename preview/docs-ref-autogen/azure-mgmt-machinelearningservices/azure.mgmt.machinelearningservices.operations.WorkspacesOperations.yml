@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either Workspace or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.begin_delete
@@ -124,7 +124,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.begin_diagnose
@@ -194,7 +194,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.DiagnoseResponseResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.DiagnoseResponseResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.begin_prepare_notebook
@@ -246,7 +246,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.NotebookResourceInfo>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.NotebookResourceInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.begin_resync_keys
@@ -299,7 +299,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.begin_update
@@ -365,7 +365,7 @@ methods:
     description: An instance of LROPoller that returns either Workspace or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
+    - <xref:LROPoller>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.get
@@ -422,7 +422,7 @@ methods:
   return:
     description: An iterator like instance of either Workspace or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.list_by_subscription
@@ -443,7 +443,7 @@ methods:
   return:
     description: An iterator like instance of either Workspace or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.machinelearningservices.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.operations.WorkspacesOperations.list_keys

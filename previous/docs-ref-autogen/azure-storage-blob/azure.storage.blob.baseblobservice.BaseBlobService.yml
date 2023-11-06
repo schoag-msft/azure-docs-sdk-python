@@ -397,7 +397,7 @@ methods:
   return:
     description: parsed batch delete HTTP response
     types:
-    - list of <xref:azure.storage.blob.models.BatchSubResponse>
+    - <xref:list> <xref:of> <xref:azure.storage.blob.models.BatchSubResponse>
 - uid: azure.storage.blob.baseblobservice.BaseBlobService.break_blob_lease
   name: break_blob_lease
   summary: 'Breaks the lease, if the blob has an active lease. Once a lease is broken,
@@ -1895,7 +1895,7 @@ methods:
   return:
     description: The blob service stats.
     types:
-    - <xref:azure.storage.common.models.ServiceStats>
+    - <xref:ServiceStats>
 - uid: azure.storage.blob.baseblobservice.BaseBlobService.get_blob_to_bytes
   name: get_blob_to_bytes
   summary: 'Downloads a blob as an array of bytes, with automatic chunking and
@@ -2767,7 +2767,7 @@ methods:
   return:
     description: properties for the specified container within a container object.
     types:
-    - <xref:azure.storage.blob.models.Container>
+    - <xref:typing.Container>
 - uid: azure.storage.blob.baseblobservice.BaseBlobService.get_user_delegation_key
   name: get_user_delegation_key
   summary: 'Obtain a user delegation key for the purpose of signing SAS tokens.

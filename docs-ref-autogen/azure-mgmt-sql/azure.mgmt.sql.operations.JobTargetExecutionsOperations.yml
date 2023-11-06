@@ -176,7 +176,7 @@ methods:
     description: An iterator like instance of either JobExecutionListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.JobExecutionListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.JobExecutionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.JobTargetExecutionsOperations.list_by_step
@@ -275,7 +275,7 @@ methods:
     description: An iterator like instance of either JobExecutionListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.JobExecutionListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.JobExecutionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

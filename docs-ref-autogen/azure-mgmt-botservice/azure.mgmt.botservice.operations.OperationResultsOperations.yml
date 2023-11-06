@@ -52,7 +52,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.botservice.models.OperationResultsDescription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.botservice.models.OperationResultsDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

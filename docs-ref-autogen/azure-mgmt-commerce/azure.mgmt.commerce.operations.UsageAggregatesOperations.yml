@@ -92,7 +92,7 @@ methods:
     description: An iterator like instance of either UsageAggregationListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.commerce.models.UsageAggregationListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.commerce.models.UsageAggregationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

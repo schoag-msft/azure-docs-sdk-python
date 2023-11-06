@@ -77,7 +77,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Workspace or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.loganalytics.models.Workspace>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.loganalytics.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.aio.operations.WorkspacesOperations.begin_delete
@@ -138,7 +138,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.aio.operations.WorkspacesOperations.get
@@ -180,7 +180,7 @@ methods:
     description: An iterator like instance of either WorkspaceListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.WorkspaceListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.WorkspaceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.aio.operations.WorkspacesOperations.list_by_resource_group
@@ -201,7 +201,7 @@ methods:
     description: An iterator like instance of either WorkspaceListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.WorkspaceListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.WorkspaceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.aio.operations.WorkspacesOperations.update

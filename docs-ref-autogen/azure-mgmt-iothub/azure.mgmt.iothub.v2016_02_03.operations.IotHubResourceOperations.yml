@@ -88,7 +88,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubDescription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2016_02_03.operations.IotHubResourceOperations.begin_delete
@@ -141,8 +141,8 @@ methods:
 
       LROPoller that returns either ErrorDetails or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubDescription>]
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.iothub.v2016_02_03.models.ErrorDetails>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubDescription>]
+    - <xref:LROPoller>[<xref:azure.mgmt.iothub.v2016_02_03.models.ErrorDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2016_02_03.operations.IotHubResourceOperations.check_name_availability
@@ -494,7 +494,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubQuotaMetricInfo>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubQuotaMetricInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2016_02_03.operations.IotHubResourceOperations.get_stats
@@ -555,7 +555,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubSkuDescription>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubSkuDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2016_02_03.operations.IotHubResourceOperations.import_devices
@@ -635,7 +635,7 @@ methods:
     description: An iterator like instance of either IotHubDescription or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubDescription>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2016_02_03.operations.IotHubResourceOperations.list_by_subscription
@@ -654,7 +654,7 @@ methods:
     description: An iterator like instance of either IotHubDescription or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubDescription>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.IotHubDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2016_02_03.operations.IotHubResourceOperations.list_event_hub_consumer_groups
@@ -694,7 +694,7 @@ methods:
   return:
     description: An iterator like instance of either str or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:str>]
+    - <xref:ItemPaged>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2016_02_03.operations.IotHubResourceOperations.list_jobs
@@ -728,7 +728,7 @@ methods:
     description: An iterator like instance of either JobResponse or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.JobResponse>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.JobResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothub.v2016_02_03.operations.IotHubResourceOperations.list_keys
@@ -764,7 +764,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.SharedAccessSignatureAuthorizationRule>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.iothub.v2016_02_03.models.SharedAccessSignatureAuthorizationRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

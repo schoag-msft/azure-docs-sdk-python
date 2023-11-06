@@ -72,7 +72,7 @@ methods:
     description: RemoteRenderingAccount or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.RemoteRenderingAccount>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.RemoteRenderingAccountsOperations.delete
@@ -112,7 +112,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.RemoteRenderingAccountsOperations.get
@@ -152,7 +152,7 @@ methods:
     description: RemoteRenderingAccount or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.RemoteRenderingAccount>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.RemoteRenderingAccountsOperations.list_by_resource_group
@@ -254,7 +254,7 @@ methods:
     description: AccountKeys or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.AccountKeys>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.RemoteRenderingAccountsOperations.regenerate_keys
@@ -299,7 +299,7 @@ methods:
     description: AccountKeys or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.AccountKeys>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.mgmt.mixedreality.operations.RemoteRenderingAccountsOperations.update
@@ -344,7 +344,7 @@ methods:
     description: RemoteRenderingAccount or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.mixedreality.models.RemoteRenderingAccount>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 attributes:

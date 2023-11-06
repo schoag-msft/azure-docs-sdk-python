@@ -460,7 +460,7 @@ methods:
 
       RemotePrivateEndpointConnectionARMResource or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.RemotePrivateEndpointConnectionARMResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.RemotePrivateEndpointConnectionARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_approve_or_reject_private_endpoint_connection_slot
@@ -538,7 +538,7 @@ methods:
 
       RemotePrivateEndpointConnectionARMResource or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.RemotePrivateEndpointConnectionARMResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.RemotePrivateEndpointConnectionARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_function
@@ -611,7 +611,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.FunctionEnvelope>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.FunctionEnvelope>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_instance_function_slot
@@ -689,7 +689,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.FunctionEnvelope>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.FunctionEnvelope>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_instance_ms_deploy_operation
@@ -763,7 +763,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.MSDeployStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.MSDeployStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_instance_ms_deploy_operation_slot
@@ -845,7 +845,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.MSDeployStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.MSDeployStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_ms_deploy_operation
@@ -914,7 +914,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.MSDeployStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.MSDeployStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_ms_deploy_operation_slot
@@ -991,7 +991,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.MSDeployStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.MSDeployStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_or_update
@@ -1066,7 +1066,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Site or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_or_update_slot
@@ -1150,7 +1150,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Site or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_or_update_source_control
@@ -1219,7 +1219,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.SiteSourceControl>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.SiteSourceControl>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_create_or_update_source_control_slot
@@ -1296,7 +1296,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.SiteSourceControl>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.SiteSourceControl>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_delete_private_endpoint_connection
@@ -1353,7 +1353,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either JSON or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:JSON>]
+    - <xref:AsyncLROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_delete_private_endpoint_connection_slot
@@ -1415,7 +1415,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either JSON or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:JSON>]
+    - <xref:AsyncLROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_install_site_extension
@@ -1473,7 +1473,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.SiteExtensionInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.SiteExtensionInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_install_site_extension_slot
@@ -1539,7 +1539,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.SiteExtensionInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.SiteExtensionInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_list_publishing_credentials
@@ -1590,7 +1590,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either User or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.User>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.User>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_list_publishing_credentials_slot
@@ -1649,7 +1649,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either User or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.User>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.User>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_migrate_my_sql
@@ -1717,7 +1717,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.Operation>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.Operation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_migrate_storage
@@ -1791,7 +1791,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.StorageMigrationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2021_01_01.models.StorageMigrationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_restore
@@ -1863,7 +1863,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_restore_from_backup_blob
@@ -1930,7 +1930,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_restore_from_backup_blob_slot
@@ -2005,7 +2005,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_restore_from_deleted_app
@@ -2071,7 +2071,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_restore_from_deleted_app_slot
@@ -2145,7 +2145,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_restore_slot
@@ -2225,7 +2225,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_restore_snapshot
@@ -2295,7 +2295,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_restore_snapshot_slot
@@ -2373,7 +2373,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_start_network_trace
@@ -2442,7 +2442,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:list>[<xref:azure.mgmt.web.v2021_01_01.models.NetworkTrace>]]
+    - <xref:AsyncLROPoller>[<xref:list>[<xref:azure.mgmt.web.v2021_01_01.models.NetworkTrace>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_start_network_trace_slot
@@ -2516,7 +2516,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:list>[<xref:azure.mgmt.web.v2021_01_01.models.NetworkTrace>]]
+    - <xref:AsyncLROPoller>[<xref:list>[<xref:azure.mgmt.web.v2021_01_01.models.NetworkTrace>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_start_web_site_network_trace_operation
@@ -2585,7 +2585,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:list>[<xref:azure.mgmt.web.v2021_01_01.models.NetworkTrace>]]
+    - <xref:AsyncLROPoller>[<xref:list>[<xref:azure.mgmt.web.v2021_01_01.models.NetworkTrace>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_start_web_site_network_trace_operation_slot
@@ -2659,7 +2659,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:list>[<xref:azure.mgmt.web.v2021_01_01.models.NetworkTrace>]]
+    - <xref:AsyncLROPoller>[<xref:list>[<xref:azure.mgmt.web.v2021_01_01.models.NetworkTrace>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_swap_slot
@@ -2734,7 +2734,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.begin_swap_slot_with_production
@@ -2801,7 +2801,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.create_deployment
@@ -6034,7 +6034,7 @@ methods:
     description: An iterator like instance of either ApiKVReference or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ApiKVReference>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ApiKVReference>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.get_app_settings_key_vault_references_slot
@@ -6069,7 +6069,7 @@ methods:
     description: An iterator like instance of either ApiKVReference or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ApiKVReference>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ApiKVReference>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.get_auth_settings
@@ -6597,7 +6597,7 @@ methods:
   return:
     description: Async iterator of the response bytes or None or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
     - <xref:None>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
@@ -6635,7 +6635,7 @@ methods:
   return:
     description: Async iterator of the response bytes or None or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
     - <xref:None>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
@@ -7613,7 +7613,7 @@ methods:
   return:
     description: Async iterator of the response bytes or None or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
     - <xref:None>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
@@ -7666,7 +7666,7 @@ methods:
   return:
     description: Async iterator of the response bytes or None or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
     - <xref:None>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
@@ -8566,7 +8566,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.RemotePrivateEndpointConnectionARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.RemotePrivateEndpointConnectionARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.get_private_endpoint_connection_list_slot
@@ -8603,7 +8603,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.RemotePrivateEndpointConnectionARMResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.RemotePrivateEndpointConnectionARMResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.get_private_endpoint_connection_slot
@@ -8779,7 +8779,7 @@ methods:
   return:
     description: Async iterator of the response bytes or None or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
     - <xref:None>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
@@ -8824,7 +8824,7 @@ methods:
   return:
     description: Async iterator of the response bytes or None or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
     - <xref:None>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
@@ -9280,7 +9280,7 @@ methods:
     description: An iterator like instance of either ApiKVReference or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ApiKVReference>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ApiKVReference>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.get_site_connection_string_key_vault_references_slot
@@ -9315,7 +9315,7 @@ methods:
     description: An iterator like instance of either ApiKVReference or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ApiKVReference>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ApiKVReference>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.get_site_extension
@@ -10076,7 +10076,7 @@ methods:
   return:
     description: Async iterator of the response bytes or None or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
     - <xref:None>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
@@ -10114,7 +10114,7 @@ methods:
   return:
     description: Async iterator of the response bytes or None or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
     - <xref:None>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
@@ -10199,7 +10199,7 @@ methods:
   return:
     description: An iterator like instance of either Site or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_application_settings
@@ -10492,7 +10492,7 @@ methods:
   return:
     description: An iterator like instance of either BackupItem or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.BackupItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.BackupItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_backups_slot
@@ -10529,7 +10529,7 @@ methods:
   return:
     description: An iterator like instance of either BackupItem or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.BackupItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.BackupItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_by_resource_group
@@ -10563,7 +10563,7 @@ methods:
   return:
     description: An iterator like instance of either Site or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_configuration_snapshot_info
@@ -10601,7 +10601,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteConfigurationSnapshotInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteConfigurationSnapshotInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_configuration_snapshot_info_slot
@@ -10647,7 +10647,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteConfigurationSnapshotInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteConfigurationSnapshotInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_configurations
@@ -10677,7 +10677,7 @@ methods:
     description: An iterator like instance of either SiteConfigResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteConfigResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteConfigResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_configurations_slot
@@ -10715,7 +10715,7 @@ methods:
     description: An iterator like instance of either SiteConfigResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteConfigResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteConfigResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_connection_strings
@@ -10811,7 +10811,7 @@ methods:
     description: An iterator like instance of either ContinuousWebJob or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ContinuousWebJob>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ContinuousWebJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_continuous_web_jobs_slot
@@ -10849,7 +10849,7 @@ methods:
     description: An iterator like instance of either ContinuousWebJob or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ContinuousWebJob>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ContinuousWebJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_deployment_log
@@ -10962,7 +10962,7 @@ methods:
   return:
     description: An iterator like instance of either Deployment or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Deployment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Deployment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_deployments_slot
@@ -10999,7 +10999,7 @@ methods:
   return:
     description: An iterator like instance of either Deployment or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Deployment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Deployment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_domain_ownership_identifiers
@@ -11028,7 +11028,7 @@ methods:
   return:
     description: An iterator like instance of either Identifier or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Identifier>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Identifier>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_domain_ownership_identifiers_slot
@@ -11065,7 +11065,7 @@ methods:
   return:
     description: An iterator like instance of either Identifier or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Identifier>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Identifier>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_function_keys
@@ -11241,7 +11241,7 @@ methods:
     description: An iterator like instance of either FunctionEnvelope or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.FunctionEnvelope>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.FunctionEnvelope>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_host_keys
@@ -11334,7 +11334,7 @@ methods:
     description: An iterator like instance of either HostNameBinding or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.HostNameBinding>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.HostNameBinding>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_host_name_bindings_slot
@@ -11372,7 +11372,7 @@ methods:
     description: An iterator like instance of either HostNameBinding or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.HostNameBinding>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.HostNameBinding>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_hybrid_connections
@@ -11470,7 +11470,7 @@ methods:
     description: An iterator like instance of either FunctionEnvelope or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.FunctionEnvelope>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.FunctionEnvelope>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_instance_identifiers
@@ -11502,7 +11502,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.WebSiteInstanceStatus>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.WebSiteInstanceStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_instance_identifiers_slot
@@ -11542,7 +11542,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.WebSiteInstanceStatus>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.WebSiteInstanceStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_instance_process_modules
@@ -11590,7 +11590,7 @@ methods:
     description: An iterator like instance of either ProcessModuleInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessModuleInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessModuleInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_instance_process_modules_slot
@@ -11646,7 +11646,7 @@ methods:
     description: An iterator like instance of either ProcessModuleInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessModuleInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessModuleInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_instance_process_threads
@@ -11690,7 +11690,7 @@ methods:
     description: An iterator like instance of either ProcessThreadInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessThreadInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessThreadInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_instance_process_threads_slot
@@ -11742,7 +11742,7 @@ methods:
     description: An iterator like instance of either ProcessThreadInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessThreadInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessThreadInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_instance_processes
@@ -11785,7 +11785,7 @@ methods:
     description: An iterator like instance of either ProcessInfo or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_instance_processes_slot
@@ -11836,7 +11836,7 @@ methods:
     description: An iterator like instance of either ProcessInfo or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_metadata
@@ -12020,7 +12020,7 @@ methods:
     description: An iterator like instance of either PerfMonResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.PerfMonResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.PerfMonResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_perf_mon_counters_slot
@@ -12068,7 +12068,7 @@ methods:
     description: An iterator like instance of either PerfMonResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.PerfMonResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.PerfMonResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_premier_add_ons
@@ -12175,7 +12175,7 @@ methods:
     description: An iterator like instance of either ProcessModuleInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessModuleInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessModuleInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_process_modules_slot
@@ -12224,7 +12224,7 @@ methods:
     description: An iterator like instance of either ProcessModuleInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessModuleInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessModuleInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_process_threads
@@ -12261,7 +12261,7 @@ methods:
     description: An iterator like instance of either ProcessThreadInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessThreadInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessThreadInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_process_threads_slot
@@ -12306,7 +12306,7 @@ methods:
     description: An iterator like instance of either ProcessThreadInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessThreadInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessThreadInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_processes
@@ -12342,7 +12342,7 @@ methods:
     description: An iterator like instance of either ProcessInfo or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_processes_slot
@@ -12386,7 +12386,7 @@ methods:
     description: An iterator like instance of either ProcessInfo or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.ProcessInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_public_certificates
@@ -12416,7 +12416,7 @@ methods:
     description: An iterator like instance of either PublicCertificate or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.PublicCertificate>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.PublicCertificate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_public_certificates_slot
@@ -12454,7 +12454,7 @@ methods:
     description: An iterator like instance of either PublicCertificate or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.PublicCertificate>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.PublicCertificate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_publishing_profile_xml_with_secrets
@@ -12501,7 +12501,7 @@ methods:
   return:
     description: Async iterator of the response bytes or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_publishing_profile_xml_with_secrets_slot
@@ -12556,7 +12556,7 @@ methods:
   return:
     description: Async iterator of the response bytes or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_relay_service_connections
@@ -12653,7 +12653,7 @@ methods:
   return:
     description: An iterator like instance of either BackupItem or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.BackupItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.BackupItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_site_backups_slot
@@ -12690,7 +12690,7 @@ methods:
   return:
     description: An iterator like instance of either BackupItem or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.BackupItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.BackupItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_site_extensions
@@ -12720,7 +12720,7 @@ methods:
     description: An iterator like instance of either SiteExtensionInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteExtensionInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteExtensionInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_site_extensions_slot
@@ -12758,7 +12758,7 @@ methods:
     description: An iterator like instance of either SiteExtensionInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteExtensionInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SiteExtensionInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_site_push_settings
@@ -12901,7 +12901,7 @@ methods:
     description: An iterator like instance of either SlotDifference or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SlotDifference>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SlotDifference>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_slot_differences_slot
@@ -12955,7 +12955,7 @@ methods:
     description: An iterator like instance of either SlotDifference or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SlotDifference>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.SlotDifference>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_slots
@@ -12983,7 +12983,7 @@ methods:
   return:
     description: An iterator like instance of either Site or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Site>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_snapshots
@@ -13012,7 +13012,7 @@ methods:
   return:
     description: An iterator like instance of either Snapshot or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Snapshot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_snapshots_from_dr_secondary
@@ -13041,7 +13041,7 @@ methods:
   return:
     description: An iterator like instance of either Snapshot or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Snapshot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_snapshots_from_dr_secondary_slot
@@ -13075,7 +13075,7 @@ methods:
   return:
     description: An iterator like instance of either Snapshot or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Snapshot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_snapshots_slot
@@ -13109,7 +13109,7 @@ methods:
   return:
     description: An iterator like instance of either Snapshot or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Snapshot>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.Snapshot>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_sync_function_triggers
@@ -13270,7 +13270,7 @@ methods:
     description: An iterator like instance of either TriggeredJobHistory or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.TriggeredJobHistory>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.TriggeredJobHistory>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_triggered_web_job_history_slot
@@ -13313,7 +13313,7 @@ methods:
     description: An iterator like instance of either TriggeredJobHistory or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.TriggeredJobHistory>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.TriggeredJobHistory>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_triggered_web_jobs
@@ -13343,7 +13343,7 @@ methods:
     description: An iterator like instance of either TriggeredWebJob or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.TriggeredWebJob>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.TriggeredWebJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_triggered_web_jobs_slot
@@ -13381,7 +13381,7 @@ methods:
     description: An iterator like instance of either TriggeredWebJob or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.TriggeredWebJob>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.TriggeredWebJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_usages
@@ -13424,7 +13424,7 @@ methods:
     description: An iterator like instance of either CsmUsageQuota or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.CsmUsageQuota>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.CsmUsageQuota>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_usages_slot
@@ -13475,7 +13475,7 @@ methods:
     description: An iterator like instance of either CsmUsageQuota or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.CsmUsageQuota>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.CsmUsageQuota>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_vnet_connections
@@ -13570,7 +13570,7 @@ methods:
   return:
     description: An iterator like instance of either WebJob or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.WebJob>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.WebJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.list_web_jobs_slot
@@ -13607,7 +13607,7 @@ methods:
   return:
     description: An iterator like instance of either WebJob or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.WebJob>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2021_01_01.models.WebJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2021_01_01.aio.operations.WebAppsOperations.put_private_access_vnet

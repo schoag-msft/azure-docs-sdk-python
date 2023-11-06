@@ -32,7 +32,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.BillingPermissionsOperations.list_by_billing_profile
@@ -61,7 +61,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.BillingPermissionsOperations.list_by_customer
@@ -90,7 +90,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.BillingPermissionsOperations.list_by_invoice_sections
@@ -124,7 +124,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.BillingPermissionsProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

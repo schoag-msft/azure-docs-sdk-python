@@ -82,7 +82,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.HubIpConfiguration>]
+    - <xref:AsyncLROPoller>[<xref:HubIpConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubIpConfigurationOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubIpConfigurationOperations.get
@@ -166,7 +166,7 @@ methods:
   return:
     description: HubIpConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.HubIpConfiguration>
+    - <xref:HubIpConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubIpConfigurationOperations.list
@@ -193,7 +193,7 @@ methods:
     description: An iterator like instance of either HubIpConfiguration or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.HubIpConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:HubIpConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

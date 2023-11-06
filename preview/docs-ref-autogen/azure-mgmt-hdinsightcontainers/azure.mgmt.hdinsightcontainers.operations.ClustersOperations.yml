@@ -78,7 +78,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClustersOperations.begin_delete
@@ -133,7 +133,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClustersOperations.begin_resize
@@ -203,7 +203,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClustersOperations.begin_update
@@ -273,7 +273,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hdinsightcontainers.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClustersOperations.get
@@ -367,7 +367,7 @@ methods:
   return:
     description: An iterator like instance of either Cluster or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.Cluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClustersOperations.list_instance_views
@@ -403,7 +403,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterInstanceViewResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterInstanceViewResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hdinsightcontainers.operations.ClustersOperations.list_service_configs
@@ -437,7 +437,7 @@ methods:
     description: An iterator like instance of either ServiceConfigResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ServiceConfigResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ServiceConfigResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

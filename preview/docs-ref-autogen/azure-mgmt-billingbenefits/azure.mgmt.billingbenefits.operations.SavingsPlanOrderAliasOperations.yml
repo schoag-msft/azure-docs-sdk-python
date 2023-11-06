@@ -70,7 +70,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.billingbenefits.models.SavingsPlanOrderAliasModel>]
+    - <xref:LROPoller>[<xref:azure.mgmt.billingbenefits.models.SavingsPlanOrderAliasModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billingbenefits.operations.SavingsPlanOrderAliasOperations.get

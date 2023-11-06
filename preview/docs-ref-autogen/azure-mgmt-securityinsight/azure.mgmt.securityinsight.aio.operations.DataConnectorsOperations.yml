@@ -228,7 +228,7 @@ methods:
     description: An iterator like instance of either DataConnector or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.DataConnector>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.DataConnector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

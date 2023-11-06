@@ -71,7 +71,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2021_07_01.models.LogAnalyticsOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2021_07_01.models.LogAnalyticsOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_07_01.operations.LogAnalyticsOperations.begin_export_throttled_requests
@@ -134,7 +134,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2021_07_01.models.LogAnalyticsOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2021_07_01.models.LogAnalyticsOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

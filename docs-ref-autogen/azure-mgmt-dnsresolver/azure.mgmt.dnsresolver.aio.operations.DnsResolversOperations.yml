@@ -95,7 +95,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dnsresolver.models.DnsResolver>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dnsresolver.models.DnsResolver>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dnsresolver.aio.operations.DnsResolversOperations.begin_delete
@@ -155,7 +155,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dnsresolver.aio.operations.DnsResolversOperations.begin_update
@@ -233,7 +233,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.dnsresolver.models.DnsResolver>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.dnsresolver.models.DnsResolver>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dnsresolver.aio.operations.DnsResolversOperations.get
@@ -285,7 +285,7 @@ methods:
     description: An iterator like instance of either DnsResolver or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dnsresolver.models.DnsResolver>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dnsresolver.models.DnsResolver>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dnsresolver.aio.operations.DnsResolversOperations.list_by_resource_group
@@ -317,7 +317,7 @@ methods:
     description: An iterator like instance of either DnsResolver or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dnsresolver.models.DnsResolver>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dnsresolver.models.DnsResolver>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dnsresolver.aio.operations.DnsResolversOperations.list_by_virtual_network
@@ -354,7 +354,7 @@ methods:
     description: An iterator like instance of either SubResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dnsresolver.models.SubResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dnsresolver.models.SubResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

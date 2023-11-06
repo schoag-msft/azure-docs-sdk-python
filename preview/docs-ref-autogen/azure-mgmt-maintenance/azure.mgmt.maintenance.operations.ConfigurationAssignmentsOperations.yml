@@ -381,7 +381,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.maintenance.models.ConfigurationAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.maintenance.models.ConfigurationAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.maintenance.operations.ConfigurationAssignmentsOperations.list_parent
@@ -434,7 +434,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.maintenance.models.ConfigurationAssignment>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.maintenance.models.ConfigurationAssignment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

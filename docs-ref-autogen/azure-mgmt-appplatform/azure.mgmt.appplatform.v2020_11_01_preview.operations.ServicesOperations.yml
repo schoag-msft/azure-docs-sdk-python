@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.ServiceResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.ServiceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.ServicesOperations.begin_delete
@@ -125,7 +125,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.ServicesOperations.begin_update
@@ -193,7 +193,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.ServiceResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.ServiceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.ServicesOperations.check_name_availability
@@ -334,7 +334,7 @@ methods:
     description: An iterator like instance of either ServiceResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.ServiceResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.ServiceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.ServicesOperations.list_by_subscription
@@ -350,7 +350,7 @@ methods:
     description: An iterator like instance of either ServiceResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.ServiceResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2020_11_01_preview.models.ServiceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_11_01_preview.operations.ServicesOperations.list_test_keys

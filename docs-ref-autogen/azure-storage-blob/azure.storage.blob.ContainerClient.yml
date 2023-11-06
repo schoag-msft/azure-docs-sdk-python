@@ -251,7 +251,7 @@ methods:
   return:
     description: A dictionary of response headers.
     types:
-    - <xref:Dict>[<xref:str>, <xref:Union>[<xref:str>, <xref:datetime>]]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[<xref:str>, <xref:datetime>]]
 - uid: azure.storage.blob.ContainerClient.delete_blob
   name: delete_blob
   summary: 'Marks the specified blob or snapshot for deletion.
@@ -489,7 +489,7 @@ methods:
   return:
     description: An iterator of responses, one for each blob in order
     types:
-    - <xref:Iterator>[<xref:azure.core.pipeline.transport.HttpResponse>]
+    - <xref:typing.Iterator>[<xref:HttpResponse>]
 - uid: azure.storage.blob.ContainerClient.delete_container
   name: delete_container
   summary: 'Marks the specified container for deletion. The container and any blobs
@@ -788,7 +788,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of FilteredBlob.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.storage.blob.BlobProperties>]
+    - <xref:ItemPaged>[<xref:azure.storage.blob.BlobProperties>]
 - uid: azure.storage.blob.ContainerClient.from_connection_string
   name: from_connection_string
   summary: Create ContainerClient from a Connection String.
@@ -952,7 +952,7 @@ methods:
   return:
     description: Access policy information in a dict.
     types:
-    - <xref:dict>[<xref:str>, <xref:Any>]
+    - <xref:dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.blob.ContainerClient.get_container_properties
   name: get_container_properties
   summary: 'Returns all user-defined metadata and system properties for the specified
@@ -1022,7 +1022,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of blob names as strings.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:str>]
+    - <xref:ItemPaged>[<xref:str>]
 - uid: azure.storage.blob.ContainerClient.list_blobs
   name: list_blobs
   summary: 'Returns a generator to list the blobs under the specified container.
@@ -1066,7 +1066,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of BlobProperties.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.storage.blob.BlobProperties>]
+    - <xref:ItemPaged>[<xref:azure.storage.blob.BlobProperties>]
 - uid: azure.storage.blob.ContainerClient.set_container_access_policy
   name: set_container_access_policy
   summary: 'Sets the permissions for the specified container or stored access
@@ -1141,7 +1141,7 @@ methods:
     description: Container-updated property dict (Etag and last modified).
     types:
     - <xref:dict>[<xref:str>, <xref:str>
-    - <xref:datetime.datetime>]
+    - <xref:datetime>]
 - uid: azure.storage.blob.ContainerClient.set_container_metadata
   name: set_container_metadata
   summary: 'Sets one or more user-defined name-value pairs for the specified
@@ -1286,7 +1286,7 @@ methods:
   return:
     description: An iterator of responses, one for each blob in order
     types:
-    - <xref:iterator>[<xref:azure.core.pipeline.transport.HttpResponse>]
+    - <xref:iterator>[<xref:HttpResponse>]
 - uid: azure.storage.blob.ContainerClient.set_standard_blob_tier_blobs
   name: set_standard_blob_tier_blobs
   summary: 'This operation sets the tier on block blobs.
@@ -1386,7 +1386,7 @@ methods:
   return:
     description: An iterator of responses, one for each blob in order
     types:
-    - <xref:Iterator>[<xref:azure.core.pipeline.transport.HttpResponse>]
+    - <xref:typing.Iterator>[<xref:HttpResponse>]
 - uid: azure.storage.blob.ContainerClient.upload_blob
   name: upload_blob
   summary: Creates a new blob from a data source with automatic chunking.
@@ -1672,7 +1672,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of BlobProperties.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.storage.blob.BlobProperties>]
+    - <xref:ItemPaged>[<xref:azure.storage.blob.BlobProperties>]
 attributes:
 - uid: azure.storage.blob.ContainerClient.api_version
   name: api_version

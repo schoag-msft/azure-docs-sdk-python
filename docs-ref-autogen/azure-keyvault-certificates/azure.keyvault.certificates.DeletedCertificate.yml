@@ -57,7 +57,7 @@ attributes:
   summary: The datetime that the certificate was deleted.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.certificates.DeletedCertificate.id
   name: id
@@ -107,7 +107,7 @@ attributes:
   summary: The datetime when the certificate is scheduled to be purged.
   return:
     types:
-    - <xref:datetime.datetime>
+    - <xref:datetime>
     - <xref:None>
 - uid: azure.keyvault.certificates.DeletedCertificate.secret_id
   name: secret_id

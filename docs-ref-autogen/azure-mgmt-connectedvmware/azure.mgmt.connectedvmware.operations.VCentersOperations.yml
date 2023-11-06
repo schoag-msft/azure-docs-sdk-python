@@ -73,7 +73,7 @@ methods:
     description: An instance of LROPoller that returns either VCenter or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.connectedvmware.models.VCenter>]
+    - <xref:LROPoller>[<xref:azure.mgmt.connectedvmware.models.VCenter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VCentersOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VCentersOperations.get
@@ -175,7 +175,7 @@ methods:
   return:
     description: An iterator like instance of either VCenter or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VCenter>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VCenter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VCentersOperations.list_by_resource_group
@@ -198,7 +198,7 @@ methods:
   return:
     description: An iterator like instance of either VCenter or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VCenter>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.connectedvmware.models.VCenter>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.connectedvmware.operations.VCentersOperations.update

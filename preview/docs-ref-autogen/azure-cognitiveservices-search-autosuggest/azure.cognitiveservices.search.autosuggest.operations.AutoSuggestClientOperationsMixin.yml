@@ -400,6 +400,6 @@ methods:
     description: Suggestions or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.autosuggest.models.Suggestions>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.autosuggest.models.ErrorResponseException

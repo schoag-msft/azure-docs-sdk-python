@@ -233,7 +233,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managedapplications.models.ApplicationDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managedapplications.models.ApplicationDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationDefinitionsOperations.list_by_subscription
@@ -251,7 +251,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managedapplications.models.ApplicationDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managedapplications.models.ApplicationDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managedapplications.operations.ApplicationDefinitionsOperations.update

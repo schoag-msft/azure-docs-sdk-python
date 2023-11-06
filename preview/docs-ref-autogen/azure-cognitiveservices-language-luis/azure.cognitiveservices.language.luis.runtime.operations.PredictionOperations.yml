@@ -87,7 +87,7 @@ methods:
     description: PredictionResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.runtime.models.PredictionResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.runtime.models.ErrorException
 - uid: azure.cognitiveservices.language.luis.runtime.operations.PredictionOperations.get_version_prediction
@@ -151,7 +151,7 @@ methods:
     description: PredictionResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.runtime.models.PredictionResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.runtime.models.ErrorException
 attributes:

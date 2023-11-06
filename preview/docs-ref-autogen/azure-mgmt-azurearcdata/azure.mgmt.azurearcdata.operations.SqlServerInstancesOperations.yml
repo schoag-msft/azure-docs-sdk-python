@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.azurearcdata.models.SqlServerInstance>]
+    - <xref:LROPoller>[<xref:azure.mgmt.azurearcdata.models.SqlServerInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurearcdata.operations.SqlServerInstancesOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurearcdata.operations.SqlServerInstancesOperations.get
@@ -166,7 +166,7 @@ methods:
     description: An iterator like instance of either SqlServerInstance or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.azurearcdata.models.SqlServerInstance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.azurearcdata.models.SqlServerInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurearcdata.operations.SqlServerInstancesOperations.list_by_resource_group
@@ -190,7 +190,7 @@ methods:
     description: An iterator like instance of either SqlServerInstance or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.azurearcdata.models.SqlServerInstance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.azurearcdata.models.SqlServerInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.azurearcdata.operations.SqlServerInstancesOperations.update

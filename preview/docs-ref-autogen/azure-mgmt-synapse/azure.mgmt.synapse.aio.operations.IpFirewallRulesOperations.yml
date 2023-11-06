@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IpFirewallRulesOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfo>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IpFirewallRulesOperations.begin_replace_all
@@ -204,7 +204,7 @@ methods:
 
       ReplaceAllFirewallRulesOperationResponse or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.ReplaceAllFirewallRulesOperationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.ReplaceAllFirewallRulesOperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.IpFirewallRulesOperations.get
@@ -266,7 +266,7 @@ methods:
     description: An iterator like instance of either IpFirewallRuleInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.IpFirewallRuleInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

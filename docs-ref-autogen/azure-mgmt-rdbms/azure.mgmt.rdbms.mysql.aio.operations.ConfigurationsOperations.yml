@@ -88,7 +88,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.mysql.models.Configuration>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.mysql.models.Configuration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mysql.aio.operations.ConfigurationsOperations.get
@@ -148,7 +148,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.ConfigurationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.ConfigurationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

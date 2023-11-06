@@ -90,7 +90,7 @@ methods:
     description: An instance of LROPoller that returns either VendorNetworkFunction
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:hybrid_network_management_client.models.VendorNetworkFunction>]
+    - <xref:LROPoller>[<xref:azure.mgmt.hybridnetwork.models.VendorNetworkFunction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.VendorNetworkFunctionsOperations.get
@@ -124,7 +124,7 @@ methods:
   return:
     description: VendorNetworkFunction, or the result of cls(response)
     types:
-    - <xref:hybrid_network_management_client.models.VendorNetworkFunction>
+    - <xref:azure.mgmt.hybridnetwork.models.VendorNetworkFunction>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridnetwork.operations.VendorNetworkFunctionsOperations.list
@@ -165,7 +165,7 @@ methods:
     description: An iterator like instance of either VendorNetworkFunctionListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:hybrid_network_management_client.models.VendorNetworkFunctionListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.hybridnetwork.models.VendorNetworkFunctionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

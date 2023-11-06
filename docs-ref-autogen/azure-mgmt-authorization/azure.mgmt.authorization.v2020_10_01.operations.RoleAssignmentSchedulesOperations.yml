@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.authorization.v2020_10_01.models.RoleAssignmentSchedule>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.authorization.v2020_10_01.models.RoleAssignmentSchedule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

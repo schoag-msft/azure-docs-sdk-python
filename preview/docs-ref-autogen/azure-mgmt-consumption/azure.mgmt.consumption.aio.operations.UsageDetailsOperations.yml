@@ -138,7 +138,7 @@ methods:
     description: An iterator like instance of either UsageDetail or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.UsageDetail>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.UsageDetail>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

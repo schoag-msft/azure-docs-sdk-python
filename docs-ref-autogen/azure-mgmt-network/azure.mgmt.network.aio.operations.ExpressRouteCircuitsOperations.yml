@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCircuit>]
+    - <xref:AsyncLROPoller>[<xref:ExpressRouteCircuit>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.begin_list_arp_table
@@ -183,7 +183,7 @@ methods:
 
       ExpressRouteCircuitsArpTableListResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCircuitsArpTableListResult>]
+    - <xref:AsyncLROPoller>[<xref:ExpressRouteCircuitsArpTableListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.begin_list_routes_table
@@ -245,7 +245,7 @@ methods:
 
       ExpressRouteCircuitsRoutesTableListResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCircuitsRoutesTableListResult>]
+    - <xref:AsyncLROPoller>[<xref:ExpressRouteCircuitsRoutesTableListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.begin_list_routes_table_summary
@@ -307,7 +307,7 @@ methods:
 
       ExpressRouteCircuitsRoutesTableSummaryListResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCircuitsRoutesTableSummaryListResult>]
+    - <xref:AsyncLROPoller>[<xref:ExpressRouteCircuitsRoutesTableSummaryListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.begin_update_tags
@@ -372,7 +372,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ExpressRouteCircuit>]
+    - <xref:AsyncLROPoller>[<xref:ExpressRouteCircuit>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.get
@@ -398,7 +398,7 @@ methods:
   return:
     description: ExpressRouteCircuit or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteCircuit>
+    - <xref:ExpressRouteCircuit>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.get_peering_stats
@@ -429,7 +429,7 @@ methods:
   return:
     description: ExpressRouteCircuitStats or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteCircuitStats>
+    - <xref:ExpressRouteCircuitStats>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.get_stats
@@ -455,7 +455,7 @@ methods:
   return:
     description: ExpressRouteCircuitStats or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteCircuitStats>
+    - <xref:ExpressRouteCircuitStats>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.list
@@ -476,7 +476,7 @@ methods:
     description: An iterator like instance of either ExpressRouteCircuit or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ExpressRouteCircuit>]
+    - <xref:AsyncItemPaged>[<xref:ExpressRouteCircuit>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.list_all
@@ -492,7 +492,7 @@ methods:
     description: An iterator like instance of either ExpressRouteCircuit or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ExpressRouteCircuit>]
+    - <xref:AsyncItemPaged>[<xref:ExpressRouteCircuit>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.list_arp_table
@@ -524,7 +524,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ExpressRouteCircuitArpTable>]
+    - <xref:AsyncItemPaged>[<xref:ExpressRouteCircuitArpTable>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.list_routes_table
@@ -556,7 +556,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ExpressRouteCircuitRoutesTable>]
+    - <xref:AsyncItemPaged>[<xref:ExpressRouteCircuitRoutesTable>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.list_stats
@@ -588,7 +588,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ExpressRouteCircuitStats>]
+    - <xref:AsyncItemPaged>[<xref:ExpressRouteCircuitStats>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ExpressRouteCircuitsOperations.update_tags
@@ -629,7 +629,7 @@ methods:
   return:
     description: ExpressRouteCircuit or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ExpressRouteCircuit>
+    - <xref:ExpressRouteCircuit>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

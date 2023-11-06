@@ -239,7 +239,7 @@ methods:
     description: An iterator like instance of either PolicyExemption or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2022_07_01_preview.models.PolicyExemption>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2022_07_01_preview.models.PolicyExemption>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2022_07_01_preview.aio.operations.PolicyExemptionsOperations.list_for_management_group
@@ -313,7 +313,7 @@ methods:
     description: An iterator like instance of either PolicyExemption or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2022_07_01_preview.models.PolicyExemption>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2022_07_01_preview.models.PolicyExemption>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2022_07_01_preview.aio.operations.PolicyExemptionsOperations.list_for_resource
@@ -455,7 +455,7 @@ methods:
     description: An iterator like instance of either PolicyExemption or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2022_07_01_preview.models.PolicyExemption>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2022_07_01_preview.models.PolicyExemption>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2022_07_01_preview.aio.operations.PolicyExemptionsOperations.list_for_resource_group
@@ -533,7 +533,7 @@ methods:
     description: An iterator like instance of either PolicyExemption or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2022_07_01_preview.models.PolicyExemption>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resource.policy.v2022_07_01_preview.models.PolicyExemption>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.policy.v2022_07_01_preview.aio.operations.PolicyExemptionsOperations.update

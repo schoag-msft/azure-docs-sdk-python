@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.VirtualNetwork>]
+    - <xref:AsyncLROPoller>[<xref:VirtualNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.begin_list_ddos_protection_status
@@ -180,7 +180,7 @@ methods:
 
       VirtualNetworkDdosProtectionStatusResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PublicIpDdosProtectionStatusResult>]]
+    - <xref:AsyncLROPoller>[<xref:AsyncItemPaged>[<xref:PublicIpDdosProtectionStatusResult>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.begin_update_tags
@@ -245,7 +245,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.VirtualNetwork>]
+    - <xref:AsyncLROPoller>[<xref:VirtualNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.check_ip_address_availability
@@ -275,7 +275,7 @@ methods:
   return:
     description: IPAddressAvailabilityResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.IPAddressAvailabilityResult>
+    - <xref:IPAddressAvailabilityResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.get
@@ -305,7 +305,7 @@ methods:
   return:
     description: VirtualNetwork or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualNetwork>
+    - <xref:VirtualNetwork>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.get_bastion_hosts
@@ -331,7 +331,7 @@ methods:
   return:
     description: BastionHostListResult or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.BastionHostListResult>
+    - <xref:BastionHostListResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.list
@@ -352,7 +352,7 @@ methods:
     description: An iterator like instance of either VirtualNetwork or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.VirtualNetwork>]
+    - <xref:AsyncItemPaged>[<xref:VirtualNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.list_all
@@ -368,7 +368,7 @@ methods:
     description: An iterator like instance of either VirtualNetwork or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.VirtualNetwork>]
+    - <xref:AsyncItemPaged>[<xref:VirtualNetwork>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.list_usage
@@ -395,7 +395,7 @@ methods:
     description: An iterator like instance of either VirtualNetworkUsage or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.VirtualNetworkUsage>]
+    - <xref:AsyncItemPaged>[<xref:VirtualNetworkUsage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualNetworksOperations.update_tags
@@ -436,7 +436,7 @@ methods:
   return:
     description: VirtualNetwork or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualNetwork>
+    - <xref:VirtualNetwork>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

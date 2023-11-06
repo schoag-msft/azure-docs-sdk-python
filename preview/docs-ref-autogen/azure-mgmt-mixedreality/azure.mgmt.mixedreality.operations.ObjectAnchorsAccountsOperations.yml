@@ -123,7 +123,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.mixedreality.models.ObjectAnchorsAccount>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.mixedreality.models.ObjectAnchorsAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mixedreality.operations.ObjectAnchorsAccountsOperations.list_by_subscription
@@ -141,7 +141,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.mixedreality.models.ObjectAnchorsAccount>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.mixedreality.models.ObjectAnchorsAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mixedreality.operations.ObjectAnchorsAccountsOperations.list_keys

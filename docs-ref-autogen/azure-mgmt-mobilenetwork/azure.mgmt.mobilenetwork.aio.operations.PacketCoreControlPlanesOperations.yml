@@ -81,7 +81,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreControlPlanesOperations.begin_create_or_update
@@ -149,7 +149,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.PacketCoreControlPlane>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.PacketCoreControlPlane>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreControlPlanesOperations.begin_delete
@@ -199,7 +199,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreControlPlanesOperations.begin_reinstall
@@ -257,7 +257,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreControlPlanesOperations.begin_rollback
@@ -313,7 +313,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.AsyncOperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreControlPlanesOperations.get
@@ -366,7 +366,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.mobilenetwork.models.PacketCoreControlPlane>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.mobilenetwork.models.PacketCoreControlPlane>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreControlPlanesOperations.list_by_subscription
@@ -384,7 +384,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.mobilenetwork.models.PacketCoreControlPlane>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.mobilenetwork.models.PacketCoreControlPlane>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreControlPlanesOperations.update_tags

@@ -71,7 +71,7 @@ methods:
     description: An instance of LROPoller that returns either IpGroup or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.IpGroup>]
+    - <xref:LROPoller>[<xref:IpGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpGroupsOperations.begin_delete
@@ -119,7 +119,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpGroupsOperations.get
@@ -152,7 +152,7 @@ methods:
   return:
     description: IpGroup or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.IpGroup>
+    - <xref:IpGroup>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpGroupsOperations.list
@@ -167,7 +167,7 @@ methods:
   return:
     description: An iterator like instance of either IpGroup or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.IpGroup>]
+    - <xref:ItemPaged>[<xref:IpGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpGroupsOperations.list_by_resource_group
@@ -187,7 +187,7 @@ methods:
   return:
     description: An iterator like instance of either IpGroup or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.IpGroup>]
+    - <xref:ItemPaged>[<xref:IpGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.IpGroupsOperations.update_groups
@@ -228,7 +228,7 @@ methods:
   return:
     description: IpGroup or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.IpGroup>
+    - <xref:IpGroup>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -217,7 +217,7 @@ methods:
   return:
     description: An iterator of <xref:azure.appconfiguration.ConfigurationSetting>
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
+    - <xref:ItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
   exceptions:
   - type: azure.appconfiguration.HttpResponseError
   - type: azure.appconfiguration.ClientAuthenticationError
@@ -261,7 +261,7 @@ methods:
   return:
     description: An iterator of <xref:azure.appconfiguration.ConfigurationSetting>
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
+    - <xref:ItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
   exceptions:
   - type: azure.appconfiguration.HttpResponseError
   - type: azure.appconfiguration.ClientAuthenticationError

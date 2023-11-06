@@ -80,7 +80,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2020_12_01.models.DigitalTwinsEndpointResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2020_12_01.models.DigitalTwinsEndpointResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2020_12_01.aio.operations.DigitalTwinsEndpointOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2020_12_01.models.DigitalTwinsEndpointResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.digitaltwins.v2020_12_01.models.DigitalTwinsEndpointResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.digitaltwins.v2020_12_01.aio.operations.DigitalTwinsEndpointOperations.get
@@ -201,7 +201,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.digitaltwins.v2020_12_01.models.DigitalTwinsEndpointResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.digitaltwins.v2020_12_01.models.DigitalTwinsEndpointResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -63,7 +63,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.consumption.models.ReservationTransaction>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.consumption.models.ReservationTransaction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.consumption.operations.ReservationTransactionsOperations.list_by_billing_profile
@@ -121,7 +121,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.consumption.models.ModernReservationTransaction>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.consumption.models.ModernReservationTransaction>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -207,7 +207,7 @@ methods:
     description: An iterator like instance of either DataSetMappingList or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.DataSetMappingList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.DataSetMappingList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

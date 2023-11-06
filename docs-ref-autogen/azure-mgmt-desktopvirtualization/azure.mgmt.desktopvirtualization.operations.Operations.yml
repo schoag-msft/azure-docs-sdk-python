@@ -27,7 +27,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.ResourceProviderOperation>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.ResourceProviderOperation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

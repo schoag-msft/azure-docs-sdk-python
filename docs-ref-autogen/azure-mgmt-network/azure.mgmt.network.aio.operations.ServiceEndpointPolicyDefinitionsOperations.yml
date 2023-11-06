@@ -86,7 +86,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.ServiceEndpointPolicyDefinition>]
+    - <xref:AsyncLROPoller>[<xref:ServiceEndpointPolicyDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ServiceEndpointPolicyDefinitionsOperations.begin_delete
@@ -141,7 +141,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ServiceEndpointPolicyDefinitionsOperations.get
@@ -175,7 +175,7 @@ methods:
   return:
     description: ServiceEndpointPolicyDefinition or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ServiceEndpointPolicyDefinition>
+    - <xref:ServiceEndpointPolicyDefinition>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.ServiceEndpointPolicyDefinitionsOperations.list_by_resource_group
@@ -204,7 +204,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.ServiceEndpointPolicyDefinition>]
+    - <xref:AsyncItemPaged>[<xref:ServiceEndpointPolicyDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

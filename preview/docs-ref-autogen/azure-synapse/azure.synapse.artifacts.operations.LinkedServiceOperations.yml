@@ -69,7 +69,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.synapse.artifacts.models.LinkedServiceResource>]
+    - <xref:LROPoller>[<xref:azure.synapse.artifacts.models.LinkedServiceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.LinkedServiceOperations.begin_delete_linked_service
@@ -112,7 +112,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.LinkedServiceOperations.begin_rename_linked_service
@@ -160,7 +160,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.LinkedServiceOperations.get_linked_service
@@ -211,7 +211,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.LinkedServiceResource>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.LinkedServiceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

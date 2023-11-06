@@ -154,7 +154,7 @@ methods:
     description: An iterator like instance of either ModuleListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.automation.models.ModuleListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.automation.models.ModuleListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.aio.operations.Python2PackageOperations.update

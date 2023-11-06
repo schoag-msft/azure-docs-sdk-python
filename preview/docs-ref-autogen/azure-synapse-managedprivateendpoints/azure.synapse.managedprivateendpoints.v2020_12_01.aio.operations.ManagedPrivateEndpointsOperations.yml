@@ -134,7 +134,7 @@ methods:
     description: An iterator like instance of either ManagedPrivateEndpointListResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.synapse.managedprivateendpoints.v2020_12_01.models.ManagedPrivateEndpointListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.synapse.managedprivateendpoints.v2020_12_01.models.ManagedPrivateEndpointListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

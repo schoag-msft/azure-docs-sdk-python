@@ -342,7 +342,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of BlobProperties.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.storage.blob.FilteredBlob>]
+    - <xref:ItemPaged>[<xref:azure.storage.blob.FilteredBlob>]
 - uid: azure.storage.blob.BlobServiceClient.from_connection_string
   name: from_connection_string
   summary: Create BlobServiceClient from a Connection String.
@@ -531,7 +531,7 @@ methods:
 
       analytics logging, hour/minute metrics, cors rules, etc.'
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   examples:
   - "Getting service properties for the blob service.<!--[!code-python[Main](les\\\
     blob_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
@@ -591,7 +591,7 @@ methods:
   return:
     description: The blob service stats.
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   examples:
   - "Getting service stats for the blob service.<!--[!code-python[Main](les\\blob_samples_service.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -695,7 +695,7 @@ methods:
   return:
     description: An iterable (auto-paging) of ContainerProperties.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.storage.blob.ContainerProperties>]
+    - <xref:ItemPaged>[<xref:azure.storage.blob.ContainerProperties>]
   examples:
   - "Listing the containers in the blob service.<!--[!code-python[Main](les\\blob_samples_service.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\

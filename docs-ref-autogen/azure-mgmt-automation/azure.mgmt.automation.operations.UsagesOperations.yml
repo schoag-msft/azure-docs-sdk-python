@@ -55,7 +55,7 @@ methods:
     description: An iterator like instance of either UsageListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automation.models.UsageListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automation.models.UsageListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

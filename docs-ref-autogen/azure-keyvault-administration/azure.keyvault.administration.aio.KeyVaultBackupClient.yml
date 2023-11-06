@@ -69,7 +69,7 @@ methods:
   return:
     description: An AsyncLROPoller. Call *result()* on this object to get a <xref:azure.keyvault.administration.aio.KeyVaultBackupResult>.
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.keyvault.administration.KeyVaultBackupResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.keyvault.administration.KeyVaultBackupResult>]
 - uid: azure.keyvault.administration.aio.KeyVaultBackupClient.begin_restore
   name: begin_restore
   summary: 'Restore a Key Vault backup.
@@ -110,7 +110,7 @@ methods:
     - <xref:str>
   return:
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>
+    - <xref:AsyncLROPoller>
 - uid: azure.keyvault.administration.aio.KeyVaultBackupClient.close
   name: close
   summary: 'Close sockets opened by the client.
@@ -149,7 +149,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.AsyncHttpResponse>
+    - <xref:AsyncHttpResponse>
 attributes:
 - uid: azure.keyvault.administration.aio.KeyVaultBackupClient.vault_url
   name: vault_url

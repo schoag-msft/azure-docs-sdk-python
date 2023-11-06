@@ -134,7 +134,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.advisor.models.ResourceRecommendationBase>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.advisor.models.ResourceRecommendationBase>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

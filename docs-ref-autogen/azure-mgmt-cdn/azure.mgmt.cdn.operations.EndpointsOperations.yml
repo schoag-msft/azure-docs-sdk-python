@@ -81,7 +81,7 @@ methods:
     description: An instance of LROPoller that returns either Endpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.Endpoint>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.Endpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.EndpointsOperations.begin_delete
@@ -141,7 +141,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.EndpointsOperations.begin_load_content
@@ -216,7 +216,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.EndpointsOperations.begin_purge_content
@@ -294,7 +294,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.EndpointsOperations.begin_start
@@ -351,7 +351,7 @@ methods:
     description: An instance of LROPoller that returns either Endpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.Endpoint>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.Endpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.EndpointsOperations.begin_stop
@@ -408,7 +408,7 @@ methods:
     description: An instance of LROPoller that returns either Endpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.Endpoint>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.Endpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.EndpointsOperations.begin_update
@@ -490,7 +490,7 @@ methods:
     description: An instance of LROPoller that returns either Endpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.Endpoint>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.Endpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.EndpointsOperations.get
@@ -556,7 +556,7 @@ methods:
   return:
     description: An iterator like instance of either Endpoint or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.Endpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.Endpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.EndpointsOperations.list_resource_usage
@@ -593,7 +593,7 @@ methods:
     description: An iterator like instance of either ResourceUsage or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.ResourceUsage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.ResourceUsage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.EndpointsOperations.validate_custom_domain

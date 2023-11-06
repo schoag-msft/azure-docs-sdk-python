@@ -45,7 +45,7 @@ methods:
     description: An iterator like instance of either SqlPoolUsage or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.SqlPoolUsage>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.SqlPoolUsage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

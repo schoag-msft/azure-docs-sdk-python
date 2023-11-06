@@ -88,7 +88,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.workloads.models.SAPApplicationServerInstance>]
+    - <xref:LROPoller>[<xref:azure.mgmt.workloads.models.SAPApplicationServerInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.operations.SAPApplicationServerInstancesOperations.begin_delete
@@ -152,7 +152,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.operations.SAPApplicationServerInstancesOperations.begin_start_instance
@@ -213,7 +213,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.operations.SAPApplicationServerInstancesOperations.begin_stop_instance
@@ -290,7 +290,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.operations.SAPApplicationServerInstancesOperations.begin_update
@@ -368,7 +368,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.workloads.models.SAPApplicationServerInstance>]
+    - <xref:LROPoller>[<xref:azure.mgmt.workloads.models.SAPApplicationServerInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.operations.SAPApplicationServerInstancesOperations.get
@@ -444,7 +444,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.workloads.models.SAPApplicationServerInstance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.workloads.models.SAPApplicationServerInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

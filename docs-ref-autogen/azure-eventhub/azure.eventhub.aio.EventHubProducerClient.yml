@@ -561,7 +561,7 @@ methods:
     - <xref:bool>
   return:
     types:
-    - <xref:azure.eventhub.aio.EventHubProducerClient>
+    - <xref:azure.eventhub.EventHubProducerClient>
   examples:
   - "Create a new instance of the EventHubProducerClient from connection string.<!--[!code-python[Main](les\\\
     async_samples\\sample_code_eventhub_async.py )]-->\n\n<!-- literal_block {\"ids\"\
@@ -603,7 +603,7 @@ methods:
   signature: async get_eventhub_properties() -> Dict[str, Any]
   return:
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   exceptions:
   - type: azure.eventhub.exceptions.EventHubError
 - uid: azure.eventhub.aio.EventHubProducerClient.get_partition_ids
@@ -631,7 +631,7 @@ methods:
     - <xref:str>
   return:
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
   exceptions:
   - type: azure.eventhub.exceptions.EventHubError
 - uid: azure.eventhub.aio.EventHubProducerClient.send_batch

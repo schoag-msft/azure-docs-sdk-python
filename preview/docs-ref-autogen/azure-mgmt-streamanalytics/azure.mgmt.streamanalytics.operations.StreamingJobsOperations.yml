@@ -99,7 +99,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.streamanalytics.models.StreamingJob>]
+    - <xref:LROPoller>[<xref:azure.mgmt.streamanalytics.models.StreamingJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.StreamingJobsOperations.begin_delete
@@ -149,7 +149,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.StreamingJobsOperations.begin_scale
@@ -214,7 +214,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.StreamingJobsOperations.begin_start
@@ -282,7 +282,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.StreamingJobsOperations.begin_stop
@@ -335,7 +335,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.StreamingJobsOperations.get
@@ -407,7 +407,7 @@ methods:
     description: An iterator like instance of either StreamingJob or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.streamanalytics.models.StreamingJob>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.streamanalytics.models.StreamingJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.StreamingJobsOperations.list_by_resource_group
@@ -445,7 +445,7 @@ methods:
     description: An iterator like instance of either StreamingJob or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.streamanalytics.models.StreamingJob>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.streamanalytics.models.StreamingJob>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.streamanalytics.operations.StreamingJobsOperations.update

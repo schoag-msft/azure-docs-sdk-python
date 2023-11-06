@@ -67,7 +67,7 @@ methods:
   return:
     description: BaseUserRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.BaseUserRule>
+    - <xref:BaseUserRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.UserRulesOperations.delete
@@ -153,7 +153,7 @@ methods:
   return:
     description: BaseUserRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.BaseUserRule>
+    - <xref:BaseUserRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.UserRulesOperations.list
@@ -213,7 +213,7 @@ methods:
     description: An iterator like instance of either BaseUserRule or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.BaseUserRule>]
+    - <xref:AsyncItemPaged>[<xref:BaseUserRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

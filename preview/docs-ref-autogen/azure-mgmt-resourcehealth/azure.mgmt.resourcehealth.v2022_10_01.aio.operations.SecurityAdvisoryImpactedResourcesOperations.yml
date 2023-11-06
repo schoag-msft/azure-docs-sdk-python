@@ -43,7 +43,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2022_10_01.models.EventImpactedResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2022_10_01.models.EventImpactedResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resourcehealth.v2022_10_01.aio.operations.SecurityAdvisoryImpactedResourcesOperations.list_by_tenant_id_and_event_id
@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2022_10_01.models.EventImpactedResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2022_10_01.models.EventImpactedResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

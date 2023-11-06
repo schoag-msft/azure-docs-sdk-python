@@ -80,7 +80,7 @@ methods:
     description: An iterator like instance of either CustomizationPolicy or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.CustomizationPolicy>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.CustomizationPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

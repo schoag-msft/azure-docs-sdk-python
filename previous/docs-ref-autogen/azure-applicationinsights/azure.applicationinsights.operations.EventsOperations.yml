@@ -91,7 +91,7 @@ methods:
     description: EventsResults or ClientRawResponse if raw=true
     types:
     - <xref:azure.applicationinsights.models.EventsResults>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.applicationinsights.models.ErrorResponseException
 - uid: azure.applicationinsights.operations.EventsOperations.get_by_type
@@ -212,7 +212,7 @@ methods:
     description: EventsResults or ClientRawResponse if raw=true
     types:
     - <xref:azure.applicationinsights.models.EventsResults>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.applicationinsights.models.ErrorResponseException
 - uid: azure.applicationinsights.operations.EventsOperations.get_odata_metadata
@@ -251,7 +251,7 @@ methods:
     description: object or ClientRawResponse if raw=true
     types:
     - <xref:object>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.applicationinsights.models.ErrorResponseException
 attributes:

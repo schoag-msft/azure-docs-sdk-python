@@ -92,7 +92,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either ManagedInstanceLongTermRetentionPolicy
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionPolicy>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ManagedInstanceLongTermRetentionPoliciesOperations.get
@@ -166,7 +166,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceLongTermRetentionPolicyListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionPolicyListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceLongTermRetentionPolicyListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

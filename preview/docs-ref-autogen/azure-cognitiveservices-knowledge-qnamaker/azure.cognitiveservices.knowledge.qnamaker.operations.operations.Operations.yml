@@ -53,7 +53,7 @@ methods:
     description: Operation or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.Operation>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 attributes:

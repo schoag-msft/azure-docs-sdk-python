@@ -144,8 +144,8 @@ methods:
   return:
     description: A retry policy with retries disabled.
     types:
-    - <xref:azure.core.pipeline.policies.RetryPolicy>
-    - <xref:azure.core.pipeline.policies.AsyncRetryPolicy>
+    - <xref:RetryPolicy>
+    - <xref:AsyncRetryPolicy>
 - uid: azure.cosmos.ConnectionRetryPolicy.parse_retry_after
   name: parse_retry_after
   summary: Helper to parse Retry-After and get value in seconds.
@@ -176,7 +176,7 @@ methods:
   return:
     description: Returns the PipelineResponse or raises error if maximum retries exceeded.
     types:
-    - <xref:azure.core.pipeline.PipelineResponse>
+    - <xref:PipelineResponse>
   exceptions:
   - type: azure.core.exceptions.AzureError
     description: Maximum retries exceeded.

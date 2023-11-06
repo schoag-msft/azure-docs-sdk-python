@@ -84,7 +84,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AdminRulesOperations.create_or_update
@@ -143,7 +143,7 @@ methods:
   return:
     description: BaseAdminRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.BaseAdminRule>
+    - <xref:BaseAdminRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AdminRulesOperations.delete
@@ -229,7 +229,7 @@ methods:
   return:
     description: BaseAdminRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.BaseAdminRule>
+    - <xref:BaseAdminRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.AdminRulesOperations.list
@@ -289,7 +289,7 @@ methods:
     description: An iterator like instance of either BaseAdminRule or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.BaseAdminRule>]
+    - <xref:ItemPaged>[<xref:BaseAdminRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

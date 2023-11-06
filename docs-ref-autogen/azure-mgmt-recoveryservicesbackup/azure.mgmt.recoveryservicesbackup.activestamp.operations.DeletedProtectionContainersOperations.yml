@@ -45,7 +45,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicesbackup.activestamp.models.ProtectionContainerResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicesbackup.activestamp.models.ProtectionContainerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

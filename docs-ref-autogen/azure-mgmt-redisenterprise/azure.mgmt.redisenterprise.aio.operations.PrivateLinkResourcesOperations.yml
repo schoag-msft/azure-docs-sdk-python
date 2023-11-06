@@ -58,7 +58,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.redisenterprise.models.PrivateLinkResourceListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.redisenterprise.models.PrivateLinkResourceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

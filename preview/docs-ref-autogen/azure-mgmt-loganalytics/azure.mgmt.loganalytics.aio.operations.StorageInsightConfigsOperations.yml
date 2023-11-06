@@ -152,7 +152,7 @@ methods:
     description: An iterator like instance of either StorageInsight or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.StorageInsight>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.StorageInsight>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

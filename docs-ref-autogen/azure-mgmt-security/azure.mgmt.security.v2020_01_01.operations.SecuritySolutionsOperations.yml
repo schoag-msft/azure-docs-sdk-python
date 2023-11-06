@@ -61,7 +61,7 @@ methods:
     description: An iterator like instance of either SecuritySolution or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.SecuritySolution>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.SecuritySolution>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

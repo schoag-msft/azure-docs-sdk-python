@@ -60,7 +60,7 @@ methods:
     description: An iterator like instance of either FeatureResult or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.features.v2021_07_01.models.FeatureResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.features.v2021_07_01.models.FeatureResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.features.v2021_07_01.operations.FeaturesOperations.list_all
@@ -76,7 +76,7 @@ methods:
     description: An iterator like instance of either FeatureResult or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.features.v2021_07_01.models.FeatureResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.features.v2021_07_01.models.FeatureResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.features.v2021_07_01.operations.FeaturesOperations.register

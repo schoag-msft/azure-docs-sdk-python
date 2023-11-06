@@ -90,7 +90,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.netapp.models.VolumeGroupDetails>]
+    - <xref:LROPoller>[<xref:azure.mgmt.netapp.models.VolumeGroupDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumeGroupsOperations.begin_delete
@@ -148,7 +148,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.netapp.operations.VolumeGroupsOperations.get
@@ -216,7 +216,7 @@ methods:
     description: An iterator like instance of either VolumeGroup or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.netapp.models.VolumeGroup>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.netapp.models.VolumeGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

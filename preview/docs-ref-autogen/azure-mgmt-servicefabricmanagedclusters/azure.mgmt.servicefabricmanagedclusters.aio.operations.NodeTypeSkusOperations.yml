@@ -45,7 +45,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.servicefabricmanagedclusters.models.NodeTypeAvailableSku>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.servicefabricmanagedclusters.models.NodeTypeAvailableSku>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

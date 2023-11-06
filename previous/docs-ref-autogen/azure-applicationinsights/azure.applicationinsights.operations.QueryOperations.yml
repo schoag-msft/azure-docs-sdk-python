@@ -70,7 +70,7 @@ methods:
     description: QueryResults or ClientRawResponse if raw=true
     types:
     - <xref:azure.applicationinsights.models.QueryResults>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.applicationinsights.models.ErrorResponseException
 attributes:

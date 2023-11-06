@@ -146,7 +146,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datafactory.models.GlobalParameterResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datafactory.models.GlobalParameterResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

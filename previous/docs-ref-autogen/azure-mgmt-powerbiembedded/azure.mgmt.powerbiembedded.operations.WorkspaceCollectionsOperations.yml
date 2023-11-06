@@ -69,7 +69,7 @@ methods:
     description: CheckNameResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.powerbiembedded.models.CheckNameResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.mgmt.powerbiembedded.models.ErrorException
 - uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.create
@@ -126,7 +126,7 @@ methods:
     description: WorkspaceCollection or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.powerbiembedded.models.WorkspaceCollection>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.mgmt.powerbiembedded.models.ErrorException
 - uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.delete
@@ -169,8 +169,8 @@ methods:
 
       ClientRawResponse<None> if raw==True'
     types:
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:None>]
-    - <xref:msrestazure.azure_operation.AzureOperationPoller>[<xref:msrest.pipeline.ClientRawResponse>[<xref:None>]]
+    - <xref:AzureOperationPoller>[<xref:None>]
+    - <xref:AzureOperationPoller>[<xref:ClientRawResponse>[<xref:None>]]
   exceptions:
   - type: azure.mgmt.powerbiembedded.models.ErrorException
 - uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.get_access_keys
@@ -216,7 +216,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.mgmt.powerbiembedded.models.ErrorException
 - uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.get_by_name
@@ -258,7 +258,7 @@ methods:
     description: WorkspaceCollection or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.powerbiembedded.models.WorkspaceCollection>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.mgmt.powerbiembedded.models.ErrorException
 - uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.list_by_resource_group
@@ -372,7 +372,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.mgmt.powerbiembedded.models.ErrorException
 - uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.regenerate_key
@@ -424,7 +424,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.mgmt.powerbiembedded.models.ErrorException
 - uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.update
@@ -472,7 +472,7 @@ methods:
     description: WorkspaceCollection or ClientRawResponse if raw=true
     types:
     - <xref:azure.mgmt.powerbiembedded.models.WorkspaceCollection>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.mgmt.powerbiembedded.models.ErrorException
 attributes:

@@ -34,7 +34,7 @@ methods:
   return:
     description: SignaturesOverrides or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SignaturesOverrides>
+    - <xref:SignaturesOverrides>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.FirewallPolicyIdpsSignaturesOverridesOperations.list
@@ -63,7 +63,7 @@ methods:
   return:
     description: SignaturesOverridesList or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SignaturesOverridesList>
+    - <xref:SignaturesOverridesList>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.FirewallPolicyIdpsSignaturesOverridesOperations.patch
@@ -103,7 +103,7 @@ methods:
   return:
     description: SignaturesOverrides or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SignaturesOverrides>
+    - <xref:SignaturesOverrides>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.FirewallPolicyIdpsSignaturesOverridesOperations.put
@@ -143,7 +143,7 @@ methods:
   return:
     description: SignaturesOverrides or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SignaturesOverrides>
+    - <xref:SignaturesOverrides>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

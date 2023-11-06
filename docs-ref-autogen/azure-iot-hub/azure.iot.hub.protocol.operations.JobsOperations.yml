@@ -56,7 +56,7 @@ methods:
     description: object or ClientRawResponse if raw=true
     types:
     - <xref:object>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.JobsOperations.cancel_scheduled_job
@@ -94,7 +94,7 @@ methods:
     description: JobResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.JobResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.JobsOperations.create_import_export_job
@@ -133,7 +133,7 @@ methods:
     description: JobProperties or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.JobProperties>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.JobsOperations.create_scheduled_job
@@ -179,7 +179,7 @@ methods:
     description: JobResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.JobResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.JobsOperations.get_import_export_job
@@ -217,7 +217,7 @@ methods:
     description: JobProperties or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.JobProperties>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.JobsOperations.get_import_export_jobs
@@ -250,7 +250,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.iot.hub.protocol.models.JobProperties>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.JobsOperations.get_scheduled_job
@@ -288,7 +288,7 @@ methods:
     description: JobResponse or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.JobResponse>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 - uid: azure.iot.hub.protocol.operations.JobsOperations.query_scheduled_jobs
@@ -340,7 +340,7 @@ methods:
     description: QueryResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.iot.hub.protocol.models.QueryResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrest.exceptions.HttpOperationError
 attributes:

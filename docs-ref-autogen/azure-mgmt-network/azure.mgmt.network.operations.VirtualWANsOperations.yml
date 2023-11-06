@@ -71,7 +71,7 @@ methods:
     description: An instance of LROPoller that returns either VirtualWAN or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VirtualWAN>]
+    - <xref:LROPoller>[<xref:VirtualWAN>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualWansOperations.begin_delete
@@ -119,7 +119,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualWansOperations.begin_update_tags
@@ -181,7 +181,7 @@ methods:
     description: An instance of LROPoller that returns either VirtualWAN or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VirtualWAN>]
+    - <xref:LROPoller>[<xref:VirtualWAN>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualWansOperations.get
@@ -207,7 +207,7 @@ methods:
   return:
     description: VirtualWAN or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualWAN>
+    - <xref:VirtualWAN>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualWansOperations.list
@@ -222,7 +222,7 @@ methods:
   return:
     description: An iterator like instance of either VirtualWAN or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VirtualWAN>]
+    - <xref:ItemPaged>[<xref:VirtualWAN>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualWansOperations.list_by_resource_group
@@ -242,7 +242,7 @@ methods:
   return:
     description: An iterator like instance of either VirtualWAN or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VirtualWAN>]
+    - <xref:ItemPaged>[<xref:VirtualWAN>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualWansOperations.update_tags
@@ -282,7 +282,7 @@ methods:
   return:
     description: VirtualWAN or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualWAN>
+    - <xref:VirtualWAN>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

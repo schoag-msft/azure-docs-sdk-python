@@ -71,7 +71,7 @@ methods:
     description: An instance of LROPoller that returns either ElasticSan or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.elasticsan.models.ElasticSan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.elasticsan.models.ElasticSan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elasticsan.operations.ElasticSansOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elasticsan.operations.ElasticSansOperations.begin_update
@@ -186,7 +186,7 @@ methods:
     description: An instance of LROPoller that returns either ElasticSan or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.elasticsan.models.ElasticSan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.elasticsan.models.ElasticSan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elasticsan.operations.ElasticSansOperations.get
@@ -236,7 +236,7 @@ methods:
   return:
     description: An iterator like instance of either ElasticSan or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.elasticsan.models.ElasticSan>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.elasticsan.models.ElasticSan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elasticsan.operations.ElasticSansOperations.list_by_subscription
@@ -251,7 +251,7 @@ methods:
   return:
     description: An iterator like instance of either ElasticSan or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.elasticsan.models.ElasticSan>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.elasticsan.models.ElasticSan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

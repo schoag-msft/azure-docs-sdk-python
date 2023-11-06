@@ -478,7 +478,7 @@ methods:
     description: An iterator like instance of either RemediationDeploymentsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationDeploymentsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationDeploymentsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.aio.operations.RemediationsOperations.list_deployments_at_resource
@@ -510,7 +510,7 @@ methods:
     description: An iterator like instance of either RemediationDeploymentsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationDeploymentsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationDeploymentsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.aio.operations.RemediationsOperations.list_deployments_at_resource_group
@@ -542,7 +542,7 @@ methods:
     description: An iterator like instance of either RemediationDeploymentsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationDeploymentsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationDeploymentsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.aio.operations.RemediationsOperations.list_deployments_at_subscription
@@ -569,7 +569,7 @@ methods:
     description: An iterator like instance of either RemediationDeploymentsListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationDeploymentsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationDeploymentsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.aio.operations.RemediationsOperations.list_for_management_group
@@ -596,7 +596,7 @@ methods:
     description: An iterator like instance of either RemediationListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.aio.operations.RemediationsOperations.list_for_resource
@@ -623,7 +623,7 @@ methods:
     description: An iterator like instance of either RemediationListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.aio.operations.RemediationsOperations.list_for_resource_group
@@ -650,7 +650,7 @@ methods:
     description: An iterator like instance of either RemediationListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.policyinsights.aio.operations.RemediationsOperations.list_for_subscription
@@ -672,7 +672,7 @@ methods:
     description: An iterator like instance of either RemediationListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.policyinsights.models.RemediationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

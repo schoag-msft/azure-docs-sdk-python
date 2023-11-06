@@ -39,7 +39,7 @@ methods:
   return:
     description: VpnSiteLink or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VpnSiteLink>
+    - <xref:VpnSiteLink>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VpnSiteLinksOperations.list_by_vpn_site
@@ -66,7 +66,7 @@ methods:
     description: An iterator like instance of either VpnSiteLink or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.VpnSiteLink>]
+    - <xref:ItemPaged>[<xref:VpnSiteLink>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

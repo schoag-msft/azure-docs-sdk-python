@@ -35,7 +35,7 @@ methods:
   return:
     description: list of JSON object
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:JSON>]
+    - <xref:ItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

@@ -190,7 +190,7 @@ methods:
     description: An iterator like instance of either SBSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2017_04_01.models.SBSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2017_04_01.models.SBSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639400.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639400.aspx)\

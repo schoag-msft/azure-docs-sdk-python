@@ -159,7 +159,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccountAgreement>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccountAgreement>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.IntegrationAccountAgreementsOperations.list_content_callback_url

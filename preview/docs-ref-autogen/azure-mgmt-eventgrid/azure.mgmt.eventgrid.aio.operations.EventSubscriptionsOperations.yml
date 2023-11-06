@@ -102,7 +102,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.begin_delete
@@ -171,7 +171,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.begin_update
@@ -257,7 +257,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.get
@@ -469,7 +469,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.list_by_resource
@@ -546,7 +546,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.list_global_by_resource_group
@@ -609,7 +609,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.list_global_by_resource_group_for_topic_type
@@ -678,7 +678,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.list_global_by_subscription
@@ -733,7 +733,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.list_global_by_subscription_for_topic_type
@@ -792,7 +792,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.list_regional_by_resource_group
@@ -862,7 +862,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.list_regional_by_resource_group_for_topic_type
@@ -940,7 +940,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.list_regional_by_subscription
@@ -999,7 +999,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.EventSubscriptionsOperations.list_regional_by_subscription_for_topic_type
@@ -1067,7 +1067,7 @@ methods:
     description: An iterator like instance of either EventSubscription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventSubscription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -561,7 +561,7 @@ methods:
     description: News or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.newssearch.models.News>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.newssearch.models.ErrorResponseException
 - uid: azure.cognitiveservices.search.newssearch.operations.NewsOperations.search
@@ -1105,7 +1105,7 @@ methods:
     description: News or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.newssearch.models.News>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.newssearch.models.ErrorResponseException
 - uid: azure.cognitiveservices.search.newssearch.operations.NewsOperations.trending
@@ -1603,7 +1603,7 @@ methods:
     description: TrendingTopics or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.search.newssearch.models.TrendingTopics>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.search.newssearch.models.ErrorResponseException
 attributes:

@@ -34,7 +34,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.elastic.models.ElasticVersionListFormat>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.elastic.models.ElasticVersionListFormat>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

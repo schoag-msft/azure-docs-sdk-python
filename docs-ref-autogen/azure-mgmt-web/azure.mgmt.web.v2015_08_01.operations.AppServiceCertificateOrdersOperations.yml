@@ -76,7 +76,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateOrder>]
+    - <xref:LROPoller>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateOrder>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_08_01.operations.AppServiceCertificateOrdersOperations.begin_create_or_update_certificate
@@ -149,7 +149,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_08_01.operations.AppServiceCertificateOrdersOperations.delete
@@ -296,7 +296,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateOrder>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateOrder>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_08_01.operations.AppServiceCertificateOrdersOperations.list_by_resource_group
@@ -322,7 +322,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateOrder>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateOrder>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_08_01.operations.AppServiceCertificateOrdersOperations.list_certificates
@@ -354,7 +354,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2015_08_01.models.AppServiceCertificateResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_08_01.operations.AppServiceCertificateOrdersOperations.reissue

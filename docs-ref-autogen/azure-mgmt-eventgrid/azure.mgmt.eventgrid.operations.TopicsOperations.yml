@@ -84,7 +84,7 @@ methods:
     description: An instance of LROPoller that returns either Topic or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.Topic>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.Topic>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.TopicsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.TopicsOperations.begin_regenerate_key
@@ -193,7 +193,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.TopicSharedAccessKeys>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.TopicSharedAccessKeys>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.TopicsOperations.begin_update
@@ -249,7 +249,7 @@ methods:
     description: An instance of LROPoller that returns either Topic or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.Topic>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.Topic>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.TopicsOperations.get
@@ -336,7 +336,7 @@ methods:
     description: An iterator like instance of either TopicsListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.TopicsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.TopicsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.TopicsOperations.list_by_subscription
@@ -390,7 +390,7 @@ methods:
     description: An iterator like instance of either TopicsListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.TopicsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.TopicsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.TopicsOperations.list_event_types
@@ -432,7 +432,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.EventTypesListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.EventTypesListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.TopicsOperations.list_shared_access_keys

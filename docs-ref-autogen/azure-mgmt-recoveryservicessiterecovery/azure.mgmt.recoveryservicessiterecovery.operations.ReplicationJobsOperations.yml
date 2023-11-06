@@ -53,7 +53,7 @@ methods:
     description: An instance of LROPoller that returns either Job or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationJobsOperations.begin_export
@@ -108,7 +108,7 @@ methods:
     description: An instance of LROPoller that returns either Job or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationJobsOperations.begin_restart
@@ -153,7 +153,7 @@ methods:
     description: An instance of LROPoller that returns either Job or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationJobsOperations.begin_resume
@@ -213,7 +213,7 @@ methods:
     description: An instance of LROPoller that returns either Job or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationJobsOperations.get
@@ -259,7 +259,7 @@ methods:
   return:
     description: An iterator like instance of either Job or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

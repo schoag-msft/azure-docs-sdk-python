@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.P2SVpnGateway>]
+    - <xref:LROPoller>[<xref:P2SVpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.begin_disconnect_p2_s_vpn_connections
@@ -187,7 +187,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.begin_generate_vpn_profile
@@ -252,7 +252,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.VpnProfileResponse>]
+    - <xref:LROPoller>[<xref:VpnProfileResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.begin_get_p2_s_vpn_connection_health
@@ -305,7 +305,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.P2SVpnGateway>]
+    - <xref:LROPoller>[<xref:P2SVpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.begin_get_p2_s_vpn_connection_health_detailed
@@ -374,7 +374,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.P2SVpnConnectionHealth>]
+    - <xref:LROPoller>[<xref:P2SVpnConnectionHealth>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.begin_reset
@@ -424,7 +424,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.P2SVpnGateway>]
+    - <xref:LROPoller>[<xref:P2SVpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.begin_update_tags
@@ -488,7 +488,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.P2SVpnGateway>]
+    - <xref:LROPoller>[<xref:P2SVpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.get
@@ -513,7 +513,7 @@ methods:
   return:
     description: P2SVpnGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.P2SVpnGateway>
+    - <xref:P2SVpnGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.list
@@ -529,7 +529,7 @@ methods:
     description: An iterator like instance of either P2SVpnGateway or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.P2SVpnGateway>]
+    - <xref:ItemPaged>[<xref:P2SVpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.list_by_resource_group
@@ -550,7 +550,7 @@ methods:
     description: An iterator like instance of either P2SVpnGateway or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.P2SVpnGateway>]
+    - <xref:ItemPaged>[<xref:P2SVpnGateway>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.P2SVpnGatewaysOperations.update_tags
@@ -590,7 +590,7 @@ methods:
   return:
     description: P2SVpnGateway or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.P2SVpnGateway>
+    - <xref:P2SVpnGateway>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -108,7 +108,7 @@ methods:
     description: An iterator like instance of either DppBaseResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.ResourceGuardsOperations.get_default_backup_security_pin_requests_object
@@ -398,7 +398,7 @@ methods:
     description: An iterator like instance of either DppBaseResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.ResourceGuardsOperations.get_delete_resource_guard_proxy_requests_objects
@@ -436,7 +436,7 @@ methods:
     description: An iterator like instance of either DppBaseResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.ResourceGuardsOperations.get_disable_soft_delete_requests_objects
@@ -474,7 +474,7 @@ methods:
     description: An iterator like instance of either DppBaseResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.ResourceGuardsOperations.get_resources_in_resource_group
@@ -503,7 +503,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.ResourceGuardResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.ResourceGuardResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.ResourceGuardsOperations.get_resources_in_subscription
@@ -524,7 +524,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.ResourceGuardResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.ResourceGuardResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.ResourceGuardsOperations.get_update_protected_item_requests_objects
@@ -562,7 +562,7 @@ methods:
     description: An iterator like instance of either DppBaseResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.ResourceGuardsOperations.get_update_protection_policy_requests_objects
@@ -600,7 +600,7 @@ methods:
     description: An iterator like instance of either DppBaseResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.DppBaseResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.ResourceGuardsOperations.patch

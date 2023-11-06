@@ -279,7 +279,7 @@ methods:
     description: An iterator like instance of either TopicResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.TopicResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.TopicResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639388.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639388.aspx)\
@@ -315,7 +315,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.SharedAccessAuthorizationRuleResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2015_08_01.models.SharedAccessAuthorizationRuleResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt720681.aspx](https://msdn.microsoft.com/en-us/library/azure/mt720681.aspx)\

@@ -62,7 +62,7 @@ methods:
   return:
     description: An iterator like instance of either Event or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2018_07_01.models.Event>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2018_07_01.models.Event>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resourcehealth.v2018_07_01.aio.operations.EventsOperations.list_by_subscription_id
@@ -109,7 +109,7 @@ methods:
   return:
     description: An iterator like instance of either Event or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2018_07_01.models.Event>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.resourcehealth.v2018_07_01.models.Event>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -36,7 +36,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kubernetesconfiguration.v2021_11_01_preview.models.ExtensionVersionListVersionsItem>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kubernetesconfiguration.v2021_11_01_preview.models.ExtensionVersionListVersionsItem>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

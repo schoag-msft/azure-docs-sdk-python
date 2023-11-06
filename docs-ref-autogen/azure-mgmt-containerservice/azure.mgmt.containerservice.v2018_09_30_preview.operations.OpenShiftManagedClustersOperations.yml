@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerservice.v2018_09_30_preview.models.OpenShiftManagedCluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerservice.v2018_09_30_preview.models.OpenShiftManagedCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2018_09_30_preview.operations.OpenShiftManagedClustersOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2018_09_30_preview.operations.OpenShiftManagedClustersOperations.begin_update_tags
@@ -200,7 +200,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerservice.v2018_09_30_preview.models.OpenShiftManagedCluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerservice.v2018_09_30_preview.models.OpenShiftManagedCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2018_09_30_preview.operations.OpenShiftManagedClustersOperations.get
@@ -254,7 +254,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservice.v2018_09_30_preview.models.OpenShiftManagedCluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservice.v2018_09_30_preview.models.OpenShiftManagedCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservice.v2018_09_30_preview.operations.OpenShiftManagedClustersOperations.list_by_resource_group
@@ -284,7 +284,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservice.v2018_09_30_preview.models.OpenShiftManagedCluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservice.v2018_09_30_preview.models.OpenShiftManagedCluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -85,7 +85,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationDetailsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationDetailsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.consumption.aio.operations.ReservationsDetailsOperations.list_by_reservation_order
@@ -117,7 +117,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationDetailsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationDetailsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.consumption.aio.operations.ReservationsDetailsOperations.list_by_reservation_order_and_reservation
@@ -154,7 +154,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationDetailsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.ReservationDetailsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

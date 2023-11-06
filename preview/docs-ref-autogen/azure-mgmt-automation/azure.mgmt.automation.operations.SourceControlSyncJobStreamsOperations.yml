@@ -94,7 +94,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automation.models.SourceControlSyncJobStream>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automation.models.SourceControlSyncJobStream>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

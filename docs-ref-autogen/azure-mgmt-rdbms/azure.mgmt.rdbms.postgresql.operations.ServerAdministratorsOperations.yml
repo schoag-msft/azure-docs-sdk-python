@@ -82,7 +82,7 @@ methods:
     description: An instance of LROPoller that returns either ServerAdministratorResource
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.ServerAdministratorResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.postgresql.models.ServerAdministratorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.ServerAdministratorsOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.postgresql.operations.ServerAdministratorsOperations.get
@@ -177,7 +177,7 @@ methods:
     description: An iterator like instance of either ServerAdministratorResourceListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerAdministratorResourceListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.postgresql.models.ServerAdministratorResourceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

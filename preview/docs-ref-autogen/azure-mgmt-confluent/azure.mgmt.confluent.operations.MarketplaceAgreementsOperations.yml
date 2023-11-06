@@ -63,7 +63,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.confluent.models.ConfluentAgreementResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.confluent.models.ConfluentAgreementResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

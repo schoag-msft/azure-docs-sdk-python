@@ -72,7 +72,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.SecurityPartnerProvider>]
+    - <xref:AsyncLROPoller>[<xref:SecurityPartnerProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.SecurityPartnerProvidersOperations.begin_delete
@@ -120,7 +120,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.SecurityPartnerProvidersOperations.get
@@ -146,7 +146,7 @@ methods:
   return:
     description: SecurityPartnerProvider or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SecurityPartnerProvider>
+    - <xref:SecurityPartnerProvider>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.SecurityPartnerProvidersOperations.list
@@ -164,7 +164,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.SecurityPartnerProvider>]
+    - <xref:AsyncItemPaged>[<xref:SecurityPartnerProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.SecurityPartnerProvidersOperations.list_by_resource_group
@@ -187,7 +187,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.SecurityPartnerProvider>]
+    - <xref:AsyncItemPaged>[<xref:SecurityPartnerProvider>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.SecurityPartnerProvidersOperations.update_tags
@@ -228,7 +228,7 @@ methods:
   return:
     description: SecurityPartnerProvider or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SecurityPartnerProvider>
+    - <xref:SecurityPartnerProvider>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

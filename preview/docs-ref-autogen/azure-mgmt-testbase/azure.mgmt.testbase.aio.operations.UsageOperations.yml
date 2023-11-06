@@ -44,7 +44,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.testbase.models.TestBaseAccountUsageData>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.testbase.models.TestBaseAccountUsageData>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -138,7 +138,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.monitor.v2021_06_03_preview.models.AzureMonitorWorkspaceResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.monitor.v2021_06_03_preview.models.AzureMonitorWorkspaceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2021_06_03_preview.aio.operations.AzureMonitorWorkspacesOperations.list_by_subscription
@@ -156,7 +156,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.monitor.v2021_06_03_preview.models.AzureMonitorWorkspaceResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.monitor.v2021_06_03_preview.models.AzureMonitorWorkspaceResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2021_06_03_preview.aio.operations.AzureMonitorWorkspacesOperations.update

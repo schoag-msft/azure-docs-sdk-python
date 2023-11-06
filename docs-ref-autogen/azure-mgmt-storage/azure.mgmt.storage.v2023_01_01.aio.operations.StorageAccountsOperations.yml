@@ -64,7 +64,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2023_01_01.aio.operations.StorageAccountsOperations.begin_create
@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.storage.v2023_01_01.models.StorageAccount>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.storage.v2023_01_01.models.StorageAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2023_01_01.aio.operations.StorageAccountsOperations.begin_customer_initiated_migration
@@ -230,7 +230,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2023_01_01.aio.operations.StorageAccountsOperations.begin_failover
@@ -322,7 +322,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2023_01_01.aio.operations.StorageAccountsOperations.begin_hierarchical_namespace_migration
@@ -391,7 +391,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2023_01_01.aio.operations.StorageAccountsOperations.begin_restore_blob_ranges
@@ -464,7 +464,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.storage.v2023_01_01.models.BlobRestoreStatus>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.storage.v2023_01_01.models.BlobRestoreStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2023_01_01.aio.operations.StorageAccountsOperations.check_name_availability
@@ -649,7 +649,7 @@ methods:
     description: An iterator like instance of either StorageAccount or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storage.v2023_01_01.models.StorageAccount>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storage.v2023_01_01.models.StorageAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2023_01_01.aio.operations.StorageAccountsOperations.list_account_sas
@@ -726,7 +726,7 @@ methods:
     description: An iterator like instance of either StorageAccount or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storage.v2023_01_01.models.StorageAccount>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storage.v2023_01_01.models.StorageAccount>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2023_01_01.aio.operations.StorageAccountsOperations.list_keys

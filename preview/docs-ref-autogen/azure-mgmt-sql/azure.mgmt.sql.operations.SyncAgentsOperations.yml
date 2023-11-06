@@ -79,7 +79,7 @@ methods:
     description: An instance of LROPoller that returns either SyncAgent or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.SyncAgent>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.SyncAgent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncAgentsOperations.begin_delete
@@ -134,7 +134,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncAgentsOperations.generate_key
@@ -228,7 +228,7 @@ methods:
   return:
     description: An iterator like instance of either SyncAgent or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SyncAgent>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SyncAgent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncAgentsOperations.list_linked_databases
@@ -264,7 +264,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SyncAgentLinkedDatabase>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SyncAgentLinkedDatabase>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

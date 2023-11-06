@@ -84,7 +84,7 @@ methods:
     description: An instance of LROPoller that returns either Database or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.Database>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.begin_export
@@ -191,7 +191,7 @@ methods:
     description: An instance of LROPoller that returns either ImportExportOperationResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ImportExportOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ImportExportOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.begin_failover
@@ -249,7 +249,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.begin_import_method
@@ -306,7 +306,7 @@ methods:
     description: An instance of LROPoller that returns either ImportExportOperationResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ImportExportOperationResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ImportExportOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.begin_pause
@@ -357,7 +357,7 @@ methods:
     description: An instance of LROPoller that returns either Database or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.Database>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.begin_resume
@@ -408,7 +408,7 @@ methods:
     description: An instance of LROPoller that returns either Database or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.Database>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.begin_update
@@ -464,7 +464,7 @@ methods:
     description: An instance of LROPoller that returns either Database or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.Database>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.Database>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.begin_upgrade_data_warehouse
@@ -515,7 +515,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.get
@@ -582,7 +582,7 @@ methods:
     description: An iterator like instance of either DatabaseListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.list_by_server
@@ -615,7 +615,7 @@ methods:
     description: An iterator like instance of either DatabaseListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.list_inaccessible_by_server
@@ -644,7 +644,7 @@ methods:
     description: An iterator like instance of either DatabaseListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.DatabaseListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.list_metric_definitions
@@ -678,7 +678,7 @@ methods:
     description: An iterator like instance of either MetricDefinitionListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.MetricDefinitionListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.MetricDefinitionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.list_metrics
@@ -718,7 +718,7 @@ methods:
     description: An iterator like instance of either MetricListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.MetricListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.MetricListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.DatabasesOperations.rename

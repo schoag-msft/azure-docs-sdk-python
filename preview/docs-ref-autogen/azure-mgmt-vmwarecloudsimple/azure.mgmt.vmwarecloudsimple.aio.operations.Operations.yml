@@ -62,7 +62,7 @@ methods:
     description: An iterator like instance of either AvailableOperation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.AvailableOperation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.vmwarecloudsimple.models.AvailableOperation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

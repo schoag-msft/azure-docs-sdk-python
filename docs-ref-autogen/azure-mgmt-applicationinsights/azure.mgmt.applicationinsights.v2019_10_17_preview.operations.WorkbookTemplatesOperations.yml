@@ -130,7 +130,7 @@ methods:
     description: An iterator like instance of either WorkbookTemplate or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.applicationinsights.v2019_10_17_preview.models.WorkbookTemplate>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.applicationinsights.v2019_10_17_preview.models.WorkbookTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.applicationinsights.v2019_10_17_preview.operations.WorkbookTemplatesOperations.update

@@ -82,7 +82,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.DraModel>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.DraModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.aio.operations.DraOperations.begin_delete
@@ -140,7 +140,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.aio.operations.DraOperations.get
@@ -206,7 +206,7 @@ methods:
   return:
     description: An iterator like instance of either DraModel or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.DraModel>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.DraModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

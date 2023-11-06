@@ -102,7 +102,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2021_05_01_preview.models.SubscriptionDiagnosticSettingsResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2021_05_01_preview.models.SubscriptionDiagnosticSettingsResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -159,7 +159,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.baremetalinfrastructure.models.AzureBareMetalStorageInstance>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.baremetalinfrastructure.models.AzureBareMetalStorageInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.baremetalinfrastructure.aio.operations.AzureBareMetalStorageInstancesOperations.list_by_subscription
@@ -183,7 +183,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.baremetalinfrastructure.models.AzureBareMetalStorageInstance>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.baremetalinfrastructure.models.AzureBareMetalStorageInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.baremetalinfrastructure.aio.operations.AzureBareMetalStorageInstancesOperations.update

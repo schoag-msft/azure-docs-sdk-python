@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.DscpConfiguration>]
+    - <xref:AsyncLROPoller>[<xref:DscpConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.DscpConfigurationOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.DscpConfigurationOperations.get
@@ -147,7 +147,7 @@ methods:
   return:
     description: DscpConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.DscpConfiguration>
+    - <xref:DscpConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.DscpConfigurationOperations.list
@@ -168,7 +168,7 @@ methods:
     description: An iterator like instance of either DscpConfiguration or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.DscpConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:DscpConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.DscpConfigurationOperations.list_all
@@ -184,7 +184,7 @@ methods:
     description: An iterator like instance of either DscpConfiguration or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.DscpConfiguration>]
+    - <xref:AsyncItemPaged>[<xref:DscpConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

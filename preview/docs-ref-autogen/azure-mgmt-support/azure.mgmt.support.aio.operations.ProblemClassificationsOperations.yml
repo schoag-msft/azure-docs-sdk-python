@@ -67,7 +67,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.support.models.ProblemClassification>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.support.models.ProblemClassification>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

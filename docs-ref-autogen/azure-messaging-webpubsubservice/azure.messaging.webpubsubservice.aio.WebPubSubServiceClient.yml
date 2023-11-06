@@ -280,7 +280,7 @@ methods:
     isRequired: true
   return:
     types:
-    - <xref:azure.messaging.webpubsubservice.aio.WebPubSubServiceClient>
+    - <xref:azure.messaging.webpubsubservice.WebPubSubServiceClient>
 - uid: azure.messaging.webpubsubservice.aio.WebPubSubServiceClient.get_client_access_token
   name: get_client_access_token
   summary: 'Generate token for the client to connect Azure Web PubSub service.
@@ -606,7 +606,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.AsyncHttpResponse>
+    - <xref:AsyncHttpResponse>
 - uid: azure.messaging.webpubsubservice.aio.WebPubSubServiceClient.send_to_all
   name: send_to_all
   summary: 'Broadcast content inside request body to all the connected client connections.

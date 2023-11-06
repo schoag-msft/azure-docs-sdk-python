@@ -117,7 +117,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2017_08_01_preview.models.InformationProtectionPolicy>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2017_08_01_preview.models.InformationProtectionPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

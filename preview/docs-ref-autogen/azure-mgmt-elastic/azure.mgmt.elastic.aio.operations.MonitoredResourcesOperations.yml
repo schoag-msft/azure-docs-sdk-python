@@ -40,7 +40,7 @@ methods:
     description: An iterator like instance of either MonitoredResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.elastic.models.MonitoredResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.elastic.models.MonitoredResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

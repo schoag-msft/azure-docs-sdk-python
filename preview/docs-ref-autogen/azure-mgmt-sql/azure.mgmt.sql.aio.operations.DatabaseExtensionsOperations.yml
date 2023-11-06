@@ -85,7 +85,7 @@ methods:
 
       ImportExportExtensionsOperationResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ImportExportExtensionsOperationResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ImportExportExtensionsOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.DatabaseExtensionsOperations.get
@@ -160,7 +160,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.ImportExportExtensionsOperationResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.ImportExportExtensionsOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

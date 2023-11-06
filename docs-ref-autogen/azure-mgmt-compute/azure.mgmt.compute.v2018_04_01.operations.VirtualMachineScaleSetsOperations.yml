@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSet>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_deallocate
@@ -144,7 +144,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_delete
@@ -192,7 +192,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_delete_instances
@@ -255,7 +255,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_perform_maintenance
@@ -327,7 +327,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_power_off
@@ -397,7 +397,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_redeploy
@@ -464,7 +464,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_reimage
@@ -529,7 +529,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_reimage_all
@@ -596,7 +596,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_restart
@@ -660,7 +660,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_start
@@ -724,7 +724,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_update
@@ -790,7 +790,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSet>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.begin_update_instances
@@ -854,7 +854,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.force_recovery_service_fabric_platform_update_domain_walk
@@ -971,7 +971,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.UpgradeOperationHistoricalStatusInfo>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.UpgradeOperationHistoricalStatusInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.list
@@ -994,7 +994,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSet>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.list_all
@@ -1018,7 +1018,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSet>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSet>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.operations.VirtualMachineScaleSetsOperations.list_skus
@@ -1050,7 +1050,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetSku>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.VirtualMachineScaleSetSku>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

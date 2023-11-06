@@ -61,7 +61,7 @@ methods:
     description: An iterator like instance of either TopologyResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.TopologyResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.TopologyResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2020_01_01.aio.operations.TopologyOperations.list_by_home_region
@@ -86,7 +86,7 @@ methods:
     description: An iterator like instance of either TopologyResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.TopologyResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2020_01_01.models.TopologyResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

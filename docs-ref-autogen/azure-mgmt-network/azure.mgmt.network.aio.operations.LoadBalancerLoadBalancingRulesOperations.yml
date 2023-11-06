@@ -39,7 +39,7 @@ methods:
   return:
     description: LoadBalancingRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.LoadBalancingRule>
+    - <xref:LoadBalancingRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.LoadBalancerLoadBalancingRulesOperations.list
@@ -66,7 +66,7 @@ methods:
     description: An iterator like instance of either LoadBalancingRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.LoadBalancingRule>]
+    - <xref:AsyncItemPaged>[<xref:LoadBalancingRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

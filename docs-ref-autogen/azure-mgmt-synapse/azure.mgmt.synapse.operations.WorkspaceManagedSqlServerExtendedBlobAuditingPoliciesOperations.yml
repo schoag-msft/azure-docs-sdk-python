@@ -88,7 +88,7 @@ methods:
     description: An instance of LROPoller that returns either ExtendedServerBlobAuditingPolicy
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.ExtendedServerBlobAuditingPolicy>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.ExtendedServerBlobAuditingPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.WorkspaceManagedSqlServerExtendedBlobAuditingPoliciesOperations.get
@@ -153,7 +153,7 @@ methods:
     description: An iterator like instance of either ExtendedServerBlobAuditingPolicyListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.ExtendedServerBlobAuditingPolicyListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.ExtendedServerBlobAuditingPolicyListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

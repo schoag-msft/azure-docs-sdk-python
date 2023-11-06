@@ -76,7 +76,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachineCaptureResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachineCaptureResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.begin_convert_to_managed_disks
@@ -129,7 +129,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.begin_create_or_update
@@ -195,7 +195,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachine>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.begin_deallocate
@@ -248,7 +248,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.begin_delete
@@ -298,7 +298,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.begin_power_off
@@ -351,7 +351,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.begin_redeploy
@@ -402,7 +402,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.begin_restart
@@ -452,7 +452,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.begin_start
@@ -502,7 +502,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.OperationStatusResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.generalize
@@ -616,7 +616,7 @@ methods:
     description: An iterator like instance of either VirtualMachine or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachine>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.list_all
@@ -635,7 +635,7 @@ methods:
     description: An iterator like instance of either VirtualMachine or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachine>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachine>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2016_04_30_preview.operations.VirtualMachinesOperations.list_available_sizes
@@ -665,7 +665,7 @@ methods:
     description: An iterator like instance of either VirtualMachineSize or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachineSize>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2016_04_30_preview.models.VirtualMachineSize>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

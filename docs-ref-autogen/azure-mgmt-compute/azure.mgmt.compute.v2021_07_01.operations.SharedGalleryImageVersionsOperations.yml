@@ -97,7 +97,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.compute.v2021_07_01.models.SharedGalleryImageVersion>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.compute.v2021_07_01.models.SharedGalleryImageVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

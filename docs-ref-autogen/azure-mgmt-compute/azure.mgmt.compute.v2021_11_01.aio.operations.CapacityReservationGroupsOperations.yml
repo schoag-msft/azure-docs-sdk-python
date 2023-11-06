@@ -176,7 +176,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2021_11_01.models.CapacityReservationGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2021_11_01.models.CapacityReservationGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_11_01.aio.operations.CapacityReservationGroupsOperations.list_by_subscription
@@ -212,7 +212,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2021_11_01.models.CapacityReservationGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2021_11_01.models.CapacityReservationGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2021_11_01.aio.operations.CapacityReservationGroupsOperations.update

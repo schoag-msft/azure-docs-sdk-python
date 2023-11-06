@@ -92,7 +92,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.DataConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.DataConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.KustoPoolDataConnectionsOperations.begin_data_connection_validation
@@ -170,7 +170,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.DataConnectionValidationListResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.DataConnectionValidationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.KustoPoolDataConnectionsOperations.begin_delete
@@ -235,7 +235,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.KustoPoolDataConnectionsOperations.begin_update
@@ -318,7 +318,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.synapse.models.DataConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.synapse.models.DataConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.operations.KustoPoolDataConnectionsOperations.check_name_availability
@@ -453,7 +453,7 @@ methods:
     description: An iterator like instance of either DataConnection or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.DataConnection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.DataConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

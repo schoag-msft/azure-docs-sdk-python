@@ -151,7 +151,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.automation.models.HybridRunbookWorkerGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.automation.models.HybridRunbookWorkerGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.aio.operations.HybridRunbookWorkerGroupOperations.update

@@ -48,7 +48,7 @@ methods:
     description: WordAlterationsDTO or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.WordAlterationsDTO>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.alterations_operations.AlterationsOperations.get_alterations_for_kb
@@ -82,7 +82,7 @@ methods:
     description: WordAlterationsDTO or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.knowledge.qnamaker.models.WordAlterationsDTO>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.alterations_operations.AlterationsOperations.replace
@@ -116,7 +116,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 - uid: azure.cognitiveservices.knowledge.qnamaker.operations.alterations_operations.AlterationsOperations.replace_alterations_for_kb
@@ -156,7 +156,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.knowledge.qnamaker.models.ErrorResponseException
 attributes:

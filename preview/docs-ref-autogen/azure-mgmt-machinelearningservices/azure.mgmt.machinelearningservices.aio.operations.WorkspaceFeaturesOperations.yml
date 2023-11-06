@@ -37,7 +37,7 @@ methods:
     description: An iterator like instance of either AmlUserFeature or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.AmlUserFeature>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.AmlUserFeature>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

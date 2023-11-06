@@ -76,7 +76,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.mysql.models.ConfigurationListResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.mysql.models.ConfigurationListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

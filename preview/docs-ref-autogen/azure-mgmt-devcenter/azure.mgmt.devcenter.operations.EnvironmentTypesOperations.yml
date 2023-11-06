@@ -160,7 +160,7 @@ methods:
     description: An iterator like instance of either EnvironmentType or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devcenter.models.EnvironmentType>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devcenter.models.EnvironmentType>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devcenter.operations.EnvironmentTypesOperations.update

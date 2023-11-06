@@ -43,7 +43,7 @@ methods:
   return:
     description: NetworkManagerConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkManagerConnection>
+    - <xref:NetworkManagerConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.SubscriptionNetworkManagerConnectionsOperations.delete
@@ -84,7 +84,7 @@ methods:
   return:
     description: NetworkManagerConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.NetworkManagerConnection>
+    - <xref:NetworkManagerConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.SubscriptionNetworkManagerConnectionsOperations.list
@@ -123,7 +123,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.NetworkManagerConnection>]
+    - <xref:AsyncItemPaged>[<xref:NetworkManagerConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

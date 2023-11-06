@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabric.aio.operations.ClustersOperations.begin_update
@@ -145,7 +145,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.servicefabric.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicefabric.aio.operations.ClustersOperations.delete

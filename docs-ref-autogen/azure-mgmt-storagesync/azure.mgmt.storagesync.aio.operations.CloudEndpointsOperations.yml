@@ -88,7 +88,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either CloudEndpoint or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.storagesync.models.CloudEndpoint>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.storagesync.models.CloudEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagesync.aio.operations.CloudEndpointsOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagesync.aio.operations.CloudEndpointsOperations.begin_post_backup
@@ -202,7 +202,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either PostBackupResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.storagesync.models.PostBackupResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.storagesync.models.PostBackupResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagesync.aio.operations.CloudEndpointsOperations.begin_post_restore
@@ -262,7 +262,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagesync.aio.operations.CloudEndpointsOperations.begin_pre_backup
@@ -322,7 +322,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagesync.aio.operations.CloudEndpointsOperations.begin_pre_restore
@@ -382,7 +382,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagesync.aio.operations.CloudEndpointsOperations.begin_trigger_change_detection
@@ -445,7 +445,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagesync.aio.operations.CloudEndpointsOperations.get
@@ -513,7 +513,7 @@ methods:
     description: An iterator like instance of either CloudEndpointArray or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storagesync.models.CloudEndpointArray>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storagesync.models.CloudEndpointArray>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storagesync.aio.operations.CloudEndpointsOperations.restoreheartbeat

@@ -83,7 +83,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.eventgrid.models.PermissionBinding>]
+    - <xref:LROPoller>[<xref:azure.mgmt.eventgrid.models.PermissionBinding>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PermissionBindingsOperations.begin_delete
@@ -141,7 +141,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.operations.PermissionBindingsOperations.get
@@ -243,7 +243,7 @@ methods:
     description: An iterator like instance of either PermissionBinding or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.eventgrid.models.PermissionBinding>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.eventgrid.models.PermissionBinding>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

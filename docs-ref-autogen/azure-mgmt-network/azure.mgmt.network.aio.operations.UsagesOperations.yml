@@ -28,7 +28,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.Usage>]
+    - <xref:AsyncItemPaged>[<xref:Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

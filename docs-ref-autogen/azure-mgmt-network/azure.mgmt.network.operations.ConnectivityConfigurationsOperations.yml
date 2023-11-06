@@ -76,7 +76,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ConnectivityConfigurationsOperations.create_or_update
@@ -125,7 +125,7 @@ methods:
   return:
     description: ConnectivityConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ConnectivityConfiguration>
+    - <xref:ConnectivityConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ConnectivityConfigurationsOperations.delete
@@ -197,7 +197,7 @@ methods:
   return:
     description: ConnectivityConfiguration or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.ConnectivityConfiguration>
+    - <xref:ConnectivityConfiguration>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.ConnectivityConfigurationsOperations.list
@@ -247,7 +247,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.ConnectivityConfiguration>]
+    - <xref:ItemPaged>[<xref:ConnectivityConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

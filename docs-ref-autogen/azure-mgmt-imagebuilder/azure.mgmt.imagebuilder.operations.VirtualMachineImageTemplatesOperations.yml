@@ -56,7 +56,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.imagebuilder.operations.VirtualMachineImageTemplatesOperations.begin_create_or_update
@@ -122,7 +122,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.imagebuilder.models.ImageTemplate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.imagebuilder.models.ImageTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.imagebuilder.operations.VirtualMachineImageTemplatesOperations.begin_delete
@@ -170,7 +170,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.imagebuilder.operations.VirtualMachineImageTemplatesOperations.begin_run
@@ -218,7 +218,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.imagebuilder.operations.VirtualMachineImageTemplatesOperations.begin_update
@@ -283,7 +283,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.imagebuilder.models.ImageTemplate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.imagebuilder.models.ImageTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.imagebuilder.operations.VirtualMachineImageTemplatesOperations.get
@@ -356,7 +356,7 @@ methods:
     description: An iterator like instance of either ImageTemplate or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.imagebuilder.models.ImageTemplate>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.imagebuilder.models.ImageTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.imagebuilder.operations.VirtualMachineImageTemplatesOperations.list_by_resource_group
@@ -378,7 +378,7 @@ methods:
     description: An iterator like instance of either ImageTemplate or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.imagebuilder.models.ImageTemplate>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.imagebuilder.models.ImageTemplate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.imagebuilder.operations.VirtualMachineImageTemplatesOperations.list_run_outputs
@@ -404,7 +404,7 @@ methods:
   return:
     description: An iterator like instance of either RunOutput or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.imagebuilder.models.RunOutput>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.imagebuilder.models.RunOutput>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

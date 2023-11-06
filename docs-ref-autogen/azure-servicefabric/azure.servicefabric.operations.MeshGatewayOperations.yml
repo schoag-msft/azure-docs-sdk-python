@@ -78,7 +78,7 @@ methods:
     description: GatewayResourceDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.GatewayResourceDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshGatewayOperations.delete
@@ -115,7 +115,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshGatewayOperations.get
@@ -156,7 +156,7 @@ methods:
     description: GatewayResourceDescription or ClientRawResponse if raw=true
     types:
     - <xref:azure.servicefabric.models.GatewayResourceDescription>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 - uid: azure.servicefabric.operations.MeshGatewayOperations.list
@@ -194,7 +194,7 @@ methods:
       raw=true'
     types:
     - <xref:azure.servicefabric.models.PagedGatewayResourceDescriptionList>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.servicefabric.models.FabricErrorException
 attributes:

@@ -61,7 +61,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.operations.CustomVisionPredictionClientOperationsMixin.classify_image_url
@@ -115,7 +115,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.operations.CustomVisionPredictionClientOperationsMixin.classify_image_url_with_no_store
@@ -169,7 +169,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.operations.CustomVisionPredictionClientOperationsMixin.classify_image_with_no_store
@@ -225,7 +225,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.operations.CustomVisionPredictionClientOperationsMixin.detect_image
@@ -281,7 +281,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.operations.CustomVisionPredictionClientOperationsMixin.detect_image_url
@@ -335,7 +335,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.operations.CustomVisionPredictionClientOperationsMixin.detect_image_url_with_no_store
@@ -389,7 +389,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.operations.CustomVisionPredictionClientOperationsMixin.detect_image_with_no_store
@@ -445,6 +445,6 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException

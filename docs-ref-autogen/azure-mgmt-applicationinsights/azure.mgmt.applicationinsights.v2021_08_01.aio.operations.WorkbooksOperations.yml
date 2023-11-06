@@ -180,7 +180,7 @@ methods:
   return:
     description: An iterator like instance of either Workbook or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2021_08_01.models.Workbook>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2021_08_01.models.Workbook>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.applicationinsights.v2021_08_01.aio.operations.WorkbooksOperations.list_by_subscription
@@ -219,7 +219,7 @@ methods:
   return:
     description: An iterator like instance of either Workbook or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2021_08_01.models.Workbook>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2021_08_01.models.Workbook>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.applicationinsights.v2021_08_01.aio.operations.WorkbooksOperations.revision_get
@@ -280,7 +280,7 @@ methods:
   return:
     description: An iterator like instance of either Workbook or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2021_08_01.models.Workbook>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2021_08_01.models.Workbook>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.applicationinsights.v2021_08_01.aio.operations.WorkbooksOperations.update

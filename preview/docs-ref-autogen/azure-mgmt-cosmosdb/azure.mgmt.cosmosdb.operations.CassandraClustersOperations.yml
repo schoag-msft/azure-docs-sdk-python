@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.ClusterResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.ClusterResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.begin_deallocate
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.begin_delete
@@ -185,7 +185,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.begin_invoke_command
@@ -253,7 +253,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.CommandOutput>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.CommandOutput>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.begin_start
@@ -309,7 +309,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.begin_update
@@ -376,7 +376,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cosmosdb.models.ClusterResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cosmosdb.models.ClusterResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.get
@@ -466,7 +466,7 @@ methods:
     description: An iterator like instance of either BackupResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.BackupResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.BackupResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.list_by_resource_group
@@ -489,7 +489,7 @@ methods:
     description: An iterator like instance of either ClusterResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.ClusterResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.ClusterResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.list_by_subscription
@@ -505,7 +505,7 @@ methods:
     description: An iterator like instance of either ClusterResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.ClusterResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cosmosdb.models.ClusterResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.status

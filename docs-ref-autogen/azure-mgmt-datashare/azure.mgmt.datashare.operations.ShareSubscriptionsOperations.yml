@@ -86,7 +86,7 @@ methods:
     description: An instance of LROPoller that returns either ShareSubscriptionSynchronization
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.begin_delete
@@ -138,7 +138,7 @@ methods:
     description: An instance of LROPoller that returns either OperationResponse or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.begin_synchronize
@@ -195,7 +195,7 @@ methods:
     description: An instance of LROPoller that returns either ShareSubscriptionSynchronization
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
+    - <xref:LROPoller>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronization>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.create
@@ -314,7 +314,7 @@ methods:
     description: An iterator like instance of either ShareSubscriptionList or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSubscriptionList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSubscriptionList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.list_source_share_synchronization_settings
@@ -355,7 +355,7 @@ methods:
     description: An iterator like instance of either SourceShareSynchronizationSettingList
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.SourceShareSynchronizationSettingList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.SourceShareSynchronizationSettingList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.list_synchronization_details
@@ -412,7 +412,7 @@ methods:
     description: An iterator like instance of either SynchronizationDetailsList or
       the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationDetailsList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationDetailsList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.operations.ShareSubscriptionsOperations.list_synchronizations
@@ -463,7 +463,7 @@ methods:
     description: An iterator like instance of either ShareSubscriptionSynchronizationList
       or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronizationList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datashare.models.ShareSubscriptionSynchronizationList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

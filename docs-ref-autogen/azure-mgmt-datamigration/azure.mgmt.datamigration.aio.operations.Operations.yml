@@ -48,7 +48,7 @@ methods:
     description: An iterator like instance of either ServiceOperationList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datamigration.models.ServiceOperationList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datamigration.models.ServiceOperationList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

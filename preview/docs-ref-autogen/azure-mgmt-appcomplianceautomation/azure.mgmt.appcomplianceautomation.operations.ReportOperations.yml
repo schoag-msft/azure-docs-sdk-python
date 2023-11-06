@@ -70,7 +70,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcomplianceautomation.models.ReportResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcomplianceautomation.models.ReportResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcomplianceautomation.operations.ReportOperations.begin_delete
@@ -112,7 +112,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcomplianceautomation.operations.ReportOperations.begin_update
@@ -172,7 +172,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcomplianceautomation.models.ReportResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcomplianceautomation.models.ReportResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcomplianceautomation.operations.ReportOperations.get

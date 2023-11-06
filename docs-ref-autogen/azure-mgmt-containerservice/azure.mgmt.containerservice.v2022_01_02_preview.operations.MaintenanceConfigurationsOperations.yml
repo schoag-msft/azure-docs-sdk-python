@@ -158,7 +158,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservice.v2022_01_02_preview.models.MaintenanceConfiguration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservice.v2022_01_02_preview.models.MaintenanceConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

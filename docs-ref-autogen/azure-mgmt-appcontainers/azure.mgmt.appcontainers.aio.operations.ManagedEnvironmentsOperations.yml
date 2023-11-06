@@ -78,7 +78,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ManagedEnvironment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ManagedEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ManagedEnvironmentsOperations.begin_delete
@@ -131,7 +131,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ManagedEnvironmentsOperations.begin_update
@@ -201,7 +201,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ManagedEnvironment>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appcontainers.models.ManagedEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ManagedEnvironmentsOperations.get
@@ -289,7 +289,7 @@ methods:
     description: An iterator like instance of either ManagedEnvironment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ManagedEnvironment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ManagedEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ManagedEnvironmentsOperations.list_by_subscription
@@ -308,7 +308,7 @@ methods:
     description: An iterator like instance of either ManagedEnvironment or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ManagedEnvironment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.ManagedEnvironment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.aio.operations.ManagedEnvironmentsOperations.list_workload_profile_states
@@ -342,7 +342,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.WorkloadProfileStates>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appcontainers.models.WorkloadProfileStates>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

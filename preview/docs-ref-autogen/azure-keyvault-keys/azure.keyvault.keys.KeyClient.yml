@@ -127,7 +127,7 @@ methods:
 
       keys/get permission.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.keyvault.keys.DeletedKey>]
+    - <xref:LROPoller>[<xref:azure.keyvault.keys.DeletedKey>]
   exceptions:
   - type: azure.core.exceptions.ResourceNotFoundError
     description: if the key doesn't exist,
@@ -180,7 +180,7 @@ methods:
 
       *wait* method requires keys/get permission.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.keyvault.keys.KeyVaultKey>]
+    - <xref:LROPoller>[<xref:azure.keyvault.keys.KeyVaultKey>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -748,7 +748,7 @@ methods:
   return:
     description: An iterator of deleted keys
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.keys.DeletedKey>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.keys.DeletedKey>]
   examples:
   - "List all the deleted keys<!--[!code-python[Main](s\\test_samples_keys.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -776,7 +776,7 @@ methods:
   return:
     description: An iterator of keys without their cryptographic material
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
   examples:
   - "List all versions of a key<!--[!code-python[Main](s\\test_samples_keys.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -798,7 +798,7 @@ methods:
     description: An iterator of keys without their cryptographic material or version
       information
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
+    - <xref:ItemPaged>[<xref:azure.keyvault.keys.KeyProperties>]
   examples:
   - "List all keys<!--[!code-python[Main](s\\test_samples_keys.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\

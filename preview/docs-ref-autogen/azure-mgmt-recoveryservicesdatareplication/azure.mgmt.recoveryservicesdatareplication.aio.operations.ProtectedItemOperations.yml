@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.ProtectedItemModel>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.ProtectedItemModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.aio.operations.ProtectedItemOperations.begin_delete
@@ -150,7 +150,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.aio.operations.ProtectedItemOperations.begin_planned_failover
@@ -226,7 +226,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.PlannedFailoverModel>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.recoveryservicesdatareplication.models.PlannedFailoverModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicesdatareplication.aio.operations.ProtectedItemOperations.get
@@ -293,7 +293,7 @@ methods:
     description: An iterator like instance of either ProtectedItemModel or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.ProtectedItemModel>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.ProtectedItemModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

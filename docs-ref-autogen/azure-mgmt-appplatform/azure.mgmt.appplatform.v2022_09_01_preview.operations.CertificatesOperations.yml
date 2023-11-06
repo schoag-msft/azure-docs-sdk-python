@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2022_09_01_preview.models.CertificateResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2022_09_01_preview.models.CertificateResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2022_09_01_preview.operations.CertificatesOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2022_09_01_preview.operations.CertificatesOperations.get
@@ -197,7 +197,7 @@ methods:
     description: An iterator like instance of either CertificateResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2022_09_01_preview.models.CertificateResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2022_09_01_preview.models.CertificateResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -192,7 +192,7 @@ methods:
     description: An iterator like instance of either ForwardingRule or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.dnsresolver.models.ForwardingRule>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.dnsresolver.models.ForwardingRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dnsresolver.operations.ForwardingRulesOperations.update

@@ -80,7 +80,7 @@ methods:
     description: An iterator like instance of either ReservationsListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.ReservationsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.ReservationsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.operations.ReservationsOperations.list_by_billing_profile
@@ -137,7 +137,7 @@ methods:
     description: An iterator like instance of either ReservationsListResult or the
       result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.billing.models.ReservationsListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.billing.models.ReservationsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

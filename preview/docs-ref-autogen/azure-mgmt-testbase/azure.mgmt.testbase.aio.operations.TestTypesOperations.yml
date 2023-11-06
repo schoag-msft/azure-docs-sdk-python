@@ -70,7 +70,7 @@ methods:
     description: An iterator like instance of either TestTypeResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.testbase.models.TestTypeResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.testbase.models.TestTypeResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

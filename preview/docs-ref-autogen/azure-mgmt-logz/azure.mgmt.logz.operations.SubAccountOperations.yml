@@ -87,7 +87,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.logz.models.LogzMonitorResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.logz.models.LogzMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logz.operations.SubAccountOperations.begin_delete
@@ -147,7 +147,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logz.operations.SubAccountOperations.get
@@ -215,7 +215,7 @@ methods:
     description: An iterator like instance of either LogzMonitorResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logz.models.LogzMonitorResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logz.models.LogzMonitorResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logz.operations.SubAccountOperations.list_monitored_resources
@@ -252,7 +252,7 @@ methods:
     description: An iterator like instance of either MonitoredResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logz.models.MonitoredResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logz.models.MonitoredResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logz.operations.SubAccountOperations.list_vm_host_update
@@ -311,7 +311,7 @@ methods:
     description: An iterator like instance of either VMResources or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logz.models.VMResources>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logz.models.VMResources>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logz.operations.SubAccountOperations.list_vm_hosts
@@ -349,7 +349,7 @@ methods:
     description: An iterator like instance of either VMResources or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logz.models.VMResources>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logz.models.VMResources>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logz.operations.SubAccountOperations.update

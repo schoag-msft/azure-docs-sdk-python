@@ -61,7 +61,7 @@ methods:
     description: An instance of LROPoller that returns either Server or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.Server>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -130,7 +130,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2022_08_01_preview.models.ScheduledQueryRuleResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2022_08_01_preview.models.ScheduledQueryRuleResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2022_08_01_preview.operations.ScheduledQueryRulesOperations.list_by_subscription
@@ -148,7 +148,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2022_08_01_preview.models.ScheduledQueryRuleResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2022_08_01_preview.models.ScheduledQueryRuleResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2022_08_01_preview.operations.ScheduledQueryRulesOperations.update

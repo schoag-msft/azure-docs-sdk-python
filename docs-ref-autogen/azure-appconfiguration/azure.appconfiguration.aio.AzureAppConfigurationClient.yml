@@ -213,7 +213,7 @@ methods:
   return:
     description: An iterator of <xref:azure.appconfiguration.aio.ConfigurationSetting>
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
+    - <xref:AsyncItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
   exceptions:
   - type: azure.appconfiguration.aio.HttpResponseError
   - type: azure.appconfiguration.aio.ClientAuthenticationError
@@ -258,7 +258,7 @@ methods:
   return:
     description: An iterator of <xref:azure.appconfiguration.aio.ConfigurationSetting>
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
+    - <xref:AsyncItemPaged>[<xref:azure.appconfiguration.ConfigurationSetting>]
   exceptions:
   - type: azure.appconfiguration.aio.HttpResponseError
   - type: azure.appconfiguration.aio.ClientAuthenticationError

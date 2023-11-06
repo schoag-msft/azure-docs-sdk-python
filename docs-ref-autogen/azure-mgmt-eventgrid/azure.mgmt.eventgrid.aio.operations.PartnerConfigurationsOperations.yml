@@ -111,7 +111,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.PartnerConfigurationsOperations.begin_delete
@@ -156,7 +156,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.PartnerConfigurationsOperations.begin_update
@@ -209,7 +209,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.eventgrid.models.PartnerConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.PartnerConfigurationsOperations.get
@@ -258,7 +258,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerConfigurationsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerConfigurationsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.PartnerConfigurationsOperations.list_by_subscription
@@ -314,7 +314,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerConfigurationsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.PartnerConfigurationsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.PartnerConfigurationsOperations.unauthorize_partner

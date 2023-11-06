@@ -70,7 +70,7 @@ methods:
 
       operation to complete and get a <xref:azure.keyvault.administration.KeyVaultBackupResult>.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.keyvault.administration.KeyVaultBackupResult>]
+    - <xref:LROPoller>[<xref:azure.keyvault.administration.KeyVaultBackupResult>]
 - uid: azure.keyvault.administration.KeyVaultBackupClient.begin_restore
   name: begin_restore
   summary: 'Restore a Key Vault backup.
@@ -108,7 +108,7 @@ methods:
     - <xref:str>
   return:
     types:
-    - <xref:azure.core.polling.LROPoller>
+    - <xref:LROPoller>
 - uid: azure.keyvault.administration.KeyVaultBackupClient.close
   name: close
   summary: 'Close sockets opened by the client.
@@ -147,7 +147,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>
 attributes:
 - uid: azure.keyvault.administration.KeyVaultBackupClient.vault_url
   name: vault_url

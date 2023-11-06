@@ -98,7 +98,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMember>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_10_15.operations.FleetMembersOperations.begin_delete
@@ -161,7 +161,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_10_15.operations.FleetMembersOperations.begin_update
@@ -242,7 +242,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMember>]
+    - <xref:LROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_10_15.operations.FleetMembersOperations.get
@@ -304,7 +304,7 @@ methods:
     description: An iterator like instance of either FleetMember or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMember>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.containerservicefleet.v2023_10_15.models.FleetMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

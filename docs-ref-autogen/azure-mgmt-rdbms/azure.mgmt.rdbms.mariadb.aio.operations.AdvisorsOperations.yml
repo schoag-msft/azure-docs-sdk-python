@@ -86,7 +86,7 @@ methods:
     description: An iterator like instance of either AdvisorsResultList or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.AdvisorsResultList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.AdvisorsResultList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

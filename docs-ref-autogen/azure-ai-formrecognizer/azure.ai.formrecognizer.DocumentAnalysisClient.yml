@@ -144,7 +144,7 @@ methods:
 
       object to return a <xref:azure.ai.formrecognizer.AnalyzeResult>.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.formrecognizer.AnalyzeResult>]
+    - <xref:LROPoller>[<xref:azure.ai.formrecognizer.AnalyzeResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -354,7 +354,7 @@ methods:
 
       object to return a <xref:azure.ai.formrecognizer.AnalyzeResult>.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.formrecognizer.AnalyzeResult>]
+    - <xref:LROPoller>[<xref:azure.ai.formrecognizer.AnalyzeResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -435,7 +435,7 @@ methods:
 
       object to return a <xref:azure.ai.formrecognizer.AnalyzeResult>.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.formrecognizer.AnalyzeResult>]
+    - <xref:LROPoller>[<xref:azure.ai.formrecognizer.AnalyzeResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -493,7 +493,7 @@ methods:
 
       object to return a <xref:azure.ai.formrecognizer.AnalyzeResult>.'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.formrecognizer.AnalyzeResult>]
+    - <xref:LROPoller>[<xref:azure.ai.formrecognizer.AnalyzeResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -555,4 +555,4 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>

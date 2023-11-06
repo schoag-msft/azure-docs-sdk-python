@@ -171,7 +171,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.ResourceGuardProxyBaseResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.ResourceGuardProxyBaseResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.dataprotection.aio.operations.DppResourceGuardProxyOperations.unlock_delete

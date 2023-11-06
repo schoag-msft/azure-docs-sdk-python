@@ -44,7 +44,7 @@ methods:
     description: An iterator like instance of either NetworkFunctionVendorListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:hybrid_network_management_client.models.NetworkFunctionVendorListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridnetwork.models.NetworkFunctionVendorListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

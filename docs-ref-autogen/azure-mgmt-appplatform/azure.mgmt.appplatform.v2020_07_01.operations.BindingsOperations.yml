@@ -85,7 +85,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.BindingResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.BindingResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.operations.BindingsOperations.begin_delete
@@ -145,7 +145,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.operations.BindingsOperations.begin_update
@@ -223,7 +223,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.BindingResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.BindingResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.operations.BindingsOperations.get
@@ -295,7 +295,7 @@ methods:
     description: An iterator like instance of either BindingResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2020_07_01.models.BindingResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2020_07_01.models.BindingResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -80,7 +80,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.CustomVisionPredictionClient.classify_image_url
@@ -134,7 +134,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.CustomVisionPredictionClient.classify_image_url_with_no_store
@@ -188,7 +188,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.CustomVisionPredictionClient.classify_image_with_no_store
@@ -244,7 +244,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.CustomVisionPredictionClient.close
@@ -304,7 +304,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.CustomVisionPredictionClient.detect_image_url
@@ -358,7 +358,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.CustomVisionPredictionClient.detect_image_url_with_no_store
@@ -412,7 +412,7 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException
 - uid: azure.cognitiveservices.vision.customvision.prediction.CustomVisionPredictionClient.detect_image_with_no_store
@@ -468,6 +468,6 @@ methods:
     description: ImagePrediction or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.vision.customvision.prediction.models.CustomVisionErrorException

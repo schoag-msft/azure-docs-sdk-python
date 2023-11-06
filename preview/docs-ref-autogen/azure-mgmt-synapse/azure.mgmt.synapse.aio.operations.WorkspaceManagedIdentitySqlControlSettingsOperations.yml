@@ -77,7 +77,7 @@ methods:
 
       ManagedIdentitySqlControlSettingsModel or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.ManagedIdentitySqlControlSettingsModel>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.ManagedIdentitySqlControlSettingsModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.WorkspaceManagedIdentitySqlControlSettingsOperations.get

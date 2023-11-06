@@ -114,7 +114,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowTriggerHistoryListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowTriggerHistoryListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.WorkflowTriggerHistoriesOperations.resubmit

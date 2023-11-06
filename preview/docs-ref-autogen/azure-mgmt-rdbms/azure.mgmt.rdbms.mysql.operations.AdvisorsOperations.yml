@@ -69,7 +69,7 @@ methods:
   return:
     description: An iterator like instance of either Advisor or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.Advisor>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.mysql.models.Advisor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

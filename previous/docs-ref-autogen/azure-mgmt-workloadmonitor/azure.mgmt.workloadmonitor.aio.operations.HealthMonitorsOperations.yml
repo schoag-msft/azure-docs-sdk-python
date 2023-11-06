@@ -223,7 +223,7 @@ methods:
     description: An iterator like instance of either HealthMonitor or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.workloadmonitor.models.HealthMonitor>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.workloadmonitor.models.HealthMonitor>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloadmonitor.aio.operations.HealthMonitorsOperations.list_state_changes
@@ -318,7 +318,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.workloadmonitor.models.HealthMonitorStateChange>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.workloadmonitor.models.HealthMonitorStateChange>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

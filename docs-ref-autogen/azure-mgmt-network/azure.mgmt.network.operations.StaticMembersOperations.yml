@@ -60,7 +60,7 @@ methods:
   return:
     description: StaticMember or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.StaticMember>
+    - <xref:StaticMember>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.StaticMembersOperations.delete
@@ -132,7 +132,7 @@ methods:
   return:
     description: StaticMember or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.StaticMember>
+    - <xref:StaticMember>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.StaticMembersOperations.list
@@ -185,7 +185,7 @@ methods:
     description: An iterator like instance of either StaticMember or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.StaticMember>]
+    - <xref:ItemPaged>[<xref:StaticMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

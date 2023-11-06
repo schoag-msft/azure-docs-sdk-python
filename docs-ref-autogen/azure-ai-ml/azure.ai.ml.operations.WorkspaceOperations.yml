@@ -45,7 +45,7 @@ methods:
   return:
     description: An instance of LROPoller that returns a Workspace.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.Workspace>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.Workspace>]
 - uid: azure.ai.ml.operations.WorkspaceOperations.begin_delete
   name: begin_delete
   summary: Delete a workspace.
@@ -76,7 +76,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
 - uid: azure.ai.ml.operations.WorkspaceOperations.begin_diagnose
   name: begin_diagnose
   summary: 'Diagnose workspace setup problems.
@@ -99,7 +99,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.DiagnoseResponseResultValue>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.DiagnoseResponseResultValue>]
 - uid: azure.ai.ml.operations.WorkspaceOperations.begin_provision_network
   name: begin_provision_network
   summary: 'Triggers the workspace to provision the managed network. Specifying spark
@@ -118,7 +118,7 @@ methods:
   return:
     description: An instance of LROPoller.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.ManagedNetworkProvisionStatus>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.ManagedNetworkProvisionStatus>]
 - uid: azure.ai.ml.operations.WorkspaceOperations.begin_sync_keys
   name: begin_sync_keys
   summary: 'Triggers the workspace to immediately synchronize keys. If keys for any
@@ -142,7 +142,7 @@ methods:
     description: An instance of LROPoller that returns either None or the sync keys
       result.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
 - uid: azure.ai.ml.operations.WorkspaceOperations.begin_update
   name: begin_update
   signature: 'begin_update(workspace: Workspace, *, update_dependent_resources: bool
@@ -189,4 +189,4 @@ methods:
   return:
     description: An iterator like instance of Workspace objects
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.Workspace>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.Workspace>]

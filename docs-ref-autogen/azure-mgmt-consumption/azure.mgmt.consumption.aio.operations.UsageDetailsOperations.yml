@@ -138,7 +138,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.consumption.models.UsageDetailsListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.consumption.models.UsageDetailsListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

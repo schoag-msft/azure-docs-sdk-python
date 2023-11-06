@@ -157,7 +157,7 @@ methods:
     description: An iterator like instance of either TransparentDataEncryptionListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.TransparentDataEncryptionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.TransparentDataEncryptionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

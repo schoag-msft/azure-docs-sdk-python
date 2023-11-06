@@ -83,7 +83,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicebus.v2018_01_01_preview.models.MigrationConfigProperties>]
+    - <xref:LROPoller>[<xref:azure.mgmt.servicebus.v2018_01_01_preview.models.MigrationConfigProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicebus.v2018_01_01_preview.operations.MigrationConfigsOperations.complete_migration
@@ -213,7 +213,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.servicebus.v2018_01_01_preview.models.MigrationConfigProperties>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.servicebus.v2018_01_01_preview.models.MigrationConfigProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicebus.v2018_01_01_preview.operations.MigrationConfigsOperations.revert

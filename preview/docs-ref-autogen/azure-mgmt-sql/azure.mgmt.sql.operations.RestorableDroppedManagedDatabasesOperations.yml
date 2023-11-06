@@ -72,7 +72,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.RestorableDroppedManagedDatabase>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.RestorableDroppedManagedDatabase>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -127,7 +127,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.monitor.v2021_05_01_preview.models.ManagementGroupDiagnosticSettingsResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.monitor.v2021_05_01_preview.models.ManagementGroupDiagnosticSettingsResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

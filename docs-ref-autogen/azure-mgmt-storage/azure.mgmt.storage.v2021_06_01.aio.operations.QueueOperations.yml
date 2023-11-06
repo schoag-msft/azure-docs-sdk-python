@@ -221,7 +221,7 @@ methods:
   return:
     description: An iterator like instance of either ListQueue or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.storage.v2021_06_01.models.ListQueue>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.storage.v2021_06_01.models.ListQueue>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.storage.v2021_06_01.aio.operations.QueueOperations.update

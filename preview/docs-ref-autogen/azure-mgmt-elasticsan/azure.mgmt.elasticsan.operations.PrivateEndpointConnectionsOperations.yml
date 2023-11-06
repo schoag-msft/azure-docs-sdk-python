@@ -81,7 +81,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.elasticsan.models.PrivateEndpointConnection>]
+    - <xref:LROPoller>[<xref:azure.mgmt.elasticsan.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elasticsan.operations.PrivateEndpointConnectionsOperations.begin_delete
@@ -137,7 +137,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.elasticsan.operations.PrivateEndpointConnectionsOperations.get
@@ -202,7 +202,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.elasticsan.models.PrivateEndpointConnection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.elasticsan.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

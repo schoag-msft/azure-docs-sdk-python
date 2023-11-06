@@ -89,7 +89,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.selfhelp.models.DiagnosticResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.selfhelp.models.DiagnosticResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.selfhelp.aio.operations.DiagnosticsOperations.check_name_availability

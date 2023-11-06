@@ -131,7 +131,7 @@ methods:
     description: An iterator like instance of either LinkedServiceListResponse or
       the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.synapse.artifacts.models.LinkedServiceListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.synapse.artifacts.models.LinkedServiceListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

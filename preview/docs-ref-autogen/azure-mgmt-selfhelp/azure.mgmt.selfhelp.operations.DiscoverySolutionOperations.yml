@@ -79,7 +79,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.selfhelp.models.SolutionMetadataResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.selfhelp.models.SolutionMetadataResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -439,7 +439,7 @@ methods:
   return:
     description: Instance of JobRouterClient.
     types:
-    - <xref:azure.communication.jobrouter.aio.JobRouterClient>
+    - <xref:azure.communication.jobrouter.JobRouterClient>
   examples:
   - "Authenticating a JobRouterClient from a connection_string<!--[!code-python[Main](les\\\
     sample_authentication_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
@@ -617,7 +617,7 @@ methods:
   return:
     description: An iterator like instance of RouterJobItem
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.jobrouter.RouterJobItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.jobrouter.RouterJobItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:
@@ -677,7 +677,7 @@ methods:
   return:
     description: An iterator like instance of RouterWorkerItem
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.communication.jobrouter.RouterWorkerItem>]
+    - <xref:AsyncItemPaged>[<xref:azure.communication.jobrouter.RouterWorkerItem>]
   exceptions:
   - type: <xref:azure.core.exceptions.HttpResponseError>, <xref:ValueError>
   examples:

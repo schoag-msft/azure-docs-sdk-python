@@ -331,7 +331,7 @@ methods:
   return:
     description: A DataLakeDirectoryClient.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeDirectoryClient>
+    - <xref:azure.storage.filedatalake.DataLakeDirectoryClient>
   examples:
   - "Getting the directory client to interact with a specific directory.<!--[!code-python[Main](les\\\
     datalake_samples_service_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
@@ -372,7 +372,7 @@ methods:
   return:
     description: A DataLakeFileClient.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeFileClient>
+    - <xref:azure.storage.filedatalake.DataLakeFileClient>
   examples:
   - "Getting the file client to interact with a specific file.<!--[!code-python[Main](les\\\
     datalake_samples_service_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
@@ -401,7 +401,7 @@ methods:
   return:
     description: A FileSystemClient.
     types:
-    - <xref:azure.storage.filedatalake.aio.FileSystemClient>
+    - <xref:azure.storage.filedatalake.FileSystemClient>
   examples:
   - "Getting the file system client to interact with a specific file system.<!--[!code-python[Main](les\\\
     datalake_samples_file_system_async.py )]-->\n\n<!-- literal_block {\"ids\": [],\
@@ -442,7 +442,7 @@ methods:
 
       analytics logging, hour/minute metrics, cors rules, etc.'
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.filedatalake.aio.DataLakeServiceClient.get_user_delegation_key
   name: get_user_delegation_key
   summary: 'Obtain a user delegation key for the purpose of signing SAS tokens.
@@ -550,7 +550,7 @@ methods:
   return:
     description: An iterable (auto-paging) of FileSystemProperties.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.storage.filedatalake.FileSystemProperties>]
+    - <xref:ItemPaged>[<xref:azure.storage.filedatalake.FileSystemProperties>]
   examples:
   - "Listing the file systems in the datalake service.<!--[!code-python[Main](les\\\
     datalake_samples_service_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\

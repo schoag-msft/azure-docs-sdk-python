@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.VirtualNetworks>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.VirtualNetworks>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.VirtualNetworksOperations.begin_update
@@ -144,7 +144,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.VirtualNetworks>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.hybridcontainerservice.models.VirtualNetworks>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.VirtualNetworksOperations.delete
@@ -201,7 +201,7 @@ methods:
     description: An iterator like instance of either VirtualNetworks or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.VirtualNetworks>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.VirtualNetworks>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.VirtualNetworksOperations.list_by_subscription
@@ -220,7 +220,7 @@ methods:
     description: An iterator like instance of either VirtualNetworks or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.VirtualNetworks>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hybridcontainerservice.models.VirtualNetworks>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.hybridcontainerservice.aio.operations.VirtualNetworksOperations.retrieve

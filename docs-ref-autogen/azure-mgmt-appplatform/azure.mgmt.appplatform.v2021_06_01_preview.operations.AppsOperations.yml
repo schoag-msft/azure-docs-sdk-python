@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2021_06_01_preview.models.AppResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2021_06_01_preview.models.AppResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2021_06_01_preview.operations.AppsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2021_06_01_preview.operations.AppsOperations.begin_update
@@ -208,7 +208,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appplatform.v2021_06_01_preview.models.AppResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appplatform.v2021_06_01_preview.models.AppResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2021_06_01_preview.operations.AppsOperations.get
@@ -309,7 +309,7 @@ methods:
     description: An iterator like instance of either AppResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appplatform.v2021_06_01_preview.models.AppResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appplatform.v2021_06_01_preview.models.AppResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2021_06_01_preview.operations.AppsOperations.validate_domain

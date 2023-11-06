@@ -76,7 +76,7 @@ methods:
     description: An instance of LROPoller that returns either Job or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcontainers.models.Job>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcontainers.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.JobsOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.JobsOperations.begin_start
@@ -199,7 +199,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcontainers.models.JobExecutionBase>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcontainers.models.JobExecutionBase>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.JobsOperations.begin_stop_execution
@@ -257,7 +257,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.JobsOperations.begin_stop_multiple_executions
@@ -312,7 +312,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerAppJobExecutions>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcontainers.models.ContainerAppJobExecutions>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.JobsOperations.begin_update
@@ -380,7 +380,7 @@ methods:
     description: An instance of LROPoller that returns either Job or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.appcontainers.models.Job>]
+    - <xref:LROPoller>[<xref:azure.mgmt.appcontainers.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.JobsOperations.get
@@ -435,7 +435,7 @@ methods:
   return:
     description: An iterator like instance of either Job or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appcontainers.models.Job>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appcontainers.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.JobsOperations.list_by_subscription
@@ -453,7 +453,7 @@ methods:
   return:
     description: An iterator like instance of either Job or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appcontainers.models.Job>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.appcontainers.models.Job>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appcontainers.operations.JobsOperations.list_secrets

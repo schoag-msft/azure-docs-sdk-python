@@ -79,7 +79,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Table or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.loganalytics.models.Table>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.loganalytics.models.Table>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.aio.operations.TablesOperations.begin_delete
@@ -134,7 +134,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.aio.operations.TablesOperations.begin_update
@@ -205,7 +205,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either Table or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.loganalytics.models.Table>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.loganalytics.models.Table>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.aio.operations.TablesOperations.cancel_search
@@ -299,7 +299,7 @@ methods:
   return:
     description: An iterator like instance of either Table or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.Table>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.loganalytics.models.Table>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.loganalytics.aio.operations.TablesOperations.migrate

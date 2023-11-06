@@ -53,7 +53,7 @@ methods:
     description: An iterator like instance of either ExpandMsixImage or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.ExpandMsixImage>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.ExpandMsixImage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

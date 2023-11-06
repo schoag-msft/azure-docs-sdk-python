@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedTransparentDataEncryption>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedTransparentDataEncryption>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

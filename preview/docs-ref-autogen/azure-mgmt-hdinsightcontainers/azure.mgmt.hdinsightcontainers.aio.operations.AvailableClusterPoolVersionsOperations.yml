@@ -29,7 +29,7 @@ methods:
     description: An iterator like instance of either ClusterPoolVersion or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPoolVersion>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.hdinsightcontainers.models.ClusterPoolVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

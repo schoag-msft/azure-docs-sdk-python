@@ -82,7 +82,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.communication.operations.DomainsOperations.begin_create_or_update
@@ -160,7 +160,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.communication.models.DomainResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.communication.models.DomainResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.communication.operations.DomainsOperations.begin_delete
@@ -218,7 +218,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.communication.operations.DomainsOperations.begin_initiate_verification
@@ -292,7 +292,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.communication.operations.DomainsOperations.begin_update
@@ -367,7 +367,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.communication.models.DomainResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.communication.models.DomainResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.communication.operations.DomainsOperations.get
@@ -436,7 +436,7 @@ methods:
     description: An iterator like instance of either DomainResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.communication.models.DomainResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.communication.models.DomainResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -76,7 +76,7 @@ methods:
     description: An instance of LROPoller that returns either FlowLog or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.FlowLog>]
+    - <xref:LROPoller>[<xref:FlowLog>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.FlowLogsOperations.begin_delete
@@ -129,7 +129,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.FlowLogsOperations.get
@@ -160,7 +160,7 @@ methods:
   return:
     description: FlowLog or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.FlowLog>
+    - <xref:FlowLog>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.FlowLogsOperations.list
@@ -188,7 +188,7 @@ methods:
   return:
     description: An iterator like instance of either FlowLog or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.FlowLog>]
+    - <xref:ItemPaged>[<xref:FlowLog>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.FlowLogsOperations.update_tags
@@ -234,7 +234,7 @@ methods:
   return:
     description: FlowLog or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.FlowLog>
+    - <xref:FlowLog>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -88,7 +88,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.DataWarehouseUserActivities>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.DataWarehouseUserActivities>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

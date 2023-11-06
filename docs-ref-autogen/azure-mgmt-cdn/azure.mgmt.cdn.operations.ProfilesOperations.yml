@@ -69,7 +69,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.CanMigrateResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.CanMigrateResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.ProfilesOperations.begin_create
@@ -138,7 +138,7 @@ methods:
     description: An instance of LROPoller that returns either Profile or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.Profile>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.Profile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.ProfilesOperations.begin_delete
@@ -195,7 +195,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.ProfilesOperations.begin_migrate
@@ -257,7 +257,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.MigrateResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.MigrateResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.ProfilesOperations.begin_migration_commit
@@ -307,7 +307,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.ProfilesOperations.begin_update
@@ -376,7 +376,7 @@ methods:
     description: An instance of LROPoller that returns either Profile or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.cdn.models.Profile>]
+    - <xref:LROPoller>[<xref:azure.mgmt.cdn.models.Profile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.ProfilesOperations.generate_sso_uri
@@ -465,7 +465,7 @@ methods:
   return:
     description: An iterator like instance of either Profile or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.Profile>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.Profile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.ProfilesOperations.list_by_resource_group
@@ -488,7 +488,7 @@ methods:
   return:
     description: An iterator like instance of either Profile or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.Profile>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.Profile>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.ProfilesOperations.list_resource_usage
@@ -521,7 +521,7 @@ methods:
     description: An iterator like instance of either ResourceUsage or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cdn.models.ResourceUsage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.cdn.models.ResourceUsage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cdn.operations.ProfilesOperations.list_supported_optimization_types

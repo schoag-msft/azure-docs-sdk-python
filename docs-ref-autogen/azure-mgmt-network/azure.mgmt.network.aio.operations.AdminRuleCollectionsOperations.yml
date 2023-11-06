@@ -79,7 +79,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.AdminRuleCollectionsOperations.create_or_update
@@ -132,7 +132,7 @@ methods:
   return:
     description: AdminRuleCollection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.AdminRuleCollection>
+    - <xref:AdminRuleCollection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.AdminRuleCollectionsOperations.delete
@@ -208,7 +208,7 @@ methods:
   return:
     description: AdminRuleCollection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.AdminRuleCollection>
+    - <xref:AdminRuleCollection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.AdminRuleCollectionsOperations.list
@@ -262,7 +262,7 @@ methods:
     description: An iterator like instance of either AdminRuleCollection or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.AdminRuleCollection>]
+    - <xref:AsyncItemPaged>[<xref:AdminRuleCollection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

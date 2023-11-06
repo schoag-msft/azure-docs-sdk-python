@@ -34,7 +34,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.maintenance.models.MaintenanceConfiguration>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.maintenance.models.MaintenanceConfiguration>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -125,7 +125,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.ProximityPlacementGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.ProximityPlacementGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.aio.operations.ProximityPlacementGroupsOperations.list_by_subscription
@@ -143,7 +143,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.ProximityPlacementGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2018_04_01.models.ProximityPlacementGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_04_01.aio.operations.ProximityPlacementGroupsOperations.update

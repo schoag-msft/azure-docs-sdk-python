@@ -194,7 +194,7 @@ methods:
 
       returned for each translation on a document.'
     types:
-    - <xref:azure.ai.translation.document.aio.AsyncDocumentTranslationLROPoller>[<xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.ai.translation.document.DocumentStatus>]]
+    - <xref:azure.ai.translation.document.aio.AsyncDocumentTranslationLROPoller>[<xref:AsyncItemPaged>[<xref:azure.ai.translation.document.DocumentStatus>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -285,7 +285,7 @@ methods:
   return:
     description: A list of supported document formats for translation.
     types:
-    - <xref:List>[<xref:azure.ai.translation.document.DocumentTranslationFileFormat>]
+    - <xref:typing.List>[<xref:azure.ai.translation.document.DocumentTranslationFileFormat>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.translation.document.aio.DocumentTranslationClient.get_supported_glossary_formats
@@ -296,7 +296,7 @@ methods:
   return:
     description: A list of supported glossary formats.
     types:
-    - <xref:List>[<xref:azure.ai.translation.document.DocumentTranslationFileFormat>]
+    - <xref:typing.List>[<xref:azure.ai.translation.document.DocumentTranslationFileFormat>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.translation.document.aio.DocumentTranslationClient.get_translation_status
@@ -382,7 +382,7 @@ methods:
   return:
     description: A pageable of DocumentStatus.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.ai.translation.document.DocumentStatus>]
+    - <xref:AsyncItemPaged>[<xref:azure.ai.translation.document.DocumentStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -472,7 +472,7 @@ methods:
   return:
     description: A pageable of TranslationStatus.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.ai.translation.document.TranslationStatus>]
+    - <xref:AsyncItemPaged>[<xref:azure.ai.translation.document.TranslationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

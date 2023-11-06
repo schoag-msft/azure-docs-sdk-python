@@ -36,7 +36,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.OrganizationResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.newrelicobservability.models.OrganizationResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -187,7 +187,7 @@ methods:
     description: MetricsResult or ClientRawResponse if raw=true
     types:
     - <xref:azure.applicationinsights.models.MetricsResult>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.applicationinsights.models.ErrorResponseException
 - uid: azure.applicationinsights.operations.MetricsOperations.get_metadata
@@ -226,7 +226,7 @@ methods:
     description: object or ClientRawResponse if raw=true
     types:
     - <xref:object>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.applicationinsights.models.ErrorResponseException
 - uid: azure.applicationinsights.operations.MetricsOperations.get_multiple
@@ -270,7 +270,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.applicationinsights.models.MetricsResultsItem>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.applicationinsights.models.ErrorResponseException
 attributes:

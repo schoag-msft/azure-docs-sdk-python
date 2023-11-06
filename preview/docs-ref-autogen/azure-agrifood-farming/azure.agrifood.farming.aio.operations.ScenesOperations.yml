@@ -59,7 +59,7 @@ methods:
   return:
     description: An instance of AsyncLROPoller that returns JSON object
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:JSON>]
+    - <xref:AsyncLROPoller>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -116,7 +116,7 @@ methods:
   return:
     description: Async iterator of the response bytes
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.agrifood.farming.aio.operations.ScenesOperations.get_satellite_data_ingestion_job_details
@@ -308,7 +308,7 @@ methods:
   return:
     description: An iterator like instance of JSON object
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:JSON>]
+    - <xref:AsyncItemPaged>[<xref:JSON>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

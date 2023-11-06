@@ -61,7 +61,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogAgreementResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.datadog.models.DatadogAgreementResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -534,7 +534,7 @@ methods:
   return:
     description: A dictionary with values necessary for the copy authorization.
     types:
-    - <xref:azure.ai.formrecognizer.TargetAuthorization>
+    - <xref:TargetAuthorization>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.ai.formrecognizer.aio.DocumentModelAdministrationClient.get_document_analysis_client
@@ -544,7 +544,7 @@ methods:
   return:
     description: A DocumentAnalysisClient
     types:
-    - <xref:azure.ai.formrecognizer.aio.DocumentAnalysisClient>
+    - <xref:azure.ai.formrecognizer.DocumentAnalysisClient>
 - uid: azure.ai.formrecognizer.aio.DocumentModelAdministrationClient.get_document_classifier
   name: get_document_classifier
   summary: 'Get a document classifier by its ID.
@@ -698,7 +698,7 @@ methods:
   return:
     description: Pageable of DocumentClassifierDetails.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.ai.formrecognizer.DocumentClassifierDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.ai.formrecognizer.DocumentClassifierDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -722,7 +722,7 @@ methods:
   return:
     description: Pageable of DocumentModelSummary.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.ai.formrecognizer.DocumentModelSummary>]
+    - <xref:AsyncItemPaged>[<xref:azure.ai.formrecognizer.DocumentModelSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -754,7 +754,7 @@ methods:
   return:
     description: A pageable of OperationSummary.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.ai.formrecognizer.OperationSummary>]
+    - <xref:AsyncItemPaged>[<xref:azure.ai.formrecognizer.OperationSummary>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:
@@ -809,4 +809,4 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.AsyncHttpResponse>
+    - <xref:AsyncHttpResponse>

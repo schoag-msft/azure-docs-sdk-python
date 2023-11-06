@@ -161,7 +161,7 @@ methods:
     description: An iterator like instance of either SmartGroupsList or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.SmartGroupsList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.alertsmanagement.models.SmartGroupsList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.alertsmanagement.operations.SmartGroupsOperations.get_by_id

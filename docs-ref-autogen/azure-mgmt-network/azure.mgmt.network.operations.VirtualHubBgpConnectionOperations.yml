@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.network.models.BgpConnection>]
+    - <xref:LROPoller>[<xref:BgpConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualHubBgpConnectionOperations.begin_delete
@@ -134,7 +134,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.VirtualHubBgpConnectionOperations.get
@@ -165,7 +165,7 @@ methods:
   return:
     description: BgpConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.BgpConnection>
+    - <xref:BgpConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -167,7 +167,7 @@ methods:
   return:
     description: An iterator like instance of either Entity or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.Entity>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.Entity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securityinsight.aio.operations.EntitiesOperations.queries

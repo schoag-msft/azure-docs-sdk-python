@@ -86,7 +86,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.ServiceFabricSchedulesOperations.create_or_update
@@ -280,7 +280,7 @@ methods:
     description: An iterator like instance of either ScheduleList or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.ScheduleList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.devtestlabs.models.ScheduleList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.aio.operations.ServiceFabricSchedulesOperations.update

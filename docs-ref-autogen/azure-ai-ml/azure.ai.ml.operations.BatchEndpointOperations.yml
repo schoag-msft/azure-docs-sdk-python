@@ -60,7 +60,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.BatchEndpoint>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.BatchEndpoint>]
   examples:
   - "Create endpoint example.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -83,7 +83,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   examples:
   - "Delete endpoint example.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\
     \n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\"\
@@ -176,7 +176,7 @@ methods:
   return:
     description: A list of endpoints
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.BatchEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.BatchEndpoint>]
   examples:
   - "List example.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
@@ -198,7 +198,7 @@ methods:
   return:
     description: List of jobs
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.BatchJob>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.BatchJob>]
   examples:
   - "List jobs example.<!--[!code-python[Main](les\\ml_samples_misc.py )]-->\n\n<!--\
     \ literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [],\

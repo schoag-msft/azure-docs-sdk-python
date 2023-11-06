@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.VirtualHub>]
+    - <xref:AsyncLROPoller>[<xref:VirtualHub>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubsOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubsOperations.begin_get_effective_virtual_hub_routes
@@ -190,7 +190,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.VirtualHubEffectiveRouteList>]
+    - <xref:AsyncLROPoller>[<xref:VirtualHubEffectiveRouteList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubsOperations.begin_get_inbound_routes
@@ -257,7 +257,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.EffectiveRouteMapRouteList>]
+    - <xref:AsyncLROPoller>[<xref:EffectiveRouteMapRouteList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubsOperations.begin_get_outbound_routes
@@ -324,7 +324,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.EffectiveRouteMapRouteList>]
+    - <xref:AsyncLROPoller>[<xref:EffectiveRouteMapRouteList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubsOperations.begin_update_tags
@@ -388,7 +388,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.VirtualHub>]
+    - <xref:AsyncLROPoller>[<xref:VirtualHub>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubsOperations.get
@@ -414,7 +414,7 @@ methods:
   return:
     description: VirtualHub or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualHub>
+    - <xref:VirtualHub>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubsOperations.list
@@ -429,7 +429,7 @@ methods:
   return:
     description: An iterator like instance of either VirtualHub or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.VirtualHub>]
+    - <xref:AsyncItemPaged>[<xref:VirtualHub>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubsOperations.list_by_resource_group
@@ -449,7 +449,7 @@ methods:
   return:
     description: An iterator like instance of either VirtualHub or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.VirtualHub>]
+    - <xref:AsyncItemPaged>[<xref:VirtualHub>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.VirtualHubsOperations.update_tags
@@ -489,7 +489,7 @@ methods:
   return:
     description: VirtualHub or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.VirtualHub>
+    - <xref:VirtualHub>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -69,7 +69,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.subscription.models.GetTenantPolicyResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.subscription.models.GetTenantPolicyResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

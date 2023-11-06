@@ -36,7 +36,7 @@ methods:
   return:
     description: An iterator like instance of either VaultUsage or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservices.models.VaultUsage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservices.models.VaultUsage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

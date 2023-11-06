@@ -62,7 +62,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.AppVersionSettingObject>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.SettingsOperations.update
@@ -109,7 +109,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 attributes:

@@ -76,7 +76,7 @@ methods:
 
       WebAppCollection or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Site>]]
+    - <xref:LROPoller>[<xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Site>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.begin_create_or_update
@@ -144,7 +144,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.web.v2018_02_01.models.AppServiceEnvironmentResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.web.v2018_02_01.models.AppServiceEnvironmentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.begin_create_or_update_multi_role_pool
@@ -212,7 +212,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.web.v2018_02_01.models.WorkerPoolResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.web.v2018_02_01.models.WorkerPoolResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.begin_create_or_update_worker_pool
@@ -285,7 +285,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.web.v2018_02_01.models.WorkerPoolResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.web.v2018_02_01.models.WorkerPoolResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.begin_delete
@@ -346,7 +346,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.begin_resume
@@ -399,7 +399,7 @@ methods:
 
       WebAppCollection or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Site>]]
+    - <xref:LROPoller>[<xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Site>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.begin_suspend
@@ -452,7 +452,7 @@ methods:
 
       WebAppCollection or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Site>]]
+    - <xref:LROPoller>[<xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Site>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.get
@@ -547,7 +547,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.InboundEnvironmentEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.InboundEnvironmentEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.get_multi_role_pool
@@ -609,7 +609,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.OutboundEnvironmentEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.OutboundEnvironmentEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.get_worker_pool
@@ -664,7 +664,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AppServiceEnvironmentResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AppServiceEnvironmentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_app_service_plans
@@ -694,7 +694,7 @@ methods:
     description: An iterator like instance of either AppServicePlan or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AppServicePlan>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AppServicePlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_by_resource_group
@@ -720,7 +720,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AppServiceEnvironmentResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.AppServiceEnvironmentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_capacities
@@ -750,7 +750,7 @@ methods:
     description: An iterator like instance of either StampCapacity or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.StampCapacity>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.StampCapacity>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_diagnostics
@@ -859,7 +859,7 @@ methods:
     description: An iterator like instance of either ResourceMetric or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_multi_role_metric_definitions
@@ -891,7 +891,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetricDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_multi_role_metrics
@@ -958,7 +958,7 @@ methods:
     description: An iterator like instance of either ResourceMetric or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_multi_role_pool_instance_metric_definitions
@@ -1001,7 +1001,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetricDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_multi_role_pool_instance_metrics
@@ -1045,7 +1045,7 @@ methods:
     description: An iterator like instance of either ResourceMetric or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_multi_role_pool_skus
@@ -1074,7 +1074,7 @@ methods:
   return:
     description: An iterator like instance of either SkuInfo or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.SkuInfo>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.SkuInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_multi_role_pools
@@ -1104,7 +1104,7 @@ methods:
     description: An iterator like instance of either WorkerPoolResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.WorkerPoolResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.WorkerPoolResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_multi_role_usages
@@ -1133,7 +1133,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Usage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_operations
@@ -1205,7 +1205,7 @@ methods:
     description: An iterator like instance of either CsmUsageQuota or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.CsmUsageQuota>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.CsmUsageQuota>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_vips
@@ -1269,7 +1269,7 @@ methods:
   return:
     description: An iterator like instance of either Site or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Site>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Site>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_web_worker_metric_definitions
@@ -1306,7 +1306,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetricDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_web_worker_metrics
@@ -1364,7 +1364,7 @@ methods:
     description: An iterator like instance of either ResourceMetric or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_web_worker_usages
@@ -1398,7 +1398,7 @@ methods:
   return:
     description: An iterator like instance of either Usage or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Usage>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.Usage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_worker_pool_instance_metric_definitions
@@ -1442,7 +1442,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetricDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetricDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_worker_pool_instance_metrics
@@ -1505,7 +1505,7 @@ methods:
     description: An iterator like instance of either ResourceMetric or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.ResourceMetric>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_worker_pool_skus
@@ -1539,7 +1539,7 @@ methods:
   return:
     description: An iterator like instance of either SkuInfo or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.SkuInfo>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.SkuInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.list_worker_pools
@@ -1569,7 +1569,7 @@ methods:
     description: An iterator like instance of either WorkerPoolResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.WorkerPoolResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.web.v2018_02_01.models.WorkerPoolResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2018_02_01.operations.AppServiceEnvironmentsOperations.reboot

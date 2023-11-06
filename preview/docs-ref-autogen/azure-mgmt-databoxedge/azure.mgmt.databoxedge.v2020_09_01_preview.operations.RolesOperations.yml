@@ -74,7 +74,7 @@ methods:
     description: An instance of LROPoller that returns either Role or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.Role>]
+    - <xref:LROPoller>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.Role>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_09_01_preview.operations.RolesOperations.begin_delete
@@ -127,7 +127,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_09_01_preview.operations.RolesOperations.get
@@ -184,7 +184,7 @@ methods:
   return:
     description: An iterator like instance of either Role or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.Role>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_09_01_preview.models.Role>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

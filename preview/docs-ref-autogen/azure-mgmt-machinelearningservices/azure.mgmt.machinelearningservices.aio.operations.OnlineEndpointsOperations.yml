@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.aio.operations.OnlineEndpointsOperations.begin_delete
@@ -142,7 +142,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.aio.operations.OnlineEndpointsOperations.begin_regenerate_keys
@@ -217,7 +217,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.aio.operations.OnlineEndpointsOperations.begin_update
@@ -292,7 +292,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.aio.operations.OnlineEndpointsOperations.get
@@ -451,7 +451,7 @@ methods:
     description: An iterator like instance of either OnlineEndpoint or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.OnlineEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.machinelearningservices.aio.operations.OnlineEndpointsOperations.list_keys

@@ -39,7 +39,7 @@ methods:
   return:
     description: OutboundRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.OutboundRule>
+    - <xref:OutboundRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.LoadBalancerOutboundRulesOperations.list
@@ -66,7 +66,7 @@ methods:
     description: An iterator like instance of either OutboundRule or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.OutboundRule>]
+    - <xref:AsyncItemPaged>[<xref:OutboundRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

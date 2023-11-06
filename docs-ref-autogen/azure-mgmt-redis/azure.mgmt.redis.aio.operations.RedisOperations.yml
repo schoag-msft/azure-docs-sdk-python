@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.redis.models.RedisResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.redis.models.RedisResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.RedisOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.RedisOperations.begin_export_data
@@ -192,7 +192,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.RedisOperations.begin_flush_cache
@@ -244,7 +244,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.redis.models.OperationStatusResult>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.redis.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.RedisOperations.begin_import_data
@@ -310,7 +310,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.RedisOperations.begin_update
@@ -377,7 +377,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.redis.models.RedisResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.redis.models.RedisResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.RedisOperations.check_name_availability
@@ -506,7 +506,7 @@ methods:
     description: An iterator like instance of either RedisResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.redis.models.RedisResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.redis.models.RedisResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.RedisOperations.list_by_subscription
@@ -522,7 +522,7 @@ methods:
     description: An iterator like instance of either RedisResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.redis.models.RedisResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.redis.models.RedisResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.RedisOperations.list_keys
@@ -587,7 +587,7 @@ methods:
     description: An iterator like instance of either UpgradeNotification or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.redis.models.UpgradeNotification>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.redis.models.UpgradeNotification>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.RedisOperations.regenerate_key

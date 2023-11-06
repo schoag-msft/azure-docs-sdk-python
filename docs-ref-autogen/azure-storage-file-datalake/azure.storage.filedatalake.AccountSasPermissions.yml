@@ -42,4 +42,4 @@ methods:
   return:
     description: An AccountSasPermissions object
     types:
-    - <xref:azure.storage.blob.AccountSasPermissions>
+    - <xref:azure.storage.filedatalake.AccountSasPermissions>

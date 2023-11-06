@@ -91,7 +91,7 @@ methods:
     description: An instance of LROPoller that returns either Container or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.databoxedge.v2020_09_01.models.Container>]
+    - <xref:LROPoller>[<xref:azure.mgmt.databoxedge.v2020_09_01.models.Container>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_09_01.operations.ContainersOperations.begin_delete
@@ -145,7 +145,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_09_01.operations.ContainersOperations.begin_refresh
@@ -202,7 +202,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.databoxedge.v2020_09_01.operations.ContainersOperations.get
@@ -278,7 +278,7 @@ methods:
     description: An iterator like instance of either ContainerList or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_09_01.models.ContainerList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.databoxedge.v2020_09_01.models.ContainerList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

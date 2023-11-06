@@ -173,7 +173,7 @@ methods:
   return:
     description: An iterator like instance of either Transform or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.media.models.Transform>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.media.models.Transform>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.media.aio.operations.TransformsOperations.update

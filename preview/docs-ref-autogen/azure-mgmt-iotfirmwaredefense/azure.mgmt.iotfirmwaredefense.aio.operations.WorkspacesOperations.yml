@@ -175,7 +175,7 @@ methods:
   return:
     description: An iterator like instance of either Workspace or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Workspace>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotfirmwaredefense.aio.operations.WorkspacesOperations.list_by_subscription
@@ -190,7 +190,7 @@ methods:
   return:
     description: An iterator like instance of either Workspace or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Workspace>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.iotfirmwaredefense.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iotfirmwaredefense.aio.operations.WorkspacesOperations.update

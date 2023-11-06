@@ -370,7 +370,7 @@ methods:
     description: An iterator like instance of either BuildResult or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.BuildResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.BuildResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2022_11_01_preview.aio.operations.BuildServiceOperations.list_build_services
@@ -399,7 +399,7 @@ methods:
     description: An iterator like instance of either BuildService or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.BuildService>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.BuildService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2022_11_01_preview.aio.operations.BuildServiceOperations.list_builds
@@ -432,7 +432,7 @@ methods:
   return:
     description: An iterator like instance of either Build or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.Build>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2022_11_01_preview.models.Build>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2022_11_01_preview.aio.operations.BuildServiceOperations.list_supported_buildpacks

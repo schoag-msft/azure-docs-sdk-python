@@ -245,7 +245,7 @@ methods:
   return:
     description: An iterator like instance of either TagDetails or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.resources.v2020_06_01.models.TagDetails>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.resources.v2020_06_01.models.TagDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.resources.v2020_06_01.operations.TagsOperations.update_at_scope

@@ -56,7 +56,7 @@ methods:
     description: ServicePrincipal or ClientRawResponse if raw=true
     types:
     - <xref:azure.graphrbac.models.ServicePrincipal>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.ServicePrincipalsOperations.delete
@@ -90,7 +90,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.ServicePrincipalsOperations.get
@@ -126,7 +126,7 @@ methods:
     description: ServicePrincipal or ClientRawResponse if raw=true
     types:
     - <xref:azure.graphrbac.models.ServicePrincipal>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.ServicePrincipalsOperations.list
@@ -307,7 +307,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.ServicePrincipalsOperations.update_key_credentials
@@ -349,7 +349,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.ServicePrincipalsOperations.update_password_credentials
@@ -389,7 +389,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 attributes:

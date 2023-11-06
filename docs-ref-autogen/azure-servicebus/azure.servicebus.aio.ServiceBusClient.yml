@@ -250,7 +250,7 @@ methods:
     - <xref:bool>
   return:
     types:
-    - <xref:azure.servicebus.aio.ServiceBusClient>
+    - <xref:azure.servicebus.ServiceBusClient>
   examples:
   - "Create a new instance of the ServiceBusClient from connection string.<!--[!code-python[Main](les\\\
     async_samples\\sample_code_servicebus_async.py )]-->\n\n<!-- literal_block {\"\
@@ -399,7 +399,7 @@ methods:
     - <xref:float>
   return:
     types:
-    - <xref:azure.servicebus.aio.ServiceBusReceiver>
+    - <xref:azure.servicebus.ServiceBusReceiver>
   examples:
   - "Create a new instance of the ServiceBusSender from ServiceBusClient.<!--[!code-python[Main](les\\\
     async_samples\\sample_code_servicebus_async.py )]-->\n\n<!-- literal_block {\"\
@@ -448,7 +448,7 @@ methods:
   return:
     description: A queue sender.
     types:
-    - <xref:azure.servicebus.aio.ServiceBusSender>
+    - <xref:azure.servicebus.ServiceBusSender>
   examples:
   - "Create a new instance of the ServiceBusClient from connection string.<!--[!code-python[Main](les\\\
     async_samples\\sample_code_servicebus_async.py )]-->\n\n<!-- literal_block {\"\
@@ -607,7 +607,7 @@ methods:
     - <xref:float>
   return:
     types:
-    - <xref:azure.servicebus.aio.ServiceBusReceiver>
+    - <xref:azure.servicebus.ServiceBusReceiver>
   examples:
   - "Create a new instance of the ServiceBusReceiver from ServiceBusClient.<!--[!code-python[Main](les\\\
     async_samples\\sample_code_servicebus_async.py )]-->\n\n<!-- literal_block {\"\
@@ -658,7 +658,7 @@ methods:
   return:
     description: A topic sender.
     types:
-    - <xref:azure.servicebus.aio.ServiceBusSender>
+    - <xref:azure.servicebus.ServiceBusSender>
   examples:
   - "Create a new instance of the ServiceBusSender from ServiceBusClient.<!--[!code-python[Main](les\\\
     async_samples\\sample_code_servicebus_async.py )]-->\n\n<!-- literal_block {\"\

@@ -75,7 +75,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.monitor.v2022_06_01.models.TestNotificationDetailsResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.monitor.v2022_06_01.models.TestNotificationDetailsResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2022_06_01.operations.ActionGroupsOperations.begin_create_notifications_at_resource_group_level
@@ -137,7 +137,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.monitor.v2022_06_01.models.TestNotificationDetailsResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.monitor.v2022_06_01.models.TestNotificationDetailsResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2022_06_01.operations.ActionGroupsOperations.begin_post_test_notifications
@@ -191,7 +191,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.monitor.v2022_06_01.models.TestNotificationDetailsResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.monitor.v2022_06_01.models.TestNotificationDetailsResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2022_06_01.operations.ActionGroupsOperations.create_or_update
@@ -441,7 +441,7 @@ methods:
     description: An iterator like instance of either ActionGroupResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.ActionGroupResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.ActionGroupResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2022_06_01.operations.ActionGroupsOperations.list_by_subscription_id
@@ -457,7 +457,7 @@ methods:
     description: An iterator like instance of either ActionGroupResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.ActionGroupResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2022_06_01.models.ActionGroupResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2022_06_01.operations.ActionGroupsOperations.update

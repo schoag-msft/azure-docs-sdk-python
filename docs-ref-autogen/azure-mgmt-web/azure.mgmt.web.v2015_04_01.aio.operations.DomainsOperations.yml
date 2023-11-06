@@ -75,7 +75,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.web.v2015_04_01.models.Domain>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.web.v2015_04_01.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_04_01.aio.operations.DomainsOperations.check_availability
@@ -334,7 +334,7 @@ methods:
   return:
     description: An iterator like instance of either Domain or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2015_04_01.models.Domain>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2015_04_01.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_04_01.aio.operations.DomainsOperations.list_by_resource_group
@@ -357,7 +357,7 @@ methods:
   return:
     description: An iterator like instance of either Domain or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2015_04_01.models.Domain>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2015_04_01.models.Domain>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_04_01.aio.operations.DomainsOperations.list_ownership_identifiers
@@ -389,7 +389,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2015_04_01.models.DomainOwnershipIdentifier>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2015_04_01.models.DomainOwnershipIdentifier>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_04_01.aio.operations.DomainsOperations.list_recommendations
@@ -423,7 +423,7 @@ methods:
     description: An iterator like instance of either NameIdentifier or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2015_04_01.models.NameIdentifier>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2015_04_01.models.NameIdentifier>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2015_04_01.aio.operations.DomainsOperations.renew

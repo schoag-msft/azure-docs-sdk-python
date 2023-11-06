@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.synapse.artifacts.models.LinkConnectionResource>]
+    - <xref:ItemPaged>[<xref:azure.synapse.artifacts.models.LinkConnectionResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.operations.LinkConnectionOperations.list_link_tables

@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.AzureBackupJobResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.dataprotection.models.AzureBackupJobResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

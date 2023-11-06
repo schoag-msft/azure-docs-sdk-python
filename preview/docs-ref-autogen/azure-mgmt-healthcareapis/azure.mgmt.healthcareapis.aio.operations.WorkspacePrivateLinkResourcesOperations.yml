@@ -72,7 +72,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.healthcareapis.models.PrivateLinkResourceDescription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.healthcareapis.models.PrivateLinkResourceDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -139,7 +139,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ExtendedDatabaseBlobAuditingPolicy>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ExtendedDatabaseBlobAuditingPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -209,7 +209,7 @@ methods:
     description: An iterator like instance of either ComponentVersion or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.ComponentVersion>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.machinelearningservices.models.ComponentVersion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -47,7 +47,7 @@ methods:
     description: A poller to track the operation status if remote, else returns None
       if local.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.ai.ml.entities.OnlineEndpoint>]
+    - <xref:LROPoller>[<xref:azure.ai.ml.entities.OnlineEndpoint>]
   exceptions:
   - type: azure.ai.ml.exceptions.ValidationException
     description: 'Raised if OnlineEndpoint cannot be successfully validated.
@@ -86,7 +86,7 @@ methods:
     description: A poller to track the operation status if remote, else returns None
       if local.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.ai.ml.exceptions.LocalEndpointNotFoundError
     description: Raised if local endpoint resource does not exist.
@@ -108,7 +108,7 @@ methods:
   return:
     description: A poller to track the operation status.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
 - uid: azure.ai.ml.operations.OnlineEndpointOperations.get
   name: get
   summary: Get a Endpoint resource.
@@ -145,7 +145,7 @@ methods:
     description: Depending on the auth mode in the endpoint, returns either keys or
       token
     types:
-    - <xref:Union>[<xref:azure.ai.ml.entities.EndpointAuthKeys>, <xref:azure.ai.ml.entities.EndpointAuthToken>]
+    - <xref:typing.Union>[<xref:azure.ai.ml.entities.EndpointAuthKeys>, <xref:azure.ai.ml.entities.EndpointAuthToken>]
 - uid: azure.ai.ml.operations.OnlineEndpointOperations.invoke
   name: invoke
   summary: Invokes the endpoint with the provided payload.
@@ -205,4 +205,4 @@ methods:
   return:
     description: A list of endpoints
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.ai.ml.entities.OnlineEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.ai.ml.entities.OnlineEndpoint>]

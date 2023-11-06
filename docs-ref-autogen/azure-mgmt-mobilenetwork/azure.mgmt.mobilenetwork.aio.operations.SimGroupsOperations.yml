@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.SimGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.mobilenetwork.models.SimGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.SimGroupsOperations.begin_delete
@@ -126,7 +126,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.SimGroupsOperations.get
@@ -176,7 +176,7 @@ methods:
   return:
     description: An iterator like instance of either SimGroup or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.mobilenetwork.models.SimGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.mobilenetwork.models.SimGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.SimGroupsOperations.list_by_subscription
@@ -191,7 +191,7 @@ methods:
   return:
     description: An iterator like instance of either SimGroup or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.mobilenetwork.models.SimGroup>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.mobilenetwork.models.SimGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.mobilenetwork.aio.operations.SimGroupsOperations.update_tags

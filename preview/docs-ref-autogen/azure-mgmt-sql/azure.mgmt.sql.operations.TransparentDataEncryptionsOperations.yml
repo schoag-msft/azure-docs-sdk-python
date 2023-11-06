@@ -89,7 +89,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.LogicalDatabaseTransparentDataEncryption>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.LogicalDatabaseTransparentDataEncryption>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.TransparentDataEncryptionsOperations.get
@@ -169,7 +169,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.LogicalDatabaseTransparentDataEncryption>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.LogicalDatabaseTransparentDataEncryption>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

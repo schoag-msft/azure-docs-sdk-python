@@ -93,7 +93,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.aio.operations.IotDpsResourceOperations.begin_create_or_update_private_endpoint_connection
@@ -160,7 +160,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.PrivateEndpointConnection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.aio.operations.IotDpsResourceOperations.begin_delete
@@ -211,7 +211,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.aio.operations.IotDpsResourceOperations.begin_delete_private_endpoint_connection
@@ -272,7 +272,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.PrivateEndpointConnection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.aio.operations.IotDpsResourceOperations.begin_update
@@ -335,7 +335,7 @@ methods:
 
       the result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescription>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.aio.operations.IotDpsResourceOperations.check_provisioning_service_name_availability
@@ -536,7 +536,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescriptionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescriptionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.aio.operations.IotDpsResourceOperations.list_by_subscription
@@ -557,7 +557,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescriptionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.ProvisioningServiceDescriptionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.aio.operations.IotDpsResourceOperations.list_keys
@@ -590,7 +590,7 @@ methods:
 
       or the result of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.SharedAccessSignatureAuthorizationRuleListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.SharedAccessSignatureAuthorizationRuleListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.iothubprovisioningservices.aio.operations.IotDpsResourceOperations.list_keys_for_key_name
@@ -723,7 +723,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.IotDpsSkuDefinitionListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.iothubprovisioningservices.models.IotDpsSkuDefinitionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

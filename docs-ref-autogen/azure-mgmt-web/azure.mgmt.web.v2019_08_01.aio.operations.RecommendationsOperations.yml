@@ -311,7 +311,7 @@ methods:
     description: An iterator like instance of either Recommendation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.RecommendationsOperations.list_history_for_hosting_environment
@@ -365,7 +365,7 @@ methods:
     description: An iterator like instance of either Recommendation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.RecommendationsOperations.list_history_for_web_app
@@ -418,7 +418,7 @@ methods:
     description: An iterator like instance of either Recommendation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.RecommendationsOperations.list_recommended_rules_for_hosting_environment
@@ -467,7 +467,7 @@ methods:
     description: An iterator like instance of either Recommendation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.RecommendationsOperations.list_recommended_rules_for_web_app
@@ -516,7 +516,7 @@ methods:
     description: An iterator like instance of either Recommendation or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.web.v2019_08_01.models.Recommendation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.web.v2019_08_01.aio.operations.RecommendationsOperations.reset_all_filters

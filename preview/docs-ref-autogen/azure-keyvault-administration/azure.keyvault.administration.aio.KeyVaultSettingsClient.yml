@@ -67,7 +67,7 @@ methods:
     description: A <xref:azure.keyvault.administration.GetSettingsResult> object containing
       the account's settings.
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.keyvault.administration.KeyVaultSetting>]
+    - <xref:AsyncItemPaged>[<xref:azure.keyvault.administration.KeyVaultSetting>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.keyvault.administration.aio.KeyVaultSettingsClient.update_setting

@@ -84,7 +84,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either ServerSecurityAlertPolicy
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.rdbms.mariadb.models.ServerSecurityAlertPolicy>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.rdbms.mariadb.models.ServerSecurityAlertPolicy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.aio.operations.ServerSecurityAlertPoliciesOperations.get
@@ -143,7 +143,7 @@ methods:
     description: An iterator like instance of either ServerSecurityAlertPolicyListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.ServerSecurityAlertPolicyListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.ServerSecurityAlertPolicyListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

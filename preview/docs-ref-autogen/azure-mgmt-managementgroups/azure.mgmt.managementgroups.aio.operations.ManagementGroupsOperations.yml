@@ -83,8 +83,8 @@ methods:
       AsyncLROPoller that returns either AzureAsyncOperationResults or the result
       of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managementgroups.models.ManagementGroup>]
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managementgroups.models.ManagementGroup>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.aio.operations.ManagementGroupsOperations.begin_delete
@@ -139,7 +139,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.aio.operations.ManagementGroupsOperations.get
@@ -249,7 +249,7 @@ methods:
     description: An iterator like instance of either DescendantInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managementgroups.models.DescendantInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managementgroups.models.DescendantInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.aio.operations.ManagementGroupsOperations.list
@@ -290,7 +290,7 @@ methods:
     description: An iterator like instance of either ManagementGroupInfo or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managementgroups.models.ManagementGroupInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managementgroups.models.ManagementGroupInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.aio.operations.ManagementGroupsOperations.update

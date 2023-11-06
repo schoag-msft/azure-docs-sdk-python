@@ -546,7 +546,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.locks.v2016_09_01.models.ManagementLockObject>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.locks.v2016_09_01.models.ManagementLockObject>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.locks.v2016_09_01.operations.ManagementLocksOperations.list_at_resource_level
@@ -598,7 +598,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.locks.v2016_09_01.models.ManagementLockObject>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.locks.v2016_09_01.models.ManagementLockObject>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.locks.v2016_09_01.operations.ManagementLocksOperations.list_at_subscription_level
@@ -622,7 +622,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.locks.v2016_09_01.models.ManagementLockObject>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.locks.v2016_09_01.models.ManagementLockObject>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.resource.locks.v2016_09_01.operations.ManagementLocksOperations.list_by_scope
@@ -661,7 +661,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.resource.locks.v2016_09_01.models.ManagementLockObject>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.resource.locks.v2016_09_01.models.ManagementLockObject>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

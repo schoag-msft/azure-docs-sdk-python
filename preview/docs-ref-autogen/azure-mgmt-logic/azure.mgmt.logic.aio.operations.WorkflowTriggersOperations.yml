@@ -108,7 +108,7 @@ methods:
     description: An iterator like instance of either WorkflowTrigger or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowTrigger>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.logic.models.WorkflowTrigger>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.aio.operations.WorkflowTriggersOperations.list_callback_url

@@ -44,7 +44,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.synapse.models.KustoPoolPrivateLinkResources>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.synapse.models.KustoPoolPrivateLinkResources>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

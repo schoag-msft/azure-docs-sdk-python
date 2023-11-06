@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.compute.v2018_06_01.models.Gallery>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.compute.v2018_06_01.models.Gallery>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_06_01.aio.operations.GalleriesOperations.begin_delete
@@ -128,7 +128,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_06_01.aio.operations.GalleriesOperations.get
@@ -169,7 +169,7 @@ methods:
   return:
     description: An iterator like instance of either Gallery or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2018_06_01.models.Gallery>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2018_06_01.models.Gallery>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.compute.v2018_06_01.aio.operations.GalleriesOperations.list_by_resource_group
@@ -189,7 +189,7 @@ methods:
   return:
     description: An iterator like instance of either Gallery or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.compute.v2018_06_01.models.Gallery>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.compute.v2018_06_01.models.Gallery>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

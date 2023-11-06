@@ -135,7 +135,7 @@ methods:
     description: An iterator like instance of either FluidRelayServer or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayServer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayServer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.fluidrelay.aio.operations.FluidRelayServersOperations.list_by_subscription
@@ -154,7 +154,7 @@ methods:
     description: An iterator like instance of either FluidRelayServer or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayServer>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayServer>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.fluidrelay.aio.operations.FluidRelayServersOperations.list_keys

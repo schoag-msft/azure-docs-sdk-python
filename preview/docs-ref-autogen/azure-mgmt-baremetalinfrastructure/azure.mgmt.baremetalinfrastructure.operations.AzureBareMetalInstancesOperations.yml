@@ -84,7 +84,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.baremetalinfrastructure.models.OperationStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.baremetalinfrastructure.models.OperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.baremetalinfrastructure.operations.AzureBareMetalInstancesOperations.begin_shutdown
@@ -141,7 +141,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.baremetalinfrastructure.models.OperationStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.baremetalinfrastructure.models.OperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.baremetalinfrastructure.operations.AzureBareMetalInstancesOperations.begin_start
@@ -198,7 +198,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.baremetalinfrastructure.models.OperationStatus>]
+    - <xref:LROPoller>[<xref:azure.mgmt.baremetalinfrastructure.models.OperationStatus>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.baremetalinfrastructure.operations.AzureBareMetalInstancesOperations.get
@@ -266,7 +266,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.baremetalinfrastructure.models.AzureBareMetalInstance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.baremetalinfrastructure.models.AzureBareMetalInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.baremetalinfrastructure.operations.AzureBareMetalInstancesOperations.list_by_subscription
@@ -290,7 +290,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.baremetalinfrastructure.models.AzureBareMetalInstance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.baremetalinfrastructure.models.AzureBareMetalInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.baremetalinfrastructure.operations.AzureBareMetalInstancesOperations.update

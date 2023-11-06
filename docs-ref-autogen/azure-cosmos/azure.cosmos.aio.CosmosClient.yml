@@ -174,7 +174,7 @@ methods:
   return:
     description: A DatabaseProxy instance representing the new database.
     types:
-    - <xref:azure.cosmos.aio.DatabaseProxy>
+    - <xref:azure.cosmos.DatabaseProxy>
   exceptions:
   - type: azure.cosmos.exceptions.CosmosResourceExistsError
     description: Database with the given ID already exists.
@@ -312,7 +312,7 @@ methods:
   return:
     description: a CosmosClient instance
     types:
-    - <xref:azure.cosmos.aio.CosmosClient>
+    - <xref:azure.cosmos.CosmosClient>
 - uid: azure.cosmos.aio.CosmosClient.get_database_client
   name: get_database_client
   summary: Retrieve an existing database with the ID (name) *id*.
@@ -355,7 +355,7 @@ methods:
   return:
     description: An AsyncItemPaged of database properties (dicts).
     types:
-    - <xref:AsyncItemPaged>[<xref:Dict>[<xref:str>, <xref:str>]]
+    - <xref:AsyncItemPaged>[<xref:typing.Dict>[<xref:str>, <xref:str>]]
 - uid: azure.cosmos.aio.CosmosClient.query_databases
   name: query_databases
   summary: Query the databases in a Cosmos DB SQL database account.
@@ -390,4 +390,4 @@ methods:
   return:
     description: An AsyncItemPaged of database properties (dicts).
     types:
-    - <xref:AsyncItemPaged>[<xref:Dict>[<xref:str>, <xref:str>]]
+    - <xref:AsyncItemPaged>[<xref:typing.Dict>[<xref:str>, <xref:str>]]

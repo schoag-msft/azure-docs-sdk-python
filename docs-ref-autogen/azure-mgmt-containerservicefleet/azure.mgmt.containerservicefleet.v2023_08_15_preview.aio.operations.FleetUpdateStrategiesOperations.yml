@@ -98,7 +98,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_08_15_preview.models.FleetUpdateStrategy>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.containerservicefleet.v2023_08_15_preview.models.FleetUpdateStrategy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_08_15_preview.aio.operations.FleetUpdateStrategiesOperations.begin_delete
@@ -161,7 +161,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.containerservicefleet.v2023_08_15_preview.aio.operations.FleetUpdateStrategiesOperations.get
@@ -223,7 +223,7 @@ methods:
     description: An iterator like instance of either FleetUpdateStrategy or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.containerservicefleet.v2023_08_15_preview.models.FleetUpdateStrategy>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.containerservicefleet.v2023_08_15_preview.models.FleetUpdateStrategy>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

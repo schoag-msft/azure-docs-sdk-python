@@ -458,7 +458,7 @@ methods:
 
       analytics logging, hour/minute metrics, cors rules, etc.'
     types:
-    - <xref:Dict>[<xref:str>, <xref:Any>]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.filedatalake.DataLakeServiceClient.get_user_delegation_key
   name: get_user_delegation_key
   summary: 'Obtain a user delegation key for the purpose of signing SAS tokens.
@@ -566,7 +566,7 @@ methods:
   return:
     description: An iterable (auto-paging) of FileSystemProperties.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.storage.filedatalake.FileSystemProperties>]
+    - <xref:ItemPaged>[<xref:azure.storage.filedatalake.FileSystemProperties>]
   examples:
   - "Listing the file systems in the datalake service.<!--[!code-python[Main](les\\\
     datalake_samples_service.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\

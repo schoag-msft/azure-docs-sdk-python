@@ -259,7 +259,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.ThreatIntelligenceInformation>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.securityinsight.models.ThreatIntelligenceInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securityinsight.aio.operations.ThreatIntelligenceIndicatorOperations.replace_tags

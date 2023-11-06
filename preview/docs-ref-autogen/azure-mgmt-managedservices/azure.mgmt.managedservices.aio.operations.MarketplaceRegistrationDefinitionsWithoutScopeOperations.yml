@@ -62,7 +62,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.managedservices.models.MarketplaceRegistrationDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.managedservices.models.MarketplaceRegistrationDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

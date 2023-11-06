@@ -77,7 +77,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2019_01_01_preview.models.SecuritySubAssessment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2019_01_01_preview.models.SecuritySubAssessment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.security.v2019_01_01_preview.aio.operations.SubAssessmentsOperations.list_all
@@ -105,7 +105,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.security.v2019_01_01_preview.models.SecuritySubAssessment>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.security.v2019_01_01_preview.models.SecuritySubAssessment>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

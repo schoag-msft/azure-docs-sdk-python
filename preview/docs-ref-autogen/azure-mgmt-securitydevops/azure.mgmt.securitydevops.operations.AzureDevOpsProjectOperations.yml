@@ -89,7 +89,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsProject>]
+    - <xref:LROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsProject>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.operations.AzureDevOpsProjectOperations.begin_update
@@ -170,7 +170,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsProject>]
+    - <xref:LROPoller>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsProject>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.securitydevops.operations.AzureDevOpsProjectOperations.get
@@ -245,7 +245,7 @@ methods:
     description: An iterator like instance of either AzureDevOpsProject or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsProject>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.securitydevops.models.AzureDevOpsProject>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

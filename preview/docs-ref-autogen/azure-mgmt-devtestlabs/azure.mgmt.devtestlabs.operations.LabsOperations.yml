@@ -59,7 +59,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.LabsOperations.begin_create_environment
@@ -122,7 +122,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.LabsOperations.begin_create_or_update
@@ -182,7 +182,7 @@ methods:
     description: An instance of LROPoller that returns either Lab or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.devtestlabs.models.Lab>]
+    - <xref:LROPoller>[<xref:azure.mgmt.devtestlabs.models.Lab>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.LabsOperations.begin_delete
@@ -230,7 +230,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.LabsOperations.begin_export_resource_usage
@@ -297,7 +297,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.LabsOperations.begin_import_virtual_machine
@@ -361,7 +361,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.LabsOperations.generate_upload_uri
@@ -476,7 +476,7 @@ methods:
   return:
     description: An iterator like instance of either Lab or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devtestlabs.models.Lab>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devtestlabs.models.Lab>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.LabsOperations.list_by_subscription
@@ -521,7 +521,7 @@ methods:
   return:
     description: An iterator like instance of either Lab or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devtestlabs.models.Lab>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devtestlabs.models.Lab>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.LabsOperations.list_vhds
@@ -546,7 +546,7 @@ methods:
   return:
     description: An iterator like instance of either LabVhd or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.devtestlabs.models.LabVhd>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.devtestlabs.models.LabVhd>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.devtestlabs.operations.LabsOperations.update

@@ -74,7 +74,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.compute.v2020_09_30.models.SharingUpdate>]
+    - <xref:LROPoller>[<xref:azure.mgmt.compute.v2020_09_30.models.SharingUpdate>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

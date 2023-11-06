@@ -61,7 +61,7 @@ methods:
   return:
     description: An instance of AsyncLROPoller that returns dict mapping str to any
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:dict>[<xref:str>, <xref:any>]]
+    - <xref:AsyncLROPoller>[<xref:dict>[<xref:str>, <xref:any>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   examples:

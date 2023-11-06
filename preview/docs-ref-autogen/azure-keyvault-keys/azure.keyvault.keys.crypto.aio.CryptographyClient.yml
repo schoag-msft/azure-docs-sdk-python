@@ -192,7 +192,7 @@ methods:
   return:
     description: A client that can only perform local cryptographic operations.
     types:
-    - <xref:azure.keyvault.keys.crypto.aio.CryptographyClient>
+    - <xref:azure.keyvault.keys.crypto.CryptographyClient>
 - uid: azure.keyvault.keys.crypto.aio.CryptographyClient.sign
   name: sign
   summary: "Create a signature from a digest using the client's key.\n\nRequires the\

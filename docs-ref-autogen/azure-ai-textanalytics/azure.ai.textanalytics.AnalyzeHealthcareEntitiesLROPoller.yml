@@ -43,7 +43,7 @@ methods:
   return:
     description: Returns an instance of an LROPoller that returns None.
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
     description: When the operation has already reached a terminal state.
@@ -173,4 +173,4 @@ attributes:
   return:
     description: A mapping of details about the long-running operation.
     types:
-    - <xref:Mapping>[<xref:str>, <xref:Any>]
+    - <xref:typing.Mapping>[<xref:str>, <xref:typing.Any>]

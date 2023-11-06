@@ -75,7 +75,7 @@ functions:
   return:
     description: A DataTransferCopy object.
     types:
-    - <xref:azure.ai.ml.entities._component.datatransfer_component.DataTransferCopyComponent>
+    - <xref:azure.ai.ml.data_transfer.DataTransferCopyComponent>
 - uid: azure.ai.ml.data_transfer.export_data
   name: export_data
   summary: '> [!NOTE]
@@ -128,7 +128,7 @@ functions:
   return:
     description: A DataTransferExport object.
     types:
-    - <xref:azure.ai.ml.entities._job.pipeline._component_translatable.DataTransferExport>
+    - <xref:azure.ai.ml.data_transfer.DataTransferExport>
   exceptions:
   - type: azure.ai.ml.exceptions.ValidationException
     description: If sink is not provided or exporting file system is not supported.
@@ -186,7 +186,7 @@ functions:
   return:
     description: A DataTransferImport object.
     types:
-    - <xref:azure.ai.ml.entities._job.pipeline._component_translatable.DataTransferImport>
+    - <xref:azure.ai.ml.data_transfer.DataTransferImport>
 classes:
 - azure.ai.ml.data_transfer.DataTransferCopy
 - azure.ai.ml.data_transfer.DataTransferCopyComponent

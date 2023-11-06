@@ -441,7 +441,7 @@ methods:
     description: Statistics for the given index, including a document count and storage
       usage.
     types:
-    - <xref:Dict>
+    - <xref:typing.Dict>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.SearchIndexClient.get_search_client
@@ -539,7 +539,7 @@ methods:
   return:
     description: List of alias names
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:str>]
+    - <xref:ItemPaged>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.SearchIndexClient.list_aliases
@@ -559,7 +559,7 @@ methods:
   return:
     description: List of Aliases
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.search.documents.indexes.models.SearchAlias>]
+    - <xref:ItemPaged>[<xref:azure.search.documents.indexes.models.SearchAlias>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.SearchIndexClient.list_index_names
@@ -569,7 +569,7 @@ methods:
   return:
     description: List of index names
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:str>]
+    - <xref:ItemPaged>[<xref:str>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.search.documents.indexes.SearchIndexClient.list_indexes
@@ -589,6 +589,6 @@ methods:
   return:
     description: List of indexes
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.search.documents.indexes.models.SearchIndex>]
+    - <xref:ItemPaged>[<xref:azure.search.documents.indexes.models.SearchIndex>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError

@@ -169,8 +169,8 @@ methods:
   return:
     description: A tuple of a CommunicationUserIdentifier and a AccessToken.
     types:
-    - <xref:tuple of >(<xref:azure.communication.identity.CommunicationUserIdentifier>,
-      <xref:azure.core.credentials.AccessToken>)
+    - <xref:tuple> <xref:of> (<xref:azure.communication.identity.CommunicationUserIdentifier>,
+      <xref:AccessToken>)
 - uid: azure.communication.identity.CommunicationIdentityClient.delete_user
   name: delete_user
   summary: Triggers revocation event for user and deletes all its data.
@@ -226,7 +226,7 @@ methods:
   return:
     description: AccessToken
     types:
-    - <xref:azure.core.credentials.AccessToken>
+    - <xref:AccessToken>
 - uid: azure.communication.identity.CommunicationIdentityClient.get_token_for_teams_user
   name: get_token_for_teams_user
   summary: Exchanges an Azure AD access token of a Teams User for a new Communication
@@ -256,7 +256,7 @@ methods:
   return:
     description: AccessToken
     types:
-    - <xref:azure.core.credentials.AccessToken>
+    - <xref:AccessToken>
 - uid: azure.communication.identity.CommunicationIdentityClient.revoke_tokens
   name: revoke_tokens
   summary: Schedule revocation of all tokens of an identity.

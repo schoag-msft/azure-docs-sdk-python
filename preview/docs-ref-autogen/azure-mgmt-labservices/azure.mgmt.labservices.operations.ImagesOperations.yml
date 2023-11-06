@@ -135,7 +135,7 @@ methods:
   return:
     description: An iterator like instance of either Image or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.labservices.models.Image>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.labservices.models.Image>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.operations.ImagesOperations.update

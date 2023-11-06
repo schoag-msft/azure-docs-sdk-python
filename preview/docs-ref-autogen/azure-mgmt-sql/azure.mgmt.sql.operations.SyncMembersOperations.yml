@@ -91,7 +91,7 @@ methods:
     description: An instance of LROPoller that returns either SyncMember or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.SyncMember>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.SyncMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncMembersOperations.begin_delete
@@ -158,7 +158,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncMembersOperations.begin_refresh_member_schema
@@ -226,7 +226,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncMembersOperations.begin_update
@@ -309,7 +309,7 @@ methods:
     description: An instance of LROPoller that returns either SyncMember or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.SyncMember>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.SyncMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncMembersOperations.get
@@ -392,7 +392,7 @@ methods:
   return:
     description: An iterator like instance of either SyncMember or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SyncMember>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SyncMember>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.SyncMembersOperations.list_member_schemas
@@ -440,7 +440,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.SyncFullSchemaProperties>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.SyncFullSchemaProperties>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -50,7 +50,7 @@ methods:
     description: An iterator like instance of either TopicTypeInfo or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.TopicTypeInfo>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.TopicTypeInfo>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.eventgrid.aio.operations.TopicTypesOperations.list_event_types
@@ -73,7 +73,7 @@ methods:
   return:
     description: An iterator like instance of either EventType or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventType>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.eventgrid.models.EventType>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -31,7 +31,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.AvailableServiceAlias>]
+    - <xref:AsyncItemPaged>[<xref:AvailableServiceAlias>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.AvailableServiceAliasesOperations.list_by_resource_group
@@ -60,7 +60,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.AvailableServiceAlias>]
+    - <xref:AsyncItemPaged>[<xref:AvailableServiceAlias>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

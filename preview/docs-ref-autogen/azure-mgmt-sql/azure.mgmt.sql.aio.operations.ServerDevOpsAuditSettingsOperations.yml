@@ -82,7 +82,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ServerDevOpsAuditingSettings>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ServerDevOpsAuditingSettings>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ServerDevOpsAuditSettingsOperations.get
@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.ServerDevOpsAuditingSettings>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.ServerDevOpsAuditingSettings>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

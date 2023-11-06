@@ -140,7 +140,7 @@ methods:
   return:
     description: A DataLakeLeaseClient object, that can be run in a context manager.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeLeaseClient>
+    - <xref:azure.storage.filedatalake.DataLakeLeaseClient>
   examples:
   - "Acquiring a lease on the file_system.<!--[!code-python[Main](les\\datalake_samples_file_system_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -545,7 +545,7 @@ methods:
   return:
     description: A dictionary of response headers.
     types:
-    - <xref:Dict>[<xref:str>, <xref:Union>[<xref:str>, <xref:datetime>]]
+    - <xref:typing.Dict>[<xref:str>, <xref:typing.Union>[<xref:str>, <xref:datetime>]]
   examples:
   - "Creating a file system in the datalake service.<!--[!code-python[Main](les\\\
     datalake_samples_file_system_async.py )]-->\n\n<!-- literal_block {\"ids\": [],\
@@ -833,7 +833,7 @@ methods:
   return:
     description: A DataLakeDirectoryClient.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeDirectoryClient>
+    - <xref:azure.storage.filedatalake.DataLakeDirectoryClient>
   examples:
   - "Getting the directory client to interact with a specific directory.<!--[!code-python[Main](les\\\
     datalake_samples_file_system_async.py )]-->\n\n<!-- literal_block {\"ids\": [],\
@@ -864,7 +864,7 @@ methods:
   return:
     description: A DataLakeFileClient.
     types:
-    - <xref:azure.storage.filedatalake.aio.DataLakeFileClient>
+    - <xref:azure.storage.filedatalake.DataLakeFileClient>
   examples:
   - "Getting the file client to interact with a specific file.<!--[!code-python[Main](les\\\
     datalake_samples_file_system_async.py )]-->\n\n<!-- literal_block {\"ids\": [],\
@@ -904,7 +904,7 @@ methods:
   return:
     description: Access policy information in a dict.
     types:
-    - <xref:dict>[<xref:str>, <xref:Any>]
+    - <xref:dict>[<xref:str>, <xref:typing.Any>]
 - uid: azure.storage.filedatalake.aio.FileSystemClient.get_file_system_properties
   name: get_file_system_properties
   summary: 'Returns all user-defined metadata and system properties for the specified
@@ -1005,7 +1005,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of PathProperties.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.storage.filedatalake.PathProperties>]
+    - <xref:ItemPaged>[<xref:azure.storage.filedatalake.PathProperties>]
   examples:
   - "List the blobs in the file system.<!--[!code-python[Main](les\\datalake_samples_file_system_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
@@ -1055,7 +1055,7 @@ methods:
   return:
     description: An iterable (auto-paging) response of DeletedPathProperties.
     types:
-    - <xref:azure.core.paging.AsyncItemPaged>[<xref:azure.storage.filedatalake.DeletedPathProperties>]
+    - <xref:AsyncItemPaged>[<xref:azure.storage.filedatalake.DeletedPathProperties>]
 - uid: azure.storage.filedatalake.aio.FileSystemClient.set_file_system_access_policy
   name: set_file_system_access_policy
   summary: 'Sets the permissions for the specified file system or stored access
@@ -1131,7 +1131,7 @@ methods:
     description: filesystem-updated property dict (Etag and last modified).
     types:
     - <xref:dict>[<xref:str>, <xref:str>
-    - <xref:datetime.datetime>]
+    - <xref:datetime>]
 - uid: azure.storage.filedatalake.aio.FileSystemClient.set_file_system_metadata
   name: set_file_system_metadata
   summary: 'Sets one or more user-defined name-value pairs for the specified

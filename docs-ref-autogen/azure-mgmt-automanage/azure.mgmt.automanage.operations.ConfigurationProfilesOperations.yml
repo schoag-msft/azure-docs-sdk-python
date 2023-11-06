@@ -114,7 +114,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automanage.models.ConfigurationProfileList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automanage.models.ConfigurationProfileList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automanage.operations.ConfigurationProfilesOperations.list_by_subscription
@@ -132,7 +132,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.automanage.models.ConfigurationProfileList>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.automanage.models.ConfigurationProfileList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automanage.operations.ConfigurationProfilesOperations.update

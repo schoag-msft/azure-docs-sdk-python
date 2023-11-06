@@ -71,7 +71,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.begin_delete
@@ -116,7 +116,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.begin_failover_cancel
@@ -163,7 +163,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.begin_failover_commit
@@ -210,7 +210,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.begin_planned_failover
@@ -273,7 +273,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.begin_reprotect
@@ -320,7 +320,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.begin_test_failover
@@ -383,7 +383,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.begin_test_failover_cleanup
@@ -445,7 +445,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.begin_unplanned_failover
@@ -507,7 +507,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.begin_update
@@ -570,7 +570,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:LROPoller>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.recoveryservicessiterecovery.operations.ReplicationRecoveryPlansOperations.get
@@ -612,7 +612,7 @@ methods:
     description: An iterator like instance of either RecoveryPlan or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicessiterecovery.models.RecoveryPlan>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

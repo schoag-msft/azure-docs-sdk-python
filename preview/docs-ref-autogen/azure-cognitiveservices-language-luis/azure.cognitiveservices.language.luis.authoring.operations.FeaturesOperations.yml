@@ -77,7 +77,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.FeaturesOperations.add_intent_feature
@@ -131,7 +131,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.FeaturesOperations.add_phrase_list
@@ -180,7 +180,7 @@ methods:
     description: int or ClientRawResponse if raw=true
     types:
     - <xref:int>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.FeaturesOperations.delete_phrase_list
@@ -225,7 +225,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.FeaturesOperations.get_phrase_list
@@ -270,7 +270,7 @@ methods:
     description: PhraseListFeatureInfo or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.PhraseListFeatureInfo>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.FeaturesOperations.list
@@ -324,7 +324,7 @@ methods:
     description: FeaturesResponseObject or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.FeaturesResponseObject>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.FeaturesOperations.list_phrase_lists
@@ -376,7 +376,7 @@ methods:
     description: list or ClientRawResponse if raw=true
     types:
     - <xref:list>[<xref:azure.cognitiveservices.language.luis.authoring.models.PhraseListFeatureInfo>]
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 - uid: azure.cognitiveservices.language.luis.authoring.operations.FeaturesOperations.update_phrase_list
@@ -434,7 +434,7 @@ methods:
     description: OperationStatus or ClientRawResponse if raw=true
     types:
     - <xref:azure.cognitiveservices.language.luis.authoring.models.OperationStatus>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.cognitiveservices.language.luis.authoring.models.ErrorResponseException
 attributes:

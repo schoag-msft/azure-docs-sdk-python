@@ -80,7 +80,7 @@ methods:
     description: An instance of LROPoller that returns either Server or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.mariadb.models.Server>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.mariadb.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.operations.ServersOperations.begin_delete
@@ -124,7 +124,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.operations.ServersOperations.begin_restart
@@ -168,7 +168,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.operations.ServersOperations.begin_start
@@ -212,7 +212,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.operations.ServersOperations.begin_stop
@@ -256,7 +256,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.operations.ServersOperations.begin_update
@@ -308,7 +308,7 @@ methods:
     description: An instance of LROPoller that returns either Server or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.mariadb.models.Server>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.mariadb.models.Server>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.operations.ServersOperations.get
@@ -349,7 +349,7 @@ methods:
     description: An iterator like instance of either ServerListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.ServerListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.ServerListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mariadb.operations.ServersOperations.list_by_resource_group
@@ -370,7 +370,7 @@ methods:
     description: An iterator like instance of either ServerListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.ServerListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.rdbms.mariadb.models.ServerListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

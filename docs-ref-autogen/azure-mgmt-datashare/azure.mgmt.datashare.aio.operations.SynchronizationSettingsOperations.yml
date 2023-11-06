@@ -85,7 +85,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either OperationResponse
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.datashare.models.OperationResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datashare.aio.operations.SynchronizationSettingsOperations.create
@@ -209,7 +209,7 @@ methods:
     description: An iterator like instance of either SynchronizationSettingList or
       the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationSettingList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datashare.models.SynchronizationSettingList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

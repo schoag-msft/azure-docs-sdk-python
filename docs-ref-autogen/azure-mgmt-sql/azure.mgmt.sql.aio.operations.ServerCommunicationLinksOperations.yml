@@ -85,7 +85,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either ServerCommunicationLink
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.sql.models.ServerCommunicationLink>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.sql.models.ServerCommunicationLink>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.aio.operations.ServerCommunicationLinksOperations.delete
@@ -180,7 +180,7 @@ methods:
     description: An iterator like instance of either ServerCommunicationLinkListResult
       or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.sql.models.ServerCommunicationLinkListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.sql.models.ServerCommunicationLinkListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

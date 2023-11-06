@@ -177,7 +177,7 @@ methods:
     description: An iterator like instance of either StudentDetails or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.education.models.StudentDetails>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.education.models.StudentDetails>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

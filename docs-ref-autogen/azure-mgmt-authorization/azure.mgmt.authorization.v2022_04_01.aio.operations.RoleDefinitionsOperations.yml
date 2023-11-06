@@ -161,7 +161,7 @@ methods:
     description: An iterator like instance of either RoleDefinition or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.authorization.v2022_04_01.models.RoleDefinition>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.authorization.v2022_04_01.models.RoleDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

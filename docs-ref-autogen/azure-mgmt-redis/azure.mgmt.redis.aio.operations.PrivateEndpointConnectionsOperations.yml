@@ -83,7 +83,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.redis.models.PrivateEndpointConnection>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.redis.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.redis.aio.operations.PrivateEndpointConnectionsOperations.delete
@@ -185,7 +185,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.redis.models.PrivateEndpointConnection>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.redis.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

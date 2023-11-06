@@ -81,7 +81,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.SqlPoolsOperations.begin_delete
@@ -141,7 +141,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.SqlPoolsOperations.begin_pause
@@ -201,7 +201,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.SqlPoolsOperations.begin_resume
@@ -261,7 +261,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.SqlPoolsOperations.begin_update
@@ -337,7 +337,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.SqlPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.SqlPoolsOperations.get
@@ -404,7 +404,7 @@ methods:
   return:
     description: An iterator like instance of either SqlPool or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.SqlPool>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.SqlPool>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.SqlPoolsOperations.rename

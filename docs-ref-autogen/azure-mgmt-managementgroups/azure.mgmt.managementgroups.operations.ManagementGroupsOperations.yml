@@ -86,7 +86,7 @@ methods:
     description: An instance of LROPoller that returns either ManagementGroup or the
       result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managementgroups.models.ManagementGroup>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managementgroups.models.ManagementGroup>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.operations.ManagementGroupsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either AzureAsyncOperationResults
       or the result of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
+    - <xref:LROPoller>[<xref:azure.mgmt.managementgroups.models.AzureAsyncOperationResults>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.operations.ManagementGroupsOperations.get
@@ -240,7 +240,7 @@ methods:
     description: An iterator like instance of either DescendantListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managementgroups.models.DescendantListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managementgroups.models.DescendantListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.operations.ManagementGroupsOperations.list
@@ -279,7 +279,7 @@ methods:
     description: An iterator like instance of either ManagementGroupListResult or
       the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.managementgroups.models.ManagementGroupListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.managementgroups.models.ManagementGroupListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.managementgroups.operations.ManagementGroupsOperations.update

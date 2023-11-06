@@ -82,7 +82,7 @@ methods:
   return:
     description: A poller for the created asset conversion
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mixedreality.remoterendering.AssetConversion>]
+    - <xref:LROPoller>[<xref:azure.mixedreality.remoterendering.AssetConversion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mixedreality.remoterendering.RemoteRenderingClient.begin_rendering_session
@@ -137,7 +137,7 @@ methods:
   return:
     description: Information about the ongoing conversion process.
     types:
-    - <xref:azure.mixedreality.remoterendering.models.AssetConversion>
+    - <xref:azure.mixedreality.remoterendering.AssetConversion>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mixedreality.remoterendering.RemoteRenderingClient.get_asset_conversion_poller
@@ -151,7 +151,7 @@ methods:
   return:
     description: A poller for the created asset conversion
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mixedreality.remoterendering.AssetConversion>]
+    - <xref:LROPoller>[<xref:azure.mixedreality.remoterendering.AssetConversion>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mixedreality.remoterendering.RemoteRenderingClient.get_rendering_session
@@ -219,6 +219,6 @@ methods:
   return:
     description: The properties of the updated session
     types:
-    - <xref:azure.mixedreality.remoterendering.models.RenderingSession>
+    - <xref:azure.mixedreality.remoterendering.RenderingSession>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError

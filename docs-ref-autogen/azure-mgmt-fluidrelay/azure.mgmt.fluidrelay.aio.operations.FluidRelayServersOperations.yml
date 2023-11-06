@@ -126,7 +126,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayServerList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayServerList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.fluidrelay.aio.operations.FluidRelayServersOperations.list_by_subscription
@@ -147,7 +147,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayServerList>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.fluidrelay.models.FluidRelayServerList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.fluidrelay.aio.operations.FluidRelayServersOperations.list_keys

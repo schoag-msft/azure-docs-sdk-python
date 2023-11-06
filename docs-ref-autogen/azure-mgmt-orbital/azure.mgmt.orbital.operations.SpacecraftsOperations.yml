@@ -106,7 +106,7 @@ methods:
     description: An instance of LROPoller that returns either Spacecraft or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.orbital.models.Spacecraft>]
+    - <xref:LROPoller>[<xref:azure.mgmt.orbital.models.Spacecraft>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.operations.SpacecraftsOperations.begin_delete
@@ -156,7 +156,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.operations.SpacecraftsOperations.begin_list_available_contacts
@@ -235,7 +235,7 @@ methods:
 
       AvailableContactsListResult or the result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.orbital.models.AvailableContacts>]]
+    - <xref:LROPoller>[<xref:ItemPaged>[<xref:azure.mgmt.orbital.models.AvailableContacts>]]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.operations.SpacecraftsOperations.begin_update_tags
@@ -301,7 +301,7 @@ methods:
     description: An instance of LROPoller that returns either Spacecraft or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.orbital.models.Spacecraft>]
+    - <xref:LROPoller>[<xref:azure.mgmt.orbital.models.Spacecraft>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.operations.SpacecraftsOperations.get
@@ -368,7 +368,7 @@ methods:
   return:
     description: An iterator like instance of either Spacecraft or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.orbital.models.Spacecraft>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.orbital.models.Spacecraft>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.orbital.operations.SpacecraftsOperations.list_by_subscription
@@ -400,7 +400,7 @@ methods:
   return:
     description: An iterator like instance of either Spacecraft or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.orbital.models.Spacecraft>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.orbital.models.Spacecraft>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -58,7 +58,7 @@ methods:
     description: OAuth2PermissionGrant or ClientRawResponse if raw=true
     types:
     - <xref:azure.graphrbac.models.OAuth2PermissionGrant>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: msrestazure.azure_exceptions.CloudError
 - uid: azure.graphrbac.operations.OAuth2PermissionGrantOperations.delete
@@ -94,7 +94,7 @@ methods:
     description: None or ClientRawResponse if raw=true
     types:
     - <xref:None>
-    - <xref:msrest.pipeline.ClientRawResponse>
+    - <xref:ClientRawResponse>
   exceptions:
   - type: azure.graphrbac.models.GraphErrorException
 - uid: azure.graphrbac.operations.OAuth2PermissionGrantOperations.list

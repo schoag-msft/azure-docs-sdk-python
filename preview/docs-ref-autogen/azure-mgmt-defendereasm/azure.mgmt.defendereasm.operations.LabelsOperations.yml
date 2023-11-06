@@ -80,7 +80,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.defendereasm.models.LabelResource>]
+    - <xref:LROPoller>[<xref:azure.mgmt.defendereasm.models.LabelResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.defendereasm.operations.LabelsOperations.begin_delete
@@ -135,7 +135,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.defendereasm.operations.LabelsOperations.get_by_workspace
@@ -197,7 +197,7 @@ methods:
     description: An iterator like instance of either LabelResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.defendereasm.models.LabelResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.defendereasm.models.LabelResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.defendereasm.operations.LabelsOperations.update

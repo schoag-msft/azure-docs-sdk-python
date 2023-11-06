@@ -95,7 +95,7 @@ methods:
     description: An iterator like instance of either QuotaResource or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.loadtestservice.models.QuotaResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.loadtestservice.models.QuotaResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

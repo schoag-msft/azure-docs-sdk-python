@@ -61,7 +61,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.aio.operations.RunbookOperations.create_or_update
@@ -202,7 +202,7 @@ methods:
   return:
     description: Async iterator of the response bytes or the result of cls(response)
     types:
-    - <xref:AsyncIterator>[<xref:bytes>]
+    - <xref:typing.AsyncIterator>[<xref:bytes>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.aio.operations.RunbookOperations.list_by_automation_account
@@ -228,7 +228,7 @@ methods:
   return:
     description: An iterator like instance of either Runbook or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.automation.models.Runbook>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.automation.models.Runbook>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.automation.aio.operations.RunbookOperations.update

@@ -125,7 +125,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2018_06_01_preview.models.GuestDiagnosticSettingsResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2018_06_01_preview.models.GuestDiagnosticSettingsResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2018_06_01_preview.operations.GuestDiagnosticsSettingsOperations.list_by_resource_group
@@ -150,7 +150,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.monitor.v2018_06_01_preview.models.GuestDiagnosticSettingsResource>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.monitor.v2018_06_01_preview.models.GuestDiagnosticSettingsResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.monitor.v2018_06_01_preview.operations.GuestDiagnosticsSettingsOperations.update

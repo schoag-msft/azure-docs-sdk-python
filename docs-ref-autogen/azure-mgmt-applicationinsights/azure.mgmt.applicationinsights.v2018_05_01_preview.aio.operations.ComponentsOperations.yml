@@ -165,7 +165,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2018_05_01_preview.models.ApplicationInsightsComponent>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2018_05_01_preview.models.ApplicationInsightsComponent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.applicationinsights.v2018_05_01_preview.aio.operations.ComponentsOperations.list_by_resource_group
@@ -190,7 +190,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2018_05_01_preview.models.ApplicationInsightsComponent>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.applicationinsights.v2018_05_01_preview.models.ApplicationInsightsComponent>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.applicationinsights.v2018_05_01_preview.aio.operations.ComponentsOperations.purge

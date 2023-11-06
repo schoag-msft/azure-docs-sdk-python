@@ -175,7 +175,7 @@ methods:
     description: An iterator like instance of either MSIXPackage or the result of
       cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.MSIXPackage>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.desktopvirtualization.models.MSIXPackage>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.desktopvirtualization.aio.operations.MSIXPackagesOperations.update

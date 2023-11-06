@@ -129,7 +129,7 @@ methods:
     description: An iterator like instance of either NotebookListResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.synapse.artifacts.models.NotebookListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.synapse.artifacts.models.NotebookListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.synapse.artifacts.aio.operations_async.NotebookOperations.get_notebooks_by_workspace
@@ -145,7 +145,7 @@ methods:
     description: An iterator like instance of either NotebookListResponse or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.synapse.artifacts.models.NotebookListResponse>]
+    - <xref:AsyncItemPaged>[<xref:azure.synapse.artifacts.models.NotebookListResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

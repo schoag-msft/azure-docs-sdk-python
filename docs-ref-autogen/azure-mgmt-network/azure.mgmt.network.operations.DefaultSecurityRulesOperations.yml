@@ -39,7 +39,7 @@ methods:
   return:
     description: SecurityRule or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.SecurityRule>
+    - <xref:SecurityRule>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.operations.DefaultSecurityRulesOperations.list
@@ -66,7 +66,7 @@ methods:
     description: An iterator like instance of either SecurityRule or the result of
       cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.network.models.SecurityRule>]
+    - <xref:ItemPaged>[<xref:SecurityRule>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

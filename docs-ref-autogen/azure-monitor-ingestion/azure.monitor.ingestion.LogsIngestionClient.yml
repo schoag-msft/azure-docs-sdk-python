@@ -69,7 +69,7 @@ methods:
     description: The response of your network call. Does not do error handling on
       your response.
     types:
-    - <xref:azure.core.rest.HttpResponse>
+    - <xref:HttpResponse>
 - uid: azure.monitor.ingestion.LogsIngestionClient.upload
   name: upload
   summary: 'Ingestion API used to directly ingest data using Data Collection Rules.

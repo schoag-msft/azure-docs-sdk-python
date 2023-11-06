@@ -113,4 +113,4 @@ methods:
   return:
     description: An iterable (auto-paging) response of events whose type is dictionary.
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:dict>]
+    - <xref:ItemPaged>[<xref:dict>]

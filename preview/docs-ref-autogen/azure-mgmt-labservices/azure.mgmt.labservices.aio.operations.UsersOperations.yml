@@ -85,7 +85,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either User or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.labservices.models.User>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.labservices.models.User>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.UsersOperations.begin_delete
@@ -149,7 +149,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.UsersOperations.begin_invite
@@ -226,7 +226,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.UsersOperations.begin_update
@@ -303,7 +303,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either User or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.labservices.models.User>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.labservices.models.User>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.labservices.aio.operations.UsersOperations.get
@@ -384,7 +384,7 @@ methods:
   return:
     description: An iterator like instance of either User or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.labservices.models.User>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.labservices.models.User>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

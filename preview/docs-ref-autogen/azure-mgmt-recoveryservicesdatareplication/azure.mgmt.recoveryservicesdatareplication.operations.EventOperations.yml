@@ -85,7 +85,7 @@ methods:
   return:
     description: An iterator like instance of either EventModel or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.EventModel>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.recoveryservicesdatareplication.models.EventModel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

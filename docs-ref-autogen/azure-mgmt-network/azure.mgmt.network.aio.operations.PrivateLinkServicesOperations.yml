@@ -68,7 +68,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.PrivateLinkServiceVisibility>]
+    - <xref:AsyncLROPoller>[<xref:PrivateLinkServiceVisibility>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.begin_check_private_link_service_visibility_by_resource_group
@@ -137,7 +137,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.PrivateLinkServiceVisibility>]
+    - <xref:AsyncLROPoller>[<xref:PrivateLinkServiceVisibility>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.begin_create_or_update
@@ -202,7 +202,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.PrivateLinkService>]
+    - <xref:AsyncLROPoller>[<xref:PrivateLinkService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.begin_delete
@@ -250,7 +250,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.begin_delete_private_endpoint_connection
@@ -303,7 +303,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.get
@@ -333,7 +333,7 @@ methods:
   return:
     description: PrivateLinkService or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PrivateLinkService>
+    - <xref:PrivateLinkService>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.get_private_endpoint_connection
@@ -372,7 +372,7 @@ methods:
   return:
     description: PrivateEndpointConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PrivateEndpointConnection>
+    - <xref:PrivateEndpointConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.list
@@ -393,7 +393,7 @@ methods:
     description: An iterator like instance of either PrivateLinkService or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PrivateLinkService>]
+    - <xref:AsyncItemPaged>[<xref:PrivateLinkService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.list_auto_approved_private_link_services
@@ -420,7 +420,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.AutoApprovedPrivateLinkService>]
+    - <xref:AsyncItemPaged>[<xref:AutoApprovedPrivateLinkService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.list_auto_approved_private_link_services_by_resource_group
@@ -452,7 +452,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.AutoApprovedPrivateLinkService>]
+    - <xref:AsyncItemPaged>[<xref:AutoApprovedPrivateLinkService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.list_by_subscription
@@ -468,7 +468,7 @@ methods:
     description: An iterator like instance of either PrivateLinkService or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PrivateLinkService>]
+    - <xref:AsyncItemPaged>[<xref:PrivateLinkService>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.list_private_endpoint_connections
@@ -497,7 +497,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PrivateEndpointConnection>]
+    - <xref:AsyncItemPaged>[<xref:PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PrivateLinkServicesOperations.update_private_endpoint_connection
@@ -544,7 +544,7 @@ methods:
   return:
     description: PrivateEndpointConnection or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PrivateEndpointConnection>
+    - <xref:PrivateEndpointConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

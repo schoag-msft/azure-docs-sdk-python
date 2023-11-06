@@ -160,7 +160,7 @@ methods:
   return:
     description: An iterator like instance of either BotChannel or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.botservice.models.BotChannel>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.botservice.models.BotChannel>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.botservice.aio.operations.ChannelsOperations.list_with_keys

@@ -141,7 +141,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccountListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccountListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.operations.IntegrationAccountsOperations.list_by_subscription
@@ -165,7 +165,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccountListResult>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logic.models.IntegrationAccountListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.operations.IntegrationAccountsOperations.list_callback_url
@@ -230,7 +230,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.logic.models.KeyVaultKeyCollection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.logic.models.KeyVaultKeyCollection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.logic.operations.IntegrationAccountsOperations.log_tracking_events

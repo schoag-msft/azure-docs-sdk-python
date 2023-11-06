@@ -85,7 +85,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.DeploymentResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.DeploymentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.aio.operations.DeploymentsOperations.begin_delete
@@ -145,7 +145,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.aio.operations.DeploymentsOperations.begin_restart
@@ -205,7 +205,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.aio.operations.DeploymentsOperations.begin_start
@@ -265,7 +265,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.aio.operations.DeploymentsOperations.begin_stop
@@ -325,7 +325,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.aio.operations.DeploymentsOperations.begin_update
@@ -402,7 +402,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.DeploymentResource>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.appplatform.v2020_07_01.models.DeploymentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.aio.operations.DeploymentsOperations.get
@@ -518,7 +518,7 @@ methods:
     description: An iterator like instance of either DeploymentResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2020_07_01.models.DeploymentResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2020_07_01.models.DeploymentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appplatform.v2020_07_01.aio.operations.DeploymentsOperations.list_for_cluster
@@ -552,7 +552,7 @@ methods:
     description: An iterator like instance of either DeploymentResource or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2020_07_01.models.DeploymentResource>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.appplatform.v2020_07_01.models.DeploymentResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

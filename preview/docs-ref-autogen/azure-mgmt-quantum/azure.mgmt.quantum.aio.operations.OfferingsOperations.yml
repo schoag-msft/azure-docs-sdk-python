@@ -29,7 +29,7 @@ methods:
     description: An iterator like instance of either ProviderDescription or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.quantum.models.ProviderDescription>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.quantum.models.ProviderDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

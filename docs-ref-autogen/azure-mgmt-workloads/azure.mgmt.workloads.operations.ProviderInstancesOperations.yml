@@ -86,7 +86,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.workloads.models.ProviderInstance>]
+    - <xref:LROPoller>[<xref:azure.mgmt.workloads.models.ProviderInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.operations.ProviderInstancesOperations.begin_delete
@@ -149,7 +149,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.workloads.models.OperationStatusResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.workloads.operations.ProviderInstancesOperations.get
@@ -223,7 +223,7 @@ methods:
     description: An iterator like instance of either ProviderInstance or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.workloads.models.ProviderInstance>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.workloads.models.ProviderInstance>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

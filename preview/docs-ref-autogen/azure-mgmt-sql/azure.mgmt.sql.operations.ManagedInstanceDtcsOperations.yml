@@ -82,7 +82,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceDtc>]
+    - <xref:LROPoller>[<xref:azure.mgmt.sql.models.ManagedInstanceDtc>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.sql.operations.ManagedInstanceDtcsOperations.get
@@ -145,7 +145,7 @@ methods:
     description: An iterator like instance of either ManagedInstanceDtc or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceDtc>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.sql.models.ManagedInstanceDtc>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

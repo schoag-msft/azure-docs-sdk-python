@@ -255,7 +255,7 @@ methods:
   return:
     description: An iterator like instance of either Factory or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datafactory.models.Factory>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datafactory.models.Factory>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datafactory.aio.operations.FactoriesOperations.list_by_resource_group
@@ -275,7 +275,7 @@ methods:
   return:
     description: An iterator like instance of either Factory or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.datafactory.models.Factory>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.datafactory.models.Factory>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.datafactory.aio.operations.FactoriesOperations.update

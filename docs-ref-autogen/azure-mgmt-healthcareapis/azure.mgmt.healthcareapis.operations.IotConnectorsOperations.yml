@@ -88,7 +88,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.healthcareapis.models.IotConnector>]
+    - <xref:LROPoller>[<xref:azure.mgmt.healthcareapis.models.IotConnector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.operations.IotConnectorsOperations.begin_delete
@@ -141,7 +141,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.operations.IotConnectorsOperations.begin_update
@@ -202,7 +202,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.healthcareapis.models.IotConnector>]
+    - <xref:LROPoller>[<xref:azure.mgmt.healthcareapis.models.IotConnector>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.healthcareapis.operations.IotConnectorsOperations.get
@@ -262,7 +262,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.healthcareapis.models.IotConnectorCollection>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.healthcareapis.models.IotConnectorCollection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

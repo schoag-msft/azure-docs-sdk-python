@@ -73,7 +73,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.PublicIPPrefix>]
+    - <xref:AsyncLROPoller>[<xref:PublicIPPrefix>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPPrefixesOperations.begin_delete
@@ -121,7 +121,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPPrefixesOperations.begin_update_tags
@@ -186,7 +186,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.network.models.PublicIPPrefix>]
+    - <xref:AsyncLROPoller>[<xref:PublicIPPrefix>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPPrefixesOperations.get
@@ -216,7 +216,7 @@ methods:
   return:
     description: PublicIPPrefix or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PublicIPPrefix>
+    - <xref:PublicIPPrefix>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPPrefixesOperations.list
@@ -237,7 +237,7 @@ methods:
     description: An iterator like instance of either PublicIPPrefix or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PublicIPPrefix>]
+    - <xref:AsyncItemPaged>[<xref:PublicIPPrefix>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPPrefixesOperations.list_all
@@ -253,7 +253,7 @@ methods:
     description: An iterator like instance of either PublicIPPrefix or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.network.models.PublicIPPrefix>]
+    - <xref:AsyncItemPaged>[<xref:PublicIPPrefix>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.network.aio.operations.PublicIPPrefixesOperations.update_tags
@@ -294,7 +294,7 @@ methods:
   return:
     description: PublicIPPrefix or the result of cls(response)
     types:
-    - <xref:azure.mgmt.network.models.PublicIPPrefix>
+    - <xref:PublicIPPrefix>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

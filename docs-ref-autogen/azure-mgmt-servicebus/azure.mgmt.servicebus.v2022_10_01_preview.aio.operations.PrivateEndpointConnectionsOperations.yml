@@ -61,7 +61,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either None or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:None>]
+    - <xref:AsyncLROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639389.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639389.aspx)\
@@ -175,7 +175,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2022_10_01_preview.models.PrivateEndpointConnection>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.servicebus.v2022_10_01_preview.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
   seeAlsoContent: "\n\n  * [https://msdn.microsoft.com/en-us/library/azure/mt639412.aspx](https://msdn.microsoft.com/en-us/library/azure/mt639412.aspx)\

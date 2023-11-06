@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.BackupAndExportResponse>]
+    - <xref:LROPoller>[<xref:azure.mgmt.rdbms.mysql_flexibleservers.models.BackupAndExportResponse>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.rdbms.mysql_flexibleservers.operations.BackupAndExportOperations.validate_backup

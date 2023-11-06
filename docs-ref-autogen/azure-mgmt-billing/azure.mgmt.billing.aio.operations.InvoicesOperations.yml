@@ -72,7 +72,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either DownloadUrl or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.billing.models.DownloadUrl>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.billing.models.DownloadUrl>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.InvoicesOperations.begin_download_invoice
@@ -124,7 +124,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either DownloadUrl or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.billing.models.DownloadUrl>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.billing.models.DownloadUrl>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.InvoicesOperations.begin_download_multiple_billing_profile_invoices
@@ -174,7 +174,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either DownloadUrl or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.billing.models.DownloadUrl>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.billing.models.DownloadUrl>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.InvoicesOperations.begin_download_multiple_billing_subscription_invoices
@@ -216,7 +216,7 @@ methods:
     description: An instance of AsyncLROPoller that returns either DownloadUrl or
       the result of cls(response)
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.billing.models.DownloadUrl>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.billing.models.DownloadUrl>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.InvoicesOperations.get
@@ -333,7 +333,7 @@ methods:
     description: An iterator like instance of either InvoiceListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.InvoiceListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.InvoiceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.InvoicesOperations.list_by_billing_profile
@@ -382,7 +382,7 @@ methods:
     description: An iterator like instance of either InvoiceListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.InvoiceListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.InvoiceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.billing.aio.operations.InvoicesOperations.list_by_billing_subscription
@@ -409,7 +409,7 @@ methods:
     description: An iterator like instance of either InvoiceListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.billing.models.InvoiceListResult>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.billing.models.InvoiceListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

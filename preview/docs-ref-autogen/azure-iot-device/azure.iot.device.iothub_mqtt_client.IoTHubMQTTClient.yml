@@ -170,7 +170,7 @@ methods:
 
       connection was intentionally ended'
     types:
-    - <xref:azure.iot.device.mqtt_client.MQTTError>
+    - <xref:MQTTError>
     - <xref:None>
 attributes:
 - uid: azure.iot.device.iothub_mqtt_client.IoTHubMQTTClient.connected

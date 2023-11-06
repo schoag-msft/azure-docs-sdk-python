@@ -73,7 +73,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.begin_create_or_update
@@ -161,7 +161,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.kusto.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.kusto.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.begin_delete
@@ -211,7 +211,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.begin_detach_follower_databases
@@ -276,7 +276,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.begin_diagnose_virtual_network
@@ -331,7 +331,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.kusto.models.DiagnoseVirtualNetworkResult>]
+    - <xref:LROPoller>[<xref:azure.mgmt.kusto.models.DiagnoseVirtualNetworkResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.begin_migrate
@@ -396,7 +396,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.begin_remove_language_extensions
@@ -461,7 +461,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.begin_start
@@ -511,7 +511,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.begin_stop
@@ -561,7 +561,7 @@ methods:
     description: An instance of LROPoller that returns either None or the result of
       cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:None>]
+    - <xref:LROPoller>[<xref:None>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.begin_update
@@ -638,7 +638,7 @@ methods:
     description: An instance of LROPoller that returns either Cluster or the result
       of cls(response)
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.kusto.models.Cluster>]
+    - <xref:LROPoller>[<xref:azure.mgmt.kusto.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.check_name_availability
@@ -716,7 +716,7 @@ methods:
   return:
     description: An iterator like instance of either Cluster or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kusto.models.Cluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kusto.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.list_by_resource_group
@@ -738,7 +738,7 @@ methods:
   return:
     description: An iterator like instance of either Cluster or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kusto.models.Cluster>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kusto.models.Cluster>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.list_follower_databases
@@ -772,7 +772,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kusto.models.FollowerDatabaseDefinition>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kusto.models.FollowerDatabaseDefinition>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.list_language_extensions
@@ -801,7 +801,7 @@ methods:
     description: An iterator like instance of either LanguageExtension or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kusto.models.LanguageExtension>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kusto.models.LanguageExtension>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.list_outbound_network_dependencies_endpoints
@@ -832,7 +832,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kusto.models.OutboundNetworkDependenciesEndpoint>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kusto.models.OutboundNetworkDependenciesEndpoint>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.list_skus
@@ -848,7 +848,7 @@ methods:
     description: An iterator like instance of either SkuDescription or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kusto.models.SkuDescription>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kusto.models.SkuDescription>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.kusto.operations.ClustersOperations.list_skus_by_resource
@@ -877,7 +877,7 @@ methods:
     description: An iterator like instance of either AzureResourceSku or the result
       of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.kusto.models.AzureResourceSku>]
+    - <xref:ItemPaged>[<xref:azure.mgmt.kusto.models.AzureResourceSku>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

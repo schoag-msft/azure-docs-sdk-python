@@ -76,7 +76,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.WorkspacesOperations.begin_delete
@@ -128,7 +128,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.WorkspacesOperations.begin_update
@@ -196,7 +196,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:AsyncLROPoller>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.WorkspacesOperations.get
@@ -239,7 +239,7 @@ methods:
   return:
     description: An iterator like instance of either Workspace or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.synapse.aio.operations.WorkspacesOperations.list_by_resource_group
@@ -261,7 +261,7 @@ methods:
   return:
     description: An iterator like instance of either Workspace or the result of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.synapse.models.Workspace>]
+    - <xref:AsyncItemPaged>[<xref:azure.mgmt.synapse.models.Workspace>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:
